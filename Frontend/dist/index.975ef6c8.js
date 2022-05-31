@@ -33194,75 +33194,233 @@ const AdminAdd = ()=>{
         }
     };
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-        style: {
-            maxWidth: 500,
-            margin: "auto"
-        },
-        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
-            onSubmit: upload,
-            encType: "multipart/form-data",
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    className: "form-group",
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
-                        type: "text",
-                        placeholder: "Name",
-                        value: name,
-                        required: true,
-                        onChange: (e)=>{
-                            setName(e.target.value);
-                        },
-                        className: "form-control"
-                    }, void 0, false, {
-                        fileName: "src/components/AdminAdd.js",
-                        lineNumber: 47,
-                        columnNumber: 3
-                    }, undefined)
-                }, void 0, false, {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                className: "btn btn-success",
+                style: {
+                    marginLeft: '10px',
+                    marginTop: '20px',
+                    padding: '10px 10px',
+                    backgroundColor: '#3895d3'
+                },
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                    href: "/UploadNaviAdmin",
+                    style: {
+                        textDecoration: 'none',
+                        backgroundColor: '#3895d3',
+                        color: 'white',
+                        fontSize: '20px'
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                            class: "far fa-arrow-alt-circle-left"
+                        }, void 0, false, {
+                            fileName: "src/components/AdminAdd.js",
+                            lineNumber: 46,
+                            columnNumber: 15
+                        }, undefined),
+                        "\xa0Go Back"
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/AdminAdd.js",
-                    lineNumber: 46,
-                    columnNumber: 3
-                }, undefined),
-                "Upload Pdf",
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    className: "form-group",
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
-                        type: "file",
-                        multiple: true,
-                        required: true,
-                        filename: "uploaded_Image",
-                        className: "form-control-file",
-                        onChange: (e)=>{
-                            setPdf(e.target.files);
-                        }
-                    }, void 0, false, {
-                        fileName: "src/components/AdminAdd.js",
-                        lineNumber: 54,
-                        columnNumber: 5
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/AdminAdd.js",
-                    lineNumber: 53,
-                    columnNumber: 1
-                }, undefined),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                    className: "mt-2",
-                    type: "submit",
-                    variant: "primary",
-                    size: "lg",
-                    children: "Upload"
-                }, void 0, false, {
-                    fileName: "src/components/AdminAdd.js",
-                    lineNumber: 59,
-                    columnNumber: 3
+                    lineNumber: 45,
+                    columnNumber: 15
                 }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/AdminAdd.js",
-            lineNumber: 45,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
+            }, void 0, false, {
+                fileName: "src/components/AdminAdd.js",
+                lineNumber: 44,
+                columnNumber: 15
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                style: {
+                    Width: 500,
+                    margin: "auto",
+                    marginTop: '70px',
+                    backgroundColor: '#0288d1'
+                },
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                        onSubmit: upload,
+                        encType: "multipart/form-data",
+                        style: {
+                            marginLeft: '400px'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 54,
+                                columnNumber: 15
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                style: {
+                                    color: "white"
+                                },
+                                children: [
+                                    "Upload Your PDF Document HERE ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                        class: "fa-solid fa-cloud-arrow-up"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminAdd.js",
+                                        lineNumber: 56,
+                                        columnNumber: 74
+                                    }, undefined),
+                                    " !"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 56,
+                                columnNumber: 15
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 58,
+                                columnNumber: 15
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 58,
+                                columnNumber: 24
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 58,
+                                columnNumber: 33
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "form-group",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                    type: "text",
+                                    placeholder: "Give a name for the Uploading Document",
+                                    style: {
+                                        width: '500px',
+                                        marginLeft: '80px'
+                                    },
+                                    value: name,
+                                    required: true,
+                                    onChange: (e)=>{
+                                        setName(e.target.value);
+                                    },
+                                    className: "form-control"
+                                }, void 0, false, {
+                                    fileName: "src/components/AdminAdd.js",
+                                    lineNumber: 61,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 60,
+                                columnNumber: 15
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 68,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 68,
+                                columnNumber: 30
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "form-group",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                    type: "file",
+                                    multiple: true,
+                                    required: true,
+                                    filename: "uploaded_Image",
+                                    style: {
+                                        textDecoration: 'none',
+                                        backgroundColor: '#0147ab',
+                                        color: 'white',
+                                        fontSize: '25px',
+                                        width: '450px',
+                                        marginLeft: '110px'
+                                    },
+                                    className: "form-control-file",
+                                    onChange: (e)=>{
+                                        setPdf(e.target.files);
+                                    }
+                                }, void 0, false, {
+                                    fileName: "src/components/AdminAdd.js",
+                                    lineNumber: 71,
+                                    columnNumber: 23
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 69,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 76,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 76,
+                                columnNumber: 30
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 76,
+                                columnNumber: 39
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 76,
+                                columnNumber: 48
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                class: "btn btn-info",
+                                style: {
+                                    textDecoration: 'none',
+                                    color: 'white',
+                                    fontSize: '25px',
+                                    width: '250px',
+                                    marginLeft: '210px'
+                                },
+                                type: "submit",
+                                variant: "primary",
+                                size: "lg",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                        class: "fa-solid fa-file-pdf"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminAdd.js",
+                                        lineNumber: 84,
+                                        columnNumber: 31
+                                    }, undefined),
+                                    "\xa0Upload"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/AdminAdd.js",
+                                lineNumber: 79,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/AdminAdd.js",
+                        lineNumber: 53,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/AdminAdd.js",
+                        lineNumber: 89,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/AdminAdd.js",
+                        lineNumber: 89,
+                        columnNumber: 30
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/AdminAdd.js",
+                lineNumber: 49,
+                columnNumber: 11
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/components/AdminAdd.js",
         lineNumber: 43,
         columnNumber: 5
@@ -33308,41 +33466,84 @@ const Home = ()=>{
         fetchUsers();
     }, []);
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-        className: "row",
-        children: users?.map((user)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                className: "col-md-3 card me-3 mt-2 p-0 mb-2 d-flex",
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                        children: user.name
-                    }, void 0, false, {
-                        fileName: "src/components/AdminUpHome.js",
-                        lineNumber: 23,
-                        columnNumber: 7
-                    }, undefined),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                        href: user.pdf,
-                        download: true,
-                        children: "Click to download"
-                    }, void 0, false, {
-                        fileName: "src/components/AdminUpHome.js",
-                        lineNumber: 24,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "p-2"
-                    }, void 0, false, {
-                        fileName: "src/components/AdminUpHome.js",
-                        lineNumber: 25,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, user._id, true, {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                className: "btn btn-success",
+                style: {
+                    marginLeft: '10px',
+                    marginTop: '20px',
+                    padding: '10px 10px',
+                    backgroundColor: '#3895d3'
+                },
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                    href: "/UploadNaviAdmin",
+                    style: {
+                        textDecoration: 'none',
+                        backgroundColor: '#3895d3',
+                        color: 'white',
+                        fontSize: '20px'
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                            class: "far fa-arrow-alt-circle-left"
+                        }, void 0, false, {
+                            fileName: "src/components/AdminUpHome.js",
+                            lineNumber: 20,
+                            columnNumber: 15
+                        }, undefined),
+                        "\xa0Go Back"
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/AdminUpHome.js",
+                    lineNumber: 19,
+                    columnNumber: 15
+                }, undefined)
+            }, void 0, false, {
                 fileName: "src/components/AdminUpHome.js",
-                lineNumber: 21,
-                columnNumber: 9
+                lineNumber: 18,
+                columnNumber: 15
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "row",
+                style: {
+                    marginLeft: '20px'
+                },
+                children: users?.map((user)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-md-3 card me-3 mt-2 p-0 mb-2 d-flex",
+                        style: {
+                            backgroundColor: '#b3e5fc'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                                children: user.name
+                            }, void 0, false, {
+                                fileName: "src/components/AdminUpHome.js",
+                                lineNumber: 30,
+                                columnNumber: 19
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                href: user.pdf,
+                                download: true,
+                                children: "Click to download"
+                            }, void 0, false, {
+                                fileName: "src/components/AdminUpHome.js",
+                                lineNumber: 31,
+                                columnNumber: 19
+                            }, undefined)
+                        ]
+                    }, user._id, true, {
+                        fileName: "src/components/AdminUpHome.js",
+                        lineNumber: 28,
+                        columnNumber: 17
+                    }, undefined)
+                )
+            }, void 0, false, {
+                fileName: "src/components/AdminUpHome.js",
+                lineNumber: 23,
+                columnNumber: 12
             }, undefined)
-        )
-    }, void 0, false, {
+        ]
+    }, void 0, true, {
         fileName: "src/components/AdminUpHome.js",
         lineNumber: 17,
         columnNumber: 5
@@ -33374,53 +33575,190 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 class UploadNavbar extends _react.Component {
     render() {
-        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
-            className: "navbar navbar-expand-lg navbar-dark bg-primary mb-5",
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                className: "container",
+                style: {
+                    marginTop: "10px"
+                },
                 children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                        className: "navbar-brand",
-                        to: "/AdminUpHome",
-                        children: "UPLOADER"
-                    }, void 0, false, {
-                        fileName: "src/components/UploadNavbar.js",
-                        lineNumber: 11,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
-                            className: "navbar-nav ms-auto mb-2 mb-lg-0",
-                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                className: "nav-item",
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                    className: "nav-link",
-                                    to: "/AdminAdd",
-                                    children: "Add"
-                                }, void 0, false, {
-                                    fileName: "src/components/UploadNavbar.js",
-                                    lineNumber: 17,
-                                    columnNumber: 15
-                                }, this)
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        style: {
+                            background: '#000080',
+                            color: 'white',
+                            marginLeft: '0'
+                        },
+                        children: [
+                            " ",
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                children: "Admin Document Upload Page "
                             }, void 0, false, {
                                 fileName: "src/components/UploadNavbar.js",
-                                lineNumber: 16,
-                                columnNumber: 13
+                                lineNumber: 15,
+                                columnNumber: 80
                             }, this)
-                        }, void 0, false, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/UploadNavbar.js",
+                        lineNumber: 15,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-success",
+                        style: {
+                            marginLeft: '10px',
+                            marginRight: '0px',
+                            padding: '10px 10px',
+                            backgroundColor: '#3895d3'
+                        },
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/",
+                            style: {
+                                textDecoration: 'none',
+                                backgroundColor: '#3895d3',
+                                color: 'white',
+                                fontSize: '20px'
+                            },
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                    class: "far fa-arrow-alt-circle-left"
+                                }, void 0, false, {
+                                    fileName: "src/components/UploadNavbar.js",
+                                    lineNumber: 19,
+                                    columnNumber: 21
+                                }, this),
+                                "\xa0Go Back"
+                            ]
+                        }, void 0, true, {
                             fileName: "src/components/UploadNavbar.js",
-                            lineNumber: 15,
+                            lineNumber: 18,
+                            columnNumber: 18
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/UploadNavbar.js",
+                        lineNumber: 17,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '110px',
+                                            marginRight: '0px',
+                                            padding: '50px 50px',
+                                            backgroundColor: '#3895d3'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            className: "btn btn-success",
+                                            href: "/AdminUpHome",
+                                            style: {
+                                                textDecoration: 'none',
+                                                backgroundColor: '#0147ab',
+                                                color: 'white',
+                                                fontSize: '25px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fa-solid fa-cloud-arrow-up"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UploadNavbar.js",
+                                                    lineNumber: 27,
+                                                    columnNumber: 23
+                                                }, this),
+                                                "\xa0 UPLOADS"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UploadNavbar.js",
+                                            lineNumber: 26,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/UploadNavbar.js",
+                                        lineNumber: 25,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/UploadNavbar.js",
+                                    lineNumber: 24,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                        style: {
+                                            borderLeft: "6px solid #808080",
+                                            height: '600px',
+                                            marginLeft: '370px'
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "src/components/UploadNavbar.js",
+                                        lineNumber: 33,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/UploadNavbar.js",
+                                    lineNumber: 32,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '400px',
+                                            marginRight: '0px',
+                                            padding: '50px 50px',
+                                            backgroundColor: '#3895d3'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            className: "btn btn-success",
+                                            href: "/AdminAdd",
+                                            style: {
+                                                textDecoration: 'none',
+                                                backgroundColor: '#0147ab',
+                                                color: 'white',
+                                                fontSize: '25px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fa-regular fa-square-plus"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UploadNavbar.js",
+                                                    lineNumber: 39,
+                                                    columnNumber: 25
+                                                }, this),
+                                                "\xa0 ADD"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UploadNavbar.js",
+                                            lineNumber: 38,
+                                            columnNumber: 23
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/UploadNavbar.js",
+                                        lineNumber: 37,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/UploadNavbar.js",
+                                    lineNumber: 36,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/UploadNavbar.js",
+                            lineNumber: 23,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/UploadNavbar.js",
-                        lineNumber: 14,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/UploadNavbar.js",
-                lineNumber: 10,
+                lineNumber: 13,
                 columnNumber: 7
             }, this)
         }, void 0, false, {
