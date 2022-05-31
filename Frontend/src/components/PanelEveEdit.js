@@ -156,13 +156,13 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                   <h2>Introduction</h2>
+                   <h2>Introduction : (15 marks)</h2>
                  <label className="form-label"><li>Aprropriately introduced himself/ herself, the topic to be presented, and clearly 
                    explained objectives of the presentation</li></label>
                      <input type="text"
                      className="form-control"
                      name="introduction"
-                     onChange={e => settitle(e.target.value)}
+                     onChange={e => setintroduction(e.target.value)}
                      value={introduction}  
                      
                    />
@@ -171,12 +171,12 @@ export default function SupervEveEdit()  {
                 
 
                  <div className="form-group">
-                 <h2>Organization</h2>
+                 <h2>Organization : (15 marks)</h2>
                  <label className="form-label"><li> The presentation is organized in a logical manner</li></label>
                      <input type="text"
                      className="form-control"
                      name="organization"
-                     onChange={e => setreferences(e.target.value)}
+                     onChange={e => setorganization(e.target.value)}
                      value={organization}  
                     />
                  </div>
@@ -184,23 +184,23 @@ export default function SupervEveEdit()  {
                  
 
                  <div className="form-group">
-                 <h2>Voice</h2>
-                 <label className="form-label"><li> Volume and inflection was effective</li> </label>
+                 <h2>Voice : (20 marks)</h2>
+                 <label className="form-label"><li> Volume and inflection was effective (10 marks)</li> </label>
                      <input type="text"
                      className="form-control"
                         name="voiceInflection"
-                      onChange={e => setMethoDescription(e.target.value)}
+                      onChange={e => setvoiceInflection(e.target.value)}
                       value={voiceInflection} 
                      
                      />
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label"><li>Rate of speech was appropriate</li></label>
+                 <label className="form-label"><li>Rate of speech was appropriate (10 marks)</li></label>
                      <input type="text"
                      className="form-control"
                         name="voiceRate"
-                      onChange={e => setappro(e.target.value)}
+                      onChange={e => setvoiceRate(e.target.value)}
                       value={voiceRate} 
                      
                      />
@@ -209,36 +209,36 @@ export default function SupervEveEdit()  {
                 
 
                  <div className="form-group">
-                 <h2>Tools</h2>
+                 <h2>Tools : (20 marks)</h2>
                  <label className="form-label"><li> Audiovisual resources, visual aids, and / or handoutd were used appropriatly
                     (not relied upon)</li></label>
                      <input type="text"
                      className="form-control"
                         name="tools"
-                      onChange={e => setdataAnalys(e.target.value)}
+                      onChange={e => settools(e.target.value)}
                       value={tools} 
                      
                      />
                  </div>
 
                  <div className="form-group">
-                 <h2>Audience Contact / Involvement </h2>
-                 <label className="form-label"><li> Eye Contact</li></label>
+                 <h2>Audience Contact / Involvement : (30 marks)</h2>
+                 <label className="form-label"><li> Eye Contact (15 marks)</li></label>
                      <input type="text"
                      className="form-control"
                         name="eyeContact"
-                      onChange={e => setconclusionClarity(e.target.value)}
+                      onChange={e => seteyeContact(e.target.value)}
                       value={eyeContact} 
                      
                      />
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label"><li>Arrange inside the group</li> </label>
+                 <label className="form-label"><li>Arrange inside the group (15 marks)</li> </label>
                      <input type="text"
                      className="form-control"
                         name="groupArrange"
-                      onChange={e => setrelevent(e.target.value)}
+                      onChange={e => setgroupArrange(e.target.value)}
                       value={groupArrange} 
                      
                      />
@@ -246,7 +246,7 @@ export default function SupervEveEdit()  {
 
 
                  <div className="form-group">
-                 <label className="form-label">Total Mark</label>
+                 <label className="form-label">Total Mark : (100 marks)</label>
                      <input type="text"
                      className="form-control"
                         name="Total"
@@ -257,10 +257,16 @@ export default function SupervEveEdit()  {
                  </div>
 
                  </form>
-                 <button className="btn btn-success" type="submit" style={{marginTop:'15px', width:"250px", marginLeft:"370px",backgroundColor:"#0147ab"}} onClick={(e)=>changeOnClick(e)} >
+                        <button className="btn btn-success" type="submit" style={{marginTop:'15px', width:"250px", marginLeft:"370px",backgroundColor:"#0147ab"}} onClick={(e)=>changeOnClick(e)} >
                             <i className="far fa-check-square"></i>
                             &nbsp; Save
 
+                        </button>
+
+                        <button className="btn btn-success" 
+                        style={{marginLeft:'890px',padding:'8px 8px',backgroundColor:'#3895d3', marginBottom:"10px"}}>
+                        <a href="/panelEveHome" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'16px'}}> 
+                        <i class="far fa-arrow-alt-circle-left"></i>&nbsp;Go Back</a>
                         </button>
 
                        

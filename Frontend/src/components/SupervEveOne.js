@@ -23,6 +23,8 @@ export default function SupervEveOne()  {
     const[clearWritten, setclearWritten] = useState("");
     const[logic, setlogic] = useState("");
     const[Total, setTotal] = useState("");
+    const[Comment, setComment] = useState("");
+
     
     
     const id = useParams();
@@ -46,7 +48,8 @@ export default function SupervEveOne()  {
       relevent:"",
       clearWritten:"",
       logic:"",
-      Total:""
+      Total:"",
+      Comment:""
       })
 
      
@@ -73,6 +76,7 @@ export default function SupervEveOne()  {
                 setclearWritten(res.data.getOneDetail.clearWritten);
                 setlogic(res.data.getOneDetail.logic);
                 setTotal(res.data.getOneDetail.Total);
+                setComment(res.data.getOneDetail.Comment);
                 
                 
                
@@ -110,79 +114,83 @@ export default function SupervEveOne()  {
                <td style={{fontSize:'20px'}}> <b> Backgroud  </b></td>
              </tr>
              <tr>
-               <td>Title</td>
+               <td>Title (5 mark)</td>
                <td>{title}</td>
              </tr>
              <tr>
-               <td>Abstract</td>
+               <td>Abstract (5 marks)</td>
                <td>{abstract}</td>
              </tr>
              <tr>
-               <td>Problem Identified Clearly</td>
+               <td>Problem Identified Clearly (5 marks)</td>
                <td>{problemIdentified}</td>
              </tr>
              <tr>
-               <td>Research Area Clearly Stated</td>
+               <td>Research Area Clearly Stated (5 marks)</td>
                <td>{clearyStated}</td>
              </tr>
              <tr>
              <td style={{fontSize:'20px'}}> <b> Literature Review  </b></td>
              </tr>
              <tr>
-               <td>References</td>
+               <td>References (5 marks)</td>
                <td>{references}</td>
              </tr>
              <tr>
-               <td>Model Framwork</td>
+               <td>Model Framwork (5 marks)</td>
                <td>{modelframework}</td>
              </tr>
              <tr>
              <td style={{fontSize:'20px'}}> <b> Methodology </b></td>
              </tr>
              <tr>
-               <td>Description</td>
+               <td>Description (5 marks)</td>
                <td>{MethoDescription}</td>
              </tr>
              <tr>
-               <td>Appropriation</td>
+               <td>Appropriation (5 marks)</td>
                <td>{appro}</td>
              </tr>
              <tr>
-               <td>Data Collection Methods</td>
+               <td>Data Collection Methods (5 marks)</td>
                <td>{dataCollect}</td>
              </tr>
              <tr>
              <td style={{fontSize:'20px'}}> <b> Result and Analysis Of Findings  </b></td>
              </tr>
              <tr>
-               <td>Data Analsing Methods</td>
+               <td>Data Analsing Methods (15 marks)</td>
                <td>{dataAnalys}</td>
              </tr>
              <tr>
              <td style={{fontSize:'20px'}}> <b> Conclusion  </b></td>
              </tr>
              <tr>
-               <td>Clear Of Conclusion</td>
+               <td>Clear Of Conclusion (10 marks)</td>
                <td>{conclusionClarity}</td>
              </tr>
              <tr>
-               <td>Relevent</td>
+               <td>Relevent (10 marks)</td>
                <td>{relevent}</td>
              </tr>
              <tr>
              <td style={{fontSize:'20px'}}> <b> Report Writing  </b></td>
              </tr>
              <tr>
-               <td>Clearly Writing</td>
+               <td>Clearly Writing (10 marks)</td>
                <td>{clearWritten}</td>
              </tr>
              <tr>
-               <td>Logical Organized</td>
+               <td>Logical Organized (10 marks)</td>
                <td>{logic}</td>
              </tr>
              <tr>
-               <td style={{fontSize:'20px'}}>Total Mark</td>
-               <td>{Total}</td>
+               <td style={{fontSize:'20px'}}><b>Total Mark (out of 100)</b></td>
+               <td><b>{Total}</b></td>
+             </tr>
+             <tr>
+             <td style={{fontSize:'20px'}}><b>Comments or Feedback</b></td>
+               <td>{Comment}</td>
              </tr>
            </table>
 

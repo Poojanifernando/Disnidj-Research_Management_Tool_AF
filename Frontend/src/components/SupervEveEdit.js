@@ -23,6 +23,7 @@ export default function SupervEveEdit()  {
   const[clearWritten, setclearWritten] = useState("");
   const[logic, setlogic] = useState("");
   const[Total, setTotal] = useState("");
+  const[Comment,setComment]=useState("");
   
     
     const id = useParams();
@@ -47,7 +48,8 @@ export default function SupervEveEdit()  {
         relevent:"",
         clearWritten:"",
         logic:"",
-        Total:""
+        Total:"",
+        Comment:""
       })
 
       const changeOnClick = async (e) =>{
@@ -73,6 +75,7 @@ export default function SupervEveEdit()  {
         formData.append("clearWritten",clearWritten);
         formData.append("logic",logic);
         formData.append("Total",Total);
+        formData.append("Comment",Comment);
         
         
       
@@ -93,6 +96,7 @@ export default function SupervEveEdit()  {
         setclearWritten("");
         setlogic("");
         setTotal("");
+        setComment("");
         
         
         
@@ -115,6 +119,7 @@ export default function SupervEveEdit()  {
         paneleve.clearWritten=formData.get('clearWritten');
         paneleve.logic=formData.get('logic');
         paneleve.Total=formData.get('Total');
+        paneleve.Comment=formData.get('Comment');
       
             
  
@@ -156,6 +161,7 @@ export default function SupervEveEdit()  {
               setclearWritten(res.data.getOneDetail.clearWritten);
               setlogic(res.data.getOneDetail.logic);
               setTotal(res.data.getOneDetail.Total);
+              setComment(res.data.getOneDetail.Comment);
                
                 
             
@@ -187,7 +193,7 @@ export default function SupervEveEdit()  {
         <form className="row g-3" style={{backgroundColor:"#ebecf0"}}>
         
                 <div className="form-group">
-                <label className="form-label">Group Name</label>
+                <label className="form-label">Group Name : </label>
                      <input type="text"
                      className="form-control"
                      name="Groupname"
@@ -198,8 +204,8 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                   <h2>Backgroud</h2>
-                 <label className="form-label">Title </label>
+                   <h2>Backgroud (20 Marks)</h2>
+                 <label className="form-label">Title : (5 marks) </label>
                      <input type="text"
                      className="form-control"
                      name="title"
@@ -210,7 +216,7 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label">Abstract</label>
+                 <label className="form-label">Abstract : (5 marks)</label>
                      <input type="text"
                      className="form-control"
                      name="abstract"
@@ -222,7 +228,7 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label">Problem Identified Clearly </label>
+                 <label className="form-label">Problem Identified Clearly : (5 marks) </label>
                      <input type="text"
                      className="form-control"
                      name="problemIdentified"
@@ -233,7 +239,7 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label">Research Area Clearly Stated </label>
+                 <label className="form-label">Research Area Clearly Stated : (5 marks) </label>
                      <input type="text"
                      className="form-control"
                      name="clearyStated"
@@ -243,7 +249,7 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <h2>Literature Review</h2>
+                 <h2>Literature Review (10 Marks)</h2>
                  <label className="form-label">References</label>
                      <input type="text"
                      className="form-control"
@@ -254,7 +260,7 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label">Model Framwork</label>
+                 <label className="form-label">Model Framwork : (5 marks)</label>
                      <input type="text"
                      className="form-control"
                         name="modelframework"
@@ -265,8 +271,8 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <h2>Methodology</h2>
-                 <label className="form-label">Description </label>
+                 <h2>Methodology (15 Marks)</h2>
+                 <label className="form-label">Description : (5 marks)</label>
                      <input type="text"
                      className="form-control"
                         name="MethoDescription"
@@ -277,7 +283,7 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label">Appropriation</label>
+                 <label className="form-label">Appropriation : (5 marks)</label>
                      <input type="text"
                      className="form-control"
                         name="appro"
@@ -288,7 +294,7 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label">Data Collection Methods</label>
+                 <label className="form-label">Data Collection Methods : (5 marks)</label>
                      <input type="text"
                      className="form-control"
                         name="dataCollect"
@@ -299,8 +305,8 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <h2>Result and Analysis of the Findings</h2>
-                 <label className="form-label">Data Analsing Methods </label>
+                 <h2>Result and Analysis of the Findings (15 Marks)</h2>
+                 <label className="form-label">Data Analsing Methods : (15 marks) </label>
                      <input type="text"
                      className="form-control"
                         name="dataAnalys"
@@ -312,7 +318,7 @@ export default function SupervEveEdit()  {
 
                  <div className="form-group">
                  <h2>Conclusion </h2>
-                 <label className="form-label">Clearity of Conclusion</label>
+                 <label className="form-label">Clearity of Conclusion : (10 marks)</label>
                      <input type="text"
                      className="form-control"
                         name="conclusionClarity"
@@ -323,7 +329,7 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label">Relevent </label>
+                 <label className="form-label">Relevent : (10 marks)</label>
                      <input type="text"
                      className="form-control"
                         name="relevent"
@@ -334,7 +340,8 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label">Clearly Written </label>
+                 <h2>Report Writing (20 Marks)</h2>  
+                 <label className="form-label">Clearly Written : (10 marks)</label>
                      <input type="text"
                      className="form-control"
                         name="clearWritten"
@@ -345,7 +352,7 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label">Logical Organized </label>
+                 <label className="form-label">Logical Organized : (10 marks) </label>
                      <input type="text"
                      className="form-control"
                         name="logic"
@@ -356,7 +363,7 @@ export default function SupervEveEdit()  {
                  </div>
 
                  <div className="form-group">
-                 <label className="form-label">Total Mark</label>
+                 <label className="form-label">Total Mark : (100 marks)</label>
                      <input type="text"
                      className="form-control"
                         name="Total"
@@ -366,11 +373,27 @@ export default function SupervEveEdit()  {
                      />
                  </div>
 
+                 <div className="form-group">
+                 <label className="form-label">Comment</label>
+                     <input type="text"
+                     className="form-control"
+                        name="Comment"
+                      onChange={e => setComment(e.target.value)}
+                      value={Comment} 
+                     
+                     />
+                 </div>
+
                  </form>
                  <button className="btn btn-success" type="submit" style={{marginTop:'15px', width:"250px", marginLeft:"370px",backgroundColor:"#0147ab"}} onClick={(e)=>changeOnClick(e)} >
                             <i className="far fa-check-square"></i>
                             &nbsp; Save
 
+                        </button>
+                        <button className="btn btn-success" 
+                        style={{marginLeft:'890px',padding:'8px 8px',backgroundColor:'#3895d3', marginBottom:"10px"}}>
+                        <a href="/supervEveHome" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'16px'}}> 
+                        <i class="far fa-arrow-alt-circle-left"></i>&nbsp;Go Back</a>
                         </button>
 
                        

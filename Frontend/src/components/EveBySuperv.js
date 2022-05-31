@@ -21,23 +21,249 @@ export default class EveBySuperv extends Component {
     relevent:"",
     clearWritten:"",
     logic:"",
-    Total:""
+    Total:"",
+    Comment:"",
   }
  }
- handleChange = ({
-    target: { value, name }}) => 
-    this.setState({ [name]: value
-
-
+ //handleChange = ({
+    //target: { value, name }}) => 
+    //this.setState({ [name]: value
       
-     })
+    
+    // })
+
+    handleChange= (e)=>{
+      const {name,value} = e.target;
+      let nam = e.target.name;
+      let val = e.target.value;
+  
+     
+     //validation for title
+      if (nam=== "title") {
+          
+        if (!Number(val)) {
+          alert("Marks must be a number");
+        }
+      }
+      if(nam==="title"){
+        if(val > 5){
+            alert("Invalid mark!!");
+        }
+    }
+  
+   //validation for abstract 
+    if (nam=== "abstract") {
+          
+      if (!Number(val)) {
+        alert("Marks must be a number");
+      }
+    }
+    if(nam==="abstract"){
+      if(val > 5){
+          alert("Invalid mark!!");
+      }
+  }
+
+  //validation for problem identify
+  
+  if (nam=== "problemIdentified") {
+          
+    if (!Number(val)) {
+      alert("Marks must be a number");
+    }
+  }
+  if(nam==="problemIdentified"){
+    if(val > 5){
+        alert("Invalid mark!!");
+    }
+}
+
+//clearly stated validation
+
+if (nam=== "clearyStated") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="clearyStated"){
+  if(val > 5){
+      alert("Invalid mark!!");
+  }
+}
+
+//references validation
+
+if (nam=== "references") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="references"){
+  if(val > 5){
+      alert("Invalid mark!!");
+  }
+}
+
+//model framework validation
+
+if (nam=== "modelframework") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="modelframework"){
+  if(val > 5){
+      alert("Invalid mark!!");
+  }
+}
+
+//description validation
+
+if (nam=== "MethoDescription") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="MethoDescription"){
+  if(val > 5){
+      alert("Invalid mark!!");
+  }
+}
+      
+//appropriate validation
+
+if (nam=== "appro") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="appro"){
+  if(val > 5){
+      alert("Invalid mark!!");
+  }
+}
+
+//data collection validation
+
+if (nam=== "dataCollect") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="dataCollect"){
+  if(val > 5){
+      alert("Invalid mark!!");
+  }
+}
+
+//data analysis validation
+
+
+if (nam=== "dataAnalys") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="dataAnalys"){
+  if(val > 15){
+      alert("Invalid mark!!");
+  }
+}
+
+//conclusion clearity
+
+if (nam=== "conclusionClarity") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="conclusionClarity"){
+  if(val > 10){
+      alert("Invalid mark!!");
+  }
+}
+
+//relevant validation
+
+
+if (nam=== "relevent") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="relevent"){
+  if(val > 10){
+      alert("Invalid mark!!");
+  }
+}
+
+//clearly written validation
+
+if (nam=== "clearWritten") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="clearWritten"){
+  if(val > 10){
+      alert("Invalid mark!!");
+  }
+}
+
+
+
+//logic validation
+
+if (nam=== "logic") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="logic"){
+  if(val > 10){
+      alert("Invalid mark!!");
+  }
+}
+
+//total mark validation
+
+if (nam=== "Total") {
+          
+  if (!Number(val)) {
+    alert("Marks must be a number");
+  }
+}
+if(nam==="Total"){
+  if(val > 100){
+      alert("Invalid mark!!");
+  }
+}
+
+
+      this.setState({
+          ...this.state,
+          [name]:value
+      })
+  }
+  
 
 
 onSubmit=(e)=>{
   e.preventDefault();
 
   const {Groupname,title,abstract,problemIdentified,clearyStated,references,modelframework,
-     MethoDescription,appro,dataCollect,dataAnalys,conclusionClarity,relevent,clearWritten,logic,Total} = this.state;
+     MethoDescription,appro,dataCollect,dataAnalys,conclusionClarity,relevent,clearWritten,logic,Total,Comment} = this.state;
 
   const data={
     Groupname:Groupname,
@@ -55,7 +281,8 @@ onSubmit=(e)=>{
     relevent:relevent,
     clearWritten:clearWritten,
     logic:logic,
-    Total:Total
+    Total:Total,
+    Comment:Comment
       
   }
 
@@ -82,7 +309,8 @@ onSubmit=(e)=>{
           relevent:"",
           clearWritten:"",
           logic:"",
-          Total:""
+          Total:"",
+          Comment:""
 
         }
       )
@@ -134,8 +362,8 @@ onSubmit=(e)=>{
                </div>
 
                <div className="form-group" >
-                 <h2> Backgroud</h2>
-                   <label  className="form-label" >Title : </label>
+                 <h2> Backgroud (20 Marks)</h2>
+                   <label  className="form-label" >Title : (5 marks)</label>
                    <input type="text"
                     className="form-control" 
                     name="title"  
@@ -148,7 +376,7 @@ onSubmit=(e)=>{
                </div>
               
                <div className="form-group">
-                   <label  className="form-label" >Abstract : </label>
+                   <label  className="form-label" >Abstract : (5 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="abstract"
@@ -159,7 +387,7 @@ onSubmit=(e)=>{
 
 
                <div className="form-group">
-                   <label  className="form-label">Problem Identified Clearly : </label>
+                   <label  className="form-label">Problem Identified Clearly : (5 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="problemIdentified" 
@@ -169,7 +397,7 @@ onSubmit=(e)=>{
                </div>
 
                <div className="form-group">
-                   <label  className="form-label">Research Area Clearly Stated :</label>
+                   <label  className="form-label">Research Area Clearly Stated : (5 marks)</label>
                    <input type="email" 
                    className="form-control" 
                    name="clearyStated" 
@@ -179,8 +407,8 @@ onSubmit=(e)=>{
                </div>
 
                <div className="form-group">
-                 <h2>Literature Review</h2>
-                   <label  className="form-label">References :</label>
+                 <h2>Literature Review (10 Marks)</h2>
+                   <label  className="form-label">References : (5 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="references" 
@@ -192,7 +420,7 @@ onSubmit=(e)=>{
                </div>
               
                <div className="form-group">
-                   <label  className="form-label">Model Framwork : </label>
+                   <label  className="form-label">Model Framwork : (5 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="modelframework" 
@@ -203,8 +431,8 @@ onSubmit=(e)=>{
 
                 
                <div className="form-group">
-                 <h2>Methodology</h2>
-                   <label  className="form-label">Description : </label>
+                 <h2>Methodology (15 Marks)</h2>
+                   <label  className="form-label">Description : (5 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="MethoDescription" 
@@ -215,7 +443,7 @@ onSubmit=(e)=>{
                
                 
                <div className="form-group">
-                   <label className="form-label">Appropriation : </label>
+                   <label className="form-label">Appropriation : (5 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="appro" 
@@ -227,7 +455,7 @@ onSubmit=(e)=>{
 
                 
                <div className="form-group">
-                   <label  className="form-label">Data Collection Methods : </label>
+                   <label  className="form-label">Data Collection Methods : (5 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="dataCollect" 
@@ -238,8 +466,8 @@ onSubmit=(e)=>{
                </div>
 
                <div className="form-group">
-               <h2>Result and Analysis of the Findings</h2>
-                   <label className="form-label">Data Analsing Methods : </label>
+               <h2>Result and Analysis of the Findings (15 Marks)</h2>
+                   <label className="form-label">Data Analsing Methods : (15 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="dataAnalys" 
@@ -250,8 +478,8 @@ onSubmit=(e)=>{
                </div>
 
                <div className="form-group">
-                 <h2>Conclusion </h2>
-                   <label  className="form-label">Clearity of Conclusion : </label>
+                 <h2>Conclusion (20 Marks)</h2>
+                   <label  className="form-label">Clearity of Conclusion : (10 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="conclusionClarity" 
@@ -262,7 +490,7 @@ onSubmit=(e)=>{
                </div>
 
                <div className="form-group">
-                   <label  className="form-label">Relevent : </label>
+                   <label  className="form-label">Relevent : (10 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="relevent" 
@@ -273,8 +501,8 @@ onSubmit=(e)=>{
                </div>
 
                <div className="form-group">
-                 <h2>Report Writing</h2>
-                   <label  className="form-label">Clearly Written : </label>
+                 <h2>Report Writing (20 Marks)</h2>
+                   <label  className="form-label">Clearly Written : (10 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="clearWritten" 
@@ -285,7 +513,7 @@ onSubmit=(e)=>{
                </div>
 
                <div className="form-group">
-                   <label  className="form-label">Logical Organized : </label>
+                   <label  className="form-label">Logical Organized : (10 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="logic" 
@@ -296,16 +524,28 @@ onSubmit=(e)=>{
                </div>
 
                <div className="form-group">
-                 <h2></h2>
-                   <label  className="form-label">Total Mark : </label>
+                 
+                   <label  className="form-label">Total Mark : (100 marks)</label>
                    <input type="text" 
                    className="form-control" 
                    name="Total" 
                    value={this.state.Total} 
-                   placeholder="0" 
+                   placeholder='0' 
                    onChange={this.handleChange} />
                    
                </div>
+
+               <div className="form-group">
+                 
+                 <label  className="form-label">Comment : </label>
+                 <input type="text" 
+                 className="form-control" 
+                 name="Comment" 
+                 value={this.state.Comment} 
+                 placeholder="Give a feedback comment" 
+                 onChange={this.handleChange} />
+                 
+             </div>
                
            </form>
                <div>
@@ -313,7 +553,11 @@ onSubmit=(e)=>{
                    <center>
                    <button className="btn btn btn-dark btn-lg" style={{backgroundColor:"#0147ab"}} onClick={this.onSubmit} href="/"> Submit the Result</button>&nbsp;
 
-                  
+                        <button className="btn btn-success" 
+                        style={{marginLeft:'890px',padding:'8px 8px',backgroundColor:'#3895d3', marginBottom:"10px"}}>
+                        <a href="/supervEveHome" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'16px'}}> 
+                        <i class="far fa-arrow-alt-circle-left"></i>&nbsp;Go Back</a>
+                        </button>
                   
                    </center>
                 

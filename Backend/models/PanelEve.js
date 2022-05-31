@@ -9,36 +9,36 @@ const docSchema = new mongoose.Schema({
         required: true
     },
     introduction:{
-        type: String,
+        type: Intl,
         required: true
     },
     organization:{
-        type: String,
+        type: Intl,
         required: true
     },
     voiceInflection:{
-        type: String,
+        type: Intl,
         required: true
     },
     voiceRate:{
-        type: String,
+        type: Intl,
         required: true
     },
     tools:{
-        type: String,
+        type: Intl,
         required: true
     },
     eyeContact:{
-        type: String,
+        type: Intl,
         required: true
     },
     groupArrange:{
-        type: String,
+        type: Intl,
         required: true
     },
    
     Total:{
-        type: String,
+        type: Intl,
         required: true
     },
 

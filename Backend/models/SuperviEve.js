@@ -9,62 +9,66 @@ const docSchemasuper = new mongoose.Schema({
         required: true
     },
     title:{
-        type: String,
+        type: Intl,
         required: true
     },
     abstract:{
-        type: String,
+        type: Intl,
         required: true
     },
     problemIdentified:{
-        type: String,
+        type: Intl,
         required: true
     },
     clearyStated:{
-        type: String,
+        type: Intl,
         required: true
     },
     references:{
-        type: String,
+        type: Intl,
         required: true
     },
     modelframework:{
-        type: String,
+        type: Intl,
         required: true
     },
     MethoDescription:{
-        type: String,
+        type: Intl,
         required: true
     },
     appro:{
-        type: String,
+        type: Intl,
         required: true
     },
     dataCollect:{
-        type: String,
+        type: Intl,
         required: true
     },
     dataAnalys:{
-        type: String,
+        type: Intl,
         required: true
     },
     conclusionClarity:{
-        type: String,
+        type: Intl,
         required: true
     },
     relevent:{
-        type: String,
+        type: Intl,
         required: true
     },
     clearWritten:{
-        type: String,
+        type: Intl,
         required: true
     },
     logic:{
-        type: String,
+        type: Intl,
         required: true
     },
     Total:{
+        type: Intl,
+        required: true
+    },
+    Comment:{
         type: String,
         required: true
     },

@@ -28389,16 +28389,131 @@ class EveBySuperv extends _react.Component {
             relevent: "",
             clearWritten: "",
             logic: "",
-            Total: ""
+            Total: "",
+            Comment: ""
         };
     }
-    handleChange = ({ target: { value , name  }  })=>this.setState({
+    //handleChange = ({
+    //target: { value, name }}) => 
+    //this.setState({ [name]: value
+    // })
+    handleChange = (e)=>{
+        const { name , value  } = e.target;
+        let nam = e.target.name;
+        let val = e.target.value;
+        //validation for title
+        if (nam === "title") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "title") {
+            if (val > 5) alert("Invalid mark!!");
+        }
+        //validation for abstract 
+        if (nam === "abstract") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "abstract") {
+            if (val > 5) alert("Invalid mark!!");
+        }
+        //validation for problem identify
+        if (nam === "problemIdentified") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "problemIdentified") {
+            if (val > 5) alert("Invalid mark!!");
+        }
+        //clearly stated validation
+        if (nam === "clearyStated") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "clearyStated") {
+            if (val > 5) alert("Invalid mark!!");
+        }
+        //references validation
+        if (nam === "references") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "references") {
+            if (val > 5) alert("Invalid mark!!");
+        }
+        //model framework validation
+        if (nam === "modelframework") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "modelframework") {
+            if (val > 5) alert("Invalid mark!!");
+        }
+        //description validation
+        if (nam === "MethoDescription") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "MethoDescription") {
+            if (val > 5) alert("Invalid mark!!");
+        }
+        //appropriate validation
+        if (nam === "appro") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "appro") {
+            if (val > 5) alert("Invalid mark!!");
+        }
+        //data collection validation
+        if (nam === "dataCollect") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "dataCollect") {
+            if (val > 5) alert("Invalid mark!!");
+        }
+        //data analysis validation
+        if (nam === "dataAnalys") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "dataAnalys") {
+            if (val > 15) alert("Invalid mark!!");
+        }
+        //conclusion clearity
+        if (nam === "conclusionClarity") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "conclusionClarity") {
+            if (val > 10) alert("Invalid mark!!");
+        }
+        //relevant validation
+        if (nam === "relevent") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "relevent") {
+            if (val > 10) alert("Invalid mark!!");
+        }
+        //clearly written validation
+        if (nam === "clearWritten") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "clearWritten") {
+            if (val > 10) alert("Invalid mark!!");
+        }
+        //logic validation
+        if (nam === "logic") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "logic") {
+            if (val > 10) alert("Invalid mark!!");
+        }
+        //total mark validation
+        if (nam === "Total") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "Total") {
+            if (val > 100) alert("Invalid mark!!");
+        }
+        this.setState({
+            ...this.state,
             [name]: value
-        })
-    ;
+        });
+    };
     onSubmit = (e)=>{
         e.preventDefault();
-        const { Groupname , title , abstract , problemIdentified , clearyStated , references , modelframework , MethoDescription , appro , dataCollect , dataAnalys , conclusionClarity , relevent , clearWritten , logic , Total  } = this.state;
+        const { Groupname , title , abstract , problemIdentified , clearyStated , references , modelframework , MethoDescription , appro , dataCollect , dataAnalys , conclusionClarity , relevent , clearWritten , logic , Total , Comment  } = this.state;
         const data = {
             Groupname: Groupname,
             title: title,
@@ -28415,7 +28530,8 @@ class EveBySuperv extends _react.Component {
             relevent: relevent,
             clearWritten: clearWritten,
             logic: logic,
-            Total: Total
+            Total: Total,
+            Comment: Comment
         };
         console.log(data);
         //save data
@@ -28437,7 +28553,8 @@ class EveBySuperv extends _react.Component {
                     relevent: "",
                     clearWritten: "",
                     logic: "",
-                    Total: ""
+                    Total: "",
+                    Comment: ""
                 });
                 alert("You are saving the details");
             }
@@ -28459,7 +28576,7 @@ class EveBySuperv extends _react.Component {
                         children: [
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 106,
+                                lineNumber: 334,
                                 columnNumber: 16
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
@@ -28470,23 +28587,23 @@ class EveBySuperv extends _react.Component {
                                 children: "Supervisor Evaluation Form- Document"
                             }, void 0, false, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 107,
+                                lineNumber: 335,
                                 columnNumber: 16
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 108,
+                                lineNumber: 336,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/EveBySuperv.js",
-                        lineNumber: 105,
+                        lineNumber: 333,
                         columnNumber: 8
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                         fileName: "src/components/EveBySuperv.js",
-                        lineNumber: 110,
+                        lineNumber: 338,
                         columnNumber: 12
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28512,29 +28629,29 @@ class EveBySuperv extends _react.Component {
                                             class: "far fa-arrow-alt-circle-left"
                                         }, void 0, false, {
                                             fileName: "src/components/EveBySuperv.js",
-                                            lineNumber: 115,
+                                            lineNumber: 343,
                                             columnNumber: 21
                                         }, this),
                                         "\xa0Go Back"
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/EveBySuperv.js",
-                                    lineNumber: 114,
+                                    lineNumber: 342,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 113,
+                                lineNumber: 341,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 118,
+                                lineNumber: 346,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 118,
+                                lineNumber: 346,
                                 columnNumber: 26
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
@@ -28551,7 +28668,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Group Name : "
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 124,
+                                                lineNumber: 352,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28564,31 +28681,31 @@ class EveBySuperv extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 125,
+                                                lineNumber: 353,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 122,
+                                        lineNumber: 350,
                                         columnNumber: 12
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                                children: " Backgroud"
+                                                children: " Backgroud (20 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 137,
+                                                lineNumber: 365,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Title : "
+                                                children: "Title : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 138,
+                                                lineNumber: 366,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28601,13 +28718,13 @@ class EveBySuperv extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 139,
+                                                lineNumber: 367,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 136,
+                                        lineNumber: 364,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28615,10 +28732,10 @@ class EveBySuperv extends _react.Component {
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Abstract : "
+                                                children: "Abstract : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 151,
+                                                lineNumber: 379,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28631,13 +28748,13 @@ class EveBySuperv extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 152,
+                                                lineNumber: 380,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 150,
+                                        lineNumber: 378,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28645,10 +28762,10 @@ class EveBySuperv extends _react.Component {
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Problem Identified Clearly : "
+                                                children: "Problem Identified Clearly : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 162,
+                                                lineNumber: 390,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28661,13 +28778,13 @@ class EveBySuperv extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 163,
+                                                lineNumber: 391,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 161,
+                                        lineNumber: 389,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28675,10 +28792,10 @@ class EveBySuperv extends _react.Component {
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Research Area Clearly Stated :"
+                                                children: "Research Area Clearly Stated : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 172,
+                                                lineNumber: 400,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28691,31 +28808,31 @@ class EveBySuperv extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 173,
+                                                lineNumber: 401,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 171,
+                                        lineNumber: 399,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                                children: "Literature Review"
+                                                children: "Literature Review (10 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 182,
+                                                lineNumber: 410,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "References :"
+                                                children: "References : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 183,
+                                                lineNumber: 411,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28727,13 +28844,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 184,
+                                                lineNumber: 412,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 181,
+                                        lineNumber: 409,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28741,10 +28858,10 @@ class EveBySuperv extends _react.Component {
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Model Framwork : "
+                                                children: "Model Framwork : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 195,
+                                                lineNumber: 423,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28756,31 +28873,31 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 196,
+                                                lineNumber: 424,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 194,
+                                        lineNumber: 422,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                                children: "Methodology"
+                                                children: "Methodology (15 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 206,
+                                                lineNumber: 434,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Description : "
+                                                children: "Description : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 207,
+                                                lineNumber: 435,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28792,13 +28909,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 208,
+                                                lineNumber: 436,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 205,
+                                        lineNumber: 433,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28806,10 +28923,10 @@ class EveBySuperv extends _react.Component {
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Appropriation : "
+                                                children: "Appropriation : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 218,
+                                                lineNumber: 446,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28821,13 +28938,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 219,
+                                                lineNumber: 447,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 217,
+                                        lineNumber: 445,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28835,10 +28952,10 @@ class EveBySuperv extends _react.Component {
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Data Collection Methods : "
+                                                children: "Data Collection Methods : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 230,
+                                                lineNumber: 458,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28850,31 +28967,31 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 231,
+                                                lineNumber: 459,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 229,
+                                        lineNumber: 457,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                                children: "Result and Analysis of the Findings"
+                                                children: "Result and Analysis of the Findings (15 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 241,
+                                                lineNumber: 469,
                                                 columnNumber: 16
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Data Analsing Methods : "
+                                                children: "Data Analsing Methods : (15 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 242,
+                                                lineNumber: 470,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28886,31 +29003,31 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 243,
+                                                lineNumber: 471,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 240,
+                                        lineNumber: 468,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                                children: "Conclusion "
+                                                children: "Conclusion (20 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 253,
+                                                lineNumber: 481,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Clearity of Conclusion : "
+                                                children: "Clearity of Conclusion : (10 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 254,
+                                                lineNumber: 482,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28922,13 +29039,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 255,
+                                                lineNumber: 483,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 252,
+                                        lineNumber: 480,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28936,10 +29053,10 @@ class EveBySuperv extends _react.Component {
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Relevent : "
+                                                children: "Relevent : (10 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 265,
+                                                lineNumber: 493,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28951,31 +29068,31 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 266,
+                                                lineNumber: 494,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 264,
+                                        lineNumber: 492,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                                children: "Report Writing"
+                                                children: "Report Writing (20 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 276,
+                                                lineNumber: 504,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Clearly Written : "
+                                                children: "Clearly Written : (10 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 277,
+                                                lineNumber: 505,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28987,13 +29104,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 278,
+                                                lineNumber: 506,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 275,
+                                        lineNumber: 503,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -29001,10 +29118,10 @@ class EveBySuperv extends _react.Component {
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Logical Organized : "
+                                                children: "Logical Organized : (10 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 288,
+                                                lineNumber: 516,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -29016,29 +29133,24 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 289,
+                                                lineNumber: 517,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 287,
+                                        lineNumber: 515,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
-                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {}, void 0, false, {
-                                                fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 299,
-                                                columnNumber: 18
-                                            }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Total Mark : "
+                                                children: "Total Mark : (100 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 300,
+                                                lineNumber: 528,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -29050,26 +29162,55 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 301,
+                                                lineNumber: 529,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 298,
+                                        lineNumber: 526,
+                                        columnNumber: 16
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        className: "form-group",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                className: "form-label",
+                                                children: "Comment : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/EveBySuperv.js",
+                                                lineNumber: 540,
+                                                columnNumber: 18
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                className: "form-control",
+                                                name: "Comment",
+                                                value: this.state.Comment,
+                                                placeholder: "Give a feedback comment",
+                                                onChange: this.handleChange
+                                            }, void 0, false, {
+                                                fileName: "src/components/EveBySuperv.js",
+                                                lineNumber: 541,
+                                                columnNumber: 18
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/EveBySuperv.js",
+                                        lineNumber: 538,
                                         columnNumber: 16
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 120,
+                                lineNumber: 348,
                                 columnNumber: 12
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                 children: [
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 312,
+                                        lineNumber: 552,
                                         columnNumber: 20
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
@@ -29084,37 +29225,73 @@ class EveBySuperv extends _react.Component {
                                                 children: " Submit the Result"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 314,
+                                                lineNumber: 554,
                                                 columnNumber: 20
                                             }, this),
-                                            "\xa0"
+                                            "\xa0",
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                className: "btn btn-success",
+                                                style: {
+                                                    marginLeft: '890px',
+                                                    padding: '8px 8px',
+                                                    backgroundColor: '#3895d3',
+                                                    marginBottom: "10px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    href: "/supervEveHome",
+                                                    style: {
+                                                        textDecoration: 'none',
+                                                        backgroundColor: '#3895d3',
+                                                        color: 'white',
+                                                        fontSize: '16px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                            class: "far fa-arrow-alt-circle-left"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/EveBySuperv.js",
+                                                            lineNumber: 559,
+                                                            columnNumber: 25
+                                                        }, this),
+                                                        "\xa0Go Back"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/EveBySuperv.js",
+                                                    lineNumber: 558,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/EveBySuperv.js",
+                                                lineNumber: 556,
+                                                columnNumber: 25
+                                            }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 313,
+                                        lineNumber: 553,
                                         columnNumber: 20
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 311,
+                                lineNumber: 551,
                                 columnNumber: 16
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/EveBySuperv.js",
-                        lineNumber: 111,
+                        lineNumber: 339,
                         columnNumber: 12
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/EveBySuperv.js",
-                lineNumber: 104,
+                lineNumber: 332,
                 columnNumber: 8
             }, this)
         }, void 0, false, {
             fileName: "src/components/EveBySuperv.js",
-            lineNumber: 102,
+            lineNumber: 330,
             columnNumber: 1
         }, this);
     }
@@ -29160,6 +29337,7 @@ function SupervEveOne() {
     const [clearWritten, setclearWritten] = _react.useState("");
     const [logic, setlogic] = _react.useState("");
     const [Total, setTotal] = _react.useState("");
+    const [Comment, setComment] = _react.useState("");
     const id = _reactRouterDom.useParams();
     const [paneleve] = _react.useState({
         Groupname: "",
@@ -29177,7 +29355,8 @@ function SupervEveOne() {
         relevent: "",
         clearWritten: "",
         logic: "",
-        Total: ""
+        Total: "",
+        Comment: ""
     });
     _react.useEffect(function effectFunction() {
         console.log("get ID", id);
@@ -29199,6 +29378,7 @@ function SupervEveOne() {
             setclearWritten(res.data.getOneDetail.clearWritten);
             setlogic(res.data.getOneDetail.logic);
             setTotal(res.data.getOneDetail.Total);
+            setComment(res.data.getOneDetail.Comment);
         }).catch((err)=>console.log(err)
         );
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -29216,7 +29396,7 @@ function SupervEveOne() {
                     children: [
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                             fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 97,
+                            lineNumber: 101,
                             columnNumber: 16
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
@@ -29227,23 +29407,23 @@ function SupervEveOne() {
                             children: "Supervisor Evaluation Sheet- Document"
                         }, void 0, false, {
                             fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 98,
+                            lineNumber: 102,
                             columnNumber: 16
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                             fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 99,
+                            lineNumber: 103,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/SupervEveOne.js",
-                    lineNumber: 96,
+                    lineNumber: 100,
                     columnNumber: 8
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/SupervEveOne.js",
-                    lineNumber: 101,
+                    lineNumber: 105,
                     columnNumber: 12
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
@@ -29253,7 +29433,7 @@ function SupervEveOne() {
                     children: Groupname
                 }, void 0, false, {
                     fileName: "src/components/SupervEveOne.js",
-                    lineNumber: 102,
+                    lineNumber: 106,
                     columnNumber: 12
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
@@ -29272,12 +29452,12 @@ function SupervEveOne() {
                                         children: "DESCRIPTION"
                                     }, void 0, false, {
                                         fileName: "src/components/SupervEveOne.js",
-                                        lineNumber: 106,
+                                        lineNumber: 110,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 106,
+                                    lineNumber: 110,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
@@ -29286,18 +29466,18 @@ function SupervEveOne() {
                                         children: "MARKS"
                                     }, void 0, false, {
                                         fileName: "src/components/SupervEveOne.js",
-                                        lineNumber: 107,
+                                        lineNumber: 111,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 107,
+                                    lineNumber: 111,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 105,
+                            lineNumber: 109,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
@@ -29311,53 +29491,31 @@ function SupervEveOne() {
                                         children: " Backgroud  "
                                     }, void 0, false, {
                                         fileName: "src/components/SupervEveOne.js",
-                                        lineNumber: 110,
+                                        lineNumber: 114,
                                         columnNumber: 47
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/SupervEveOne.js",
-                                lineNumber: 110,
+                                lineNumber: 114,
                                 columnNumber: 16
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 109,
+                            lineNumber: 113,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Title"
-                                }, void 0, false, {
-                                    fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 113,
-                                    columnNumber: 16
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: title
-                                }, void 0, false, {
-                                    fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 114,
-                                    columnNumber: 16
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 112,
-                            columnNumber: 14
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Abstract"
+                                    children: "Title (5 mark)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 117,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: abstract
+                                    children: title
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 118,
@@ -29372,14 +29530,14 @@ function SupervEveOne() {
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Problem Identified Clearly"
+                                    children: "Abstract (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 121,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: problemIdentified
+                                    children: abstract
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 122,
@@ -29394,14 +29552,14 @@ function SupervEveOne() {
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Research Area Clearly Stated"
+                                    children: "Problem Identified Clearly (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 125,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: clearyStated
+                                    children: problemIdentified
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 126,
@@ -29411,6 +29569,28 @@ function SupervEveOne() {
                         }, void 0, true, {
                             fileName: "src/components/SupervEveOne.js",
                             lineNumber: 124,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Research Area Clearly Stated (5 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 129,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: clearyStated
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 130,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/SupervEveOne.js",
+                            lineNumber: 128,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
@@ -29424,53 +29604,31 @@ function SupervEveOne() {
                                         children: " Literature Review  "
                                     }, void 0, false, {
                                         fileName: "src/components/SupervEveOne.js",
-                                        lineNumber: 129,
+                                        lineNumber: 133,
                                         columnNumber: 45
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/SupervEveOne.js",
-                                lineNumber: 129,
+                                lineNumber: 133,
                                 columnNumber: 14
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 128,
+                            lineNumber: 132,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "References"
-                                }, void 0, false, {
-                                    fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 132,
-                                    columnNumber: 16
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: references
-                                }, void 0, false, {
-                                    fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 133,
-                                    columnNumber: 16
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 131,
-                            columnNumber: 14
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Model Framwork"
+                                    children: "References (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 136,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: modelframework
+                                    children: references
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 137,
@@ -29480,6 +29638,28 @@ function SupervEveOne() {
                         }, void 0, true, {
                             fileName: "src/components/SupervEveOne.js",
                             lineNumber: 135,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Model Framwork (5 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 140,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: modelframework
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 141,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/SupervEveOne.js",
+                            lineNumber: 139,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
@@ -29493,53 +29673,31 @@ function SupervEveOne() {
                                         children: " Methodology "
                                     }, void 0, false, {
                                         fileName: "src/components/SupervEveOne.js",
-                                        lineNumber: 140,
+                                        lineNumber: 144,
                                         columnNumber: 45
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/SupervEveOne.js",
-                                lineNumber: 140,
+                                lineNumber: 144,
                                 columnNumber: 14
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 139,
+                            lineNumber: 143,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Description"
-                                }, void 0, false, {
-                                    fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 143,
-                                    columnNumber: 16
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: MethoDescription
-                                }, void 0, false, {
-                                    fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 144,
-                                    columnNumber: 16
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 142,
-                            columnNumber: 14
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Appropriation"
+                                    children: "Description (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 147,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: appro
+                                    children: MethoDescription
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 148,
@@ -29554,14 +29712,14 @@ function SupervEveOne() {
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Data Collection Methods"
+                                    children: "Appropriation (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 151,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: dataCollect
+                                    children: appro
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 152,
@@ -29571,6 +29729,28 @@ function SupervEveOne() {
                         }, void 0, true, {
                             fileName: "src/components/SupervEveOne.js",
                             lineNumber: 150,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Data Collection Methods (5 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 155,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: dataCollect
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 156,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/SupervEveOne.js",
+                            lineNumber: 154,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
@@ -29584,40 +29764,40 @@ function SupervEveOne() {
                                         children: " Result and Analysis Of Findings  "
                                     }, void 0, false, {
                                         fileName: "src/components/SupervEveOne.js",
-                                        lineNumber: 155,
+                                        lineNumber: 159,
                                         columnNumber: 45
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/SupervEveOne.js",
-                                lineNumber: 155,
+                                lineNumber: 159,
                                 columnNumber: 14
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 154,
+                            lineNumber: 158,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Data Analsing Methods"
+                                    children: "Data Analsing Methods (15 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 158,
+                                    lineNumber: 162,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
                                     children: dataAnalys
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 159,
+                                    lineNumber: 163,
                                     columnNumber: 16
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 157,
+                            lineNumber: 161,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
@@ -29631,53 +29811,31 @@ function SupervEveOne() {
                                         children: " Conclusion  "
                                     }, void 0, false, {
                                         fileName: "src/components/SupervEveOne.js",
-                                        lineNumber: 162,
+                                        lineNumber: 166,
                                         columnNumber: 45
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/SupervEveOne.js",
-                                lineNumber: 162,
+                                lineNumber: 166,
                                 columnNumber: 14
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 161,
+                            lineNumber: 165,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Clear Of Conclusion"
-                                }, void 0, false, {
-                                    fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 165,
-                                    columnNumber: 16
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: conclusionClarity
-                                }, void 0, false, {
-                                    fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 166,
-                                    columnNumber: 16
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 164,
-                            columnNumber: 14
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Relevent"
+                                    children: "Clear Of Conclusion (10 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 169,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: relevent
+                                    children: conclusionClarity
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 170,
@@ -29687,6 +29845,28 @@ function SupervEveOne() {
                         }, void 0, true, {
                             fileName: "src/components/SupervEveOne.js",
                             lineNumber: 168,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Relevent (10 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 173,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: relevent
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 174,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/SupervEveOne.js",
+                            lineNumber: 172,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
@@ -29700,53 +29880,31 @@ function SupervEveOne() {
                                         children: " Report Writing  "
                                     }, void 0, false, {
                                         fileName: "src/components/SupervEveOne.js",
-                                        lineNumber: 173,
+                                        lineNumber: 177,
                                         columnNumber: 45
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/SupervEveOne.js",
-                                lineNumber: 173,
+                                lineNumber: 177,
                                 columnNumber: 14
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 172,
+                            lineNumber: 176,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Clearly Writing"
-                                }, void 0, false, {
-                                    fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 176,
-                                    columnNumber: 16
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: clearWritten
-                                }, void 0, false, {
-                                    fileName: "src/components/SupervEveOne.js",
-                                    lineNumber: 177,
-                                    columnNumber: 16
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/SupervEveOne.js",
-                            lineNumber: 175,
-                            columnNumber: 14
-                        }, this),
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: "Logical Organized"
+                                    children: "Clearly Writing (10 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 180,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: logic
+                                    children: clearWritten
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 181,
@@ -29761,17 +29919,14 @@ function SupervEveOne() {
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    style: {
-                                        fontSize: '20px'
-                                    },
-                                    children: "Total Mark"
+                                    children: "Logical Organized (10 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 184,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: Total
+                                    children: logic
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveOne.js",
                                     lineNumber: 185,
@@ -29782,11 +29937,79 @@ function SupervEveOne() {
                             fileName: "src/components/SupervEveOne.js",
                             lineNumber: 183,
                             columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    style: {
+                                        fontSize: '20px'
+                                    },
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: "Total Mark (out of 100)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/SupervEveOne.js",
+                                        lineNumber: 188,
+                                        columnNumber: 46
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 188,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: Total
+                                    }, void 0, false, {
+                                        fileName: "src/components/SupervEveOne.js",
+                                        lineNumber: 189,
+                                        columnNumber: 20
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 189,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/SupervEveOne.js",
+                            lineNumber: 187,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    style: {
+                                        fontSize: '20px'
+                                    },
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: "Comments or Feedback"
+                                    }, void 0, false, {
+                                        fileName: "src/components/SupervEveOne.js",
+                                        lineNumber: 192,
+                                        columnNumber: 44
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 192,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: Comment
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveOne.js",
+                                    lineNumber: 193,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/SupervEveOne.js",
+                            lineNumber: 191,
+                            columnNumber: 14
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/SupervEveOne.js",
-                    lineNumber: 103,
+                    lineNumber: 107,
                     columnNumber: 12
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
@@ -29809,35 +30032,35 @@ function SupervEveOne() {
                                 class: "far fa-arrow-alt-circle-left"
                             }, void 0, false, {
                                 fileName: "src/components/SupervEveOne.js",
-                                lineNumber: 191,
+                                lineNumber: 199,
                                 columnNumber: 17
                             }, this),
                             "\xa0Go Back"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/SupervEveOne.js",
-                        lineNumber: 189,
+                        lineNumber: 197,
                         columnNumber: 123
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/SupervEveOne.js",
-                    lineNumber: 189,
+                    lineNumber: 197,
                     columnNumber: 12
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/SupervEveOne.js",
-            lineNumber: 95,
+            lineNumber: 99,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "src/components/SupervEveOne.js",
-        lineNumber: 92,
+        lineNumber: 96,
         columnNumber: 9
     }, this);
 }
 exports.default = SupervEveOne;
-_s(SupervEveOne, "MSZbs60HeB7+StoRBcYJmouxnOs=", false, function() {
+_s(SupervEveOne, "zF591f8T1KI4B6WNfxhkowYPi0Y=", false, function() {
     return [
         _reactRouterDom.useParams
     ];
@@ -29885,6 +30108,7 @@ function SupervEveEdit() {
     const [clearWritten, setclearWritten] = _react.useState("");
     const [logic, setlogic] = _react.useState("");
     const [Total, setTotal] = _react.useState("");
+    const [Comment, setComment] = _react.useState("");
     const id = _reactRouterDom.useParams();
     const [paneleve] = _react.useState({
         Groupname: "",
@@ -29902,7 +30126,8 @@ function SupervEveEdit() {
         relevent: "",
         clearWritten: "",
         logic: "",
-        Total: ""
+        Total: "",
+        Comment: ""
     });
     const changeOnClick = async (e)=>{
         e.preventDefault();
@@ -29924,6 +30149,7 @@ function SupervEveEdit() {
         formData.append("clearWritten", clearWritten);
         formData.append("logic", logic);
         formData.append("Total", Total);
+        formData.append("Comment", Comment);
         setGroupname("");
         settitle("");
         setabstract("");
@@ -29940,6 +30166,7 @@ function SupervEveEdit() {
         setclearWritten("");
         setlogic("");
         setTotal("");
+        setComment("");
         console.log(formData.get('Groupname'));
         paneleve.Groupname = formData.get('Groupname');
         paneleve.title = formData.get('title');
@@ -29957,6 +30184,7 @@ function SupervEveEdit() {
         paneleve.clearWritten = formData.get('clearWritten');
         paneleve.logic = formData.get('logic');
         paneleve.Total = formData.get('Total');
+        paneleve.Comment = formData.get('Comment');
         console.log(paneleve);
         console.log(id);
         await _axiosDefault.default.put(`http://localhost:8000/SuperviEve/update/${id?.id}`, paneleve).then((res)=>{
@@ -29987,6 +30215,7 @@ function SupervEveEdit() {
             setclearWritten(res.data.getOneDetail.clearWritten);
             setlogic(res.data.getOneDetail.logic);
             setTotal(res.data.getOneDetail.Total);
+            setComment(res.data.getOneDetail.Comment);
         }).catch((err)=>console.log(err)
         );
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -30005,24 +30234,24 @@ function SupervEveEdit() {
                             children: "Document Evaluation Sheet Edit"
                         }, void 0, false, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 177,
+                            lineNumber: 183,
                             columnNumber: 64
                         }, this),
                         "  "
                     ]
                 }, void 0, true, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 177,
+                    lineNumber: 183,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 178,
+                    lineNumber: 184,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 178,
+                    lineNumber: 184,
                     columnNumber: 18
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
@@ -30045,30 +30274,30 @@ function SupervEveEdit() {
                                 class: "far fa-arrow-alt-circle-left"
                             }, void 0, false, {
                                 fileName: "src/components/SupervEveEdit.js",
-                                lineNumber: 182,
+                                lineNumber: 188,
                                 columnNumber: 19
                             }, this),
                             "\xa0Go Back"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/SupervEveEdit.js",
-                        lineNumber: 181,
+                        lineNumber: 187,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 180,
+                    lineNumber: 186,
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 185,
+                    lineNumber: 191,
                     columnNumber: 9
                 }, this),
                 " ",
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 185,
+                    lineNumber: 191,
                     columnNumber: 19
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
@@ -30082,10 +30311,10 @@ function SupervEveEdit() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Group Name"
+                                    children: "Group Name : "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 190,
+                                    lineNumber: 196,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30097,31 +30326,31 @@ function SupervEveEdit() {
                                     value: Groupname
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 191,
+                                    lineNumber: 197,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 189,
+                            lineNumber: 195,
                             columnNumber: 17
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                             className: "form-group",
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                    children: "Backgroud"
+                                    children: "Backgroud (20 Marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 201,
+                                    lineNumber: 207,
                                     columnNumber: 20
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Title "
+                                    children: "Title : (5 marks) "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 202,
+                                    lineNumber: 208,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30133,13 +30362,13 @@ function SupervEveEdit() {
                                     value: title
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 203,
+                                    lineNumber: 209,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 200,
+                            lineNumber: 206,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30147,10 +30376,10 @@ function SupervEveEdit() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Abstract"
+                                    children: "Abstract : (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 213,
+                                    lineNumber: 219,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30162,13 +30391,13 @@ function SupervEveEdit() {
                                     value: abstract
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 214,
+                                    lineNumber: 220,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 212,
+                            lineNumber: 218,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30176,10 +30405,10 @@ function SupervEveEdit() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Problem Identified Clearly "
+                                    children: "Problem Identified Clearly : (5 marks) "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 225,
+                                    lineNumber: 231,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30191,13 +30420,13 @@ function SupervEveEdit() {
                                     value: problemIdentified
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 226,
+                                    lineNumber: 232,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 224,
+                            lineNumber: 230,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30205,10 +30434,10 @@ function SupervEveEdit() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Research Area Clearly Stated "
+                                    children: "Research Area Clearly Stated : (5 marks) "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 236,
+                                    lineNumber: 242,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30220,23 +30449,23 @@ function SupervEveEdit() {
                                     value: clearyStated
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 237,
+                                    lineNumber: 243,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 235,
+                            lineNumber: 241,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                             className: "form-group",
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                    children: "Literature Review"
+                                    children: "Literature Review (10 Marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 246,
+                                    lineNumber: 252,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -30244,7 +30473,7 @@ function SupervEveEdit() {
                                     children: "References"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 247,
+                                    lineNumber: 253,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30256,13 +30485,13 @@ function SupervEveEdit() {
                                     value: references
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 248,
+                                    lineNumber: 254,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 245,
+                            lineNumber: 251,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30270,10 +30499,10 @@ function SupervEveEdit() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Model Framwork"
+                                    children: "Model Framwork : (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 257,
+                                    lineNumber: 263,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30285,31 +30514,31 @@ function SupervEveEdit() {
                                     value: modelframework
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 258,
+                                    lineNumber: 264,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 256,
+                            lineNumber: 262,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                             className: "form-group",
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                    children: "Methodology"
+                                    children: "Methodology (15 Marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 268,
+                                    lineNumber: 274,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Description "
+                                    children: "Description : (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 269,
+                                    lineNumber: 275,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30321,13 +30550,13 @@ function SupervEveEdit() {
                                     value: MethoDescription
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 270,
+                                    lineNumber: 276,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 267,
+                            lineNumber: 273,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30335,10 +30564,10 @@ function SupervEveEdit() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Appropriation"
+                                    children: "Appropriation : (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 280,
+                                    lineNumber: 286,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30350,13 +30579,13 @@ function SupervEveEdit() {
                                     value: appro
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 281,
+                                    lineNumber: 287,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 279,
+                            lineNumber: 285,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30364,10 +30593,10 @@ function SupervEveEdit() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Data Collection Methods"
+                                    children: "Data Collection Methods : (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 291,
+                                    lineNumber: 297,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30379,31 +30608,31 @@ function SupervEveEdit() {
                                     value: dataCollect
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 292,
+                                    lineNumber: 298,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 290,
+                            lineNumber: 296,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                             className: "form-group",
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                    children: "Result and Analysis of the Findings"
+                                    children: "Result and Analysis of the Findings (15 Marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 302,
+                                    lineNumber: 308,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Data Analsing Methods "
+                                    children: "Data Analsing Methods : (15 marks) "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 303,
+                                    lineNumber: 309,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30415,13 +30644,13 @@ function SupervEveEdit() {
                                     value: dataAnalys
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 304,
+                                    lineNumber: 310,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 301,
+                            lineNumber: 307,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30431,15 +30660,15 @@ function SupervEveEdit() {
                                     children: "Conclusion "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 314,
+                                    lineNumber: 320,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Clearity of Conclusion"
+                                    children: "Clearity of Conclusion : (10 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 315,
+                                    lineNumber: 321,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30451,13 +30680,13 @@ function SupervEveEdit() {
                                     value: conclusionClarity
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 316,
+                                    lineNumber: 322,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 313,
+                            lineNumber: 319,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30465,10 +30694,10 @@ function SupervEveEdit() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Relevent "
+                                    children: "Relevent : (10 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 326,
+                                    lineNumber: 332,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30480,24 +30709,31 @@ function SupervEveEdit() {
                                     value: relevent
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 327,
+                                    lineNumber: 333,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 325,
+                            lineNumber: 331,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                             className: "form-group",
                             children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
-                                    className: "form-label",
-                                    children: "Clearly Written "
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                                    children: "Report Writing (20 Marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 337,
+                                    lineNumber: 343,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                    className: "form-label",
+                                    children: "Clearly Written : (10 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveEdit.js",
+                                    lineNumber: 344,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30509,13 +30745,13 @@ function SupervEveEdit() {
                                     value: clearWritten
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 338,
+                                    lineNumber: 345,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 336,
+                            lineNumber: 342,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30523,10 +30759,10 @@ function SupervEveEdit() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Logical Organized "
+                                    children: "Logical Organized : (10 marks) "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 348,
+                                    lineNumber: 355,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30538,13 +30774,13 @@ function SupervEveEdit() {
                                     value: logic
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 349,
+                                    lineNumber: 356,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 347,
+                            lineNumber: 354,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30552,10 +30788,10 @@ function SupervEveEdit() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Total Mark"
+                                    children: "Total Mark : (100 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 359,
+                                    lineNumber: 366,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30567,19 +30803,48 @@ function SupervEveEdit() {
                                     value: Total
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 360,
+                                    lineNumber: 367,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 358,
+                            lineNumber: 365,
+                            columnNumber: 18
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "form-group",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                    className: "form-label",
+                                    children: "Comment"
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveEdit.js",
+                                    lineNumber: 377,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                    type: "text",
+                                    className: "form-control",
+                                    name: "Comment",
+                                    onChange: (e)=>setComment(e.target.value)
+                                    ,
+                                    value: Comment
+                                }, void 0, false, {
+                                    fileName: "src/components/SupervEveEdit.js",
+                                    lineNumber: 378,
+                                    columnNumber: 22
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/SupervEveEdit.js",
+                            lineNumber: 376,
                             columnNumber: 18
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 187,
+                    lineNumber: 193,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
@@ -30598,30 +30863,66 @@ function SupervEveEdit() {
                             className: "far fa-check-square"
                         }, void 0, false, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 371,
+                            lineNumber: 389,
                             columnNumber: 29
                         }, this),
                         "\xa0 Save"
                     ]
                 }, void 0, true, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 370,
+                    lineNumber: 388,
                     columnNumber: 18
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                    className: "btn btn-success",
+                    style: {
+                        marginLeft: '890px',
+                        padding: '8px 8px',
+                        backgroundColor: '#3895d3',
+                        marginBottom: "10px"
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                        href: "/supervEveHome",
+                        style: {
+                            textDecoration: 'none',
+                            backgroundColor: '#3895d3',
+                            color: 'white',
+                            fontSize: '16px'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                class: "far fa-arrow-alt-circle-left"
+                            }, void 0, false, {
+                                fileName: "src/components/SupervEveEdit.js",
+                                lineNumber: 396,
+                                columnNumber: 25
+                            }, this),
+                            "\xa0Go Back"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/SupervEveEdit.js",
+                        lineNumber: 395,
+                        columnNumber: 25
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/SupervEveEdit.js",
+                    lineNumber: 393,
+                    columnNumber: 25
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/SupervEveEdit.js",
-            lineNumber: 176,
+            lineNumber: 182,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "src/components/SupervEveEdit.js",
-        lineNumber: 173,
+        lineNumber: 179,
         columnNumber: 9
     }, this);
 }
 exports.default = SupervEveEdit;
-_s(SupervEveEdit, "W6upsYBMdoyq+R1kCCqNwfS+4w8=", false, function() {
+_s(SupervEveEdit, "gbIR46zJa45ImfmjrFdQCiAPV+c=", false, function() {
     return [
         _reactRouterDom.useParams
     ];
@@ -31537,7 +31838,7 @@ function SupervEveEdit() {
                             className: "form-group",
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                    children: "Introduction"
+                                    children: "Introduction : (15 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
                                     lineNumber: 159,
@@ -31561,7 +31862,7 @@ function SupervEveEdit() {
                                     type: "text",
                                     className: "form-control",
                                     name: "introduction",
-                                    onChange: (e)=>settitle(e.target.value)
+                                    onChange: (e)=>setintroduction(e.target.value)
                                     ,
                                     value: introduction
                                 }, void 0, false, {
@@ -31579,7 +31880,7 @@ function SupervEveEdit() {
                             className: "form-group",
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                    children: "Organization"
+                                    children: "Organization : (15 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
                                     lineNumber: 174,
@@ -31603,7 +31904,7 @@ function SupervEveEdit() {
                                     type: "text",
                                     className: "form-control",
                                     name: "organization",
-                                    onChange: (e)=>setreferences(e.target.value)
+                                    onChange: (e)=>setorganization(e.target.value)
                                     ,
                                     value: organization
                                 }, void 0, false, {
@@ -31621,7 +31922,7 @@ function SupervEveEdit() {
                             className: "form-group",
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                    children: "Voice"
+                                    children: "Voice : (20 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
                                     lineNumber: 187,
@@ -31631,7 +31932,7 @@ function SupervEveEdit() {
                                     className: "form-label",
                                     children: [
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                            children: " Volume and inflection was effective"
+                                            children: " Volume and inflection was effective (10 marks)"
                                         }, void 0, false, {
                                             fileName: "src/components/PanelEveEdit.js",
                                             lineNumber: 188,
@@ -31648,7 +31949,7 @@ function SupervEveEdit() {
                                     type: "text",
                                     className: "form-control",
                                     name: "voiceInflection",
-                                    onChange: (e)=>setMethoDescription(e.target.value)
+                                    onChange: (e)=>setvoiceInflection(e.target.value)
                                     ,
                                     value: voiceInflection
                                 }, void 0, false, {
@@ -31668,7 +31969,7 @@ function SupervEveEdit() {
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
                                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                        children: "Rate of speech was appropriate"
+                                        children: "Rate of speech was appropriate (10 marks)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveEdit.js",
                                         lineNumber: 199,
@@ -31683,7 +31984,7 @@ function SupervEveEdit() {
                                     type: "text",
                                     className: "form-control",
                                     name: "voiceRate",
-                                    onChange: (e)=>setappro(e.target.value)
+                                    onChange: (e)=>setvoiceRate(e.target.value)
                                     ,
                                     value: voiceRate
                                 }, void 0, false, {
@@ -31701,7 +32002,7 @@ function SupervEveEdit() {
                             className: "form-group",
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                    children: "Tools"
+                                    children: "Tools : (20 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
                                     lineNumber: 212,
@@ -31725,7 +32026,7 @@ function SupervEveEdit() {
                                     type: "text",
                                     className: "form-control",
                                     name: "tools",
-                                    onChange: (e)=>setdataAnalys(e.target.value)
+                                    onChange: (e)=>settools(e.target.value)
                                     ,
                                     value: tools
                                 }, void 0, false, {
@@ -31743,7 +32044,7 @@ function SupervEveEdit() {
                             className: "form-group",
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                    children: "Audience Contact / Involvement "
+                                    children: "Audience Contact / Involvement : (30 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
                                     lineNumber: 225,
@@ -31752,7 +32053,7 @@ function SupervEveEdit() {
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
                                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                        children: " Eye Contact"
+                                        children: " Eye Contact (15 marks)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveEdit.js",
                                         lineNumber: 226,
@@ -31767,7 +32068,7 @@ function SupervEveEdit() {
                                     type: "text",
                                     className: "form-control",
                                     name: "eyeContact",
-                                    onChange: (e)=>setconclusionClarity(e.target.value)
+                                    onChange: (e)=>seteyeContact(e.target.value)
                                     ,
                                     value: eyeContact
                                 }, void 0, false, {
@@ -31788,7 +32089,7 @@ function SupervEveEdit() {
                                     className: "form-label",
                                     children: [
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                            children: "Arrange inside the group"
+                                            children: "Arrange inside the group (15 marks)"
                                         }, void 0, false, {
                                             fileName: "src/components/PanelEveEdit.js",
                                             lineNumber: 237,
@@ -31805,7 +32106,7 @@ function SupervEveEdit() {
                                     type: "text",
                                     className: "form-control",
                                     name: "groupArrange",
-                                    onChange: (e)=>setrelevent(e.target.value)
+                                    onChange: (e)=>setgroupArrange(e.target.value)
                                     ,
                                     value: groupArrange
                                 }, void 0, false, {
@@ -31824,7 +32125,7 @@ function SupervEveEdit() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     className: "form-label",
-                                    children: "Total Mark"
+                                    children: "Total Mark : (100 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
                                     lineNumber: 249,
@@ -31878,7 +32179,43 @@ function SupervEveEdit() {
                 }, void 0, true, {
                     fileName: "src/components/PanelEveEdit.js",
                     lineNumber: 260,
-                    columnNumber: 18
+                    columnNumber: 25
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                    className: "btn btn-success",
+                    style: {
+                        marginLeft: '890px',
+                        padding: '8px 8px',
+                        backgroundColor: '#3895d3',
+                        marginBottom: "10px"
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                        href: "/panelEveHome",
+                        style: {
+                            textDecoration: 'none',
+                            backgroundColor: '#3895d3',
+                            color: 'white',
+                            fontSize: '16px'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                class: "far fa-arrow-alt-circle-left"
+                            }, void 0, false, {
+                                fileName: "src/components/PanelEveEdit.js",
+                                lineNumber: 269,
+                                columnNumber: 25
+                            }, this),
+                            "\xa0Go Back"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/PanelEveEdit.js",
+                        lineNumber: 268,
+                        columnNumber: 25
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/PanelEveEdit.js",
+                    lineNumber: 266,
+                    columnNumber: 25
                 }, this)
             ]
         }, void 0, true, {
@@ -31936,10 +32273,75 @@ class EveByPanel extends _react.Component {
             Total: ""
         };
     }
-    handleChange = ({ target: { value , name  }  })=>this.setState({
+    //handleChange = ({
+    // target: { value, name }}) => 
+    //this.setState({ [name]: value
+    //})
+    handleChange = (e)=>{
+        const { name , value  } = e.target;
+        let nam = e.target.name;
+        let val = e.target.value;
+        //validate introduction
+        if (nam === "introduction") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "introduction") {
+            if (val > 15) alert("Invalid mark!!");
+        }
+        //validate organization
+        if (nam === "organization") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "organization") {
+            if (val > 15) alert("Invalid mark!!");
+        }
+        // voice inflection validate
+        if (nam === "voiceInflection") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "voiceInflection") {
+            if (val > 10) alert("Invalid mark!!");
+        }
+        //voice rate validation
+        if (nam === "voiceRate") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "voiceRate") {
+            if (val > 10) alert("Invalid mark!!");
+        }
+        //tools validation
+        if (nam === "tools") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "tools") {
+            if (val > 20) alert("Invalid mark!!");
+        }
+        //eye contact validation
+        if (nam === "eyeContact") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "eyeContact") {
+            if (val > 15) alert("Invalid mark!!");
+        }
+        //group arrangement validation
+        if (nam === "groupArrange") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "groupArrange") {
+            if (val > 15) alert("Invalid mark!!");
+        }
+        //total mark validation
+        if (nam === "Total") {
+            if (!Number(val)) alert("Marks must be a number");
+        }
+        if (nam === "Total") {
+            if (val > 100) alert("Invalid mark!!");
+        }
+        this.setState({
+            ...this.state,
             [name]: value
-        })
-    ;
+        });
+    };
     onSubmit = (e)=>{
         e.preventDefault();
         const { Groupname , introduction , organization , voiceInflection , voiceRate , tools , eyeContact , groupArrange , Total  } = this.state;
@@ -31989,7 +32391,7 @@ class EveByPanel extends _react.Component {
                         children: [
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 84,
+                                lineNumber: 203,
                                 columnNumber: 16
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
@@ -32000,23 +32402,23 @@ class EveByPanel extends _react.Component {
                                 children: "Panel Presentaion Evaluation Form"
                             }, void 0, false, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 85,
+                                lineNumber: 204,
                                 columnNumber: 16
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 86,
+                                lineNumber: 205,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/EveByPanel.js",
-                        lineNumber: 83,
+                        lineNumber: 202,
                         columnNumber: 8
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                         fileName: "src/components/EveByPanel.js",
-                        lineNumber: 88,
+                        lineNumber: 207,
                         columnNumber: 12
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32042,29 +32444,29 @@ class EveByPanel extends _react.Component {
                                             class: "far fa-arrow-alt-circle-left"
                                         }, void 0, false, {
                                             fileName: "src/components/EveByPanel.js",
-                                            lineNumber: 93,
+                                            lineNumber: 212,
                                             columnNumber: 21
                                         }, this),
                                         "\xa0Go Back"
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/EveByPanel.js",
-                                    lineNumber: 92,
+                                    lineNumber: 211,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 91,
+                                lineNumber: 210,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 96,
+                                lineNumber: 215,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 96,
+                                lineNumber: 215,
                                 columnNumber: 26
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
@@ -32081,7 +32483,7 @@ class EveByPanel extends _react.Component {
                                                 children: "Group Name : "
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 102,
+                                                lineNumber: 221,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32094,37 +32496,37 @@ class EveByPanel extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 103,
+                                                lineNumber: 222,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 100,
+                                        lineNumber: 219,
                                         columnNumber: 12
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                                children: " Introduction"
+                                                children: " Introduction : (15 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 115,
+                                                lineNumber: 234,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
                                                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                    children: "Aprropriately introduced himself/ herself, the topic to be presented, and clearly explained objectives of the presentation"
+                                                    children: "Aprropriately introduced himself/ herself, the topic to be presented, and clearly explained objectives of the presentation (15 marks)"
                                                 }, void 0, false, {
                                                     fileName: "src/components/EveByPanel.js",
-                                                    lineNumber: 116,
+                                                    lineNumber: 235,
                                                     columnNumber: 52
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 116,
+                                                lineNumber: 235,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32137,37 +32539,37 @@ class EveByPanel extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 118,
+                                                lineNumber: 237,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 114,
+                                        lineNumber: 233,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                                children: "Organization"
+                                                children: "Organization : (15 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 131,
+                                                lineNumber: 250,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
                                                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                    children: " The presentation is organized in a logical manner"
+                                                    children: " The presentation is organized in a logical manner (15 marks)"
                                                 }, void 0, false, {
                                                     fileName: "src/components/EveByPanel.js",
-                                                    lineNumber: 132,
+                                                    lineNumber: 251,
                                                     columnNumber: 51
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 132,
+                                                lineNumber: 251,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32179,40 +32581,40 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 133,
+                                                lineNumber: 252,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 130,
+                                        lineNumber: 249,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                                children: "Voice"
+                                                children: "Voice : (20 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 146,
+                                                lineNumber: 265,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
                                                 children: [
                                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                        children: " Volume and inflection was effective"
+                                                        children: " Volume and inflection was effective (10 marks)"
                                                     }, void 0, false, {
                                                         fileName: "src/components/EveByPanel.js",
-                                                        lineNumber: 147,
+                                                        lineNumber: 266,
                                                         columnNumber: 51
                                                     }, this),
                                                     " "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 147,
+                                                lineNumber: 266,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32224,13 +32626,13 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 148,
+                                                lineNumber: 267,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 145,
+                                        lineNumber: 264,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32240,17 +32642,17 @@ class EveByPanel extends _react.Component {
                                                 className: "form-label",
                                                 children: [
                                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                        children: "Rate of speech was appropriate"
+                                                        children: "Rate of speech was appropriate (10 marks)"
                                                     }, void 0, false, {
                                                         fileName: "src/components/EveByPanel.js",
-                                                        lineNumber: 158,
+                                                        lineNumber: 277,
                                                         columnNumber: 50
                                                     }, this),
                                                     " "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 158,
+                                                lineNumber: 277,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32262,23 +32664,23 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 159,
+                                                lineNumber: 278,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 157,
+                                        lineNumber: 276,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                                children: "Tools"
+                                                children: "Tools : (20 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 170,
+                                                lineNumber: 289,
                                                 columnNumber: 16
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -32287,12 +32689,12 @@ class EveByPanel extends _react.Component {
                                                     children: " Audiovisual resources, visual aids, and / or handoutd were used appropriatly (not relied upon)"
                                                 }, void 0, false, {
                                                     fileName: "src/components/EveByPanel.js",
-                                                    lineNumber: 171,
+                                                    lineNumber: 290,
                                                     columnNumber: 50
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 171,
+                                                lineNumber: 290,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32304,37 +32706,37 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 173,
+                                                lineNumber: 292,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 169,
+                                        lineNumber: 288,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                                                children: "Audience Contact / Involvement  "
+                                                children: "Audience Contact / Involvement : (30 marks) "
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 183,
+                                                lineNumber: 302,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
                                                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                    children: " Eye Contact"
+                                                    children: " Eye Contact (15 marks)"
                                                 }, void 0, false, {
                                                     fileName: "src/components/EveByPanel.js",
-                                                    lineNumber: 184,
+                                                    lineNumber: 303,
                                                     columnNumber: 51
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 184,
+                                                lineNumber: 303,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32346,13 +32748,13 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 185,
+                                                lineNumber: 304,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 182,
+                                        lineNumber: 301,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32361,15 +32763,15 @@ class EveByPanel extends _react.Component {
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
                                                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                                    children: "Arrange inside the group"
+                                                    children: "Arrange inside the group (15 marks)"
                                                 }, void 0, false, {
                                                     fileName: "src/components/EveByPanel.js",
-                                                    lineNumber: 195,
+                                                    lineNumber: 314,
                                                     columnNumber: 51
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 195,
+                                                lineNumber: 314,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32381,29 +32783,24 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 196,
+                                                lineNumber: 315,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 194,
+                                        lineNumber: 313,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                         className: "form-group",
                                         children: [
-                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {}, void 0, false, {
-                                                fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 207,
-                                                columnNumber: 18
-                                            }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                                 className: "form-label",
-                                                children: "Total Mark : "
+                                                children: "Total Mark : (100 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 208,
+                                                lineNumber: 327,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32415,26 +32812,26 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 209,
+                                                lineNumber: 328,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 206,
+                                        lineNumber: 325,
                                         columnNumber: 16
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 98,
+                                lineNumber: 217,
                                 columnNumber: 12
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                 children: [
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 220,
+                                        lineNumber: 339,
                                         columnNumber: 20
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
@@ -32449,37 +32846,73 @@ class EveByPanel extends _react.Component {
                                                 children: " Submit the Result"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 222,
-                                                columnNumber: 20
+                                                lineNumber: 342,
+                                                columnNumber: 27
                                             }, this),
-                                            "\xa0"
+                                            "\xa0",
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                className: "btn btn-success",
+                                                style: {
+                                                    marginLeft: '890px',
+                                                    padding: '8px 8px',
+                                                    backgroundColor: '#3895d3',
+                                                    marginBottom: "10px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    href: "/panelEveHome",
+                                                    style: {
+                                                        textDecoration: 'none',
+                                                        backgroundColor: '#3895d3',
+                                                        color: 'white',
+                                                        fontSize: '16px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                            class: "far fa-arrow-alt-circle-left"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/EveByPanel.js",
+                                                            lineNumber: 347,
+                                                            columnNumber: 25
+                                                        }, this),
+                                                        "\xa0Go Back"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/EveByPanel.js",
+                                                    lineNumber: 346,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/EveByPanel.js",
+                                                lineNumber: 344,
+                                                columnNumber: 25
+                                            }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 221,
+                                        lineNumber: 340,
                                         columnNumber: 20
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 219,
+                                lineNumber: 338,
                                 columnNumber: 16
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/EveByPanel.js",
-                        lineNumber: 89,
+                        lineNumber: 208,
                         columnNumber: 12
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/EveByPanel.js",
-                lineNumber: 82,
+                lineNumber: 201,
                 columnNumber: 8
             }, this)
         }, void 0, false, {
             fileName: "src/components/EveByPanel.js",
-            lineNumber: 80,
+            lineNumber: 199,
             columnNumber: 1
         }, this);
     }
@@ -32673,7 +33106,7 @@ function PanelEveOne() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
                                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                        children: "Aprropriately introduced himself/ herself, the topic to be presented, and clearly explained objectives of the presentation"
+                                        children: "Aprropriately introduced himself/ herself, the topic to be presented, and clearly explained objectives of the presentation (15 marks)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveOne.js",
                                         lineNumber: 92,
@@ -32738,7 +33171,7 @@ function PanelEveOne() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
                                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                        children: " The presentation is organized in a logical manner"
+                                        children: " The presentation is organized in a logical manner (15 marks)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveOne.js",
                                         lineNumber: 101,
@@ -32803,7 +33236,7 @@ function PanelEveOne() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
                                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                        children: " Volume and inflection was effective"
+                                        children: " Volume and inflection was effective (10 marks)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveOne.js",
                                         lineNumber: 108,
@@ -32843,7 +33276,7 @@ function PanelEveOne() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
                                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                        children: " Rate of speech was appropriate"
+                                        children: " Rate of speech was appropriate (10 marks)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveOne.js",
                                         lineNumber: 112,
@@ -32908,7 +33341,7 @@ function PanelEveOne() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
                                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                        children: " Audiovisual resources, visual aids, and / or handoutd were used appropriatly (not relied upon)"
+                                        children: " Audiovisual resources, visual aids, and / or handoutd were used appropriatly (not relied upon) (20 marks)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveOne.js",
                                         lineNumber: 120,
@@ -32973,7 +33406,7 @@ function PanelEveOne() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
                                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                        children: " Eye Contact"
+                                        children: " Eye Contact (15 marks)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveOne.js",
                                         lineNumber: 128,
@@ -33013,7 +33446,7 @@ function PanelEveOne() {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
                                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                                        children: "Arrange inside the group"
+                                        children: "Arrange inside the group (15 marks)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveOne.js",
                                         lineNumber: 132,
@@ -33055,7 +33488,7 @@ function PanelEveOne() {
                                     style: {
                                         fontSize: '20px'
                                     },
-                                    children: "Total Mark"
+                                    children: "Total Mark (out of 100)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveOne.js",
                                     lineNumber: 136,

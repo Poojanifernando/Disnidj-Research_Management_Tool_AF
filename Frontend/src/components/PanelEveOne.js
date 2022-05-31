@@ -90,7 +90,7 @@ export default function PanelEveOne()  {
              </tr>
              <tr>
                <td><li>Aprropriately introduced himself/ herself, the topic to be presented, and clearly 
-                   explained objectives of the presentation</li></td>
+                   explained objectives of the presentation (15 marks)</li></td>
                <td><t></t><t></t>{introduction}</td>
              </tr>
              
@@ -98,18 +98,18 @@ export default function PanelEveOne()  {
              <td style={{fontSize:'20px'}}> <b> Organization  </b></td>
              </tr>
              <tr>
-               <td><li> The presentation is organized in a logical manner</li></td>
+               <td><li> The presentation is organized in a logical manner (15 marks)</li></td>
                <td><t></t><t></t>{organization}</td>
              </tr>
              <tr>
              <td style={{fontSize:'20px'}}> <b> Voice </b></td>
              </tr>
              <tr>
-               <td><li> Volume and inflection was effective</li></td>
+               <td><li> Volume and inflection was effective (10 marks)</li></td>
                <td><t></t><t></t>{voiceInflection}</td>
              </tr>
              <tr>
-               <td><li> Rate of speech was appropriate</li></td>
+               <td><li> Rate of speech was appropriate (10 marks)</li></td>
                <td><t></t><t></t>{voiceRate}</td>
              </tr>
              
@@ -118,22 +118,22 @@ export default function PanelEveOne()  {
              </tr>
              <tr>
                <td><li> Audiovisual resources, visual aids, and / or handoutd were used appropriatly
-                    (not relied upon)</li></td>
+                    (not relied upon) (20 marks)</li></td>
                <td><t></t><t></t>{tools}</td>
              </tr>
              <tr>
              <td style={{fontSize:'20px'}}> <b> Audience Contact / Involvement </b></td>
              </tr>
              <tr>
-               <td><li> Eye Contact</li></td>
+               <td><li> Eye Contact (15 marks)</li></td>
                <td><t></t><t></t>{eyeContact}</td>
              </tr>
              <tr>
-               <td><li>Arrange inside the group</li></td>
+               <td><li>Arrange inside the group (15 marks)</li></td>
                <td><t></t><t></t>{groupArrange}</td>
              </tr>
              <tr>
-               <td style={{fontSize:'20px'}}>Total Mark</td>
+               <td style={{fontSize:'20px'}}>Total Mark (out of 100)</td>
                <td><t></t><t></t>{Total}</td>
              </tr>
            </table>
