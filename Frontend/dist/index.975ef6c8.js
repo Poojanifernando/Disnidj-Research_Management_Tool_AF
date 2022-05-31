@@ -30698,57 +30698,83 @@ class EveHome extends _react.Component {
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                                        className: "btn btn-success",
-                                        style: {
-                                            marginLeft: '250px'
-                                        },
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                            href: "/supervEveHome",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            className: "btn btn-success",
                                             style: {
-                                                textDecoration: 'none',
-                                                color: 'white'
+                                                marginLeft: '250px'
                                             },
-                                            children: " Supervisor Evaluation"
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: "/supervEveHome",
+                                                style: {
+                                                    textDecoration: 'none',
+                                                    color: 'white'
+                                                },
+                                                children: " Supervisor Evaluation"
+                                            }, void 0, false, {
+                                                fileName: "src/components/EveHome.js",
+                                                lineNumber: 11,
+                                                columnNumber: 79
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/EveHome.js",
                                             lineNumber: 11,
-                                            columnNumber: 79
+                                            columnNumber: 14
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/EveHome.js",
+                                            lineNumber: 12,
+                                            columnNumber: 14
+                                        }, this),
+                                        " ",
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/EveHome.js",
+                                            lineNumber: 12,
+                                            columnNumber: 24
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/EveHome.js",
-                                        lineNumber: 11,
-                                        columnNumber: 14
-                                    }, this)
-                                }, void 0, false, {
+                                    ]
+                                }, void 0, true, {
                                     fileName: "src/components/EveHome.js",
                                     lineNumber: 10,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                                        className: "btn btn-success",
-                                        style: {
-                                            marginLeft: '250px'
-                                        },
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                            href: "/panelEveHome",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            className: "btn btn-success",
                                             style: {
-                                                textDecoration: 'none',
-                                                color: 'white'
+                                                marginLeft: '250px'
                                             },
-                                            children: " Panel Evaaluation  "
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: "/panelEveHome",
+                                                style: {
+                                                    textDecoration: 'none',
+                                                    color: 'white'
+                                                },
+                                                children: " Panel Evaaluation  "
+                                            }, void 0, false, {
+                                                fileName: "src/components/EveHome.js",
+                                                lineNumber: 15,
+                                                columnNumber: 80
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/EveHome.js",
                                             lineNumber: 15,
-                                            columnNumber: 80
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/EveHome.js",
+                                            lineNumber: 16,
+                                            columnNumber: 15
+                                        }, this),
+                                        " ",
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/EveHome.js",
+                                            lineNumber: 16,
+                                            columnNumber: 25
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/EveHome.js",
-                                        lineNumber: 15,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
+                                    ]
+                                }, void 0, true, {
                                     fileName: "src/components/EveHome.js",
                                     lineNumber: 14,
                                     columnNumber: 15
@@ -30762,57 +30788,83 @@ class EveHome extends _react.Component {
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
                             children: [
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                                        className: "btn btn-success",
-                                        style: {
-                                            marginLeft: '250px'
-                                        },
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                            href: "/UploadNaviAdmin",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            className: "btn btn-success",
                                             style: {
-                                                textDecoration: 'none',
-                                                color: 'white'
+                                                marginLeft: '250px'
                                             },
-                                            children: " Admin Document Upload  "
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: "/UploadNaviAdmin",
+                                                style: {
+                                                    textDecoration: 'none',
+                                                    color: 'white'
+                                                },
+                                                children: " Admin Document Upload  "
+                                            }, void 0, false, {
+                                                fileName: "src/components/EveHome.js",
+                                                lineNumber: 21,
+                                                columnNumber: 78
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/EveHome.js",
                                             lineNumber: 21,
-                                            columnNumber: 78
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/EveHome.js",
+                                            lineNumber: 22,
+                                            columnNumber: 13
+                                        }, this),
+                                        " ",
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/EveHome.js",
+                                            lineNumber: 22,
+                                            columnNumber: 23
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/EveHome.js",
-                                        lineNumber: 21,
-                                        columnNumber: 13
-                                    }, this)
-                                }, void 0, false, {
+                                    ]
+                                }, void 0, true, {
                                     fileName: "src/components/EveHome.js",
                                     lineNumber: 20,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                                        className: "btn btn-success",
-                                        style: {
-                                            marginLeft: '250px'
-                                        },
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                            href: "/SubmitNavbar",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            className: "btn btn-success",
                                             style: {
-                                                textDecoration: 'none',
-                                                color: 'white'
+                                                marginLeft: '250px'
                                             },
-                                            children: " Student Submittions  "
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: "/SubmitNavbar",
+                                                style: {
+                                                    textDecoration: 'none',
+                                                    color: 'white'
+                                                },
+                                                children: " Student Submittions  "
+                                            }, void 0, false, {
+                                                fileName: "src/components/EveHome.js",
+                                                lineNumber: 25,
+                                                columnNumber: 78
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/EveHome.js",
                                             lineNumber: 25,
-                                            columnNumber: 78
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/EveHome.js",
+                                            lineNumber: 26,
+                                            columnNumber: 13
+                                        }, this),
+                                        " ",
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/EveHome.js",
+                                            lineNumber: 26,
+                                            columnNumber: 23
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/EveHome.js",
-                                        lineNumber: 25,
-                                        columnNumber: 13
-                                    }, this)
-                                }, void 0, false, {
+                                    ]
+                                }, void 0, true, {
                                     fileName: "src/components/EveHome.js",
                                     lineNumber: 24,
                                     columnNumber: 13
@@ -30824,29 +30876,42 @@ class EveHome extends _react.Component {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
-                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                                className: "btn btn-success",
-                                style: {
-                                    marginLeft: '250px'
-                                },
-                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                    href: "/TempNavbar",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    className: "btn btn-success",
                                     style: {
-                                        textDecoration: 'none',
-                                        color: 'white'
+                                        marginLeft: '250px'
                                     },
-                                    children: " Templates Submittions  "
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        href: "/TempNavbar",
+                                        style: {
+                                            textDecoration: 'none',
+                                            color: 'white'
+                                        },
+                                        children: " Templates Submittions  "
+                                    }, void 0, false, {
+                                        fileName: "src/components/EveHome.js",
+                                        lineNumber: 31,
+                                        columnNumber: 78
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/EveHome.js",
                                     lineNumber: 31,
-                                    columnNumber: 78
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/EveHome.js",
+                                    lineNumber: 32,
+                                    columnNumber: 13
+                                }, this),
+                                " ",
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/EveHome.js",
+                                    lineNumber: 32,
+                                    columnNumber: 23
                                 }, this)
-                            }, void 0, false, {
-                                fileName: "src/components/EveHome.js",
-                                lineNumber: 31,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
+                            ]
+                        }, void 0, true, {
                             fileName: "src/components/EveHome.js",
                             lineNumber: 30,
                             columnNumber: 13
@@ -33305,73 +33370,74 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
-const Navbar = ()=>{
-    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
-        className: "navbar navbar-expand-lg navbar-dark bg-primary mb-5",
-        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-            className: "container",
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                    className: "navbar-brand",
-                    to: "/AdminUpHome",
-                    children: "UPLOADER"
-                }, void 0, false, {
-                    fileName: "src/components/UploadNavbar.js",
-                    lineNumber: 8,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
-                        className: "navbar-nav ms-auto mb-2 mb-lg-0",
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                            className: "nav-item",
-                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                className: "nav-link",
-                                to: "/AdminAdd",
-                                children: "Add"
-                            }, void 0, false, {
-                                fileName: "src/components/UploadNavbar.js",
-                                lineNumber: 14,
-                                columnNumber: 15
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/components/UploadNavbar.js",
-                            lineNumber: 13,
-                            columnNumber: 13
-                        }, undefined)
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+class UploadNavbar extends _react.Component {
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+            className: "navbar navbar-expand-lg navbar-dark bg-primary mb-5",
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "container",
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                        className: "navbar-brand",
+                        to: "/AdminUpHome",
+                        children: "UPLOADER"
                     }, void 0, false, {
                         fileName: "src/components/UploadNavbar.js",
-                        lineNumber: 12,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/UploadNavbar.js",
-                    lineNumber: 11,
-                    columnNumber: 9
-                }, undefined)
-            ]
-        }, void 0, true, {
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                            className: "navbar-nav ms-auto mb-2 mb-lg-0",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                className: "nav-item",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    className: "nav-link",
+                                    to: "/AdminAdd",
+                                    children: "Add"
+                                }, void 0, false, {
+                                    fileName: "src/components/UploadNavbar.js",
+                                    lineNumber: 17,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/UploadNavbar.js",
+                                lineNumber: 16,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/UploadNavbar.js",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/UploadNavbar.js",
+                        lineNumber: 14,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/UploadNavbar.js",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this)
+        }, void 0, false, {
             fileName: "src/components/UploadNavbar.js",
-            lineNumber: 7,
+            lineNumber: 9,
             columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/UploadNavbar.js",
-        lineNumber: 6,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Navbar;
-exports.default = Navbar;
-var _c;
-$RefreshReg$(_c, "Navbar");
+        }, this);
+    }
+}
+exports.default = UploadNavbar;
 
   $parcel$ReactRefreshHelpers$3978.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bmuAz":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"bmuAz":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5374 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

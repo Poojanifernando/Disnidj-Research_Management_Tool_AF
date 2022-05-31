@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
+import React, { Component } from 'react'
 
-
-const Navbar = () => {
-  return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+export default class UploadNavbar extends Component {
+  render() {
+    return (
+      
+      
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
       <div className="container">
         <Link className="navbar-brand" to="/AdminUpHome">
           UPLOADER
@@ -19,7 +22,8 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  );
-};
+    
+    )
+  }
+}
 
-export default Navbar;
