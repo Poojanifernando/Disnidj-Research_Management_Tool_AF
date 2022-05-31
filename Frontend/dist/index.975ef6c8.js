@@ -33800,41 +33800,84 @@ const STDHome = ()=>{
         fetchUsers();
     }, []);
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-        className: "row",
-        children: users?.map((user)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                className: "col-md-3 card me-3 mt-2 p-0 mb-2 d-flex",
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
-                        children: user.name
-                    }, void 0, false, {
-                        fileName: "src/components/StudentSubHome.js",
-                        lineNumber: 23,
-                        columnNumber: 7
-                    }, undefined),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                        href: user.pdf,
-                        download: true,
-                        children: "Click to download"
-                    }, void 0, false, {
-                        fileName: "src/components/StudentSubHome.js",
-                        lineNumber: 24,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                        className: "p-2"
-                    }, void 0, false, {
-                        fileName: "src/components/StudentSubHome.js",
-                        lineNumber: 25,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, user._id, true, {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                className: "btn btn-success",
+                style: {
+                    marginLeft: '10px',
+                    marginTop: '20px',
+                    padding: '10px 10px',
+                    backgroundColor: '#3895d3'
+                },
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                    href: "/SubmitNavbar",
+                    style: {
+                        textDecoration: 'none',
+                        backgroundColor: '#3895d3',
+                        color: 'white',
+                        fontSize: '20px'
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                            class: "far fa-arrow-alt-circle-left"
+                        }, void 0, false, {
+                            fileName: "src/components/StudentSubHome.js",
+                            lineNumber: 20,
+                            columnNumber: 15
+                        }, undefined),
+                        "\xa0Go Back"
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/StudentSubHome.js",
+                    lineNumber: 19,
+                    columnNumber: 15
+                }, undefined)
+            }, void 0, false, {
                 fileName: "src/components/StudentSubHome.js",
-                lineNumber: 21,
-                columnNumber: 9
+                lineNumber: 18,
+                columnNumber: 15
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "row",
+                style: {
+                    marginLeft: '20px'
+                },
+                children: users?.map((user)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-md-3 card me-3 mt-2 p-0 mb-2 d-flex",
+                        style: {
+                            backgroundColor: '#24d3fc'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                                children: user.name
+                            }, void 0, false, {
+                                fileName: "src/components/StudentSubHome.js",
+                                lineNumber: 30,
+                                columnNumber: 19
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                href: user.pdf,
+                                download: true,
+                                children: "Click to download"
+                            }, void 0, false, {
+                                fileName: "src/components/StudentSubHome.js",
+                                lineNumber: 31,
+                                columnNumber: 19
+                            }, undefined)
+                        ]
+                    }, user._id, true, {
+                        fileName: "src/components/StudentSubHome.js",
+                        lineNumber: 28,
+                        columnNumber: 17
+                    }, undefined)
+                )
+            }, void 0, false, {
+                fileName: "src/components/StudentSubHome.js",
+                lineNumber: 23,
+                columnNumber: 12
             }, undefined)
-        )
-    }, void 0, false, {
+        ]
+    }, void 0, true, {
         fileName: "src/components/StudentSubHome.js",
         lineNumber: 17,
         columnNumber: 5
@@ -33862,73 +33905,211 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
-const Navbar = ()=>{
-    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
-        className: "navbar navbar-expand-lg navbar-dark bg-primary mb-5",
-        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-            className: "container",
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                    className: "navbar-brand",
-                    to: "/StudentSubHome",
-                    children: "UPLOADER"
-                }, void 0, false, {
-                    fileName: "src/components/SubmitNavbar.js",
-                    lineNumber: 8,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
-                        className: "navbar-nav ms-auto mb-2 mb-lg-0",
-                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
-                            className: "nav-item",
-                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
-                                className: "nav-link",
-                                to: "/StudentAdd",
-                                children: "Add"
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+class SubmitNavbar extends _react.Component {
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                style: {
+                    marginTop: "10px"
+                },
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        style: {
+                            background: '#000080',
+                            color: 'white',
+                            marginLeft: '0'
+                        },
+                        children: [
+                            " ",
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                children: "Student Document Submission Page "
                             }, void 0, false, {
                                 fileName: "src/components/SubmitNavbar.js",
-                                lineNumber: 14,
-                                columnNumber: 15
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/components/SubmitNavbar.js",
-                            lineNumber: 13,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
+                                lineNumber: 12,
+                                columnNumber: 80
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/SubmitNavbar.js",
                         lineNumber: 12,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-success",
+                        style: {
+                            marginLeft: '10px',
+                            marginRight: '0px',
+                            padding: '10px 10px',
+                            backgroundColor: '#3895d3'
+                        },
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/",
+                            style: {
+                                textDecoration: 'none',
+                                backgroundColor: '#3895d3',
+                                color: 'white',
+                                fontSize: '20px'
+                            },
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                    class: "far fa-arrow-alt-circle-left"
+                                }, void 0, false, {
+                                    fileName: "src/components/SubmitNavbar.js",
+                                    lineNumber: 16,
+                                    columnNumber: 21
+                                }, this),
+                                "\xa0Go Back"
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/SubmitNavbar.js",
+                            lineNumber: 15,
+                            columnNumber: 17
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/SubmitNavbar.js",
+                        lineNumber: 14,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '110px',
+                                            marginRight: '0px',
+                                            padding: '40px 40px',
+                                            backgroundColor: '#3895d3'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            className: "btn btn-success",
+                                            href: "/StudentSubHome",
+                                            style: {
+                                                textDecoration: 'none',
+                                                backgroundColor: '#0147ab',
+                                                color: 'white',
+                                                fontSize: '25px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fa-solid fa-cloud-arrow-up"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/SubmitNavbar.js",
+                                                    lineNumber: 24,
+                                                    columnNumber: 23
+                                                }, this),
+                                                "\xa0 SUBMITS"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/SubmitNavbar.js",
+                                            lineNumber: 23,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/SubmitNavbar.js",
+                                        lineNumber: 22,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/SubmitNavbar.js",
+                                    lineNumber: 21,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                        style: {
+                                            borderLeft: "6px solid #808080",
+                                            height: '600px',
+                                            marginLeft: '370px'
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "src/components/SubmitNavbar.js",
+                                        lineNumber: 30,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/SubmitNavbar.js",
+                                    lineNumber: 29,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '400px',
+                                            marginRight: '0px',
+                                            padding: '50px 50px',
+                                            backgroundColor: '#3895d3'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            className: "btn btn-success",
+                                            href: "/StudentAdd",
+                                            style: {
+                                                textDecoration: 'none',
+                                                backgroundColor: '#0147ab',
+                                                color: 'white',
+                                                fontSize: '25px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fa-solid fa-file-circle-plus"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/SubmitNavbar.js",
+                                                    lineNumber: 36,
+                                                    columnNumber: 23
+                                                }, this),
+                                                "\xa0 ADD SUBMISSIONS"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/SubmitNavbar.js",
+                                            lineNumber: 35,
+                                            columnNumber: 23
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/SubmitNavbar.js",
+                                        lineNumber: 34,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/SubmitNavbar.js",
+                                    lineNumber: 33,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/SubmitNavbar.js",
+                            lineNumber: 20,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/SubmitNavbar.js",
+                        lineNumber: 19,
                         columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/SubmitNavbar.js",
-                    lineNumber: 11,
-                    columnNumber: 9
-                }, undefined)
-            ]
-        }, void 0, true, {
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/SubmitNavbar.js",
+                lineNumber: 10,
+                columnNumber: 13
+            }, this)
+        }, void 0, false, {
             fileName: "src/components/SubmitNavbar.js",
-            lineNumber: 7,
+            lineNumber: 8,
             columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/SubmitNavbar.js",
-        lineNumber: 6,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Navbar;
-exports.default = Navbar;
-var _c;
-$RefreshReg$(_c, "Navbar");
+        }, this);
+    }
+}
+exports.default = SubmitNavbar;
 
   $parcel$ReactRefreshHelpers$cd35.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9Zgrd":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"9Zgrd":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$9090 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33968,75 +34149,233 @@ const StudentAdd = ()=>{
         }
     };
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-        style: {
-            maxWidth: 500,
-            margin: "auto"
-        },
-        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
-            onSubmit: upload,
-            encType: "multipart/form-data",
-            children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    className: "form-group",
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
-                        type: "text",
-                        placeholder: "Name",
-                        value: name,
-                        required: true,
-                        onChange: (e)=>{
-                            setName(e.target.value);
-                        },
-                        className: "form-control"
-                    }, void 0, false, {
-                        fileName: "src/components/StudentAdd.js",
-                        lineNumber: 47,
-                        columnNumber: 3
-                    }, undefined)
-                }, void 0, false, {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                className: "btn btn-success",
+                style: {
+                    marginLeft: '10px',
+                    marginTop: '20px',
+                    padding: '10px 10px',
+                    backgroundColor: '#3895d3'
+                },
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                    href: "/SubmitNavbar",
+                    style: {
+                        textDecoration: 'none',
+                        backgroundColor: '#3895d3',
+                        color: 'white',
+                        fontSize: '20px'
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                            class: "far fa-arrow-alt-circle-left"
+                        }, void 0, false, {
+                            fileName: "src/components/StudentAdd.js",
+                            lineNumber: 46,
+                            columnNumber: 5
+                        }, undefined),
+                        "\xa0Go Back"
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/StudentAdd.js",
-                    lineNumber: 46,
-                    columnNumber: 3
-                }, undefined),
-                "Upload Pdf",
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    className: "form-group",
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
-                        type: "file",
-                        multiple: true,
-                        required: true,
-                        filename: "uploaded_Image",
-                        className: "form-control-file",
-                        onChange: (e)=>{
-                            setPdf(e.target.files);
-                        }
-                    }, void 0, false, {
-                        fileName: "src/components/StudentAdd.js",
-                        lineNumber: 54,
-                        columnNumber: 5
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/StudentAdd.js",
-                    lineNumber: 53,
-                    columnNumber: 1
-                }, undefined),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                    className: "mt-2",
-                    type: "submit",
-                    variant: "primary",
-                    size: "lg",
-                    children: "Upload"
-                }, void 0, false, {
-                    fileName: "src/components/StudentAdd.js",
-                    lineNumber: 59,
-                    columnNumber: 3
+                    lineNumber: 45,
+                    columnNumber: 5
                 }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/StudentAdd.js",
-            lineNumber: 45,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
+            }, void 0, false, {
+                fileName: "src/components/StudentAdd.js",
+                lineNumber: 44,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                style: {
+                    Width: 500,
+                    margin: "auto",
+                    marginTop: '70px',
+                    backgroundColor: '#187bcd'
+                },
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                        onSubmit: upload,
+                        encType: "multipart/form-data",
+                        style: {
+                            marginLeft: '400px'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 54,
+                                columnNumber: 5
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                style: {
+                                    color: "white"
+                                },
+                                children: [
+                                    "Upload Your PDF Document HERE ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                        class: "fa-solid fa-cloud-arrow-up"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StudentAdd.js",
+                                        lineNumber: 56,
+                                        columnNumber: 64
+                                    }, undefined),
+                                    " !"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 56,
+                                columnNumber: 5
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 58,
+                                columnNumber: 5
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 58,
+                                columnNumber: 14
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 58,
+                                columnNumber: 23
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "form-group",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                    type: "text",
+                                    placeholder: "Give a name for the Uploading Document",
+                                    style: {
+                                        width: '500px',
+                                        marginLeft: '80px'
+                                    },
+                                    value: name,
+                                    required: true,
+                                    onChange: (e)=>{
+                                        setName(e.target.value);
+                                    },
+                                    className: "form-control"
+                                }, void 0, false, {
+                                    fileName: "src/components/StudentAdd.js",
+                                    lineNumber: 61,
+                                    columnNumber: 15
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 60,
+                                columnNumber: 5
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 68,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 68,
+                                columnNumber: 20
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "form-group",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                    type: "file",
+                                    multiple: true,
+                                    required: true,
+                                    filename: "uploaded_Image",
+                                    style: {
+                                        textDecoration: 'none',
+                                        backgroundColor: '#0147ab',
+                                        color: 'white',
+                                        fontSize: '25px',
+                                        width: '450px',
+                                        marginLeft: '110px'
+                                    },
+                                    className: "form-control-file",
+                                    onChange: (e)=>{
+                                        setPdf(e.target.files);
+                                    }
+                                }, void 0, false, {
+                                    fileName: "src/components/StudentAdd.js",
+                                    lineNumber: 71,
+                                    columnNumber: 13
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 69,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 76,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 76,
+                                columnNumber: 20
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 76,
+                                columnNumber: 29
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 76,
+                                columnNumber: 38
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                class: "btn btn-info",
+                                style: {
+                                    textDecoration: 'none',
+                                    color: 'white',
+                                    fontSize: '25px',
+                                    width: '250px',
+                                    marginLeft: '210px'
+                                },
+                                type: "submit",
+                                variant: "primary",
+                                size: "lg",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                        class: "fa-solid fa-file-pdf"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StudentAdd.js",
+                                        lineNumber: 84,
+                                        columnNumber: 21
+                                    }, undefined),
+                                    "\xa0Upload"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/StudentAdd.js",
+                                lineNumber: 79,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/StudentAdd.js",
+                        lineNumber: 53,
+                        columnNumber: 3
+                    }, undefined),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/StudentAdd.js",
+                        lineNumber: 89,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/StudentAdd.js",
+                        lineNumber: 89,
+                        columnNumber: 20
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/StudentAdd.js",
+                lineNumber: 49,
+                columnNumber: 1
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/components/StudentAdd.js",
         lineNumber: 43,
         columnNumber: 5
