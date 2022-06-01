@@ -92,13 +92,13 @@ export default function App() {
 
 
 {/* Ramona */}
-        <Route path="/dd" element={<UHome/>}></Route>
+        <Route path="/" element={<UHome/>}></Route>
         <Route path="/groupReg" element={<GroupReg/>}></Route>
         <Route path="/groups" element={<Groups/>}></Route>
         <Route path="/topicReg" element={<TopicReg/>}></Route>
         <Route path="/addArea" element={<AddArea/>}></Route>
         <Route path="/details/:id" element={<Details/>}></Route>
-        <Route path="/" element={<Ahome/>}></Route>
+        <Route path="/adminHome" element={<Ahome/>}></Route>
         <Route path="/view" element={<GroupAdmin/>}></Route>
         <Route path="/Areas" element={<Areas/>}></Route>
         <Route path="/ViewAreas" element={<ViewAreas/>}></Route>
