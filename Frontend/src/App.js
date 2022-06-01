@@ -81,7 +81,9 @@ export default function App() {
         <Route path="/view" element={<GroupAdmin/>}></Route>
         <Route path="/Areas" element={<Areas/>}></Route>
         <Route path="/ViewAreas" element={<ViewAreas/>}></Route>
-    
+        <Route path="/Supervisors" element={<Supervisors/>}></Route>
+
+
    </Routes>
 
 </Router>
