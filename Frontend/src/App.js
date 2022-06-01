@@ -37,6 +37,7 @@ import GroupAdmin from './components/A_Groups';
 import Areas from './components/A_Areas';
 import ViewAreas from './components/U_Areas';
 import Supervisors from './components/A_Supervisors';
+import Response from './components/A_Response';
 
 
 export default function App() {
@@ -83,6 +84,7 @@ export default function App() {
         <Route path="/Areas" element={<Areas/>}></Route>
         <Route path="/ViewAreas" element={<ViewAreas/>}></Route>
         <Route path="/Supervisors" element={<Supervisors/>}></Route>
+        <Route path="/Response" element={<Response/>}></Route>
 
 
    </Routes>
