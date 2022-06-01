@@ -29,11 +29,13 @@ export default class A_Home extends Component {
                    
                     <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Formations</a></li>
                     
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Project Evaluations</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/EveHome" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Project Evaluations</a></li>
+
+                    <li className="nav-item"><a className="nav-link" href="/DocumentSubHome" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents / Templates Submission</a></li>
                     
                   
                     
-                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"900px"}}>Log Out</a></li>
+                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"700px"}}>Log Out</a></li>
                    
                   
                 </ul>
