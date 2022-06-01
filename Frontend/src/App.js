@@ -1,5 +1,7 @@
 import React from  'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
+//Disni
 import SupervEveHome from './components/SupervEveHome';
 import EveBySuperv from './components/EveBySuperv';
 import SupervEveOne from './components/SupervEveOne';
@@ -14,6 +16,7 @@ import AdminAdd from './components/AdminAdd';
 import AdminUpHome from './components/AdminUpHome';
 import UploadNavbar from './components/UploadNavbar';
 //document submit
+import DocumentSubHome from './components/DocumentSubHome';
 import StudentSubHome from './components/StudentSubHome';
 import SubmitNavbar from './components/SubmitNavbar';
 import StudentAdd from './components/StudentAdd';
@@ -42,6 +45,7 @@ export default function App() {
 
       <Routes>
 
+{/* Disni */}
         <Route path="/EveHome" element={<EveHome/>}></Route>
         <Route path="/supervEveHome" element={<SupervEveHome/>}></Route>
         <Route path="/newEvaluationSuperv" element={<EveBySuperv/>}></Route>
@@ -53,18 +57,19 @@ export default function App() {
         <Route path="/PanelevaluationEdit/:id" element={<PanelEveEdit/>}></Route>
         <Route path="/CheckOnePanelEve/:id" element={<PanelEveOne/>}></Route>
 
-        <Route path="/AdminAdd" element={<AdminAdd/>}></Route>
-        <Route path="/AdminUpHome" element={<AdminUpHome/>}></Route>
-        <Route path="/UploadNaviAdmin" element={<UploadNavbar/>}></Route>
-
         <Route path="/StudentSubHome" element={<StudentSubHome/>}></Route>
         <Route path="/SubmitNavbar" element={<SubmitNavbar/>}></Route>
         <Route path="/StudentAdd" element={<StudentAdd/>}></Route>
        
-
+        <Route path="/DocumentSubHome" element={<DocumentSubHome/>}></Route>
         <Route path="/TempUpHome" element={<TempUpHome/>}></Route>
         <Route path="/TempNavbar" element={<TempNavbar/>}></Route>
         <Route path="/TempAdd" element={<TempAdd/>}></Route>
+
+        <Route path="/AdminAdd" element={<AdminAdd/>}></Route>
+        <Route path="/AdminUpHome" element={<AdminUpHome/>}></Route>
+        <Route path="/UploadNaviAdmin" element={<UploadNavbar/>}></Route>
+
 {/* Ramona */}
         <Route path="/" element={<UHome/>}></Route>
         <Route path="/groupReg" element={<GroupReg/>}></Route>

@@ -145,7 +145,7 @@ handleSearchArea=(e)=>{
             <td>
               <button className="btn btn-success" 
               style={{marginLeft:'760px',padding:'8px 8px',backgroundColor:'#3895d3'}}>
-                <a href="/" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'16px'}}> 
+                <a href="/EveHome" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'16px'}}> 
                 <i class="far fa-arrow-alt-circle-left"></i>&nbsp;Go Back</a>
               </button>
             </td>

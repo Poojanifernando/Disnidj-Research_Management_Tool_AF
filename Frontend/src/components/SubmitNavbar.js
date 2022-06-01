@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import submit from '../../public/submit.jpg';
 
 import React, { Component } from 'react'
 
@@ -16,10 +17,13 @@ export default class SubmitNavbar extends Component {
                     <i class="far fa-arrow-alt-circle-left"></i>&nbsp;Go Back</a>
                   </button>
 
+                  <div style={{marginLeft:'250px'}}><img src={submit} class="mx-auto" alt="evaluation" width="900" height="500" /></div>
+          
+          
           <table>
             <tr>
             <td>
-                <button className="btn btn-success" style={{marginLeft:'110px', marginRight:'0px',padding:'40px 40px',backgroundColor:'#3895d3'}}>
+                <button className="btn btn-success" style={{marginLeft:'110px', marginRight:'0px',padding:'30px 30px',backgroundColor:'#3895d3'}}>
                     <a className='btn btn-success' href='/StudentSubHome' style={{textDecoration:'none',backgroundColor:'#0147ab',color:'white',fontSize:'25px'}}>
                       <i class="fa-solid fa-cloud-arrow-up"></i>&nbsp; SUBMITS
                       </a>
@@ -27,11 +31,7 @@ export default class SubmitNavbar extends Component {
               </td>
 
               <td>
-                <p style={{borderLeft:"6px solid #808080", height:'600px',marginLeft:'370px'}}></p>
-              </td>
-
-              <td>
-                <button className="btn btn-success" style={{marginLeft:'400px', marginRight:'0px',padding:'50px 50px',backgroundColor:'#3895d3'}}>
+                <button className="btn btn-success" style={{marginLeft:'750px', marginRight:'0px',padding:'35px 35px',backgroundColor:'#3895d3'}}>
                       <a className='btn btn-success' href='/StudentAdd' style={{textDecoration:'none',backgroundColor:'#0147ab',color:'white',fontSize:'25px'}}>
                       <i class="fa-solid fa-file-circle-plus"></i>&nbsp; ADD SUBMISSIONS
                       </a>   

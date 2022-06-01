@@ -183,10 +183,11 @@ export default function SupervEveEdit()  {
         <h1 style={{backgroundColor:'#000080', color:"white"}}><center>Document Evaluation Sheet Edit</center>  </h1>
         <br></br><br></br>
 
-          <button className="btn btn-success" style={{marginLeft:'900px',padding:'10px 10px',backgroundColor:'#3895d3'}}>
-            <a href="/supervEveHome" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'20px'}}> 
-                  <i class="far fa-arrow-alt-circle-left"></i>&nbsp;Go Back</a>
-          </button>
+                        <button className="btn btn-success" 
+                        style={{marginLeft:'910px',padding:'8px 8px',backgroundColor:'#3895d3', marginBottom:"10px"}}>
+                        <a href="/supervEveHome" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'16px'}}> 
+                        <i class="far fa-arrow-alt-circle-left"></i>&nbsp;Go Back</a>
+                        </button>
 
         <br></br> <br></br> 
 

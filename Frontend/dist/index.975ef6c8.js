@@ -22644,6 +22644,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
+//Disni
 var _supervEveHome = require("./components/SupervEveHome");
 var _supervEveHomeDefault = parcelHelpers.interopDefault(_supervEveHome);
 var _eveBySuperv = require("./components/EveBySuperv");
@@ -22670,6 +22671,8 @@ var _adminUpHomeDefault = parcelHelpers.interopDefault(_adminUpHome);
 var _uploadNavbar = require("./components/UploadNavbar");
 var _uploadNavbarDefault = parcelHelpers.interopDefault(_uploadNavbar);
 //document submit
+var _documentSubHome = require("./components/DocumentSubHome");
+var _documentSubHomeDefault = parcelHelpers.interopDefault(_documentSubHome);
 var _studentSubHome = require("./components/StudentSubHome");
 var _studentSubHomeDefault = parcelHelpers.interopDefault(_studentSubHome);
 var _submitNavbar = require("./components/SubmitNavbar");
@@ -22683,6 +22686,27 @@ var _tempNavbar = require("./components/TempNavbar");
 var _tempNavbarDefault = parcelHelpers.interopDefault(_tempNavbar);
 var _tempAdd = require("./components/TempAdd");
 var _tempAddDefault = parcelHelpers.interopDefault(_tempAdd);
+//Ramona
+var _uGroupReg = require("./components/U_GroupReg");
+var _uGroupRegDefault = parcelHelpers.interopDefault(_uGroupReg);
+var _uGroups = require("./components/U_Groups");
+var _uGroupsDefault = parcelHelpers.interopDefault(_uGroups);
+var _uTopicReg = require("./components/U_TopicReg");
+var _uTopicRegDefault = parcelHelpers.interopDefault(_uTopicReg);
+var _uDetails = require("./components/U_Details");
+var _uDetailsDefault = parcelHelpers.interopDefault(_uDetails);
+var _aAddArea = require("./components/A_AddArea");
+var _aAddAreaDefault = parcelHelpers.interopDefault(_aAddArea);
+var _uHome = require("./components/U_Home");
+var _uHomeDefault = parcelHelpers.interopDefault(_uHome);
+var _aHome = require("./components/A_Home");
+var _aHomeDefault = parcelHelpers.interopDefault(_aHome);
+var _aGroups = require("./components/A_Groups");
+var _aGroupsDefault = parcelHelpers.interopDefault(_aGroups);
+var _aAreas = require("./components/A_Areas");
+var _aAreasDefault = parcelHelpers.interopDefault(_aAreas);
+var _uAreas = require("./components/U_Areas");
+var _uAreasDefault = parcelHelpers.interopDefault(_uAreas);
 function App() {
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
         className: "App",
@@ -22690,11 +22714,11 @@ function App() {
             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Routes, {
                 children: [
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
-                        path: "/",
+                        path: "/EveHome",
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_eveHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 34,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22702,7 +22726,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_supervEveHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 35,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22710,7 +22734,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_eveBySupervDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 36,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22718,7 +22742,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_supervEveEditDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 37,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22726,7 +22750,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_supervEveOneDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 38,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22734,7 +22758,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_panelEveHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 40,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22742,7 +22766,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_eveByPanelDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 41,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22750,7 +22774,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_panelEveEditDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 42,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22758,31 +22782,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_panelEveOneDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 43,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
-                        path: "/AdminAdd",
-                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_adminAddDefault.default, {}, void 0, false, void 0, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 45,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
-                        path: "/AdminUpHome",
-                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_adminUpHomeDefault.default, {}, void 0, false, void 0, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 46,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
-                        path: "/UploadNaviAdmin",
-                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uploadNavbarDefault.default, {}, void 0, false, void 0, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 47,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22790,7 +22790,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_studentSubHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 49,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22798,7 +22798,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_submitNavbarDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 50,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22806,7 +22806,15 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_studentAddDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 51,
+                        lineNumber: 62,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/DocumentSubHome",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_documentSubHomeDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 64,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22814,7 +22822,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_tempUpHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 54,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22822,7 +22830,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_tempNavbarDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 55,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22830,23 +22838,127 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_tempAddDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 56,
+                        lineNumber: 67,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/AdminAdd",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_adminAddDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 69,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/AdminUpHome",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_adminUpHomeDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 70,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/UploadNaviAdmin",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uploadNavbarDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 71,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uHomeDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 74,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/groupReg",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uGroupRegDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 75,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/groups",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uGroupsDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 76,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/topicReg",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uTopicRegDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 77,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/addArea",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aAddAreaDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 78,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/details/:id",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uDetailsDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 79,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/adminHome",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aHomeDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 80,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/view",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aGroupsDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 81,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/Areas",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aAreasDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 82,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/ViewAreas",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uAreasDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 83,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 32,
+                lineNumber: 46,
                 columnNumber: 7
             }, this)
         }, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 30,
+            lineNumber: 44,
             columnNumber: 5
         }, this)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 29,
+        lineNumber: 43,
         columnNumber: 5
     }, this);
 }
@@ -22860,7 +22972,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"fdOAw","./components/SupervEveHome":"lgj1Z","./components/EveBySuperv":"gVhyL","./components/SupervEveOne":"grwQZ","./components/SupervEveEdit":"lSQyh","./components/EveHome":"04TgU","./components/PanelEveHome":"khTZt","./components/PanelEveEdit":"kqokk","./components/EveByPanel":"lwzVe","./components/PanelEveOne":"gEPBc","./components/AdminAdd":"jznsC","./components/AdminUpHome":"1ZkJA","./components/UploadNavbar":"3NVxq","./components/StudentSubHome":"bmuAz","./components/SubmitNavbar":"5yXNr","./components/StudentAdd":"9Zgrd","./components/TempUpHome":"gQ8zR","./components/TempNavbar":"8MhU8","./components/TempAdd":"8G8Ak"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"fdOAw","./components/SupervEveHome":"lgj1Z","./components/EveBySuperv":"gVhyL","./components/SupervEveOne":"grwQZ","./components/SupervEveEdit":"lSQyh","./components/EveHome":"04TgU","./components/PanelEveHome":"khTZt","./components/PanelEveEdit":"kqokk","./components/EveByPanel":"lwzVe","./components/PanelEveOne":"gEPBc","./components/AdminAdd":"jznsC","./components/AdminUpHome":"1ZkJA","./components/UploadNavbar":"3NVxq","./components/StudentSubHome":"bmuAz","./components/SubmitNavbar":"5yXNr","./components/StudentAdd":"9Zgrd","./components/TempUpHome":"gQ8zR","./components/TempNavbar":"8MhU8","./components/TempAdd":"8G8Ak","./components/U_GroupReg":"2nIZW","./components/U_Groups":"bQK4Y","./components/U_TopicReg":"FqqiK","./components/U_Details":"75Fqx","./components/A_AddArea":"4Y7tU","./components/U_Home":"bccQg","./components/A_Home":"iz2K7","./components/A_Groups":"9eZdm","./components/A_Areas":"gyXeh","./components/U_Areas":"boGkQ","./components/DocumentSubHome":"aNupV"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -25122,7 +25234,7 @@ class SupervEveHome extends _react.Component {
                                             backgroundColor: '#3895d3'
                                         },
                                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                            href: "/",
+                                            href: "/EveHome",
                                             style: {
                                                 textDecoration: 'none',
                                                 backgroundColor: '#3895d3',
@@ -28611,10 +28723,10 @@ class EveBySuperv extends _react.Component {
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
                                 className: "btn btn-success",
                                 style: {
-                                    marginLeft: '900px',
-                                    marginRight: '0px',
-                                    padding: '10px 10px',
-                                    backgroundColor: '#3895d3'
+                                    marginLeft: '910px',
+                                    padding: '8px 8px',
+                                    backgroundColor: '#3895d3',
+                                    marginBottom: "10px"
                                 },
                                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
                                     href: "/supervEveHome",
@@ -28622,36 +28734,36 @@ class EveBySuperv extends _react.Component {
                                         textDecoration: 'none',
                                         backgroundColor: '#3895d3',
                                         color: 'white',
-                                        fontSize: '20px'
+                                        fontSize: '16px'
                                     },
                                     children: [
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
                                             class: "far fa-arrow-alt-circle-left"
                                         }, void 0, false, {
                                             fileName: "src/components/EveBySuperv.js",
-                                            lineNumber: 343,
-                                            columnNumber: 21
+                                            lineNumber: 344,
+                                            columnNumber: 25
                                         }, this),
                                         "\xa0Go Back"
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/EveBySuperv.js",
-                                    lineNumber: 342,
-                                    columnNumber: 17
+                                    lineNumber: 343,
+                                    columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/EveBySuperv.js",
                                 lineNumber: 341,
-                                columnNumber: 15
+                                columnNumber: 25
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 346,
+                                lineNumber: 347,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 346,
+                                lineNumber: 347,
                                 columnNumber: 26
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
@@ -28668,7 +28780,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Group Name : "
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 352,
+                                                lineNumber: 353,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28681,13 +28793,13 @@ class EveBySuperv extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 353,
+                                                lineNumber: 354,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 350,
+                                        lineNumber: 351,
                                         columnNumber: 12
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28697,7 +28809,7 @@ class EveBySuperv extends _react.Component {
                                                 children: " Backgroud (20 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 365,
+                                                lineNumber: 366,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -28705,7 +28817,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Title : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 366,
+                                                lineNumber: 367,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28718,13 +28830,13 @@ class EveBySuperv extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 367,
+                                                lineNumber: 368,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 364,
+                                        lineNumber: 365,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28735,7 +28847,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Abstract : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 379,
+                                                lineNumber: 380,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28748,13 +28860,13 @@ class EveBySuperv extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 380,
+                                                lineNumber: 381,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 378,
+                                        lineNumber: 379,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28765,7 +28877,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Problem Identified Clearly : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 390,
+                                                lineNumber: 391,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28778,13 +28890,13 @@ class EveBySuperv extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 391,
+                                                lineNumber: 392,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 389,
+                                        lineNumber: 390,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28795,7 +28907,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Research Area Clearly Stated : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 400,
+                                                lineNumber: 401,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28808,13 +28920,13 @@ class EveBySuperv extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 401,
+                                                lineNumber: 402,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 399,
+                                        lineNumber: 400,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28824,7 +28936,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Literature Review (10 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 410,
+                                                lineNumber: 411,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -28832,7 +28944,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "References : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 411,
+                                                lineNumber: 412,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28844,13 +28956,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 412,
+                                                lineNumber: 413,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 409,
+                                        lineNumber: 410,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28861,7 +28973,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Model Framwork : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 423,
+                                                lineNumber: 424,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28873,13 +28985,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 424,
+                                                lineNumber: 425,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 422,
+                                        lineNumber: 423,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28889,7 +29001,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Methodology (15 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 434,
+                                                lineNumber: 435,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -28897,7 +29009,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Description : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 435,
+                                                lineNumber: 436,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28909,13 +29021,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 436,
+                                                lineNumber: 437,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 433,
+                                        lineNumber: 434,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28926,7 +29038,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Appropriation : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 446,
+                                                lineNumber: 447,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28938,13 +29050,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 447,
+                                                lineNumber: 448,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 445,
+                                        lineNumber: 446,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28955,7 +29067,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Data Collection Methods : (5 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 458,
+                                                lineNumber: 459,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -28967,13 +29079,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 459,
+                                                lineNumber: 460,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 457,
+                                        lineNumber: 458,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -28983,7 +29095,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Result and Analysis of the Findings (15 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 469,
+                                                lineNumber: 470,
                                                 columnNumber: 16
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -28991,7 +29103,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Data Analsing Methods : (15 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 470,
+                                                lineNumber: 471,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -29003,13 +29115,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 471,
+                                                lineNumber: 472,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 468,
+                                        lineNumber: 469,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -29019,7 +29131,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Conclusion (20 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 481,
+                                                lineNumber: 482,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -29027,7 +29139,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Clearity of Conclusion : (10 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 482,
+                                                lineNumber: 483,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -29039,13 +29151,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 483,
+                                                lineNumber: 484,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 480,
+                                        lineNumber: 481,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -29056,7 +29168,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Relevent : (10 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 493,
+                                                lineNumber: 494,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -29068,13 +29180,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 494,
+                                                lineNumber: 495,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 492,
+                                        lineNumber: 493,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -29084,7 +29196,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Report Writing (20 Marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 504,
+                                                lineNumber: 505,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -29092,7 +29204,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Clearly Written : (10 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 505,
+                                                lineNumber: 506,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -29104,13 +29216,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 506,
+                                                lineNumber: 507,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 503,
+                                        lineNumber: 504,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -29121,7 +29233,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Logical Organized : (10 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 516,
+                                                lineNumber: 517,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -29133,13 +29245,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 517,
+                                                lineNumber: 518,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 515,
+                                        lineNumber: 516,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -29150,7 +29262,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Total Mark : (100 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 528,
+                                                lineNumber: 529,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -29162,13 +29274,13 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 529,
+                                                lineNumber: 530,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 526,
+                                        lineNumber: 527,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -29179,7 +29291,7 @@ class EveBySuperv extends _react.Component {
                                                 children: "Comment : "
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 540,
+                                                lineNumber: 541,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -29191,26 +29303,26 @@ class EveBySuperv extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 541,
+                                                lineNumber: 542,
                                                 columnNumber: 18
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 538,
+                                        lineNumber: 539,
                                         columnNumber: 16
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 348,
+                                lineNumber: 349,
                                 columnNumber: 12
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                 children: [
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 552,
+                                        lineNumber: 553,
                                         columnNumber: 20
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
@@ -29225,7 +29337,7 @@ class EveBySuperv extends _react.Component {
                                                 children: " Submit the Result"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 554,
+                                                lineNumber: 555,
                                                 columnNumber: 20
                                             }, this),
                                             "\xa0",
@@ -29250,31 +29362,31 @@ class EveBySuperv extends _react.Component {
                                                             class: "far fa-arrow-alt-circle-left"
                                                         }, void 0, false, {
                                                             fileName: "src/components/EveBySuperv.js",
-                                                            lineNumber: 559,
+                                                            lineNumber: 560,
                                                             columnNumber: 25
                                                         }, this),
                                                         "\xa0Go Back"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/EveBySuperv.js",
-                                                    lineNumber: 558,
+                                                    lineNumber: 559,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveBySuperv.js",
-                                                lineNumber: 556,
+                                                lineNumber: 557,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveBySuperv.js",
-                                        lineNumber: 553,
+                                        lineNumber: 554,
                                         columnNumber: 20
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/EveBySuperv.js",
-                                lineNumber: 551,
+                                lineNumber: 552,
                                 columnNumber: 16
                             }, this)
                         ]
@@ -30257,9 +30369,10 @@ function SupervEveEdit() {
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
                     className: "btn btn-success",
                     style: {
-                        marginLeft: '900px',
-                        padding: '10px 10px',
-                        backgroundColor: '#3895d3'
+                        marginLeft: '910px',
+                        padding: '8px 8px',
+                        backgroundColor: '#3895d3',
+                        marginBottom: "10px"
                     },
                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
                         href: "/supervEveHome",
@@ -30267,37 +30380,37 @@ function SupervEveEdit() {
                             textDecoration: 'none',
                             backgroundColor: '#3895d3',
                             color: 'white',
-                            fontSize: '20px'
+                            fontSize: '16px'
                         },
                         children: [
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
                                 class: "far fa-arrow-alt-circle-left"
                             }, void 0, false, {
                                 fileName: "src/components/SupervEveEdit.js",
-                                lineNumber: 188,
-                                columnNumber: 19
+                                lineNumber: 189,
+                                columnNumber: 25
                             }, this),
                             "\xa0Go Back"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/SupervEveEdit.js",
-                        lineNumber: 187,
-                        columnNumber: 13
+                        lineNumber: 188,
+                        columnNumber: 25
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/SupervEveEdit.js",
                     lineNumber: 186,
-                    columnNumber: 11
+                    columnNumber: 25
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 191,
+                    lineNumber: 192,
                     columnNumber: 9
                 }, this),
                 " ",
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 191,
+                    lineNumber: 192,
                     columnNumber: 19
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
@@ -30314,7 +30427,7 @@ function SupervEveEdit() {
                                     children: "Group Name : "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 196,
+                                    lineNumber: 197,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30326,13 +30439,13 @@ function SupervEveEdit() {
                                     value: Groupname
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 197,
+                                    lineNumber: 198,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 195,
+                            lineNumber: 196,
                             columnNumber: 17
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30342,7 +30455,7 @@ function SupervEveEdit() {
                                     children: "Backgroud (20 Marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 207,
+                                    lineNumber: 208,
                                     columnNumber: 20
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -30350,7 +30463,7 @@ function SupervEveEdit() {
                                     children: "Title : (5 marks) "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 208,
+                                    lineNumber: 209,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30362,13 +30475,13 @@ function SupervEveEdit() {
                                     value: title
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 209,
+                                    lineNumber: 210,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 206,
+                            lineNumber: 207,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30379,7 +30492,7 @@ function SupervEveEdit() {
                                     children: "Abstract : (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 219,
+                                    lineNumber: 220,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30391,13 +30504,13 @@ function SupervEveEdit() {
                                     value: abstract
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 220,
+                                    lineNumber: 221,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 218,
+                            lineNumber: 219,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30408,7 +30521,7 @@ function SupervEveEdit() {
                                     children: "Problem Identified Clearly : (5 marks) "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 231,
+                                    lineNumber: 232,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30420,13 +30533,13 @@ function SupervEveEdit() {
                                     value: problemIdentified
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 232,
+                                    lineNumber: 233,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 230,
+                            lineNumber: 231,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30437,7 +30550,7 @@ function SupervEveEdit() {
                                     children: "Research Area Clearly Stated : (5 marks) "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 242,
+                                    lineNumber: 243,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30449,13 +30562,13 @@ function SupervEveEdit() {
                                     value: clearyStated
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 243,
+                                    lineNumber: 244,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 241,
+                            lineNumber: 242,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30465,7 +30578,7 @@ function SupervEveEdit() {
                                     children: "Literature Review (10 Marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 252,
+                                    lineNumber: 253,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -30473,7 +30586,7 @@ function SupervEveEdit() {
                                     children: "References"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 253,
+                                    lineNumber: 254,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30485,13 +30598,13 @@ function SupervEveEdit() {
                                     value: references
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 254,
+                                    lineNumber: 255,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 251,
+                            lineNumber: 252,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30502,7 +30615,7 @@ function SupervEveEdit() {
                                     children: "Model Framwork : (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 263,
+                                    lineNumber: 264,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30514,13 +30627,13 @@ function SupervEveEdit() {
                                     value: modelframework
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 264,
+                                    lineNumber: 265,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 262,
+                            lineNumber: 263,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30530,7 +30643,7 @@ function SupervEveEdit() {
                                     children: "Methodology (15 Marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 274,
+                                    lineNumber: 275,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -30538,7 +30651,7 @@ function SupervEveEdit() {
                                     children: "Description : (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 275,
+                                    lineNumber: 276,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30550,13 +30663,13 @@ function SupervEveEdit() {
                                     value: MethoDescription
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 276,
+                                    lineNumber: 277,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 273,
+                            lineNumber: 274,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30567,7 +30680,7 @@ function SupervEveEdit() {
                                     children: "Appropriation : (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 286,
+                                    lineNumber: 287,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30579,13 +30692,13 @@ function SupervEveEdit() {
                                     value: appro
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 287,
+                                    lineNumber: 288,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 285,
+                            lineNumber: 286,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30596,7 +30709,7 @@ function SupervEveEdit() {
                                     children: "Data Collection Methods : (5 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 297,
+                                    lineNumber: 298,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30608,13 +30721,13 @@ function SupervEveEdit() {
                                     value: dataCollect
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 298,
+                                    lineNumber: 299,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 296,
+                            lineNumber: 297,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30624,7 +30737,7 @@ function SupervEveEdit() {
                                     children: "Result and Analysis of the Findings (15 Marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 308,
+                                    lineNumber: 309,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -30632,7 +30745,7 @@ function SupervEveEdit() {
                                     children: "Data Analsing Methods : (15 marks) "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 309,
+                                    lineNumber: 310,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30644,13 +30757,13 @@ function SupervEveEdit() {
                                     value: dataAnalys
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 310,
+                                    lineNumber: 311,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 307,
+                            lineNumber: 308,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30660,7 +30773,7 @@ function SupervEveEdit() {
                                     children: "Conclusion "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 320,
+                                    lineNumber: 321,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -30668,7 +30781,7 @@ function SupervEveEdit() {
                                     children: "Clearity of Conclusion : (10 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 321,
+                                    lineNumber: 322,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30680,13 +30793,13 @@ function SupervEveEdit() {
                                     value: conclusionClarity
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 322,
+                                    lineNumber: 323,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 319,
+                            lineNumber: 320,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30697,7 +30810,7 @@ function SupervEveEdit() {
                                     children: "Relevent : (10 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 332,
+                                    lineNumber: 333,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30709,13 +30822,13 @@ function SupervEveEdit() {
                                     value: relevent
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 333,
+                                    lineNumber: 334,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 331,
+                            lineNumber: 332,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30725,7 +30838,7 @@ function SupervEveEdit() {
                                     children: "Report Writing (20 Marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 343,
+                                    lineNumber: 344,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -30733,7 +30846,7 @@ function SupervEveEdit() {
                                     children: "Clearly Written : (10 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 344,
+                                    lineNumber: 345,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30745,13 +30858,13 @@ function SupervEveEdit() {
                                     value: clearWritten
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 345,
+                                    lineNumber: 346,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 342,
+                            lineNumber: 343,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30762,7 +30875,7 @@ function SupervEveEdit() {
                                     children: "Logical Organized : (10 marks) "
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 355,
+                                    lineNumber: 356,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30774,13 +30887,13 @@ function SupervEveEdit() {
                                     value: logic
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 356,
+                                    lineNumber: 357,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 354,
+                            lineNumber: 355,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30791,7 +30904,7 @@ function SupervEveEdit() {
                                     children: "Total Mark : (100 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 366,
+                                    lineNumber: 367,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30803,13 +30916,13 @@ function SupervEveEdit() {
                                     value: Total
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 367,
+                                    lineNumber: 368,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 365,
+                            lineNumber: 366,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -30820,7 +30933,7 @@ function SupervEveEdit() {
                                     children: "Comment"
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 377,
+                                    lineNumber: 378,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -30832,19 +30945,19 @@ function SupervEveEdit() {
                                     value: Comment
                                 }, void 0, false, {
                                     fileName: "src/components/SupervEveEdit.js",
-                                    lineNumber: 378,
+                                    lineNumber: 379,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 376,
+                            lineNumber: 377,
                             columnNumber: 18
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 193,
+                    lineNumber: 194,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
@@ -30863,14 +30976,14 @@ function SupervEveEdit() {
                             className: "far fa-check-square"
                         }, void 0, false, {
                             fileName: "src/components/SupervEveEdit.js",
-                            lineNumber: 389,
+                            lineNumber: 390,
                             columnNumber: 29
                         }, this),
                         "\xa0 Save"
                     ]
                 }, void 0, true, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 388,
+                    lineNumber: 389,
                     columnNumber: 18
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
@@ -30894,19 +31007,19 @@ function SupervEveEdit() {
                                 class: "far fa-arrow-alt-circle-left"
                             }, void 0, false, {
                                 fileName: "src/components/SupervEveEdit.js",
-                                lineNumber: 396,
+                                lineNumber: 397,
                                 columnNumber: 25
                             }, this),
                             "\xa0Go Back"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/SupervEveEdit.js",
-                        lineNumber: 395,
+                        lineNumber: 396,
                         columnNumber: 25
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/SupervEveEdit.js",
-                    lineNumber: 393,
+                    lineNumber: 394,
                     columnNumber: 25
                 }, this)
             ]
@@ -30948,51 +31061,114 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _evaluationJpg = require("../../public/Evaluation.jpg");
+var _evaluationJpgDefault = parcelHelpers.interopDefault(_evaluationJpg);
 class EveHome extends _react.Component {
     render() {
         return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
             children: [
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                    children: " Evaluation Home"
-                }, void 0, false, {
+                    style: {
+                        backgroundColor: '#000080',
+                        color: "white"
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                            children: "Evaluation Home"
+                        }, void 0, false, {
+                            fileName: "src/components/EveHome.js",
+                            lineNumber: 8,
+                            columnNumber: 64
+                        }, this),
+                        " "
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/EveHome.js",
-                    lineNumber: 6,
-                    columnNumber: 12
+                    lineNumber: 8,
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/EveHome.js",
-                    lineNumber: 7,
+                    lineNumber: 10,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                    className: "btn btn-success",
+                    style: {
+                        marginLeft: '10px',
+                        padding: '8px 8px',
+                        backgroundColor: '#3895d3',
+                        width: '200px'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                        href: "/adminHome",
+                        style: {
+                            textDecoration: 'none',
+                            backgroundColor: '#3895d3',
+                            color: 'white',
+                            fontSize: '16px'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                class: "far fa-arrow-alt-circle-left"
+                            }, void 0, false, {
+                                fileName: "src/components/EveHome.js",
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, this),
+                            "\xa0Go Back"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/EveHome.js",
+                        lineNumber: 14,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/EveHome.js",
+                    lineNumber: 12,
+                    columnNumber: 20
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/EveHome.js",
+                    lineNumber: 18,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    style: {
+                        marginLeft: '250px'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                        src: _evaluationJpgDefault.default,
+                        class: "mx-auto",
+                        alt: "evaluation",
+                        width: "1100",
+                        height: "500"
+                    }, void 0, false, {
+                        fileName: "src/components/EveHome.js",
+                        lineNumber: 19,
+                        columnNumber: 45
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/EveHome.js",
+                    lineNumber: 19,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/EveHome.js",
+                    lineNumber: 21,
                     columnNumber: 11
                 }, this),
                 " ",
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/EveHome.js",
-                    lineNumber: 7,
+                    lineNumber: 21,
                     columnNumber: 21
                 }, this),
-                " ",
+                "  ",
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/EveHome.js",
-                    lineNumber: 7,
-                    columnNumber: 31
-                }, this),
-                " ",
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                    fileName: "src/components/EveHome.js",
-                    lineNumber: 7,
-                    columnNumber: 41
-                }, this),
-                " ",
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                    fileName: "src/components/EveHome.js",
-                    lineNumber: 7,
-                    columnNumber: 51
-                }, this),
-                " ",
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                    fileName: "src/components/EveHome.js",
-                    lineNumber: 7,
-                    columnNumber: 61
+                    lineNumber: 21,
+                    columnNumber: 32
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
                     children: [
@@ -31003,40 +31179,43 @@ class EveHome extends _react.Component {
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
                                             className: "btn btn-success",
                                             style: {
-                                                marginLeft: '250px'
+                                                marginLeft: '250px',
+                                                backgroundColor: "#0147ab",
+                                                width: '350px'
                                             },
                                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
                                                 href: "/supervEveHome",
                                                 style: {
                                                     textDecoration: 'none',
-                                                    color: 'white'
+                                                    color: 'white',
+                                                    fontSize: "16px"
                                                 },
-                                                children: " Supervisor Evaluation"
+                                                children: " Supervisor Evaluation "
                                             }, void 0, false, {
                                                 fileName: "src/components/EveHome.js",
-                                                lineNumber: 11,
-                                                columnNumber: 79
+                                                lineNumber: 27,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/EveHome.js",
-                                            lineNumber: 11,
-                                            columnNumber: 14
+                                            lineNumber: 26,
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                             fileName: "src/components/EveHome.js",
-                                            lineNumber: 12,
-                                            columnNumber: 14
+                                            lineNumber: 29,
+                                            columnNumber: 17
                                         }, this),
                                         " ",
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                             fileName: "src/components/EveHome.js",
-                                            lineNumber: 12,
-                                            columnNumber: 24
+                                            lineNumber: 29,
+                                            columnNumber: 27
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/EveHome.js",
-                                    lineNumber: 10,
+                                    lineNumber: 25,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
@@ -31044,136 +31223,96 @@ class EveHome extends _react.Component {
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
                                             className: "btn btn-success",
                                             style: {
-                                                marginLeft: '250px'
+                                                marginLeft: '450px',
+                                                backgroundColor: "#0147ab",
+                                                width: '350px'
                                             },
                                             children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
                                                 href: "/panelEveHome",
                                                 style: {
                                                     textDecoration: 'none',
-                                                    color: 'white'
+                                                    color: 'white',
+                                                    fontSize: "16px"
                                                 },
-                                                children: " Panel Evaaluation  "
+                                                children: " Panel Evaaluation "
                                             }, void 0, false, {
                                                 fileName: "src/components/EveHome.js",
-                                                lineNumber: 15,
-                                                columnNumber: 80
+                                                lineNumber: 33,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/EveHome.js",
-                                            lineNumber: 15,
-                                            columnNumber: 15
+                                            lineNumber: 32,
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                             fileName: "src/components/EveHome.js",
-                                            lineNumber: 16,
+                                            lineNumber: 35,
                                             columnNumber: 15
                                         }, this),
                                         " ",
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                             fileName: "src/components/EveHome.js",
-                                            lineNumber: 16,
+                                            lineNumber: 35,
                                             columnNumber: 25
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/EveHome.js",
-                                    lineNumber: 14,
+                                    lineNumber: 31,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/EveHome.js",
-                            lineNumber: 9,
+                            lineNumber: 24,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
-                            children: [
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: [
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                                            className: "btn btn-success",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '250px'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            href: "/UploadNaviAdmin",
                                             style: {
-                                                marginLeft: '250px'
+                                                textDecoration: 'none',
+                                                color: 'white'
                                             },
-                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                                href: "/UploadNaviAdmin",
-                                                style: {
-                                                    textDecoration: 'none',
-                                                    color: 'white'
-                                                },
-                                                children: " Admin Document Upload  "
-                                            }, void 0, false, {
-                                                fileName: "src/components/EveHome.js",
-                                                lineNumber: 21,
-                                                columnNumber: 78
-                                            }, this)
+                                            children: " Admin Document Upload  "
                                         }, void 0, false, {
                                             fileName: "src/components/EveHome.js",
-                                            lineNumber: 21,
-                                            columnNumber: 13
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                                            fileName: "src/components/EveHome.js",
-                                            lineNumber: 22,
-                                            columnNumber: 13
-                                        }, this),
-                                        " ",
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                                            fileName: "src/components/EveHome.js",
-                                            lineNumber: 22,
-                                            columnNumber: 23
+                                            lineNumber: 40,
+                                            columnNumber: 78
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/EveHome.js",
-                                    lineNumber: 20,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: [
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                                            className: "btn btn-success",
-                                            style: {
-                                                marginLeft: '250px'
-                                            },
-                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                                href: "/SubmitNavbar",
-                                                style: {
-                                                    textDecoration: 'none',
-                                                    color: 'white'
-                                                },
-                                                children: " Student Submittions  "
-                                            }, void 0, false, {
-                                                fileName: "src/components/EveHome.js",
-                                                lineNumber: 25,
-                                                columnNumber: 78
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/EveHome.js",
-                                            lineNumber: 25,
-                                            columnNumber: 13
-                                        }, this),
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                                            fileName: "src/components/EveHome.js",
-                                            lineNumber: 26,
-                                            columnNumber: 13
-                                        }, this),
-                                        " ",
-                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                                            fileName: "src/components/EveHome.js",
-                                            lineNumber: 26,
-                                            columnNumber: 23
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/EveHome.js",
-                                    lineNumber: 24,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                                    }, void 0, false, {
+                                        fileName: "src/components/EveHome.js",
+                                        lineNumber: 40,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/EveHome.js",
+                                        lineNumber: 41,
+                                        columnNumber: 13
+                                    }, this),
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/EveHome.js",
+                                        lineNumber: 41,
+                                        columnNumber: 23
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/EveHome.js",
+                                lineNumber: 39,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "src/components/EveHome.js",
-                            lineNumber: 19,
+                            lineNumber: 38,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
@@ -31192,41 +31331,41 @@ class EveHome extends _react.Component {
                                         children: " Templates Submittions  "
                                     }, void 0, false, {
                                         fileName: "src/components/EveHome.js",
-                                        lineNumber: 31,
+                                        lineNumber: 47,
                                         columnNumber: 78
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/EveHome.js",
-                                    lineNumber: 31,
+                                    lineNumber: 47,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                     fileName: "src/components/EveHome.js",
-                                    lineNumber: 32,
+                                    lineNumber: 48,
                                     columnNumber: 13
                                 }, this),
                                 " ",
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                     fileName: "src/components/EveHome.js",
-                                    lineNumber: 32,
+                                    lineNumber: 48,
                                     columnNumber: 23
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/EveHome.js",
-                            lineNumber: 30,
+                            lineNumber: 46,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/EveHome.js",
-                    lineNumber: 8,
+                    lineNumber: 23,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/EveHome.js",
-            lineNumber: 6,
+            lineNumber: 7,
             columnNumber: 7
         }, this);
     }
@@ -31238,7 +31377,44 @@ exports.default = EveHome;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"khTZt":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../public/Evaluation.jpg":"bY4Bw"}],"bY4Bw":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "Evaluation.11f836b2.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ('' + err.stack).match(/(https?|file|ftp|(chrome|moz)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return '/';
+}
+function getBaseURL(url) {
+    return ('' + url).replace(/^((?:https?|file|ftp|(chrome|moz)-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ('' + url).match(/(https?|file|ftp|(chrome|moz)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error('Origin not found');
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"khTZt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0dc8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -31558,7 +31734,7 @@ class PanelEveHome extends _react.Component {
                                             backgroundColor: '#3895d3'
                                         },
                                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                            href: "/",
+                                            href: "/EveHome",
                                             style: {
                                                 textDecoration: 'none',
                                                 backgroundColor: '#3895d3',
@@ -31756,9 +31932,10 @@ function SupervEveEdit() {
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
                     className: "btn btn-success",
                     style: {
-                        marginLeft: '900px',
-                        padding: '10px 10px',
-                        backgroundColor: '#3895d3'
+                        marginLeft: '890px',
+                        padding: '8px 8px',
+                        backgroundColor: '#3895d3',
+                        marginBottom: "10px"
                     },
                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
                         href: "/panelEveHome",
@@ -31766,37 +31943,37 @@ function SupervEveEdit() {
                             textDecoration: 'none',
                             backgroundColor: '#3895d3',
                             color: 'white',
-                            fontSize: '20px'
+                            fontSize: '16px'
                         },
                         children: [
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
                                 class: "far fa-arrow-alt-circle-left"
                             }, void 0, false, {
                                 fileName: "src/components/PanelEveEdit.js",
-                                lineNumber: 140,
-                                columnNumber: 19
+                                lineNumber: 143,
+                                columnNumber: 25
                             }, this),
                             "\xa0Go Back"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/PanelEveEdit.js",
-                        lineNumber: 139,
-                        columnNumber: 13
+                        lineNumber: 142,
+                        columnNumber: 25
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/PanelEveEdit.js",
-                    lineNumber: 138,
-                    columnNumber: 11
+                    lineNumber: 140,
+                    columnNumber: 25
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/PanelEveEdit.js",
-                    lineNumber: 143,
+                    lineNumber: 148,
                     columnNumber: 9
                 }, this),
                 " ",
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                     fileName: "src/components/PanelEveEdit.js",
-                    lineNumber: 143,
+                    lineNumber: 148,
                     columnNumber: 19
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
@@ -31813,7 +31990,7 @@ function SupervEveEdit() {
                                     children: "Group Name"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 148,
+                                    lineNumber: 153,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -31825,13 +32002,13 @@ function SupervEveEdit() {
                                     value: Groupname
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 149,
+                                    lineNumber: 154,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/PanelEveEdit.js",
-                            lineNumber: 147,
+                            lineNumber: 152,
                             columnNumber: 17
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -31841,7 +32018,7 @@ function SupervEveEdit() {
                                     children: "Introduction : (15 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 159,
+                                    lineNumber: 164,
                                     columnNumber: 20
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -31850,12 +32027,12 @@ function SupervEveEdit() {
                                         children: "Aprropriately introduced himself/ herself, the topic to be presented, and clearly explained objectives of the presentation"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveEdit.js",
-                                        lineNumber: 160,
+                                        lineNumber: 165,
                                         columnNumber: 48
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 160,
+                                    lineNumber: 165,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -31867,13 +32044,13 @@ function SupervEveEdit() {
                                     value: introduction
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 162,
+                                    lineNumber: 167,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/PanelEveEdit.js",
-                            lineNumber: 158,
+                            lineNumber: 163,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -31883,7 +32060,7 @@ function SupervEveEdit() {
                                     children: "Organization : (15 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 174,
+                                    lineNumber: 179,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -31892,12 +32069,12 @@ function SupervEveEdit() {
                                         children: " The presentation is organized in a logical manner"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveEdit.js",
-                                        lineNumber: 175,
+                                        lineNumber: 180,
                                         columnNumber: 48
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 175,
+                                    lineNumber: 180,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -31909,13 +32086,13 @@ function SupervEveEdit() {
                                     value: organization
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 176,
+                                    lineNumber: 181,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/PanelEveEdit.js",
-                            lineNumber: 173,
+                            lineNumber: 178,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -31925,7 +32102,7 @@ function SupervEveEdit() {
                                     children: "Voice : (20 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 187,
+                                    lineNumber: 192,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -31935,14 +32112,14 @@ function SupervEveEdit() {
                                             children: " Volume and inflection was effective (10 marks)"
                                         }, void 0, false, {
                                             fileName: "src/components/PanelEveEdit.js",
-                                            lineNumber: 188,
+                                            lineNumber: 193,
                                             columnNumber: 48
                                         }, this),
                                         " "
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 188,
+                                    lineNumber: 193,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -31954,13 +32131,13 @@ function SupervEveEdit() {
                                     value: voiceInflection
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 189,
+                                    lineNumber: 194,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/PanelEveEdit.js",
-                            lineNumber: 186,
+                            lineNumber: 191,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -31972,12 +32149,12 @@ function SupervEveEdit() {
                                         children: "Rate of speech was appropriate (10 marks)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveEdit.js",
-                                        lineNumber: 199,
+                                        lineNumber: 204,
                                         columnNumber: 48
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 199,
+                                    lineNumber: 204,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -31989,13 +32166,13 @@ function SupervEveEdit() {
                                     value: voiceRate
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 200,
+                                    lineNumber: 205,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/PanelEveEdit.js",
-                            lineNumber: 198,
+                            lineNumber: 203,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32005,7 +32182,7 @@ function SupervEveEdit() {
                                     children: "Tools : (20 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 212,
+                                    lineNumber: 217,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -32014,12 +32191,12 @@ function SupervEveEdit() {
                                         children: " Audiovisual resources, visual aids, and / or handoutd were used appropriatly (not relied upon)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveEdit.js",
-                                        lineNumber: 213,
+                                        lineNumber: 218,
                                         columnNumber: 48
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 213,
+                                    lineNumber: 218,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32031,13 +32208,13 @@ function SupervEveEdit() {
                                     value: tools
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 215,
+                                    lineNumber: 220,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/PanelEveEdit.js",
-                            lineNumber: 211,
+                            lineNumber: 216,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32047,7 +32224,7 @@ function SupervEveEdit() {
                                     children: "Audience Contact / Involvement : (30 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 225,
+                                    lineNumber: 230,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -32056,12 +32233,12 @@ function SupervEveEdit() {
                                         children: " Eye Contact (15 marks)"
                                     }, void 0, false, {
                                         fileName: "src/components/PanelEveEdit.js",
-                                        lineNumber: 226,
+                                        lineNumber: 231,
                                         columnNumber: 48
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 226,
+                                    lineNumber: 231,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32073,13 +32250,13 @@ function SupervEveEdit() {
                                     value: eyeContact
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 227,
+                                    lineNumber: 232,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/PanelEveEdit.js",
-                            lineNumber: 224,
+                            lineNumber: 229,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32092,14 +32269,14 @@ function SupervEveEdit() {
                                             children: "Arrange inside the group (15 marks)"
                                         }, void 0, false, {
                                             fileName: "src/components/PanelEveEdit.js",
-                                            lineNumber: 237,
+                                            lineNumber: 242,
                                             columnNumber: 48
                                         }, this),
                                         " "
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 237,
+                                    lineNumber: 242,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32111,13 +32288,13 @@ function SupervEveEdit() {
                                     value: groupArrange
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 238,
+                                    lineNumber: 243,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/PanelEveEdit.js",
-                            lineNumber: 236,
+                            lineNumber: 241,
                             columnNumber: 18
                         }, this),
                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32128,7 +32305,7 @@ function SupervEveEdit() {
                                     children: "Total Mark : (100 marks)"
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 249,
+                                    lineNumber: 254,
                                     columnNumber: 18
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32140,19 +32317,19 @@ function SupervEveEdit() {
                                     value: Total
                                 }, void 0, false, {
                                     fileName: "src/components/PanelEveEdit.js",
-                                    lineNumber: 250,
+                                    lineNumber: 255,
                                     columnNumber: 22
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/PanelEveEdit.js",
-                            lineNumber: 248,
+                            lineNumber: 253,
                             columnNumber: 18
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/PanelEveEdit.js",
-                    lineNumber: 145,
+                    lineNumber: 150,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
@@ -32171,14 +32348,14 @@ function SupervEveEdit() {
                             className: "far fa-check-square"
                         }, void 0, false, {
                             fileName: "src/components/PanelEveEdit.js",
-                            lineNumber: 261,
+                            lineNumber: 266,
                             columnNumber: 29
                         }, this),
                         "\xa0 Save"
                     ]
                 }, void 0, true, {
                     fileName: "src/components/PanelEveEdit.js",
-                    lineNumber: 260,
+                    lineNumber: 265,
                     columnNumber: 25
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
@@ -32202,19 +32379,19 @@ function SupervEveEdit() {
                                 class: "far fa-arrow-alt-circle-left"
                             }, void 0, false, {
                                 fileName: "src/components/PanelEveEdit.js",
-                                lineNumber: 269,
+                                lineNumber: 274,
                                 columnNumber: 25
                             }, this),
                             "\xa0Go Back"
                         ]
                     }, void 0, true, {
                         fileName: "src/components/PanelEveEdit.js",
-                        lineNumber: 268,
+                        lineNumber: 273,
                         columnNumber: 25
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/PanelEveEdit.js",
-                    lineNumber: 266,
+                    lineNumber: 271,
                     columnNumber: 25
                 }, this)
             ]
@@ -32426,10 +32603,10 @@ class EveByPanel extends _react.Component {
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
                                 className: "btn btn-success",
                                 style: {
-                                    marginLeft: '900px',
-                                    marginRight: '0px',
-                                    padding: '10px 10px',
-                                    backgroundColor: '#3895d3'
+                                    marginLeft: '910px',
+                                    padding: '8px 8px',
+                                    backgroundColor: '#3895d3',
+                                    marginBottom: "10px"
                                 },
                                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
                                     href: "/panelEveHome",
@@ -32437,36 +32614,36 @@ class EveByPanel extends _react.Component {
                                         textDecoration: 'none',
                                         backgroundColor: '#3895d3',
                                         color: 'white',
-                                        fontSize: '20px'
+                                        fontSize: '16px'
                                     },
                                     children: [
                                         /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
                                             class: "far fa-arrow-alt-circle-left"
                                         }, void 0, false, {
                                             fileName: "src/components/EveByPanel.js",
-                                            lineNumber: 212,
-                                            columnNumber: 21
+                                            lineNumber: 213,
+                                            columnNumber: 25
                                         }, this),
                                         "\xa0Go Back"
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/EveByPanel.js",
-                                    lineNumber: 211,
-                                    columnNumber: 17
+                                    lineNumber: 212,
+                                    columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/EveByPanel.js",
                                 lineNumber: 210,
-                                columnNumber: 15
+                                columnNumber: 25
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 215,
+                                lineNumber: 216,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 215,
+                                lineNumber: 216,
                                 columnNumber: 26
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
@@ -32483,7 +32660,7 @@ class EveByPanel extends _react.Component {
                                                 children: "Group Name : "
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 221,
+                                                lineNumber: 222,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32496,13 +32673,13 @@ class EveByPanel extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 222,
+                                                lineNumber: 223,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 219,
+                                        lineNumber: 220,
                                         columnNumber: 12
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32512,7 +32689,7 @@ class EveByPanel extends _react.Component {
                                                 children: " Introduction : (15 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 234,
+                                                lineNumber: 235,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -32521,12 +32698,12 @@ class EveByPanel extends _react.Component {
                                                     children: "Aprropriately introduced himself/ herself, the topic to be presented, and clearly explained objectives of the presentation (15 marks)"
                                                 }, void 0, false, {
                                                     fileName: "src/components/EveByPanel.js",
-                                                    lineNumber: 235,
+                                                    lineNumber: 236,
                                                     columnNumber: 52
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 235,
+                                                lineNumber: 236,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32539,13 +32716,13 @@ class EveByPanel extends _react.Component {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 237,
+                                                lineNumber: 238,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 233,
+                                        lineNumber: 234,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32555,7 +32732,7 @@ class EveByPanel extends _react.Component {
                                                 children: "Organization : (15 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 250,
+                                                lineNumber: 251,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -32564,12 +32741,12 @@ class EveByPanel extends _react.Component {
                                                     children: " The presentation is organized in a logical manner (15 marks)"
                                                 }, void 0, false, {
                                                     fileName: "src/components/EveByPanel.js",
-                                                    lineNumber: 251,
+                                                    lineNumber: 252,
                                                     columnNumber: 51
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 251,
+                                                lineNumber: 252,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32581,13 +32758,13 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 252,
+                                                lineNumber: 253,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 249,
+                                        lineNumber: 250,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32597,7 +32774,7 @@ class EveByPanel extends _react.Component {
                                                 children: "Voice : (20 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 265,
+                                                lineNumber: 266,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -32607,14 +32784,14 @@ class EveByPanel extends _react.Component {
                                                         children: " Volume and inflection was effective (10 marks)"
                                                     }, void 0, false, {
                                                         fileName: "src/components/EveByPanel.js",
-                                                        lineNumber: 266,
+                                                        lineNumber: 267,
                                                         columnNumber: 51
                                                     }, this),
                                                     " "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 266,
+                                                lineNumber: 267,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32626,13 +32803,13 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 267,
+                                                lineNumber: 268,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 264,
+                                        lineNumber: 265,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32645,14 +32822,14 @@ class EveByPanel extends _react.Component {
                                                         children: "Rate of speech was appropriate (10 marks)"
                                                     }, void 0, false, {
                                                         fileName: "src/components/EveByPanel.js",
-                                                        lineNumber: 277,
+                                                        lineNumber: 278,
                                                         columnNumber: 50
                                                     }, this),
                                                     " "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 277,
+                                                lineNumber: 278,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32664,13 +32841,13 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 278,
+                                                lineNumber: 279,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 276,
+                                        lineNumber: 277,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32680,7 +32857,7 @@ class EveByPanel extends _react.Component {
                                                 children: "Tools : (20 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 289,
+                                                lineNumber: 290,
                                                 columnNumber: 16
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -32689,12 +32866,12 @@ class EveByPanel extends _react.Component {
                                                     children: " Audiovisual resources, visual aids, and / or handoutd were used appropriatly (not relied upon)"
                                                 }, void 0, false, {
                                                     fileName: "src/components/EveByPanel.js",
-                                                    lineNumber: 290,
+                                                    lineNumber: 291,
                                                     columnNumber: 50
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 290,
+                                                lineNumber: 291,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32706,13 +32883,13 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 292,
+                                                lineNumber: 293,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 288,
+                                        lineNumber: 289,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32722,7 +32899,7 @@ class EveByPanel extends _react.Component {
                                                 children: "Audience Contact / Involvement : (30 marks) "
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 302,
+                                                lineNumber: 303,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
@@ -32731,12 +32908,12 @@ class EveByPanel extends _react.Component {
                                                     children: " Eye Contact (15 marks)"
                                                 }, void 0, false, {
                                                     fileName: "src/components/EveByPanel.js",
-                                                    lineNumber: 303,
+                                                    lineNumber: 304,
                                                     columnNumber: 51
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 303,
+                                                lineNumber: 304,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32748,13 +32925,13 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 304,
+                                                lineNumber: 305,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 301,
+                                        lineNumber: 302,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32766,12 +32943,12 @@ class EveByPanel extends _react.Component {
                                                     children: "Arrange inside the group (15 marks)"
                                                 }, void 0, false, {
                                                     fileName: "src/components/EveByPanel.js",
-                                                    lineNumber: 314,
+                                                    lineNumber: 315,
                                                     columnNumber: 51
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 314,
+                                                lineNumber: 315,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32783,13 +32960,13 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 315,
+                                                lineNumber: 316,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 313,
+                                        lineNumber: 314,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -32800,7 +32977,7 @@ class EveByPanel extends _react.Component {
                                                 children: "Total Mark : (100 marks)"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 327,
+                                                lineNumber: 328,
                                                 columnNumber: 20
                                             }, this),
                                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
@@ -32812,26 +32989,26 @@ class EveByPanel extends _react.Component {
                                                 onChange: this.handleChange
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 328,
+                                                lineNumber: 329,
                                                 columnNumber: 20
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 325,
+                                        lineNumber: 326,
                                         columnNumber: 16
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 217,
+                                lineNumber: 218,
                                 columnNumber: 12
                             }, this),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                                 children: [
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 339,
+                                        lineNumber: 340,
                                         columnNumber: 20
                                     }, this),
                                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
@@ -32846,7 +33023,7 @@ class EveByPanel extends _react.Component {
                                                 children: " Submit the Result"
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 342,
+                                                lineNumber: 343,
                                                 columnNumber: 27
                                             }, this),
                                             "\xa0",
@@ -32871,31 +33048,31 @@ class EveByPanel extends _react.Component {
                                                             class: "far fa-arrow-alt-circle-left"
                                                         }, void 0, false, {
                                                             fileName: "src/components/EveByPanel.js",
-                                                            lineNumber: 347,
+                                                            lineNumber: 348,
                                                             columnNumber: 25
                                                         }, this),
                                                         "\xa0Go Back"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/EveByPanel.js",
-                                                    lineNumber: 346,
+                                                    lineNumber: 347,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/EveByPanel.js",
-                                                lineNumber: 344,
+                                                lineNumber: 345,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/EveByPanel.js",
-                                        lineNumber: 340,
+                                        lineNumber: 341,
                                         columnNumber: 20
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/EveByPanel.js",
-                                lineNumber: 338,
+                                lineNumber: 339,
                                 columnNumber: 16
                             }, this)
                         ]
@@ -34044,7 +34221,7 @@ class UploadNavbar extends _react.Component {
                             backgroundColor: '#3895d3'
                         },
                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                            href: "/",
+                            href: "/DocumentSubHome",
                             style: {
                                 textDecoration: 'none',
                                 backgroundColor: '#3895d3',
@@ -34338,6 +34515,8 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
+var _submitJpg = require("../../public/submit.jpg");
+var _submitJpgDefault = parcelHelpers.interopDefault(_submitJpg);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 class SubmitNavbar extends _react.Component {
@@ -34360,13 +34539,13 @@ class SubmitNavbar extends _react.Component {
                                 children: "Student Document Submission Page "
                             }, void 0, false, {
                                 fileName: "src/components/SubmitNavbar.js",
-                                lineNumber: 12,
+                                lineNumber: 13,
                                 columnNumber: 80
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/SubmitNavbar.js",
-                        lineNumber: 12,
+                        lineNumber: 13,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
@@ -34390,20 +34569,40 @@ class SubmitNavbar extends _react.Component {
                                     class: "far fa-arrow-alt-circle-left"
                                 }, void 0, false, {
                                     fileName: "src/components/SubmitNavbar.js",
-                                    lineNumber: 16,
+                                    lineNumber: 17,
                                     columnNumber: 21
                                 }, this),
                                 "\xa0Go Back"
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SubmitNavbar.js",
-                            lineNumber: 15,
+                            lineNumber: 16,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/SubmitNavbar.js",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        style: {
+                            marginLeft: '250px'
+                        },
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                            src: _submitJpgDefault.default,
+                            class: "mx-auto",
+                            alt: "evaluation",
+                            width: "900",
+                            height: "500"
+                        }, void 0, false, {
+                            fileName: "src/components/SubmitNavbar.js",
+                            lineNumber: 20,
+                            columnNumber: 53
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/SubmitNavbar.js",
+                        lineNumber: 20,
+                        columnNumber: 19
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
@@ -34414,7 +34613,7 @@ class SubmitNavbar extends _react.Component {
                                         style: {
                                             marginLeft: '110px',
                                             marginRight: '0px',
-                                            padding: '40px 40px',
+                                            padding: '30px 30px',
                                             backgroundColor: '#3895d3'
                                         },
                                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
@@ -34431,50 +34630,33 @@ class SubmitNavbar extends _react.Component {
                                                     class: "fa-solid fa-cloud-arrow-up"
                                                 }, void 0, false, {
                                                     fileName: "src/components/SubmitNavbar.js",
-                                                    lineNumber: 24,
+                                                    lineNumber: 28,
                                                     columnNumber: 23
                                                 }, this),
                                                 "\xa0 SUBMITS"
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/SubmitNavbar.js",
-                                            lineNumber: 23,
+                                            lineNumber: 27,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/SubmitNavbar.js",
-                                        lineNumber: 22,
+                                        lineNumber: 26,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/SubmitNavbar.js",
-                                    lineNumber: 21,
+                                    lineNumber: 25,
                                     columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
-                                        style: {
-                                            borderLeft: "6px solid #808080",
-                                            height: '600px',
-                                            marginLeft: '370px'
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "src/components/SubmitNavbar.js",
-                                        lineNumber: 30,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/SubmitNavbar.js",
-                                    lineNumber: 29,
-                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
                                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
                                         className: "btn btn-success",
                                         style: {
-                                            marginLeft: '400px',
+                                            marginLeft: '750px',
                                             marginRight: '0px',
-                                            padding: '50px 50px',
+                                            padding: '35px 35px',
                                             backgroundColor: '#3895d3'
                                         },
                                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
@@ -34514,23 +34696,23 @@ class SubmitNavbar extends _react.Component {
                             ]
                         }, void 0, true, {
                             fileName: "src/components/SubmitNavbar.js",
-                            lineNumber: 20,
+                            lineNumber: 24,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "src/components/SubmitNavbar.js",
-                        lineNumber: 19,
+                        lineNumber: 23,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/SubmitNavbar.js",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 13
             }, this)
         }, void 0, false, {
             fileName: "src/components/SubmitNavbar.js",
-            lineNumber: 8,
+            lineNumber: 9,
             columnNumber: 7
         }, this);
     }
@@ -34542,7 +34724,10 @@ exports.default = SubmitNavbar;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"9Zgrd":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","../../public/submit.jpg":"wVc1F"}],"wVc1F":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "submit.394f6f75.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"9Zgrd":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$9090 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34999,7 +35184,7 @@ class TempNavbar extends _react.Component {
                             backgroundColor: '#3895d3'
                         },
                         children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                            href: "/",
+                            href: "/DocumentSubHome",
                             style: {
                                 textDecoration: 'none',
                                 backgroundColor: '#3895d3',
@@ -35450,6 +35635,5770 @@ $RefreshReg$(_c, "TempAdd");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["kn9T2","7fmqN","8lqZg"], "8lqZg", "parcelRequire10c2")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2nIZW":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$28f3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$28f3.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class CreateGroup extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            GName: "",
+            student1: "",
+            student2: "",
+            student3: "",
+            student4: "",
+            Leader: ""
+        };
+    }
+    handleChange = ({ target: { value , name  }  })=>this.setState({
+            [name]: value
+        })
+    ;
+    onSubmit = (e)=>{
+        e.preventDefault();
+        const { GName , student1 , student2 , student3 , student4 , Leader  } = this.state;
+        const data = {
+            GName: GName,
+            student1: student1,
+            student2: student2,
+            student3: student3,
+            student4: student4,
+            Leader: Leader
+        };
+        console.log(data);
+        _axiosDefault.default.post("http://localhost:8000/group/save", data).then((res)=>{
+            if (res.data.success) this.setState({
+                GName: "",
+                student1: "",
+                student2: "",
+                student3: "",
+                student4: "",
+                Leader: ""
+            });
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            className: "edit",
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                        className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    "data-bs-toggle": "collapse",
+                                    className: "navbar-toggler",
+                                    "data-bs-target": "#navcol-1",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "visually-hidden",
+                                            children: "Toggle navigation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 69,
+                                            columnNumber: 102
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "navbar-toggler-icon"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 69,
+                                            columnNumber: 160
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_GroupReg.js",
+                                    lineNumber: 69,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "collapse navbar-collapse",
+                                    id: "navcol-1",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                        className: "navbar-nav",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link ",
+                                                    href: "/groupreg",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Group Registration"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 72,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_GroupReg.js",
+                                                lineNumber: 72,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/topicReg",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Topic Registration"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 74,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_GroupReg.js",
+                                                lineNumber: 74,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/ViewAreas",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Areas and Topics"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 75,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_GroupReg.js",
+                                                lineNumber: 75,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Panel Evaluations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 77,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_GroupReg.js",
+                                                lineNumber: 77,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Documents and templates"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 79,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_GroupReg.js",
+                                                lineNumber: 79,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "btn btn-warning",
+                                                    href: "/",
+                                                    style: {
+                                                        height: "40px",
+                                                        width: "100px",
+                                                        marginTop: "8px",
+                                                        marginLeft: "900px"
+                                                    },
+                                                    children: "Log Out"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 83,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_GroupReg.js",
+                                                lineNumber: 83,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_GroupReg.js",
+                                        lineNumber: 71,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_GroupReg.js",
+                                    lineNumber: 70,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_GroupReg.js",
+                            lineNumber: 69,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/U_GroupReg.js",
+                        lineNumber: 68,
+                        columnNumber: 10
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/U_GroupReg.js",
+                    lineNumber: 66,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "col-md-8 mt-4 mx-auto",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            style: {
+                                height: '80px',
+                                width: '100%',
+                                backgroundColor: "#080523",
+                                marginTop: '-20px'
+                            },
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/U_GroupReg.js",
+                                    lineNumber: 97,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                                    style: {
+                                        color: 'white',
+                                        textAlign: 'center'
+                                    },
+                                    children: "Group Registration Form"
+                                }, void 0, false, {
+                                    fileName: "src/components/U_GroupReg.js",
+                                    lineNumber: 98,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/U_GroupReg.js",
+                                    lineNumber: 99,
+                                    columnNumber: 20
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_GroupReg.js",
+                            lineNumber: 96,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/U_GroupReg.js",
+                            lineNumber: 101,
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                    className: "row g-3",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputEmail4",
+                                                    className: "form-label",
+                                                    children: "Enter a name for the group : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 109,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "GName",
+                                                    value: this.state.GName,
+                                                    placeholder: "Create a name for the group",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 110,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 108,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Enter the name of Student 1 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 114,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "student1",
+                                                    value: this.state.student1,
+                                                    placeholder: "Member 1",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 115,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 113,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Enter the name of Student 2 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 120,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "student2",
+                                                    value: this.state.student2,
+                                                    placeholder: "Member 2",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 121,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 119,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Enter the name of Student 3 "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 125,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "email",
+                                                    className: "form-control",
+                                                    name: "student3",
+                                                    value: this.state.student3,
+                                                    placeholder: "Member 3",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 126,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 124,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Enter the name of Student 4"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 130,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "student4",
+                                                    value: this.state.student4,
+                                                    placeholder: "Member 4",
+                                                    onChange: this.handleChange
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 131,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    style: {
+                                                        marginTop: '-20px'
+                                                    },
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                        fileName: "src/components/U_GroupReg.js",
+                                                        lineNumber: 133,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 132,
+                                                    columnNumber: 27
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 129,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Enter the details of the Leader : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 138,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "Leader",
+                                                    value: this.state.Leader,
+                                                    placeholder: "IT number of the leader",
+                                                    onChange: this.handleChange
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 139,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 137,
+                                            columnNumber: 21
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_GroupReg.js",
+                                    lineNumber: 106,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 143,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                    className: "btn btn btn-dark btn-lg",
+                                                    onClick: this.onSubmit,
+                                                    href: "/",
+                                                    children: "Submit"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 145,
+                                                    columnNumber: 25
+                                                }, this),
+                                                "\xa0",
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                    type: "button",
+                                                    children: [
+                                                        " ",
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                            href: '/groups',
+                                                            children: "Click here to view all Groups "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/U_GroupReg.js",
+                                                            lineNumber: 146,
+                                                            columnNumber: 48
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/U_GroupReg.js",
+                                                    lineNumber: 146,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 144,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 148,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/U_GroupReg.js",
+                                            lineNumber: 149,
+                                            columnNumber: 25
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_GroupReg.js",
+                                    lineNumber: 142,
+                                    columnNumber: 21
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_GroupReg.js",
+                            lineNumber: 104,
+                            columnNumber: 17
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/U_GroupReg.js",
+                    lineNumber: 95,
+                    columnNumber: 13
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/U_GroupReg.js",
+            lineNumber: 65,
+            columnNumber: 13
+        }, this);
+    }
+}
+exports.default = CreateGroup;
+
+  $parcel$ReactRefreshHelpers$28f3.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bQK4Y":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$d056 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d056.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class Home extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            groups: []
+        };
+    }
+    componentDidMount() {
+        this.retriveGroups();
+    }
+    retriveGroups() {
+        _axiosDefault.default.get("http://localhost:8000/groups").then((res)=>{
+            if (res.data.success) {
+                this.setState({
+                    groups: res.data.existingGroups
+                });
+                console.log(this.state.groups);
+            }
+        });
+    }
+    filterData(groups, searchKey) {
+        const result = groups.filter((group)=>group.GName.toLowerCase().includes(searchKey) || group.Leader.toLowerCase().includes(searchKey)
+        );
+        this.setState({
+            groups: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/groups").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingGroups, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                        className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    "data-bs-toggle": "collapse",
+                                    className: "navbar-toggler",
+                                    "data-bs-target": "#navcol-1",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "visually-hidden",
+                                            children: "Toggle navigation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Groups.js",
+                                            lineNumber: 58,
+                                            columnNumber: 102
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "navbar-toggler-icon"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Groups.js",
+                                            lineNumber: 58,
+                                            columnNumber: 160
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_Groups.js",
+                                    lineNumber: 58,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "collapse navbar-collapse",
+                                    id: "navcol-1",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                        className: "navbar-nav",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link ",
+                                                    href: "/groupreg",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Group Registration"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 61,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 61,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/topicReg",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Topic Registration"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 63,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 63,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/ViewAreas",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Areas and Topics"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 64,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 64,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Panel Evaluations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 66,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 66,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Documents and templates"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 68,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 68,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "btn btn-warning",
+                                                    href: "/",
+                                                    style: {
+                                                        height: "40px",
+                                                        width: "100px",
+                                                        marginTop: "8px",
+                                                        marginLeft: "900px"
+                                                    },
+                                                    children: "Log Out"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 72,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 72,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Groups.js",
+                                        lineNumber: 60,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Groups.js",
+                                    lineNumber: 59,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_Groups.js",
+                            lineNumber: 58,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/U_Groups.js",
+                        lineNumber: 57,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/U_Groups.js",
+                    lineNumber: 55,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "container",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/U_Groups.js",
+                            lineNumber: 84,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            children: "Registered Groups"
+                        }, void 0, false, {
+                            fileName: "src/components/U_Groups.js",
+                            lineNumber: 86,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/U_Groups.js",
+                            lineNumber: 89,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/U_Groups.js",
+                            lineNumber: 90,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/U_Groups.js",
+                            lineNumber: 101,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "col-lg-9 mt-2 mb-2",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                type: "search",
+                                placeholder: "search for your group",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/U_Groups.js",
+                                lineNumber: 103,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/U_Groups.js",
+                            lineNumber: 102,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            className: "table",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "No."
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 115,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Name of the group"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 116,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Student 1"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 117,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Student 2"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 118,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Student 3"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 119,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Student 4"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 120,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Group Leader"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Groups.js",
+                                                lineNumber: 121,
+                                                columnNumber: 11
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Groups.js",
+                                        lineNumber: 114,
+                                        columnNumber: 11
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Groups.js",
+                                    lineNumber: 113,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                    children: this.state.groups.map((groups, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "row",
+                                                    children: index + 1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 131,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                        href: `/details/${groups._id}`,
+                                                        style: {
+                                                            textDecoration: 'none'
+                                                        },
+                                                        children: groups.GName
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/U_Groups.js",
+                                                        lineNumber: 133,
+                                                        columnNumber: 15
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 132,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: groups.student1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 134,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: groups.student2
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 135,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: groups.student3
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 136,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: groups.student4
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 137,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: groups.Leader
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 138,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {}, void 0, false, {
+                                                    fileName: "src/components/U_Groups.js",
+                                                    lineNumber: 139,
+                                                    columnNumber: 15
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_Groups.js",
+                                            lineNumber: 130,
+                                            columnNumber: 13
+                                        }, this)
+                                    )
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Groups.js",
+                                    lineNumber: 127,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_Groups.js",
+                            lineNumber: 111,
+                            columnNumber: 7
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/U_Groups.js",
+                    lineNumber: 83,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/U_Groups.js",
+            lineNumber: 54,
+            columnNumber: 7
+        }, this);
+    }
+}
+exports.default = Home;
+
+  $parcel$ReactRefreshHelpers$d056.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"FqqiK":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1684 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1684.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class CreateTopic extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            Area: "",
+            Topic: "",
+            Supervisors: "",
+            CoSupervisors: "",
+            GroupName: "",
+            Leader: "",
+            SState: "",
+            CState: "",
+            Comments: ""
+        };
+    }
+    handleChange = ({ target: { value , name  }  })=>this.setState({
+            [name]: value
+        })
+    ;
+    onSubmit = (e)=>{
+        e.preventDefault();
+        const { Area , Topic , Supervisors , CoSupervisors , GroupName , Leader , SState , CState , Comments  } = this.state;
+        const data = {
+            Area: Area,
+            Topic: Topic,
+            Supervisors: Supervisors,
+            CoSupervisors: CoSupervisors,
+            GroupName: GroupName,
+            Leader: Leader,
+            SState: SState,
+            CState: CState,
+            Comments: Comments
+        };
+        console.log(data);
+        _axiosDefault.default.post("http://localhost:8000/topic/save", data).then((res)=>{
+            if (res.data.success) this.setState({
+                Area: "",
+                Topic: "",
+                Supervisors: "",
+                CoSupervisors: "",
+                GroupName: "",
+                Leader: "",
+                SState: "",
+                CState: "",
+                Comments: ""
+            });
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            className: "edit",
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                        className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    "data-bs-toggle": "collapse",
+                                    className: "navbar-toggler",
+                                    "data-bs-target": "#navcol-1",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "visually-hidden",
+                                            children: "Toggle navigation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 78,
+                                            columnNumber: 102
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "navbar-toggler-icon"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 78,
+                                            columnNumber: 160
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_TopicReg.js",
+                                    lineNumber: 78,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "collapse navbar-collapse",
+                                    id: "navcol-1",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                        className: "navbar-nav",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link ",
+                                                    href: "/groupreg",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Group Registration"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 81,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_TopicReg.js",
+                                                lineNumber: 81,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/topicReg",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Topic Registration"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 83,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_TopicReg.js",
+                                                lineNumber: 83,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/ViewAreas",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Areas and Topics"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 84,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_TopicReg.js",
+                                                lineNumber: 84,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Panel Evaluations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 86,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_TopicReg.js",
+                                                lineNumber: 86,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Documents and templates"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 88,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_TopicReg.js",
+                                                lineNumber: 88,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "btn btn-warning",
+                                                    href: "/",
+                                                    style: {
+                                                        height: "40px",
+                                                        width: "100px",
+                                                        marginTop: "8px",
+                                                        marginLeft: "900px"
+                                                    },
+                                                    children: "Log Out"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 92,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_TopicReg.js",
+                                                lineNumber: 92,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_TopicReg.js",
+                                        lineNumber: 80,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_TopicReg.js",
+                                    lineNumber: 79,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_TopicReg.js",
+                            lineNumber: 78,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/U_TopicReg.js",
+                        lineNumber: 77,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/U_TopicReg.js",
+                    lineNumber: 75,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "col-md-8 mt-4 mx-auto",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            style: {
+                                height: '80px',
+                                width: '100%',
+                                backgroundColor: "#080523",
+                                marginTop: '-20px'
+                            },
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/U_TopicReg.js",
+                                    lineNumber: 105,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                                    style: {
+                                        color: 'white',
+                                        textAlign: 'center'
+                                    },
+                                    children: "Topic Registration Form"
+                                }, void 0, false, {
+                                    fileName: "src/components/U_TopicReg.js",
+                                    lineNumber: 106,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/U_TopicReg.js",
+                                    lineNumber: 107,
+                                    columnNumber: 20
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_TopicReg.js",
+                            lineNumber: 104,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/U_TopicReg.js",
+                            lineNumber: 109,
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                    className: "row g-3",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputEmail4",
+                                                    className: "form-label",
+                                                    children: "Research Area : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 115,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "Area",
+                                                    value: this.state.Area,
+                                                    placeholder: "Please select the research area",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 116,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 114,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Research Topic : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 120,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "Topic",
+                                                    value: this.state.Topic,
+                                                    placeholder: "Enter the selected topic",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 121,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 119,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Supervisor : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 126,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "Supervisor",
+                                                    value: this.state.Supervisors,
+                                                    placeholder: "Enter the name of the selected supervisor",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 127,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 125,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Co-Supervisor :"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 131,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "email",
+                                                    className: "form-control",
+                                                    name: "CoSupervisor",
+                                                    value: this.state.CoSupervisors,
+                                                    placeholder: "Enter the name of the selected co-supervisor",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 132,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 130,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Registered name of the group :"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 136,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "GroupName",
+                                                    value: this.state.GroupName,
+                                                    placeholder: "Enter the registered name ",
+                                                    onChange: this.handleChange
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 137,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    style: {
+                                                        marginTop: '-20px'
+                                                    },
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                        fileName: "src/components/U_TopicReg.js",
+                                                        lineNumber: 139,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 138,
+                                                    columnNumber: 27
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 135,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Enter the details of the Leader : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 144,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "Leader",
+                                                    value: this.state.Leader,
+                                                    placeholder: "IT number of the leader",
+                                                    onChange: this.handleChange
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 145,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 143,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Supervisor state : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 150,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "SState",
+                                                    value: this.state.SState,
+                                                    list: "SStates",
+                                                    placeholder: "Response of the Supervisor",
+                                                    onChange: this.handleChange
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 151,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 149,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("datalist", {
+                                            id: "SStates",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("option", {
+                                                    value: "Supervisor response - pending"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 154,
+                                                    columnNumber: 27
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("option", {
+                                                    value: "Supervisor response - accepted"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 155,
+                                                    columnNumber: 27
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("option", {
+                                                    value: "Supervisor response - rejected"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 156,
+                                                    columnNumber: 27
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 153,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Co-Supervisor State : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 161,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "CState",
+                                                    value: this.state.CState,
+                                                    list: "CStates",
+                                                    placeholder: "Response of the Co-Supervisor",
+                                                    onChange: this.handleChange
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 162,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 160,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("datalist", {
+                                            id: "CStates",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("option", {
+                                                    value: "Co-Supervisor response - pending"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 165,
+                                                    columnNumber: 27
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("option", {
+                                                    value: "Co-Supervisor response - accepted"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 166,
+                                                    columnNumber: 27
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("option", {
+                                                    value: "Co-Supervisor response - rejected"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 167,
+                                                    columnNumber: 27
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 164,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Comments : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 173,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "Comments",
+                                                    value: this.state.Comments,
+                                                    placeholder: "Enter the comments to be viewed about topic selection",
+                                                    onChange: this.handleChange
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 174,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                                    children: 'If no comments, please proceed with a "No"'
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 175,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 172,
+                                            columnNumber: 21
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_TopicReg.js",
+                                    lineNumber: 112,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 180,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                    className: "btn btn btn-dark btn-lg",
+                                                    onClick: this.onSubmit,
+                                                    href: "/",
+                                                    children: "Register Topic"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_TopicReg.js",
+                                                    lineNumber: 182,
+                                                    columnNumber: 25
+                                                }, this),
+                                                "\xa0"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 181,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 184,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/U_TopicReg.js",
+                                            lineNumber: 185,
+                                            columnNumber: 25
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_TopicReg.js",
+                                    lineNumber: 179,
+                                    columnNumber: 21
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_TopicReg.js",
+                            lineNumber: 110,
+                            columnNumber: 17
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/U_TopicReg.js",
+                    lineNumber: 103,
+                    columnNumber: 13
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/U_TopicReg.js",
+            lineNumber: 74,
+            columnNumber: 13
+        }, this);
+    }
+}
+exports.default = CreateTopic;
+
+  $parcel$ReactRefreshHelpers$1684.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"75Fqx":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$d144 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d144.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+// import React, { Component } from 'react';
+// import axios from 'axios';
+// export default class Details extends Component {
+//     constructor(props){
+//         super(props);
+//         this.state={
+//             travelor:{}
+//         };
+//     }
+//     componentDidMount(){
+//         const id = this.props.match.params.id;
+//         axios.get(`http://localhost:8000/travelor/${id}`).then((res)=>{  //post ->postRamona
+//             if(res.data.success){
+//                 this.setState({
+//                     travelor:res.data.travelor
+//                 });
+//                 console.log(this.state.travelor);
+//             }
+//         });
+//     }
+//     render() {
+//         const {Name,NIC,Phone,Email,type,date}=this.state.travelor;
+//         return (
+//             <div className="details" style={{marginTop:'20px'}}>
+//                 <h4>{Name}</h4>
+//                 <hr/>
+//                 <dl className="row">
+//                     <dt className="col-sm-3"> NIC</dt>
+//                     <dd className="col-sm-9">{NIC}</dd>
+//                     <dt className="col-sm-3">Phone Number</dt>
+//                     <dd className="col-sm-9">{Phone}</dd>
+//                     <dt className="col-sm-3">Email Address</dt>
+//                     <dd className="col-sm-9">{Email}</dd>
+//                     <dt className="col-sm-3">Type of reservation</dt>
+//                     <dd className="col-sm-9">{type}</dd>
+//                     <dt className="col-sm-3">Date of reservation</dt>
+//                     <dd className="col-sm-9">{date}</dd>
+//                 </dl>
+//             </div>
+//         )
+//     }
+// }
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function UpdateDetails() {
+    _s();
+    const [GName, setGName] = _react.useState("");
+    const [student1, setstudent1] = _react.useState("");
+    const [student2, setstudent2] = _react.useState("");
+    const [student3, setstudent3] = _react.useState("");
+    const [student4, setstudent4] = _react.useState("");
+    const [Leader, setLeader] = _react.useState("");
+    const id1 = _reactRouterDom.useParams();
+    const [group] = _react.useState({
+        GName: "",
+        student1: "",
+        student2: "",
+        student3: "",
+        student4: "",
+        Leader: ""
+    });
+    const changeOnClick = async (e)=>{
+        e.preventDefault();
+        console.log("execute onclick");
+        const formData = new FormData();
+        formData.append("GName", GName);
+        formData.append("student1", student1);
+        formData.append("student2", student2);
+        formData.append("student3", student3);
+        formData.append("student4", student4);
+        formData.append("Leader", Leader);
+        setGName("");
+        setstudent1("");
+        setstudent2("");
+        setstudent3("");
+        setstudent4("");
+        setLeader("");
+        console.log(formData.get('GName'));
+        group.GName = formData.get('GName');
+        group.student1 = formData.get('student1');
+        group.student2 = formData.get('student2');
+        group.student3 = formData.get('student3');
+        group.student4 = formData.get('student4');
+        group.Leader = formData.get('Leader');
+        console.log(group);
+        console.log(id1);
+        await _axiosDefault.default.put(`http://localhost:8000/group/update/${id1?.id}`, group).then((res)=>{
+            console.log("return data", res);
+            alert("Group is updated successfully!!");
+        }).catch((err)=>{
+            alert("Failed to update..!!");
+            console.log(err);
+        });
+    };
+    onDelete = (id)=>{
+        _axiosDefault.default.delete(`http://localhost:8000/group/delete/${id}`).then((res)=>{
+            alert("Deleted successfully!");
+            this.retriveGroups();
+        });
+    };
+    _react.useEffect(function effectFunction() {
+        console.log("get ID", id1);
+        _axiosDefault.default.get(`http://localhost:8000/group/${id1?.id}`).then((res)=>{
+            console.log("data", res);
+            setGName(res.data.group.GName);
+            setstudent1(res.data.group.student1);
+            setstudent2(res.data.group.student2);
+            setstudent3(res.data.group.student3);
+            setstudent4(res.data.group.student4);
+            setLeader(res.data.group.Leader);
+        }).catch((err)=>console.log(err)
+        );
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                    className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                "data-bs-toggle": "collapse",
+                                className: "navbar-toggler",
+                                "data-bs-target": "#navcol-1",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                        className: "visually-hidden",
+                                        children: "Toggle navigation"
+                                    }, void 0, false, {
+                                        fileName: "src/components/U_Details.js",
+                                        lineNumber: 173,
+                                        columnNumber: 102
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                        className: "navbar-toggler-icon"
+                                    }, void 0, false, {
+                                        fileName: "src/components/U_Details.js",
+                                        lineNumber: 173,
+                                        columnNumber: 160
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/U_Details.js",
+                                lineNumber: 173,
+                                columnNumber: 14
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "collapse navbar-collapse",
+                                id: "navcol-1",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                    className: "navbar-nav",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            className: "nav-item",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "nav-link ",
+                                                href: "/groupreg",
+                                                style: {
+                                                    fontsize: '15px',
+                                                    color: 'rgb(255,255,255)'
+                                                },
+                                                children: "Group Registration"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 176,
+                                                columnNumber: 46
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Details.js",
+                                            lineNumber: 176,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            className: "nav-item",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "nav-link",
+                                                href: "/topicReg",
+                                                style: {
+                                                    fontsize: '15px',
+                                                    color: 'rgb(255,255,255)'
+                                                },
+                                                children: "Topic Registration"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 178,
+                                                columnNumber: 46
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Details.js",
+                                            lineNumber: 178,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            className: "nav-item",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "nav-link",
+                                                href: "/ViewAreas",
+                                                style: {
+                                                    fontsize: '15px',
+                                                    color: 'rgb(255,255,255)'
+                                                },
+                                                children: "Research Areas and Topics"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 179,
+                                                columnNumber: 46
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Details.js",
+                                            lineNumber: 179,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            className: "nav-item",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "nav-link",
+                                                href: "#",
+                                                style: {
+                                                    fontsize: '15px',
+                                                    color: 'rgb(255,255,255)'
+                                                },
+                                                children: "Panel Evaluations"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 181,
+                                                columnNumber: 46
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Details.js",
+                                            lineNumber: 181,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            className: "nav-item",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "nav-link",
+                                                href: "#",
+                                                style: {
+                                                    fontsize: '15px',
+                                                    color: 'rgb(255,255,255)'
+                                                },
+                                                children: "Documents and templates"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 183,
+                                                columnNumber: 46
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Details.js",
+                                            lineNumber: 183,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "btn btn-warning",
+                                                href: "/",
+                                                style: {
+                                                    height: "40px",
+                                                    width: "100px",
+                                                    marginTop: "8px",
+                                                    marginLeft: "900px"
+                                                },
+                                                children: "Log Out"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 187,
+                                                columnNumber: 25
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Details.js",
+                                            lineNumber: 187,
+                                            columnNumber: 21
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_Details.js",
+                                    lineNumber: 175,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/U_Details.js",
+                                lineNumber: 174,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/U_Details.js",
+                        lineNumber: 173,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/U_Details.js",
+                    lineNumber: 172,
+                    columnNumber: 8
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/U_Details.js",
+                lineNumber: 170,
+                columnNumber: 8
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/U_Details.js",
+                        lineNumber: 200,
+                        columnNumber: 10
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            children: "Details of the Group"
+                        }, void 0, false, {
+                            fileName: "src/components/U_Details.js",
+                            lineNumber: 201,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/U_Details.js",
+                        lineNumber: 201,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/U_Details.js",
+                        lineNumber: 202,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                            className: "row g-3",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Name of the group : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 209,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "GName",
+                                                onChange: (e)=>setGName(e.target.value)
+                                                ,
+                                                value: GName,
+                                                placeholder: "Create a name for the group"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 210,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Details.js",
+                                        lineNumber: 208,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Details.js",
+                                    lineNumber: 207,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Member 1 : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 220,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "student1",
+                                                onChange: (e)=>setstudent1(e.target.value)
+                                                ,
+                                                value: student1,
+                                                placeholder: "Name of the first member"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 221,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Details.js",
+                                        lineNumber: 219,
+                                        columnNumber: 18
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Details.js",
+                                    lineNumber: 218,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Member 2 : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 231,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "student2",
+                                                onChange: (e)=>setstudent2(e.target.value)
+                                                ,
+                                                value: student2,
+                                                placeholder: "Name of the second member"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 232,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Details.js",
+                                        lineNumber: 230,
+                                        columnNumber: 18
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Details.js",
+                                    lineNumber: 229,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Member 3 : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 244,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "student3",
+                                                onChange: (e)=>setstudent3(e.target.value)
+                                                ,
+                                                value: student3,
+                                                placeholder: "Name of the third member"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 245,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Details.js",
+                                        lineNumber: 243,
+                                        columnNumber: 18
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Details.js",
+                                    lineNumber: 242,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Member 4 : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 257,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "student4",
+                                                onChange: (e)=>setstudent4(e.target.value)
+                                                ,
+                                                value: student4,
+                                                placeholder: "Name of the fourth member"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 258,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Details.js",
+                                        lineNumber: 256,
+                                        columnNumber: 18
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Details.js",
+                                    lineNumber: 255,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Name of the Leader : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 271,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "Leader",
+                                                onChange: (e)=>setdate(e.target.value)
+                                                ,
+                                                value: Leader,
+                                                placeholder: "IT number of the leader"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Details.js",
+                                                lineNumber: 272,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Details.js",
+                                        lineNumber: 270,
+                                        columnNumber: 18
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Details.js",
+                                    lineNumber: 269,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            type: "submit",
+                                            onClick: (e)=>changeOnClick(e)
+                                            ,
+                                            children: "Update and Confirm Group Details"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Details.js",
+                                            lineNumber: 283,
+                                            columnNumber: 18
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/U_Details.js",
+                                            lineNumber: 283,
+                                            columnNumber: 114
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/U_Details.js",
+                                            lineNumber: 283,
+                                            columnNumber: 119
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            className: "btn btn-primary",
+                                            href: "/",
+                                            style: {
+                                                textDecoration: 'none'
+                                            },
+                                            children: "Request Supervisors"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Details.js",
+                                            lineNumber: 284,
+                                            columnNumber: 18
+                                        }, this),
+                                        "\xa0\xa0\xa0",
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            className: "btn btn-danger btn-block",
+                                            href: "#",
+                                            onClick: ()=>this.onDelete(groups._id)
+                                            ,
+                                            children: "\xa0Delete Group"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Details.js",
+                                            lineNumber: 285,
+                                            columnNumber: 18
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_Details.js",
+                                    lineNumber: 282,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_Details.js",
+                            lineNumber: 206,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/U_Details.js",
+                        lineNumber: 205,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/U_Details.js",
+                lineNumber: 198,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/U_Details.js",
+        lineNumber: 169,
+        columnNumber: 9
+    }, this);
+}
+exports.default = UpdateDetails;
+_s(UpdateDetails, "5+JUZ4oas9SYYJH9VdZIw699kKs=", false, function() {
+    return [
+        _reactRouterDom.useParams
+    ];
+});
+_c = UpdateDetails;
+var _c;
+$RefreshReg$(_c, "UpdateDetails");
+
+  $parcel$ReactRefreshHelpers$d144.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4Y7tU":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$bc7d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$bc7d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class addArea extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            Area: "",
+            Topics: ""
+        };
+    }
+    handleChange = ({ target: { value , name  }  })=>this.setState({
+            [name]: value
+        })
+    ;
+    onSubmit = (e)=>{
+        e.preventDefault();
+        const { Area , Topics  } = this.state;
+        const data = {
+            Area: Area,
+            Topics: Topics
+        };
+        console.log(data);
+        _axiosDefault.default.post("http://localhost:8000/area/save", data).then((res)=>{
+            if (res.data.success) this.setState({
+                Area: "",
+                Topics: ""
+            });
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            className: "edit",
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                        className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    "data-bs-toggle": "collapse",
+                                    className: "navbar-toggler",
+                                    "data-bs-target": "#navcol-1",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "visually-hidden",
+                                            children: "Toggle navigation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_AddArea.js",
+                                            lineNumber: 58,
+                                            columnNumber: 102
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "navbar-toggler-icon"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_AddArea.js",
+                                            lineNumber: 58,
+                                            columnNumber: 160
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_AddArea.js",
+                                    lineNumber: 58,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "collapse navbar-collapse",
+                                    id: "navcol-1",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                        className: "navbar-nav",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link ",
+                                                    href: "/view",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Groups"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 61,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_AddArea.js",
+                                                lineNumber: 61,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Supervisor allocations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 63,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_AddArea.js",
+                                                lineNumber: 63,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/Areas",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Areas and Topics"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 64,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_AddArea.js",
+                                                lineNumber: 64,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Panel Formations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 66,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_AddArea.js",
+                                                lineNumber: 66,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Project Evaluations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 68,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_AddArea.js",
+                                                lineNumber: 68,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "btn btn-warning",
+                                                    href: "/",
+                                                    style: {
+                                                        height: "40px",
+                                                        width: "100px",
+                                                        marginTop: "8px",
+                                                        marginLeft: "900px"
+                                                    },
+                                                    children: "Log Out"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 72,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_AddArea.js",
+                                                lineNumber: 72,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_AddArea.js",
+                                        lineNumber: 60,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_AddArea.js",
+                                    lineNumber: 59,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_AddArea.js",
+                            lineNumber: 58,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/A_AddArea.js",
+                        lineNumber: 57,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/A_AddArea.js",
+                    lineNumber: 55,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "col-md-8 mt-4 mx-auto",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            style: {
+                                height: '80px',
+                                width: '100%',
+                                backgroundColor: "#080523",
+                                marginTop: '-20px'
+                            },
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/A_AddArea.js",
+                                    lineNumber: 85,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                                    style: {
+                                        color: 'white',
+                                        textAlign: 'center'
+                                    },
+                                    children: "Research Areas and Topics"
+                                }, void 0, false, {
+                                    fileName: "src/components/A_AddArea.js",
+                                    lineNumber: 86,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/A_AddArea.js",
+                                    lineNumber: 87,
+                                    columnNumber: 20
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_AddArea.js",
+                            lineNumber: 84,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/A_AddArea.js",
+                            lineNumber: 89,
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                    className: "row g-3",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputEmail4",
+                                                    className: "form-label",
+                                                    children: "Research Area : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 97,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "Area",
+                                                    value: this.state.Area,
+                                                    placeholder: "Enter the area of the topic",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 98,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/A_AddArea.js",
+                                            lineNumber: 96,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Related Research Topics : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 102,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "textArea",
+                                                    className: "form-control",
+                                                    name: "Topics",
+                                                    value: this.state.Topics,
+                                                    placeholder: "Add related topics",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 103,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/A_AddArea.js",
+                                            lineNumber: 101,
+                                            columnNumber: 21
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_AddArea.js",
+                                    lineNumber: 94,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
+                                            fileName: "src/components/A_AddArea.js",
+                                            lineNumber: 109,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                    className: "btn btn btn-dark btn-lg",
+                                                    onClick: this.onSubmit,
+                                                    href: "/",
+                                                    children: "Save Research Area"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 111,
+                                                    columnNumber: 25
+                                                }, this),
+                                                "\xa0",
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                    type: "button",
+                                                    children: [
+                                                        " ",
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                            href: '/groups',
+                                                            children: "Click here to view all Groups "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/A_AddArea.js",
+                                                            lineNumber: 112,
+                                                            columnNumber: 48
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/A_AddArea.js",
+                                                    lineNumber: 112,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/A_AddArea.js",
+                                            lineNumber: 110,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/A_AddArea.js",
+                                            lineNumber: 114,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/A_AddArea.js",
+                                            lineNumber: 115,
+                                            columnNumber: 25
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_AddArea.js",
+                                    lineNumber: 108,
+                                    columnNumber: 21
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_AddArea.js",
+                            lineNumber: 92,
+                            columnNumber: 17
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/A_AddArea.js",
+                    lineNumber: 83,
+                    columnNumber: 13
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/A_AddArea.js",
+            lineNumber: 54,
+            columnNumber: 13
+        }, this);
+    }
+}
+exports.default = addArea;
+
+  $parcel$ReactRefreshHelpers$bc7d.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bccQg":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0959 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$0959.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _11Jpg = require("../../public/11.jpg");
+var _11JpgDefault = parcelHelpers.interopDefault(_11Jpg);
+var _2Jpg = require("../../public/2.jpg");
+var _2JpgDefault = parcelHelpers.interopDefault(_2Jpg);
+var _3Jpg = require("../../public/3.jpg");
+var _3JpgDefault = parcelHelpers.interopDefault(_3Jpg);
+var _mainWebp = require("../../public/main.webp");
+var _mainWebpDefault = parcelHelpers.interopDefault(_mainWebp);
+class U_Home extends _react.Component {
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            style: {
+                height: '150px',
+                width: '100%',
+                backgroundColor: "#260248",
+                marginTop: '-20px'
+            },
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/U_Home.js",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/U_Home.js",
+                    lineNumber: 12,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                    style: {
+                        color: 'white',
+                        textAlign: 'center'
+                    },
+                    children: "Research Topic Management"
+                }, void 0, false, {
+                    fileName: "src/components/U_Home.js",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/U_Home.js",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "container",
+                    style: {
+                        marginLeft: "28%"
+                    }
+                }, void 0, false, {
+                    fileName: "src/components/U_Home.js",
+                    lineNumber: 15,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                        className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    "data-bs-toggle": "collapse",
+                                    className: "navbar-toggler",
+                                    "data-bs-target": "#navcol-1",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "visually-hidden",
+                                            children: "Toggle navigation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Home.js",
+                                            lineNumber: 23,
+                                            columnNumber: 102
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "navbar-toggler-icon"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Home.js",
+                                            lineNumber: 23,
+                                            columnNumber: 160
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_Home.js",
+                                    lineNumber: 23,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "collapse navbar-collapse",
+                                    id: "navcol-1",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                        className: "navbar-nav",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link ",
+                                                    href: "/groupreg",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Group Registration"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 26,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 26,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/topicReg",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Topic Registration"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 28,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 28,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/ViewAreas",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Areas and Topics"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 29,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 29,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Panel Evaluations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 31,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 31,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Documents and templates"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 33,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 33,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/SubmitNavbar",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Documents Submission page"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 35,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 35,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "btn btn-warning",
+                                                    href: "/",
+                                                    style: {
+                                                        height: "40px",
+                                                        width: "100px",
+                                                        marginTop: "8px",
+                                                        marginLeft: "800px"
+                                                    },
+                                                    children: "Log Out"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 39,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 39,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Home.js",
+                                        lineNumber: 25,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Home.js",
+                                    lineNumber: 24,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_Home.js",
+                            lineNumber: 23,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/U_Home.js",
+                        lineNumber: 22,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/U_Home.js",
+                    lineNumber: 20,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    class: "container-fluid bg-3 text-center",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/U_Home.js",
+                            lineNumber: 52,
+                            columnNumber: 7
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            id: "carouselExampleSlidesOnly",
+                            class: "carousel slide",
+                            "data-ride": "carousel",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    class: "carousel-inner",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        class: "carousel-item active",
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                            class: "d-block w-100",
+                                            src: _mainWebpDefault.default,
+                                            alt: "First slide",
+                                            width: "80%",
+                                            height: "500"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Home.js",
+                                            lineNumber: 57,
+                                            columnNumber: 8
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/U_Home.js",
+                                        lineNumber: 56,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Home.js",
+                                    lineNumber: 55,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: "Benefits of this tool?"
+                                    }, void 0, false, {
+                                        fileName: "src/components/U_Home.js",
+                                        lineNumber: 61,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Home.js",
+                                    lineNumber: 61,
+                                    columnNumber: 5
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_Home.js",
+                            lineNumber: 54,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            class: "row",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    class: "col-sm-4",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                            children: "You are given the opportunity to form your research groups and register your group via Group Registration option provided by the tool."
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Home.js",
+                                            lineNumber: 65,
+                                            columnNumber: 9
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                            src: _11JpgDefault.default,
+                                            class: "mx-auto",
+                                            alt: "",
+                                            width: "250",
+                                            height: "250"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Home.js",
+                                            lineNumber: 66,
+                                            columnNumber: 9
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_Home.js",
+                                    lineNumber: 64,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    class: "col-sm-4",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                            children: "Select a research topic from a particular research area and start working on with it, with the guidance of supervisors and co-supervisors."
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Home.js",
+                                            lineNumber: 69,
+                                            columnNumber: 9
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                            src: _2JpgDefault.default,
+                                            class: "mx-auto",
+                                            alt: "",
+                                            width: "250",
+                                            height: "250"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Home.js",
+                                            lineNumber: 70,
+                                            columnNumber: 9
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_Home.js",
+                                    lineNumber: 68,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    class: "col-sm-4",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                            children: "After doing the submissions, you are given the opportunity to get feedback on your projects and will be notified about your presentations."
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Home.js",
+                                            lineNumber: 73,
+                                            columnNumber: 9
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                            src: _3JpgDefault.default,
+                                            class: "mx-auto",
+                                            alt: "",
+                                            width: "250",
+                                            height: "250"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Home.js",
+                                            lineNumber: 74,
+                                            columnNumber: 9
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_Home.js",
+                                    lineNumber: 72,
+                                    columnNumber: 9
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_Home.js",
+                            lineNumber: 63,
+                            columnNumber: 9
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/U_Home.js",
+                    lineNumber: 51,
+                    columnNumber: 5
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/U_Home.js",
+                    lineNumber: 78,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("footer", {
+                    class: "page-footer font-small cyan darken-3",
+                    style: {
+                        backgroundColor: "black",
+                        marginLeft: "-120px",
+                        marginTop: "0px",
+                        height: "170px",
+                        marginRight: "-1000px",
+                        marginBottom: "-40px"
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                class: "row",
+                                style: {
+                                    marginLeft: "700px",
+                                    height: "100px"
+                                },
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    class: "col-md-12 py-5",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        class: "mb-5 flex-center",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "fb-ic",
+                                                style: {
+                                                    paddingLeft: "10px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 89,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 88,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "tw-ic",
+                                                style: {
+                                                    paddingLeft: "20px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 93,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 92,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "gplus-ic",
+                                                style: {
+                                                    paddingLeft: "20px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 97,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 96,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "li-ic",
+                                                style: {
+                                                    paddingLeft: "20px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 101,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 100,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "ins-ic",
+                                                style: {
+                                                    paddingLeft: "20px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 105,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 104,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "pin-ic",
+                                                style: {
+                                                    paddingLeft: "20px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-pinterest fa-lg white-text fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Home.js",
+                                                    lineNumber: 109,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Home.js",
+                                                lineNumber: 108,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Home.js",
+                                        lineNumber: 86,
+                                        columnNumber: 21
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Home.js",
+                                    lineNumber: 85,
+                                    columnNumber: 17
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/U_Home.js",
+                                lineNumber: 83,
+                                columnNumber: 17
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/U_Home.js",
+                            lineNumber: 81,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            class: "footer-copyright text-center py-3",
+                            style: {
+                                color: "white"
+                            },
+                            children: [
+                                "\xa9 2020 Copyright:",
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                    href: "https://mdbootstrap.com/",
+                                    children: " Research Topic Mangement tool"
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Home.js",
+                                    lineNumber: 119,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_Home.js",
+                            lineNumber: 118,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/U_Home.js",
+                    lineNumber: 79,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/U_Home.js",
+            lineNumber: 10,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = U_Home;
+
+  $parcel$ReactRefreshHelpers$0959.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../public/11.jpg":"hcdd0","../../public/2.jpg":"8htbf","../../public/3.jpg":"iZP9A","../../public/main.webp":"kvC0N","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hcdd0":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "11.4565739f.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"8htbf":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "2.8b4a430d.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"iZP9A":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "3.33285ccc.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"kvC0N":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "main.97b9598d.webp" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"iz2K7":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3fc1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3fc1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _adminPng = require("../../public/admin.png");
+var _adminPngDefault = parcelHelpers.interopDefault(_adminPng);
+var _staffJpg = require("../../public/staff.jpg");
+var _staffJpgDefault = parcelHelpers.interopDefault(_staffJpg);
+class A_Home extends _react.Component {
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            style: {
+                height: '150px',
+                width: '100%',
+                backgroundColor: "#260248",
+                marginTop: '-20px'
+            },
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/A_Home.js",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/A_Home.js",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                    style: {
+                        color: 'white',
+                        textAlign: 'center'
+                    },
+                    children: "Research Topic Management"
+                }, void 0, false, {
+                    fileName: "src/components/A_Home.js",
+                    lineNumber: 12,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/A_Home.js",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "container",
+                    style: {
+                        marginLeft: "28%"
+                    }
+                }, void 0, false, {
+                    fileName: "src/components/A_Home.js",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                        className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    "data-bs-toggle": "collapse",
+                                    className: "navbar-toggler",
+                                    "data-bs-target": "#navcol-1",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "visually-hidden",
+                                            children: "Toggle navigation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Home.js",
+                                            lineNumber: 22,
+                                            columnNumber: 102
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "navbar-toggler-icon"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Home.js",
+                                            lineNumber: 22,
+                                            columnNumber: 160
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Home.js",
+                                    lineNumber: 22,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "collapse navbar-collapse",
+                                    id: "navcol-1",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                        className: "navbar-nav",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link ",
+                                                    href: "/view",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Groups"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 25,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 25,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Supervisor allocations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 27,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 27,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/Areas",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Areas and Topics"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 28,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 28,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Panel Formations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 30,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 30,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/EveHome",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Project Evaluations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 32,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 32,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/DocumentSubHome",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Documents / Templates Submission"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 34,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 34,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "btn btn-warning",
+                                                    href: "/",
+                                                    style: {
+                                                        height: "40px",
+                                                        width: "100px",
+                                                        marginTop: "8px",
+                                                        marginLeft: "700px"
+                                                    },
+                                                    children: "Log Out"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 38,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 38,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Home.js",
+                                        lineNumber: 24,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Home.js",
+                                    lineNumber: 23,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Home.js",
+                            lineNumber: 22,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/A_Home.js",
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/A_Home.js",
+                    lineNumber: 19,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    class: "container-fluid bg-2 text-center",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/A_Home.js",
+                            lineNumber: 51,
+                            columnNumber: 7
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            class: "row",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    class: "col-sm-4",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                            src: _adminPngDefault.default,
+                                            class: "mx-auto",
+                                            alt: "",
+                                            width: "300",
+                                            height: "300"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Home.js",
+                                            lineNumber: 56,
+                                            columnNumber: 9
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            href: "/admin",
+                                            children: "LOGIN AS ADMIN"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Home.js",
+                                            lineNumber: 56,
+                                            columnNumber: 75
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Home.js",
+                                    lineNumber: 54,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    class: "col-sm-4",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                                            src: _staffJpgDefault.default,
+                                            class: "mx-auto",
+                                            alt: "",
+                                            width: "300",
+                                            height: "300"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Home.js",
+                                            lineNumber: 59,
+                                            columnNumber: 9
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            href: "/staff",
+                                            children: "\xa0LOGIN AS STAFF"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Home.js",
+                                            lineNumber: 59,
+                                            columnNumber: 76
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Home.js",
+                                    lineNumber: 58,
+                                    columnNumber: 9
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Home.js",
+                            lineNumber: 53,
+                            columnNumber: 9
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/A_Home.js",
+                    lineNumber: 50,
+                    columnNumber: 5
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/A_Home.js",
+                    lineNumber: 64,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("footer", {
+                    class: "page-footer font-small cyan darken-3",
+                    style: {
+                        backgroundColor: "black",
+                        marginLeft: "-120px",
+                        marginTop: "0px",
+                        height: "170px",
+                        marginRight: "-1000px",
+                        marginBottom: "-40px"
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                class: "row",
+                                style: {
+                                    marginLeft: "700px",
+                                    height: "100px"
+                                },
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    class: "col-md-12 py-5",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        class: "mb-5 flex-center",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "fb-ic",
+                                                style: {
+                                                    paddingLeft: "10px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 76,
+                                                    columnNumber: 13
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 75,
+                                                columnNumber: 9
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "tw-ic",
+                                                style: {
+                                                    paddingLeft: "20px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 80,
+                                                    columnNumber: 13
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 79,
+                                                columnNumber: 9
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "gplus-ic",
+                                                style: {
+                                                    paddingLeft: "20px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 84,
+                                                    columnNumber: 13
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 83,
+                                                columnNumber: 9
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "li-ic",
+                                                style: {
+                                                    paddingLeft: "20px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 88,
+                                                    columnNumber: 13
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 87,
+                                                columnNumber: 9
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "ins-ic",
+                                                style: {
+                                                    paddingLeft: "20px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 92,
+                                                    columnNumber: 13
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 91,
+                                                columnNumber: 9
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                class: "pin-ic",
+                                                style: {
+                                                    paddingLeft: "20px"
+                                                },
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    class: "fab fa-pinterest fa-lg white-text fa-2x",
+                                                    children: " "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Home.js",
+                                                    lineNumber: 96,
+                                                    columnNumber: 13
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Home.js",
+                                                lineNumber: 95,
+                                                columnNumber: 9
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Home.js",
+                                        lineNumber: 73,
+                                        columnNumber: 9
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Home.js",
+                                    lineNumber: 72,
+                                    columnNumber: 5
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/A_Home.js",
+                                lineNumber: 70,
+                                columnNumber: 5
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/A_Home.js",
+                            lineNumber: 68,
+                            columnNumber: 1
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            class: "footer-copyright text-center py-3",
+                            style: {
+                                color: "white"
+                            },
+                            children: [
+                                "\xa9 2020 Copyright:",
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                    href: "https://mdbootstrap.com/",
+                                    children: " Research Topic Mangement tool"
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Home.js",
+                                    lineNumber: 106,
+                                    columnNumber: 5
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Home.js",
+                            lineNumber: 105,
+                            columnNumber: 1
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/A_Home.js",
+                    lineNumber: 66,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/A_Home.js",
+            lineNumber: 9,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = A_Home;
+
+  $parcel$ReactRefreshHelpers$3fc1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../public/admin.png":"bjHFE","../../public/staff.jpg":"llDlP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bjHFE":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "admin.a5c76f31.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"llDlP":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "staff.bbc7b262.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"9eZdm":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6724 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6724.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class Groups extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            groups: []
+        };
+    }
+    componentDidMount() {
+        this.retriveGroups();
+    }
+    retriveGroups() {
+        _axiosDefault.default.get("http://localhost:8000/groups").then((res)=>{
+            if (res.data.success) {
+                this.setState({
+                    groups: res.data.existingGroups
+                });
+                console.log(this.state.groups);
+            }
+        });
+    }
+    filterData(groups, searchKey) {
+        const result = groups.filter((group)=>group.GName.toLowerCase().includes(searchKey) || group.Leader.toLowerCase().includes(searchKey)
+        );
+        this.setState({
+            groups: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/groups").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingGroups, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                        className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    "data-bs-toggle": "collapse",
+                                    className: "navbar-toggler",
+                                    "data-bs-target": "#navcol-1",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "visually-hidden",
+                                            children: "Toggle navigation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Groups.js",
+                                            lineNumber: 58,
+                                            columnNumber: 102
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "navbar-toggler-icon"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Groups.js",
+                                            lineNumber: 58,
+                                            columnNumber: 160
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Groups.js",
+                                    lineNumber: 58,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "collapse navbar-collapse",
+                                    id: "navcol-1",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                        className: "navbar-nav",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link ",
+                                                    href: "/view",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Groups"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 61,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 61,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Supervisor allocations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 63,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 63,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/Areas",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Areas and Topics"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 64,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 64,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Panel Formations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 66,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 66,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Project Evaluations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 68,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 68,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "btn btn-warning",
+                                                    href: "/",
+                                                    style: {
+                                                        height: "40px",
+                                                        width: "100px",
+                                                        marginTop: "8px",
+                                                        marginLeft: "900px"
+                                                    },
+                                                    children: "Log Out"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 72,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 72,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Groups.js",
+                                        lineNumber: 60,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Groups.js",
+                                    lineNumber: 59,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Groups.js",
+                            lineNumber: 58,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/A_Groups.js",
+                        lineNumber: 57,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/A_Groups.js",
+                    lineNumber: 55,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "container",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/A_Groups.js",
+                            lineNumber: 84,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            children: "Registered Groups"
+                        }, void 0, false, {
+                            fileName: "src/components/A_Groups.js",
+                            lineNumber: 86,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/A_Groups.js",
+                            lineNumber: 89,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/A_Groups.js",
+                            lineNumber: 90,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/A_Groups.js",
+                            lineNumber: 101,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "col-lg-9 mt-2 mb-2",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                type: "search",
+                                placeholder: "search for groups by name",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/A_Groups.js",
+                                lineNumber: 103,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/A_Groups.js",
+                            lineNumber: 102,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            className: "table",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "No."
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 115,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Name of the group"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 116,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Student 1"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 117,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Student 2"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 118,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Student 3"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 119,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Student 4"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 120,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Group Leader"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Groups.js",
+                                                lineNumber: 121,
+                                                columnNumber: 11
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Groups.js",
+                                        lineNumber: 114,
+                                        columnNumber: 11
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Groups.js",
+                                    lineNumber: 113,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                    children: this.state.groups.map((groups, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "row",
+                                                    children: index + 1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 131,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: groups.GName
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 132,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: groups.student1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 133,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: groups.student2
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 134,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: groups.student3
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 135,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: groups.student4
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 136,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: groups.Leader
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 137,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {}, void 0, false, {
+                                                    fileName: "src/components/A_Groups.js",
+                                                    lineNumber: 138,
+                                                    columnNumber: 15
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/A_Groups.js",
+                                            lineNumber: 130,
+                                            columnNumber: 13
+                                        }, this)
+                                    )
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Groups.js",
+                                    lineNumber: 127,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Groups.js",
+                            lineNumber: 111,
+                            columnNumber: 7
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/A_Groups.js",
+                    lineNumber: 83,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/A_Groups.js",
+            lineNumber: 54,
+            columnNumber: 7
+        }, this);
+    }
+}
+exports.default = Groups;
+
+  $parcel$ReactRefreshHelpers$6724.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gyXeh":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3902 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3902.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class CreateArea extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            Area: "",
+            Topics: ""
+        };
+        this.state = {
+            areas: []
+        };
+    }
+    handleChange = ({ target: { value , name  }  })=>this.setState({
+            [name]: value
+        })
+    ;
+    onSubmit = (e)=>{
+        e.preventDefault();
+        const { Area , Topics  } = this.state;
+        const data = {
+            Area: Area,
+            Topics: Topics
+        };
+        console.log(data);
+        _axiosDefault.default.post("http://localhost:8000/area/save", data).then((res)=>{
+            if (res.data.success) this.setState({
+                Area: "",
+                Topics: ""
+            });
+        });
+    };
+    componentDidMount() {
+        this.retriveAreas();
+    }
+    retriveAreas() {
+        _axiosDefault.default.get("http://localhost:8000/areas").then((res)=>{
+            if (res.data.success) {
+                this.setState({
+                    areas: res.data.existingAreas
+                });
+                console.log(this.state.areas);
+            }
+        });
+    }
+    filterData(areas, searchKey) {
+        const result = areas.filter((area)=>area.Area.toLowerCase().includes(searchKey) || area.Topics.toLowerCase().includes(searchKey)
+        );
+        this.setState({
+            areas: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/areas").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingAreas, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            className: "edit",
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                        className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    "data-bs-toggle": "collapse",
+                                    className: "navbar-toggler",
+                                    "data-bs-target": "#navcol-1",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "visually-hidden",
+                                            children: "Toggle navigation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 93,
+                                            columnNumber: 102
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "navbar-toggler-icon"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 93,
+                                            columnNumber: 160
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 93,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "collapse navbar-collapse",
+                                    id: "navcol-1",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                        className: "navbar-nav",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link ",
+                                                    href: "/view",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Groups"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 96,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Areas.js",
+                                                lineNumber: 96,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Supervisor allocations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 98,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Areas.js",
+                                                lineNumber: 98,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/Areas",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Areas and Topics"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 99,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Areas.js",
+                                                lineNumber: 99,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Panel Formations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 101,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Areas.js",
+                                                lineNumber: 101,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Project Evaluations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 103,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Areas.js",
+                                                lineNumber: 103,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "btn btn-warning",
+                                                    href: "/",
+                                                    style: {
+                                                        height: "40px",
+                                                        width: "100px",
+                                                        marginTop: "8px",
+                                                        marginLeft: "900px"
+                                                    },
+                                                    children: "Log Out"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 107,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Areas.js",
+                                                lineNumber: 107,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Areas.js",
+                                        lineNumber: 95,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 94,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Areas.js",
+                            lineNumber: 93,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/A_Areas.js",
+                        lineNumber: 92,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/A_Areas.js",
+                    lineNumber: 90,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "col-md-8 mt-4 mx-auto",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            style: {
+                                height: '80px',
+                                width: '100%',
+                                backgroundColor: "#080523",
+                                marginTop: '-20px'
+                            },
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 121,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                                    style: {
+                                        color: 'white',
+                                        textAlign: 'center'
+                                    },
+                                    children: "Add new Topics "
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 122,
+                                    columnNumber: 21
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 123,
+                                    columnNumber: 20
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Areas.js",
+                            lineNumber: 120,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/A_Areas.js",
+                            lineNumber: 125,
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                    className: "form-inline",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputEmail4",
+                                                    className: "form-label",
+                                                    children: "Area of Research : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 133,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "Area",
+                                                    value: this.state.Area,
+                                                    placeholder: "Enter the research area",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 134,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 132,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    for: "inputAddress2",
+                                                    className: "form-label",
+                                                    children: "Topics related to the Area : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 138,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "textArea",
+                                                    className: "form-control",
+                                                    name: "Topics",
+                                                    value: this.state.Topics,
+                                                    placeholder: "Please enter all the related topics",
+                                                    onChange: this.handleChange,
+                                                    required: true
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 139,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 137,
+                                            columnNumber: 21
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 130,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 145,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                    className: "btn btn btn-dark btn-lg",
+                                                    onClick: this.onSubmit,
+                                                    href: "/",
+                                                    children: "Add Details"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 147,
+                                                    columnNumber: 25
+                                                }, this),
+                                                "\xa0",
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                    className: "btn btn btn-succes",
+                                                    href: "/",
+                                                    children: "Back"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 148,
+                                                    columnNumber: 25
+                                                }, this),
+                                                "\xa0"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 146,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 150,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 151,
+                                            columnNumber: 25
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 144,
+                                    columnNumber: 21
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Areas.js",
+                            lineNumber: 128,
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "container",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 158,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    style: {
+                                        height: '80px',
+                                        width: '100%',
+                                        backgroundColor: "#080523",
+                                        marginTop: '-20px'
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 160,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                                            style: {
+                                                color: 'white',
+                                                textAlign: 'center'
+                                            },
+                                            children: "Research areas and topics "
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 161,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 162,
+                                            columnNumber: 20
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 159,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 174,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "col-lg-9 mt-2 mb-2",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                        className: "form-control",
+                                        type: "search",
+                                        placeholder: "Search for research areas and find topics",
+                                        name: "searchQuery",
+                                        onChange: this.handleSearchArea
+                                    }, void 0, false, {
+                                        fileName: "src/components/A_Areas.js",
+                                        lineNumber: 176,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 175,
+                                    columnNumber: 12
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                                    className: "table",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                        scope: "col",
+                                                        children: "No."
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/A_Areas.js",
+                                                        lineNumber: 188,
+                                                        columnNumber: 11
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                        scope: "col",
+                                                        children: "Research Area"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/A_Areas.js",
+                                                        lineNumber: 189,
+                                                        columnNumber: 11
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                        scope: "col",
+                                                        children: "Topics"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/A_Areas.js",
+                                                        lineNumber: 190,
+                                                        columnNumber: 11
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/A_Areas.js",
+                                                lineNumber: 187,
+                                                columnNumber: 11
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 186,
+                                            columnNumber: 11
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                            children: this.state.areas.map((areas, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                            scope: "row",
+                                                            children: index + 1
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/A_Areas.js",
+                                                            lineNumber: 201,
+                                                            columnNumber: 15
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                            children: areas.Area
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/A_Areas.js",
+                                                            lineNumber: 202,
+                                                            columnNumber: 15
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                            children: areas.Topics
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/A_Areas.js",
+                                                            lineNumber: 203,
+                                                            columnNumber: 15
+                                                        }, this),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {}, void 0, false, {
+                                                            fileName: "src/components/A_Areas.js",
+                                                            lineNumber: 205,
+                                                            columnNumber: 15
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/A_Areas.js",
+                                                    lineNumber: 200,
+                                                    columnNumber: 13
+                                                }, this)
+                                            )
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Areas.js",
+                                            lineNumber: 197,
+                                            columnNumber: 11
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Areas.js",
+                                    lineNumber: 184,
+                                    columnNumber: 7
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Areas.js",
+                            lineNumber: 157,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/A_Areas.js",
+                    lineNumber: 119,
+                    columnNumber: 13
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/A_Areas.js",
+            lineNumber: 89,
+            columnNumber: 13
+        }, this);
+    }
+}
+exports.default = CreateArea;
+
+  $parcel$ReactRefreshHelpers$3902.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"boGkQ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a4f2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a4f2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class Areas extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            areas: []
+        };
+    }
+    componentDidMount() {
+        this.retriveAreas();
+    }
+    retriveAreas() {
+        _axiosDefault.default.get("http://localhost:8000/areas").then((res)=>{
+            if (res.data.success) {
+                this.setState({
+                    areas: res.data.existingAreas
+                });
+                console.log(this.state.areas);
+            }
+        });
+    }
+    filterData(areas, searchKey) {
+        const result = areas.filter((area)=>area.Area.toLowerCase().includes(searchKey) || area.Topics.toLowerCase().includes(searchKey)
+        );
+        this.setState({
+            areas: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/areas").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingAreas, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                        className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    "data-bs-toggle": "collapse",
+                                    className: "navbar-toggler",
+                                    "data-bs-target": "#navcol-1",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "visually-hidden",
+                                            children: "Toggle navigation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Areas.js",
+                                            lineNumber: 58,
+                                            columnNumber: 102
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "navbar-toggler-icon"
+                                        }, void 0, false, {
+                                            fileName: "src/components/U_Areas.js",
+                                            lineNumber: 58,
+                                            columnNumber: 160
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/U_Areas.js",
+                                    lineNumber: 58,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "collapse navbar-collapse",
+                                    id: "navcol-1",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                        className: "navbar-nav",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link ",
+                                                    href: "/groupreg",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Group Registration"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Areas.js",
+                                                    lineNumber: 61,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Areas.js",
+                                                lineNumber: 61,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/topicReg",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Topic Registration"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Areas.js",
+                                                    lineNumber: 63,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Areas.js",
+                                                lineNumber: 63,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/ViewAreas",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Areas and Topics"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Areas.js",
+                                                    lineNumber: 64,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Areas.js",
+                                                lineNumber: 64,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Panel Evaluations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Areas.js",
+                                                    lineNumber: 66,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Areas.js",
+                                                lineNumber: 66,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Documents and templates"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Areas.js",
+                                                    lineNumber: 68,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Areas.js",
+                                                lineNumber: 68,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "btn btn-warning",
+                                                    href: "/",
+                                                    style: {
+                                                        height: "40px",
+                                                        width: "100px",
+                                                        marginTop: "8px",
+                                                        marginLeft: "900px"
+                                                    },
+                                                    children: "Log Out"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Areas.js",
+                                                    lineNumber: 72,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Areas.js",
+                                                lineNumber: 72,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Areas.js",
+                                        lineNumber: 60,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Areas.js",
+                                    lineNumber: 59,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_Areas.js",
+                            lineNumber: 58,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/U_Areas.js",
+                        lineNumber: 57,
+                        columnNumber: 1
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/U_Areas.js",
+                    lineNumber: 55,
+                    columnNumber: 1
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "container",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/U_Areas.js",
+                            lineNumber: 84,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            children: "Research Areas and related Topics"
+                        }, void 0, false, {
+                            fileName: "src/components/U_Areas.js",
+                            lineNumber: 86,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/U_Areas.js",
+                            lineNumber: 89,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/U_Areas.js",
+                            lineNumber: 90,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/U_Areas.js",
+                            lineNumber: 101,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "col-lg-9 mt-2 mb-2",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                type: "search",
+                                placeholder: "Search for research areas and find topics",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/U_Areas.js",
+                                lineNumber: 103,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/U_Areas.js",
+                            lineNumber: 102,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            className: "table",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "No."
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Areas.js",
+                                                lineNumber: 115,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Research Area"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Areas.js",
+                                                lineNumber: 116,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Topics"
+                                            }, void 0, false, {
+                                                fileName: "src/components/U_Areas.js",
+                                                lineNumber: 117,
+                                                columnNumber: 11
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/U_Areas.js",
+                                        lineNumber: 114,
+                                        columnNumber: 11
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Areas.js",
+                                    lineNumber: 113,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                    children: this.state.areas.map((areas, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "row",
+                                                    children: index + 1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Areas.js",
+                                                    lineNumber: 128,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: areas.Area
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Areas.js",
+                                                    lineNumber: 129,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: areas.Topics
+                                                }, void 0, false, {
+                                                    fileName: "src/components/U_Areas.js",
+                                                    lineNumber: 130,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {}, void 0, false, {
+                                                    fileName: "src/components/U_Areas.js",
+                                                    lineNumber: 132,
+                                                    columnNumber: 15
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/U_Areas.js",
+                                            lineNumber: 127,
+                                            columnNumber: 13
+                                        }, this)
+                                    )
+                                }, void 0, false, {
+                                    fileName: "src/components/U_Areas.js",
+                                    lineNumber: 124,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/U_Areas.js",
+                            lineNumber: 111,
+                            columnNumber: 7
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/U_Areas.js",
+                    lineNumber: 83,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/U_Areas.js",
+            lineNumber: 54,
+            columnNumber: 7
+        }, this);
+    }
+}
+exports.default = Areas;
+
+  $parcel$ReactRefreshHelpers$a4f2.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aNupV":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a192 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a192.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _adminSubmitJpg = require("../../public/adminSubmit.jpg");
+var _adminSubmitJpgDefault = parcelHelpers.interopDefault(_adminSubmitJpg);
+class DocumentSubHome extends _react.Component {
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                    style: {
+                        backgroundColor: '#000080',
+                        color: "white"
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                            children: "Document Submission Home"
+                        }, void 0, false, {
+                            fileName: "src/components/DocumentSubHome.js",
+                            lineNumber: 8,
+                            columnNumber: 64
+                        }, this),
+                        " "
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 10,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                    className: "btn btn-success",
+                    style: {
+                        marginLeft: '10px',
+                        padding: '8px 8px',
+                        backgroundColor: '#3895d3',
+                        width: '200px'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                        href: "/adminHome",
+                        style: {
+                            textDecoration: 'none',
+                            backgroundColor: '#3895d3',
+                            color: 'white',
+                            fontSize: '16px'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                class: "far fa-arrow-alt-circle-left"
+                            }, void 0, false, {
+                                fileName: "src/components/DocumentSubHome.js",
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, this),
+                            "\xa0Go Back"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DocumentSubHome.js",
+                        lineNumber: 14,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 12,
+                    columnNumber: 20
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 18,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    style: {
+                        marginLeft: '250px'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                        src: _adminSubmitJpgDefault.default,
+                        class: "mx-auto",
+                        alt: "evaluation",
+                        width: "1000",
+                        height: "500"
+                    }, void 0, false, {
+                        fileName: "src/components/DocumentSubHome.js",
+                        lineNumber: 19,
+                        columnNumber: 45
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 19,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 21,
+                    columnNumber: 11
+                }, this),
+                " ",
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 21,
+                    columnNumber: 21
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '250px',
+                                            backgroundColor: "#0147ab",
+                                            width: '350px'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            href: "/UploadNaviAdmin",
+                                            style: {
+                                                textDecoration: 'none',
+                                                color: 'white',
+                                                fontSize: "16px"
+                                            },
+                                            children: " Admin Document Upload  "
+                                        }, void 0, false, {
+                                            fileName: "src/components/DocumentSubHome.js",
+                                            lineNumber: 28,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 27,
+                                        columnNumber: 21
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 31,
+                                        columnNumber: 21
+                                    }, this),
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 31,
+                                        columnNumber: 31
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DocumentSubHome.js",
+                                lineNumber: 26,
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '450px',
+                                            backgroundColor: "#0147ab",
+                                            width: '350px'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            href: "/TempNavbar",
+                                            style: {
+                                                textDecoration: 'none',
+                                                color: 'white',
+                                                fontSize: "16px"
+                                            },
+                                            children: " Templates Submittions  "
+                                        }, void 0, false, {
+                                            fileName: "src/components/DocumentSubHome.js",
+                                            lineNumber: 36,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 35,
+                                        columnNumber: 21
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 38,
+                                        columnNumber: 17
+                                    }, this),
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 38,
+                                        columnNumber: 27
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DocumentSubHome.js",
+                                lineNumber: 34,
+                                columnNumber: 17
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DocumentSubHome.js",
+                        lineNumber: 25,
+                        columnNumber: 13
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 23,
+                    columnNumber: 11
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/DocumentSubHome.js",
+            lineNumber: 7,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = DocumentSubHome;
+
+  $parcel$ReactRefreshHelpers$a192.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../public/adminSubmit.jpg":"e9i7O"}],"e9i7O":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "adminSubmit.7ef99ca3.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}]},["kn9T2","7fmqN","8lqZg"], "8lqZg", "parcelRequire10c2")
 
 //# sourceMappingURL=index.975ef6c8.js.map
