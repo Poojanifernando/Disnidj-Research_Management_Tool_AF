@@ -124,12 +124,12 @@ import axios from 'axios';
   
                     <div className="form-group">
                         <label for="inputAddress2" className="form-label">Supervisor : </label>
-                        <input type="text" className="form-control" name="Supervisor" value={this.state.Supervisors} placeholder="Enter the name of the selected supervisor" onChange={this.handleChange} required/>
+                        <input type="text" className="form-control" name="Supervisors" value={this.state.Supervisors} placeholder="Enter the name of the selected supervisor" onChange={this.handleChange} required/>
                     </div>
   
                     <div className="form-group">
                         <label for="inputAddress2" className="form-label">Co-Supervisor :</label>
-                        <input type="email" className="form-control" name="CoSupervisor" value={this.state.CoSupervisors} placeholder="Enter the name of the selected co-supervisor" onChange={this.handleChange} required/>
+                        <input type="email" className="form-control" name="CoSupervisors" value={this.state.CoSupervisors} placeholder="Enter the name of the selected co-supervisor" onChange={this.handleChange} required/>
                     </div>
 
                     <div className="form-group">

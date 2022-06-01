@@ -84,4 +84,21 @@ router.delete('/topic/delete/:id', (req, res) =>{
 });
 
 
+//get a specific topic
+
+router.get("/topic/:id",(req,res)=>{
+    let topicId = req.params.id;
+
+    Topics.findById(topicId,(err,topic)=>{
+        if(err){
+            return res.status(400).json({success:false, err});
+        }
+
+        return res.status(200).json({
+            success:true,
+            group
+        });
+    });
+});
+
 module.exports = router;

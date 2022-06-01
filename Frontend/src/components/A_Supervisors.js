@@ -117,7 +117,7 @@ handleSearchArea = (e) =>{
           <th scope='col'>Selected Supervisor</th>
           <th scope='col'>Selected Co-Supervisor</th>
           <th scope='col'>GroupName</th>
-          <th scope='col'>Response</th>
+
 
           
 
@@ -129,18 +129,13 @@ handleSearchArea = (e) =>{
           {this.state.topics.map((topics,index)=>(
             <tr>
               <th scope='row'>{index+1}</th>
-              <td>{topics.Topic}</td>
+              <td><a href={`/Response/${topics._id}`} style={{textDecoration:'none'}}>{topics.Topic}</a></td>
               <td>{topics.Supervisors}</td>
               <td>{topics.CoSupervisors}</td>
               <td>{topics.GroupName}</td>
-              <td><a className = "btn btn-warning" href="">
-              <i class="fa fa-share" aria-hidden="true"></i>&nbsp;Response&nbsp;&nbsp;&nbsp;   
-            </a>
-            &nbsp;</td>
-              <td>
+         
              
 
-              </td>
 
 
             </tr>
