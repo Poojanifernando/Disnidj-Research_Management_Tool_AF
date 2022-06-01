@@ -11,8 +11,9 @@ const fileUpload = require('express-fileupload');
 dotenv.config();
 
 
-
+//debi
 //import routs
+//disni
 const postRoutes = require('./routes/PanelEve');
 const postRoutes2 =require('./routes/SuperviEve');
 const postRoutes3 =require('./routes/adminUpload');
@@ -26,6 +27,12 @@ const topicRoutes = require('./routes/topics');
 const groupRoutes = require('./routes/group');
 const areaRoutes = require('./routes/areas');
 
+//anodya
+const TopisPanelsRoutes = require ('./routes/TopisPanels');
+const ThesisPanelsRoutes = require ('./routes/ThesisPanels');
+const PresentationPanelsRoutes = require ('./routes/PresentationPanels');
+const userRoutes = require ('./routes/userRoutes');
+
 
 //app middleware
 app.use(bodyPaser.json());
@@ -33,6 +40,7 @@ app.use(cors());
 app.use(express.json());
 
 //rout middleware
+//disni
 app.use(postRoutes);
 app.use(postRoutes2);
 app.use(postRoutes3);
@@ -45,6 +53,10 @@ app.use(groupRoutes);
 app.use(areaRoutes);
 
 //anodya
+app.use(TopisPanelsRoutes);
+app.use(ThesisPanelsRoutes);
+app.use(PresentationPanelsRoutes);
+app.use(userRoutes);
 
 //port
 const PORT = 8000;

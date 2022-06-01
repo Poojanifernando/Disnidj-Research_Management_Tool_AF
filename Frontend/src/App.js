@@ -24,6 +24,16 @@ import StudentAdd from './components/StudentAdd';
 import TempUpHome from './components/TempUpHome';
 import TempNavbar from './components/TempNavbar';
 import TempAdd from './components/TempAdd';
+//student view evalution results
+import EvaluationResult from './components/EvaluationResult';
+import TemplateDownload from './components/TemplateDownload';
+import DocumentDownload from './components/DocumentDownload';
+import STDdownloads from './components/STDdownloads';
+import DocEveResult from './components/DocEveResult';
+import DocEveOneResult from './components/DocEveOneResult';
+import PreseEveResult from './components/PreseEveResult';
+import PresEveOneResult from './components/PresEveOneResult';
+
 
 //Ramona
 import GroupReg from './components/U_GroupReg';
@@ -71,6 +81,16 @@ export default function App() {
         <Route path="/AdminAdd" element={<AdminAdd/>}></Route>
         <Route path="/AdminUpHome" element={<AdminUpHome/>}></Route>
         <Route path="/UploadNaviAdmin" element={<UploadNavbar/>}></Route>
+
+        <Route path="/EvaluationResult" element={<EvaluationResult/>}></Route>
+        <Route path="/TemplateDownload" element={<TemplateDownload/>}></Route>
+        <Route path="/DocumentDownload" element={<DocumentDownload/>}></Route>
+        <Route path="/STDdownloads" element={<STDdownloads/>}></Route>
+        <Route path="/DocEveResult" element={<DocEveResult/>}></Route>
+        <Route path="/DocEveOneResult/:id" element={<DocEveOneResult/>}></Route>
+        <Route path="/PreseEveResult" element={<PreseEveResult/>}></Route>
+        <Route path="/PresEveOneResult/:id" element={<PresEveOneResult/>}></Route>
+
 
 {/* Ramona */}
         <Route path="/" element={<UHome/>}></Route>
