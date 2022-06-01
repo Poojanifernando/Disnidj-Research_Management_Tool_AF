@@ -36,6 +36,7 @@ import Ahome from './components/A_Home';
 import GroupAdmin from './components/A_Groups';
 import Areas from './components/A_Areas';
 import ViewAreas from './components/U_Areas';
+import Supervisors from './components/A_Supervisors';
 
 
 export default function App() {
