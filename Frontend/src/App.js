@@ -22,6 +22,17 @@ import TempUpHome from './components/TempUpHome';
 import TempNavbar from './components/TempNavbar';
 import TempAdd from './components/TempAdd';
 
+//Ramona
+import GroupReg from './components/U_GroupReg';
+import Groups from './components/U_Groups';
+import TopicReg from './components/U_TopicReg';
+import Details from './components/U_Details';
+import AddArea from './components/A_AddArea';
+import UHome from './components/U_Home';
+import Ahome from './components/A_Home';
+import GroupAdmin from './components/A_Groups';
+import Areas from './components/A_Areas';
+import ViewAreas from './components/U_Areas';
 
 
 export default function App() {
@@ -31,7 +42,7 @@ export default function App() {
 
       <Routes>
 
-        <Route path="/" element={<EveHome/>}></Route>
+        <Route path="/EveHome" element={<EveHome/>}></Route>
         <Route path="/supervEveHome" element={<SupervEveHome/>}></Route>
         <Route path="/newEvaluationSuperv" element={<EveBySuperv/>}></Route>
         <Route path="/SupervevaluationEdit/:id" element={<SupervEveEdit/>}></Route>
@@ -54,8 +65,17 @@ export default function App() {
         <Route path="/TempUpHome" element={<TempUpHome/>}></Route>
         <Route path="/TempNavbar" element={<TempNavbar/>}></Route>
         <Route path="/TempAdd" element={<TempAdd/>}></Route>
-
-
+{/* Ramona */}
+        <Route path="/" element={<UHome/>}></Route>
+        <Route path="/groupReg" element={<GroupReg/>}></Route>
+        <Route path="/groups" element={<Groups/>}></Route>
+        <Route path="/topicReg" element={<TopicReg/>}></Route>
+        <Route path="/addArea" element={<AddArea/>}></Route>
+        <Route path="/details/:id" element={<Details/>}></Route>
+        <Route path="/adminHome" element={<Ahome/>}></Route>
+        <Route path="/view" element={<GroupAdmin/>}></Route>
+        <Route path="/Areas" element={<Areas/>}></Route>
+        <Route path="/ViewAreas" element={<ViewAreas/>}></Route>
     
    </Routes>
 
