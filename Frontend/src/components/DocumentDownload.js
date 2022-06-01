@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-const Home = () => {
+const DocumentDownload = () => {
   const [users, setUsers] = useState();
 
  useEffect(() => {
@@ -16,11 +16,11 @@ const Home = () => {
   return (
     <div>
 
-              <h1 style={{backgroundColor:'#000080', color:"white"}}><center>Uploaded Documents</center>  </h1>
+              <h1 style={{backgroundColor:'#000080', color:"white"}}><center>Download Documents </center>  </h1>
               <br></br><br></br>
 
               <button className="btn btn-success" style={{marginLeft:'10px', marginTop:'20px',padding:'10px 10px',backgroundColor:'#3895d3'}}>
-              <a href="/UploadNaviAdmin" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'20px'}}> 
+              <a href="/STDdownloads" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'20px'}}> 
               <i class="far fa-arrow-alt-circle-left"></i>&nbsp;Go Back</a>
               </button>
    
@@ -43,4 +43,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default DocumentDownload;
