@@ -84,7 +84,7 @@ export default function App() {
         <Route path="/Areas" element={<Areas/>}></Route>
         <Route path="/ViewAreas" element={<ViewAreas/>}></Route>
         <Route path="/Supervisors" element={<Supervisors/>}></Route>
-        <Route path="/Response" element={<Response/>}></Route>
+        <Route path="/Response/:id" element={<Response/>}></Route>
 
 
    </Routes>
