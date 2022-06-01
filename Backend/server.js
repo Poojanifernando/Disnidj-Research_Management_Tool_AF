@@ -21,6 +21,12 @@ const postRoutes5=require('./routes/PresTempUpload');
 //app.use("/user", require("./routes/user"));
 
 
+//Ramona
+const topicRoutes = require('./routes/topics');
+const groupRoutes = require('./routes/group');
+const areaRoutes = require('./routes/areas');
+
+
 //app middleware
 app.use(bodyPaser.json());
 app.use(cors());
@@ -32,6 +38,11 @@ app.use(postRoutes2);
 app.use(postRoutes3);
 app.use(postRoutes4);
 app.use(postRoutes5);
+
+//Ramona
+app.use(topicRoutes);
+app.use(groupRoutes);
+app.use(areaRoutes);
 
 //port
 const PORT = 8000;
