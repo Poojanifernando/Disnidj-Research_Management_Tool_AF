@@ -86,31 +86,6 @@ app.listen(PORT, ()=>{
 
 
 
-//Upload a file
-/*
-app.post('/uplaod',(req,res)=>{
-    if(req.files===null){
-        return res.status(400).json({
-            msg:'no file uploaded'
-        });
-
-    }
-    const file =req.files.file;
-
-    file.mv(`${__dirname}/FrontEnd/student/public/stdDocuploads/${file.name}`, err=>{
-        if(err){
-            console.error(err);
-            return res.status(500).send(err);
-        }
-
-        res.json({fileName: file.name,filePath:`/stdDocuploads/${file.name}`});
-
-
-    });
-
-});
-*/
-
 
 
 
