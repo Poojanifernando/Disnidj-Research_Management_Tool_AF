@@ -50,6 +50,29 @@ import Supervisors from './components/A_Supervisors';
 import Response from './components/A_Response';
 
 
+//Anodya
+
+import HomeAnodya from './components/HomeAnodya';
+import Registration from './components/Registration';
+import Login from './components/Login'; 
+import AdminLogin from './components/AdminLogin';   
+import StaffLogin from './components/StaffLogin';
+import AddTopisPanels from './components/AddTopisPanels'; 
+import AddPresentationPanels from './components/AddPresentationPanels';
+import AddThesisPanels from './components/AddThesisPanels';  
+import ViewTopis from './components/ViewTopis'; 
+import ViewThesis from './components/ViewThesis';  
+import ViewPresentation from './components/ViewPresentation';   
+import Viewallusers from './components/Viewallusers'; 
+import UpdateTopics from './components/UpdateTopics'; 
+import Updatepresentation from './components/Updatepresentation'; 
+import UpdateThesis from './components/UpdateThesis'; 
+import Groupids from './components/Groupids'; 
+import S_ViewTopis from './components/S_ViewTopis';  
+import S_ViewPresentation from './components/S_ViewPresentation';  
+import S_ViewThesis from './components/S_ViewThesis';
+
+
 export default function App() {
   return (
     <div className="App">
@@ -105,6 +128,30 @@ export default function App() {
         <Route path="/ViewAreas" element={<ViewAreas/>}></Route>
         <Route path="/Supervisors" element={<Supervisors/>}></Route>
         <Route path="/Response/:id" element={<Response/>}></Route>
+
+
+
+{/* Anodya */}
+
+                <Route    path = "/HomeAnodya" element = {<HomeAnodya/>}/>  
+                <Route    path = "/Registration" element = {<Registration/>}/>
+                <Route    path = "/Login" element = {<Login/>}/>  
+                <Route    path = "/AdminLogin" element = {<AdminLogin/>}/>  
+                <Route    path = "/StaffLogin" element = {<StaffLogin/>}/> 
+                <Route     path = "/AddTopisPanels" element = {<AddTopisPanels/>}/>
+                <Route     path = "/AddPresentationPanels" element = {<AddPresentationPanels/>}/>   
+                <Route     path = "/AddThesisPanels" element = {<AddThesisPanels/>}/> 
+                <Route     path = "/ViewTopis" element = {<ViewTopis/>}/>  
+                <Route     path = "/ViewThesis" element = {<ViewThesis/>}/>
+                <Route     path = "/ViewPresentation" element = {<ViewPresentation/>}/>
+                <Route     path = "/Viewallusers" element = {<Viewallusers/>}/>
+                <Route     path = "/UpdateTopics/:id" element = {<UpdateTopics/>}/> 
+                <Route     path = "/Updatepresentation/:id" element = {<Updatepresentation/>}/> 
+                <Route     path = "/UpdateThesis/:id" element = {<UpdateThesis/>}/>   
+                <Route     path = "/Groupids" element = {<Groupids/>}/>  
+                <Route     path = "/S_ViewTopis" element = {<S_ViewTopis/>}/>  
+                <Route     path = "/S_ViewPresentation" element = {<S_ViewPresentation/>}/>  
+                <Route     path = "/S_ViewThesis" element = {<S_ViewThesis/>}/>
 
 
    </Routes>
