@@ -45,38 +45,7 @@ const Viewallusers = () => {
               
             </div>
             <br/>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-              <div className="container-fluid">
-                   <a className="navbar-brand" href="/Home">Home</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span className="navbar-toggler-icon"></span>
-                    </button>
-               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                 <div className="navbar-nav">
-
-                    {/* students' Pages */}
-                    <a style={{display:localStorage.getItem("userRole") == "user" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">student</a>  
-                  <a style={{display:localStorage.getItem("userRole") == "user" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">student</a>  
-                  <a style={{display:localStorage.getItem("userRole") == "user" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page"> student</a>   
-                  <a style={{display:localStorage.getItem("userRole") == "user" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">student</a> 
-                  {/* staff' Pages */}
-                  <a style={{display:localStorage.getItem("userRole") == "staff" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">staff</a>  
-                  <a style={{display:localStorage.getItem("userRole") == "staff" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">staff</a>  
-                  <a style={{display:localStorage.getItem("userRole") == "staff" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">staff</a> 
-                  <a style={{display:localStorage.getItem("userRole") == "staff" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">staff</a> 
-
-                   {/* admin' Pages */}
-                   <a style={{display:localStorage.getItem("userRole") == "admin" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">admin</a>  
-                  <a style={{display:localStorage.getItem("userRole") == "admin" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">admin</a>  
-                  <a style={{display:localStorage.getItem("userRole") == "admin" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">admin</a> 
-                  <a style={{display:localStorage.getItem("userRole") == "admin" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">admin</a> 
-                 </div>
-                </div>
-             </div>
-             <button onClick={handleSubmit} className="btn btn-primary" type="submit" style={{float:"right"}}>
-                      Logout
-                  </button>
-          </nav>
+            
 			<br/>
 			<br/>
 			<div>

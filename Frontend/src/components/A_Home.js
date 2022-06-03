@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import image from '../../public/admin.png';
-import image2 from '../../public/staff.jpg';
+
+import image2 from '../../public/adminhome.jpeg';
 
 
 export default class A_Home extends Component {
@@ -17,33 +17,20 @@ export default class A_Home extends Component {
         
         
         <div>
-          
-        <nav className="navbar navbar-light navbar-expand-md bg-dark navigation-clean-search">
-        <div><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
-            <div className="collapse navbar-collapse" id="navcol-1">
-            <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link "href="/view" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Groups</a></li>
-                  
-                    <li className="nav-item"><a className="nav-link" href="/Supervisors" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Supervisor allocations</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/Areas" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a></li>
-                   
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Formations</a></li>
-                    
-                    <li className="nav-item"><a className="nav-link" href="/EveHome" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Project Evaluations</a></li>
 
-                    <li className="nav-item"><a className="nav-link" href="/DocumentSubHome" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents / Templates Submission</a></li>
-                    
-                  
-                    
-                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"700px"}}>Log Out</a></li>
-                   
-                  
-                </ul>
-                
-                
-            </div>
-        </div>
+        <nav className="navbar navbar-light navbar-expand-md bg-dark navigation-clean-search">
+        <div className="container"><a className="navbar-brand" href="/" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Home</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/view" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Research Groups</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/Areas" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/Groupids" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Panel Formations</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/DocumentSubHome" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Documents / Templates Submission</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/Viewallusers" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>All Users</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
     </nav>
+
+
+
+          
+     
           </div>
 
 
@@ -51,19 +38,16 @@ export default class A_Home extends Component {
       <br/>
        
         <div class="row">
-        <div class="col-sm-4">
-        
-        <img src={image} class="mx-auto" alt="" width="300" height="300"/><a href="/admin">LOGIN AS ADMIN</a>
-        </div>
-        <div class="col-sm-4">
-        <img src={image2} class="mx-auto" alt="" width="300" height="300"/><a href="/staff">&nbsp;LOGIN AS STAFF</a>
-        </div>
+      
+     
+       <center> <img src={image2} class="mx-auto" alt="adminhome" width="1400" height="400"/> </center>
+      
      
         </div>
         </div>
           <br/>
 
-        <footer class="page-footer font-small cyan darken-3" style={{backgroundColor:"black", marginLeft:"-120px", marginTop:"0px",height:"170px",marginRight:"-1000px", marginBottom:"-40px"}}>
+        <footer class="page-footer font-small cyan darken-3" style={{backgroundColor:"black", marginTop:"0px",height:"170px", marginBottom:"-40px"}}>
 
 <div>
 

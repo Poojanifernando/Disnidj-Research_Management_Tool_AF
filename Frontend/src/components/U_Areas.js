@@ -55,7 +55,7 @@ handleSearchArea = (e) =>{
       <div>
 <div>
           
-
+ 
             </div>
   
         <div className='container'>
