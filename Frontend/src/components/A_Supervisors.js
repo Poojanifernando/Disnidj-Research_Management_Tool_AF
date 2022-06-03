@@ -129,7 +129,7 @@ handleSearchArea = (e) =>{
           {this.state.topics.map((topics,index)=>(
             <tr>
               <th scope='row'>{index+1}</th>
-              <td><a href={`/Response/${topics._id}`} style={{textDecoration:'none'}}>{topics.Topic}</a></td>
+              <td> <a href={`/Response/${topics._id}`} style={{textDecoration:'none'}}>{topics.Topic}</a></td>
               <td>{topics.Supervisors}</td>
               <td>{topics.CoSupervisors}</td>
               <td>{topics.GroupName}</td>
