@@ -3,7 +3,7 @@ import Hometopic from '../../public/topic.png';
 import Homepresentation from '../../public/presentation.jpg';  
 import Homethesis from '../../public/thesis.jpg';
 import Homedocument from '../../public/document.jpg';  
-import Homecommunication from '../../public/communication.jpg';  
+import Homecommunication from '../../public/communication.jpeg';  
 import Homemarking from '../../public/marking.jpeg';  
 
 export default class StaffHome extends Component {
