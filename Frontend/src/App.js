@@ -71,6 +71,7 @@ import Groupids from './components/Groupids';
 import S_ViewTopis from './components/S_ViewTopis';  
 import S_ViewPresentation from './components/S_ViewPresentation';  
 import S_ViewThesis from './components/S_ViewThesis';
+import SupervisorList from './components/SupervisorList';
 
 
 export default function App() {
@@ -152,6 +153,7 @@ export default function App() {
                 <Route     path = "/S_ViewTopis" element = {<S_ViewTopis/>}/>  
                 <Route     path = "/S_ViewPresentation" element = {<S_ViewPresentation/>}/>  
                 <Route     path = "/S_ViewThesis" element = {<S_ViewThesis/>}/>
+                <Route     path = "/SupervisorList" element = {<SupervisorList/>}/> 
 
 
    </Routes>
