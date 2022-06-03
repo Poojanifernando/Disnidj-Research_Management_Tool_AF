@@ -25,7 +25,7 @@ const Login = () => {
         {
             localStorage.setItem("token",data.data.token);
             localStorage.setItem("userRole",data.data.userRole);
-            navigate("/");
+            navigate("/adminHome");
 
         }
         else
@@ -37,41 +37,26 @@ const Login = () => {
 
 	return (
 		<div>
-			<br/><br/>
+			
 			      <center>
-      <div style={{marginTop:"30px"}}>
-          <center><h1 style={{color:"purple"}}>WELCOME TO SLIIT RESEARCH PROJECT MANAGEMENT</h1></center> 
+      <div >
+          <b><center><h1 style={{color:"#000080"}}>WELCOME TO SLIIT RESEARCH PROJECT MANAGEMENT</h1></center></b> 
         </div>
       
-		
-
-  
+	
 		
         </center>
 
 		
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
               <div className="container-fluid">
-                   <a className="navbar-brand" href="/Hotel">Home</a>
-				   <a className="navbar-brand" href="/AdminLogin">Admin Login</a>
+                   <a className="navbar-brand" style={{marginLeft:'300px'}} href="/">Home</a>
+				   <a className="navbar-brand" style={{marginLeft:'800px'}} href="/AdminLogin">Admin Login</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                       <span className="navbar-toggler-icon"></span>
                     </button>
                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                  <div className="navbar-nav">
-
-                
-                  {/* students' Pages */}
-                  <a style={{display:localStorage.getItem("userRole") == "user" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">student</a>  
-                  <a style={{display:localStorage.getItem("userRole") == "user" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">student</a>  
-                  <a style={{display:localStorage.getItem("userRole") == "user" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page"> student</a>   
-                  <a style={{display:localStorage.getItem("userRole") == "user" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">student</a> 
-                  {/* staff' Pages */}
-                  <a style={{display:localStorage.getItem("userRole") == "staff" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">staff</a>  
-                  <a style={{display:localStorage.getItem("userRole") == "staff" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">staff</a>  
-                  <a style={{display:localStorage.getItem("userRole") == "staff" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">staff</a> 
-                  <a style={{display:localStorage.getItem("userRole") == "staff" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">staff</a> 
-
                    {/* admin' Pages */}
                    <a style={{display:localStorage.getItem("userRole") == "admin" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">admin</a>  
                   <a style={{display:localStorage.getItem("userRole") == "admin" ?"flex":"none"}} className="nav-link active" href="/" aria-current="page">admin</a>  
@@ -82,7 +67,7 @@ const Login = () => {
              </div>
           </nav>
 		<br/>
-		<div className="login-form">
+		<div className="login-form" style={{backgroundColor:'#b3e5fc', width:'500px',marginLeft:'500px', marginTop:'100px'}}>
             <center>
 			<h1 className="heading">Sign In</h1>
 			<p className="lead">
@@ -126,9 +111,7 @@ const Login = () => {
                                 </th>
                                 </tr>
                                 </table>
-                                <p className="link">
-                                Don't have an account? <Link to="/" >Sign Up</Link>
-                                </p>
+                                
                                 </center>
 			
 		</div>
