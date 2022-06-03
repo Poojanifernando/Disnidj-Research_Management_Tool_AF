@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import res from '../../public/res.png';
 
 export default class Areas extends Component {
   constructor(props){
@@ -85,9 +86,9 @@ handleSearchArea = (e) =>{
         <div className='container'>
           <br/>
         
-          <div style={{height:'80px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
+          <div style={{height:'130px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
                     <br/>
-                    <h2 style={{color:'white', textAlign:'center'}}>Research Areas and related topics</h2>
+                    <h2 style={{color:'white', textAlign:'center'}}><img src={res} class="mx-auto" alt="" width="130" height="100"/>Research Areas and related topics</h2>
                    <br/>
           </div>
 

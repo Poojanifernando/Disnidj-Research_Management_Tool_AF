@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import axios from 'axios';
-
+import reg from '../../public/register.jpg';
   export default class CreateGroup extends Component{
 
     constructor(props){
@@ -95,9 +95,9 @@ import axios from 'axios';
   
        
             <div className="col-md-8 mt-4 mx-auto">
-            <div style={{height:'80px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
+            <div style={{height:'150px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
                     <br/>
-                    <h2 style={{color:'white', textAlign:'center'}}>Group Registration Form</h2>
+                    <h2 style={{color:'white', textAlign:'center'}}> <img src={reg} class="mx-auto" alt="" width="100" height="100"/>Group Registration Form</h2>
                    <br/>
           </div>
                 <br/>
@@ -145,12 +145,11 @@ import axios from 'axios';
                         <hr/>
                         <center>
                         <button className="btn btn btn-dark btn-lg" onClick={this.onSubmit} href="/">Submit</button>&nbsp;
-                        <button type="button"> <a href={'/groups'}>Click here to view all Groups </a></button>
                         </center>
                         <br/>
                         <br/>
                     </div>
-  
+                   
   
                     </div>
                     

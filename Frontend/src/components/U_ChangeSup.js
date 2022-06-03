@@ -254,7 +254,7 @@ export default function UpdateAllDetails()  {
                      name="Supervisors"
                     onChange={e => setSupervisors(e.target.value)}
                      value={Supervisors}
-                     placeholder="Research area"
+                     placeholder="Select a name"
                      
                  
                      />

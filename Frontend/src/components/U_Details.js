@@ -63,6 +63,7 @@ import React  from 'react';
 import {useState ,useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from "react-router-dom";
+import grp from '../../public/grp.jpg';
 
 
 
@@ -206,7 +207,96 @@ export default function UpdateDetails()  {
 
         <center>
           <p><b>Step 3 : You can update your group details here. If you want to proceed, refer the research areas and related topics to select a topic for the group. </b></p>
-        <form >
+          
+           <table>
+         <tr>
+             <td>
+          <div className="col-md-8 mt-4 mx-auto">
+          <form className="row g-3" style={{backgroundColor:"#ebecf0"}}>
+        
+
+        <div className="form-group">
+          <h4>Name of the Group :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="GName"
+            onChange={e => setGName(e.target.value)}
+            value={GName}  
+            
+          />
+        </div>
+
+       
+
+       <div className="form-group">
+          <h4>Name of Member 1 :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="student1"
+            onChange={e => setstudent1(e.target.value)}
+            value={student1}  
+            
+          />
+        </div>
+
+ <div className="form-group">
+          <h4>Name of Member 2 :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="student2"
+            onChange={e => setstudent2(e.target.value)}
+            value={student2}  
+            
+          />
+        </div>
+
+ <div className="form-group">
+          <h4>Name of Member 3 :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="student3"
+            onChange={e => setstudent3(e.target.value)}
+            value={student3}  
+            
+          />
+        </div>
+
+ <div className="form-group">
+          <h4>Name of Member 4 :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="student4"
+            onChange={e => setstudent4(e.target.value)}
+            value={student4}  
+            
+          />
+        </div>
+
+ <div className="form-group">
+          <h4>IT number of the Leader :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="Leader"
+            onChange={e => setLeader(e.target.value)}
+            value={Leader}  
+            
+          />
+        </div>
+
+        </form>
+               <button className="btn btn-success" type="submit" style={{marginTop:'15px', width:"250px", marginLeft:"150px",backgroundColor:"#0147ab"}} onClick={(e)=>changeOnClick(e)} >
+                   <i className="far fa-check-square"></i>
+                   &nbsp; Update and confirm group details
+
+               </button>
+        
+        {/* <form >
           <div className="form-group" >
                 <div  style={{marginBottom:'15px'}}>
                      <label style={{margineBottom:'5px'}}>Group Name: </label>
@@ -283,14 +373,28 @@ export default function UpdateDetails()  {
                  </div>
 
                 <center>
-                 <button type="submit"  onClick={(e)=>changeOnClick(e)}>Update and Confirm Group Details</button><br/><br/>
+                 <button type="submit"  onClick={(e)=>changeOnClick(e)}>Update and Confirm Group Details</button><br/><br/> */}
+{/*                  
+                 </center>
+                 </form> */}
+                 
+</div>
+</td>
+     
+        <td>
+        <center>
+          
+                 <img src={grp} class="img-fluid" alt="" width="1500" height="1000" margin-left="100px"/>
+                 <br/><br/>
                  <a className="btn btn-primary" href = "/ViewAreas" style = {{textDecoration:'none'}} >Select a topic</a>&nbsp;&nbsp;&nbsp;
                  <a className="btn btn-danger btn-block" href='#' onClick={() =>this.onDelete(groups._id)}>
               &nbsp;Delete Group</a>
-                 </center>
-                 </form>
 
-                </center>
+         </center>
+         </td>
+         </tr>
+</table>
+        </center>
         </div>
         </div>
 

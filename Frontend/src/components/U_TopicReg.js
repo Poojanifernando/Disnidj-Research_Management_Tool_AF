@@ -1,6 +1,6 @@
-
 import React, { Component } from 'react';
 import axios from 'axios';
+import topic from '../../public/topic.png';
 
   export default class CreateTopic extends Component{
 
@@ -103,9 +103,9 @@ import axios from 'axios';
             </div>
   
             <div className="col-md-8 mt-4 mx-auto">
-            <div style={{height:'80px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
+            <div style={{height:'150px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
                     <br/>
-                    <h2 style={{color:'white', textAlign:'center'}}>Topic Registration Form</h2>
+                    <h2 style={{color:'white', textAlign:'center'}}><img src={topic} class="mx-auto" alt="" width="130" height="100"/>&nbsp;Topic Registration Form</h2>
                    <br/>
           </div>
                 <br/>
@@ -135,18 +135,19 @@ import axios from 'axios';
                         <input type="email" className="form-control" name="CoSupervisors" value={this.state.CoSupervisors} placeholder="Enter the name of the selected co-supervisor" onChange={this.handleChange} required/>
                     </div>
 <br/>
+<div class="p-3 mb-2 bg-secondary text-white">
 <table width = "1000px" style={{fontFamily: "-moz-initial"}}>
 
           <thead>
           <tr>
    
-            <th >Supervisors for IT Specialization</th>  
+            <th ><u>Supervisors for IT Specialization</u></th>  
             
-            <th>Co-Supervisors for IT Specialization</th> 
+            <th><u>Co-Supervisors for IT Specialization</u></th> 
 
-            <th>Supervisors for SE Specialization</th> 
+            <th><u>Supervisors for SE Specialization</u></th> 
 
-            <th>Co-Supervisors for SE Specialization</th> </tr>
+            <th><u>Co-Supervisors for SE Specialization</u> </th></tr>
 
             </thead>
             <tbody>
@@ -166,13 +167,13 @@ import axios from 'axios';
 
             <br/>
             <tr>
-            <th>Supervisors for DS Specialization</th> 
+            <th><u>Supervisors for DS Specialization</u></th> 
             
-            <th>Co-Supervisors for DS Specialization</th> 
+            <th><u>Co-Supervisors for DS Specialization</u></th> 
             
-            <th>Supervisors for IM Specialization</th> 
+            <th><u>Supervisors for IM Specialization</u></th> 
             
-            <th>Co-Supervisors for IM Specialization</th> </tr>
+            <th><u>Co-Supervisors for IM Specialization</u></th> </tr>
             
             <tr> <td>Lec. Malan Gamage</td> <td>inst. Ruwan Silva</td> <td>Lec. Malan Gamage</td> <td>inst. Ruwan Silva</td></tr>
             <tr> <td>Lec. Arun Perera</td><td>Lec. Olu Perera</td><td>Lec. Arun Perera</td><td>Lec. Olu Perera</td></tr>
@@ -196,6 +197,7 @@ import axios from 'axios';
      </tbody>
      
 </table>
+</div>
                     <div className="form-group">
                         <label for="inputAddress2" className="form-label">Supervisor state : </label>
                         <input type="text" className="form-control" name="SState" value={this.state.SState} list="SStates" placeholder="Select the response as pending until the supervisor confrims" onChange={this.handleChange} />

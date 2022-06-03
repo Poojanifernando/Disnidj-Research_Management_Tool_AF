@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import sup from '../../public/sup.jpg';
 
 export default class Home extends Component {
   constructor(props){
@@ -82,8 +83,11 @@ handleSearchArea = (e) =>{
   
         <div className='container'>
           <br/>
-        
-        <p>Supervisor Selections</p>
+          <div style={{height:'150px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
+                    <br/>
+                    <h2 style={{color:'white', textAlign:'center'}}><img src={sup} class="mx-auto" alt="" width="150" height="120"/>&nbsp;&nbsp;Supervisor Allocations</h2>
+                   <br/>
+          </div>
 
         
         <br/>

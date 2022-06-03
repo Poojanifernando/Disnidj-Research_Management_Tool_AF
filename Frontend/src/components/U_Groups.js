@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import group from '../../public/group.png';
 
 export default class Home extends Component {
   constructor(props){
@@ -85,9 +86,9 @@ handleSearchArea = (e) =>{
         <div className='container'>
           <br/>
         
-          <div style={{height:'80px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
+          <div style={{height:'140px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
                     <br/>
-                    <h2 style={{color:'white', textAlign:'center'}}>Registered Groups</h2>
+                    <h2 style={{color:'white', textAlign:'center'}}><img src={group} class="mx-auto" alt="" width="150" height="100"/>&nbsp;Registered Groups</h2>
                    <br/>
           </div>
 
