@@ -86,7 +86,7 @@ router.delete('/topic/delete/:id', (req, res) =>{
 
 //get a specific topic
 
-router.get("/topic/:id",(req,res)=>{
+router.get(`/topic/:id`,(req,res)=>{
     let topicId = req.params.id;
 
     Topics.findById(topicId,(err,topic)=>{
@@ -96,7 +96,7 @@ router.get("/topic/:id",(req,res)=>{
 
         return res.status(200).json({
             success:true,
-            group
+            topic
         });
     });
 });

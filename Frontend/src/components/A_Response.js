@@ -82,7 +82,6 @@ export default function UpdateDetails()  {
     const id = useParams();
     
 
-  
 
     const [topic] = useState({
         Area:"",
@@ -224,7 +223,7 @@ export default function UpdateDetails()  {
                      name="Area"
                     onChange={e => setArea(e.target.value)}
                      value={Area}  
-    
+                     placeholder="Research area"
                    />
                  </div>
                  </div>
@@ -235,7 +234,7 @@ export default function UpdateDetails()  {
                      name="Topic"
                     onChange={e => setTopic(e.target.value)}
                      value={Topic}  
-                
+                     placeholder="Research topic"
                    
                      />
                  </div>
@@ -249,7 +248,7 @@ export default function UpdateDetails()  {
                      name="Supervisors"
                     onChange={e => setSupervisors(e.target.value)}
                      value={Supervisors}
-                     
+                     placeholder="Research area"
                      
                  
                      />
@@ -282,6 +281,19 @@ export default function UpdateDetails()  {
                  </div>
                  </div>
 
+
+                 <div className="form-group" >
+                 <div  style={{marginBottom:'15px'}}>
+                     <label style={{margineBottom:'5px'}}>Name of the Leader : </label>
+                     <input type="text"
+                     name="Leader"
+                     onChange={e => setLeader(e.target.value)}
+                     value={Leader}  
+                     
+                  
+                    />
+                 </div>
+                 </div>
 
                  <div className="form-group" >
                  <div  style={{marginBottom:'15px'}}>
