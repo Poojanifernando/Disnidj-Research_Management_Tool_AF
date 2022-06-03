@@ -217,7 +217,8 @@ export default function UpdateAllDetails()  {
 </center>
 
         <center>
-        <form className="row g-3">
+        <div className="col-md-8 mt-4 mx-auto">
+          <form className="row g-3" style={{backgroundColor:"#ebecf0"}}>
              
         {/* <div className="form-group" >
                  <div style={{marginBottom:'15px'}}>
@@ -247,8 +248,7 @@ export default function UpdateAllDetails()  {
   <a><b> Please select the Supervisors according to your specializations. Do not change the Supervisor or the Co-Supervisor after the request is accepted by them</b></a>
 
                 <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Select a Supervisor: </label>
+                     <label className="form-label"><h5>Selected Supervisor: </h5></label>
                      
                      <input type="text"
                      name="Supervisors"
@@ -260,11 +260,11 @@ export default function UpdateAllDetails()  {
                      />
                    
                  </div>
-                 </div>
+          
 
                  <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Response from the Supervisor : </label>
+                     <label className="form-label"><h5>Supervisor's Response: </h5></label>
+                     
                      <input type="text"
                      name="SState"
                      onChange={e => setSState(e.target.value)}
@@ -278,11 +278,11 @@ export default function UpdateAllDetails()  {
 
                           </datalist>
                  </div>
-                 </div>
+             
 
                  <div className="form-group" >
-                 <div style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Select a Co-Supervisor : </label>
+                     <label className="form-label"><h5>Selected Co-Supervisor: </h5></label>
+                     
                      <input type="text"
                      name="CoSupervisors"
                      onChange={e => setCoSupervisors(e.target.value)}
@@ -292,7 +292,7 @@ export default function UpdateAllDetails()  {
                      />
                     
                  </div>
-                 </div>
+                 
 
                  {/* <div className="form-group" >
                 <div  style={{marginBottom:'15px'}}>
@@ -322,9 +322,9 @@ export default function UpdateAllDetails()  {
 
                  
 
-                 <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Response from the Co-Supervisor : </label>
+<div className="form-group" >
+                     <label className="form-label"><h5>Co-Supervisor's Response: </h5></label>
+                     
                      <input type="text"
                      name="CState"
                      onChange={e => setCState(e.target.value)}
@@ -338,14 +338,14 @@ export default function UpdateAllDetails()  {
  
                     </datalist>
                  </div>
-                 </div>
+
                  <center>
-                 <button type="submit"  onClick={(e)=>changeOnClick(e)}>Submit Response</button><br/><br/>
+                 <button className="btn btn-success" type="submit"  onClick={(e)=>changeOnClick(e)}>Submit Response</button><br/><br/>
                 
                  </center>
                 
                  </form>
-
+</div>
                 </center>
         </div>
         </div>
