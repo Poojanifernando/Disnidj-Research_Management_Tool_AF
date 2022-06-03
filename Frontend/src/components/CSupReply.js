@@ -180,7 +180,7 @@ export default function UpdateAllDetails()  {
                  </div>
 
 
-                <div className="form-group" >
+                {/* <div className="form-group" >
                  <div  style={{marginBottom:'15px'}}>
                      <label style={{margineBottom:'5px'}}>Name of the selected Supervisor : </label>
                      <input type="text"
@@ -192,7 +192,7 @@ export default function UpdateAllDetails()  {
                  
                      />
                  </div>
-                 </div>
+                 </div> */}
 
                  <div className="form-group" >
                  <div style={{marginBottom:'15px'}}>
@@ -208,7 +208,7 @@ export default function UpdateAllDetails()  {
                  </div>
                  </div>
 
-                 <div className="form-group" >
+                 {/* <div className="form-group" >
                 <div  style={{marginBottom:'15px'}}>
                      <label style={{margineBottom:'5px'}}>Name of the group : </label>
                      <input type="text"
@@ -232,9 +232,9 @@ export default function UpdateAllDetails()  {
                   
                     />
                  </div>
-                 </div>
+                 </div> */}
 
-                 <div className="form-group" >
+                 {/* <div className="form-group" >
                  <div  style={{marginBottom:'15px'}}>
                      <label style={{margineBottom:'5px'}}>Response from the Supervisor : </label>
                      <input type="text"
@@ -245,7 +245,7 @@ export default function UpdateAllDetails()  {
                   
                     />
                  </div>
-                 </div>
+                 </div> */}
 
                  <div className="form-group" >
                  <div  style={{marginBottom:'15px'}}>
@@ -254,13 +254,22 @@ export default function UpdateAllDetails()  {
                      name="CState"
                      onChange={e => setCState(e.target.value)}
                      value={CState}  
+                     list="CStates"
                      
                   
                     />
+                    <datalist id="CStates">
+                          <option value="Rejected"></option>
+                          <option value="Accepted"></option>
+
+                          </datalist>
                  </div>
                  </div>
 
+                <center>
+                 <button type="submit"  onClick={(e)=>changeOnClick(e)}>Submit Response</button><br/><br/>
                 
+                 </center>
                  </form>
 
                 </center>

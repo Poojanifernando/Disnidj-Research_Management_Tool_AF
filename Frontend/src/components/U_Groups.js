@@ -83,7 +83,11 @@ handleSearchArea = (e) =>{
         <div className='container'>
           <br/>
         
-        <p>Registered Groups</p>
+          <div style={{height:'80px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
+                    <br/>
+                    <h2 style={{color:'white', textAlign:'center'}}>Registered Groups</h2>
+                   <br/>
+          </div>
 
         
         <br/>
@@ -99,7 +103,10 @@ handleSearchArea = (e) =>{
               </div>
           ))} */}
           <br/>
-           <div className="col-lg-9 mt-2 mb-2">
+          
+
+            <p><b>Step 2 : You can search for your group by the name you gave to the group and see the details you have entered. If you wish to change any information or delete the registered group you can click on the group name and continue.</b></p>
+            <div className="col-lg-9 mt-2 mb-2">
               <input
               className="form-control"
               type="search"
@@ -108,6 +115,7 @@ handleSearchArea = (e) =>{
               onChange={this.handleSearchArea}>
               </input>
             </div>
+      
       <table className='table'>
 
           <thead>

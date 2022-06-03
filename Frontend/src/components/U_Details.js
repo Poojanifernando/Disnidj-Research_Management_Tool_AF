@@ -203,6 +203,7 @@ export default function UpdateDetails()  {
 
 
         <center>
+          <p><b>Step 3 : You can update your group details here. If you want to proceed, refer the research areas and related topics to select a topic for the group. </b></p>
         <form className="row g-3">
           <div className="form-group" >
                 <div  style={{marginBottom:'15px'}}>
@@ -281,7 +282,8 @@ export default function UpdateDetails()  {
 
                 <center>
                  <button type="submit"  onClick={(e)=>changeOnClick(e)}>Update and Confirm Group Details</button><br/><br/>
-                 <a className="btn btn-primary" href = "/" style = {{textDecoration:'none'}} >Request Supervisors</a>&nbsp;&nbsp;&nbsp;
+                 <a className="btn btn-success" href = "/ViewAreas" style = {{textDecoration:'none'}} >Select a topic</a>&nbsp;&nbsp;&nbsp;
+                 <a className="btn btn-primary" href = "/Confirm" style = {{textDecoration:'none'}} >Request Supervisors</a>&nbsp;&nbsp;&nbsp;
                  <a className="btn btn-danger btn-block" href='#' onClick={() =>this.onDelete(groups._id)}>
               &nbsp;Delete Group</a>
                  </center>

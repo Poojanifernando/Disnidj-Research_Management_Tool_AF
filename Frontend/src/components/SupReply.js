@@ -148,7 +148,7 @@ export default function UpdateAllDetails()  {
         <div>
 
          <br/>
-            <center><h1>Details of the Group</h1></center> 
+            <center><h1>Availability of the Supervisor</h1></center> 
           <br/>
 
 
@@ -194,7 +194,7 @@ export default function UpdateAllDetails()  {
                  </div>
                  </div>
 
-                 <div className="form-group" >
+                 {/* <div className="form-group" >
                  <div style={{marginBottom:'15px'}}>
                      <label style={{margineBottom:'5px'}}>Name of the selected Co-Supervisor : </label>
                      <input type="text"
@@ -206,9 +206,9 @@ export default function UpdateAllDetails()  {
                      />
                     
                  </div>
-                 </div>
+                 </div> */}
 
-                 <div className="form-group" >
+                 {/* <div className="form-group" >
                 <div  style={{marginBottom:'15px'}}>
                      <label style={{margineBottom:'5px'}}>Name of the group : </label>
                      <input type="text"
@@ -218,10 +218,10 @@ export default function UpdateAllDetails()  {
                      
                      />
                  </div>
-                 </div>
+                 </div> */}
 
 
-                 <div className="form-group" >
+                 {/* <div className="form-group" >
                  <div  style={{marginBottom:'15px'}}>
                      <label style={{margineBottom:'5px'}}>Name of the Leader : </label>
                      <input type="text"
@@ -232,7 +232,7 @@ export default function UpdateAllDetails()  {
                   
                     />
                  </div>
-                 </div>
+                 </div> */}
 
                  <div className="form-group" >
                  <div  style={{marginBottom:'15px'}}>
@@ -241,13 +241,19 @@ export default function UpdateAllDetails()  {
                      name="SState"
                      onChange={e => setSState(e.target.value)}
                      value={SState}  
+                     list="SStates"
                      
                   
                     />
+                    <datalist id="SStates">
+                          <option value="Rejected"></option>
+                          <option value="Accepted"></option>
+
+                          </datalist>
                  </div>
                  </div>
 
-                 <div className="form-group" >
+                 {/* <div className="form-group" >
                  <div  style={{marginBottom:'15px'}}>
                      <label style={{margineBottom:'5px'}}>Response from the Co-Supervisor : </label>
                      <input type="text"
@@ -258,9 +264,12 @@ export default function UpdateAllDetails()  {
                   
                     />
                  </div>
-                 </div>
+                 </div> */}
 
-                
+                <center>
+                 <button type="submit"  onClick={(e)=>changeOnClick(e)}>Submit Response</button><br/><br/>
+            
+                 </center>
                  </form>
 
                 </center>

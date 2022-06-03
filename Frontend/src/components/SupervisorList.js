@@ -15,7 +15,7 @@ export default function SupervisorList()  {
             <center><h1  style={{fontFamily: "cursive"}}>Supervisors and Co-supervisors List Based on the Specialization</h1></center> 
           <br/>
 
-
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="btn btn-primary" href = "/ViewAreas" style = {{textDecoration:'none'}} >Back</a>&nbsp;&nbsp;&nbsp;
       <center>
           <table width = "1000px" style={{fontFamily: "-moz-initial"}}>
 

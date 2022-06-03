@@ -148,14 +148,76 @@ export default function UpdateAllDetails()  {
         <div>
 
          <br/>
-            <center><h1>Details of the Group</h1></center> 
+            <center><h1>Allocation of Supervisors</h1></center> 
           <br/>
+          <center>
+          <table width = "1000px" style={{fontFamily: "-moz-initial"}}>
 
+          <thead>
+          <tr>
+   
+            <th >Supervisors for IT Specialization</th>  
+            
+            <th>Co-Supervisors for IT Specialization</th> 
+
+            <th>Supervisors for SE Specialization</th> 
+
+            <th>Co-Supervisors for SE Specialization</th> </tr>
+
+            </thead>
+            <tbody>
+            <tr> <td>Lec. Kamal Gamage</td> <td>inst. Nimal Silva</td> <td>Lec. Malan Gamage</td> <td>inst. Ruwan Silva</td></tr>
+            <tr> <td>Lec. Warun Perera</td><td>Lec. Anura Perera</td><td>Lec. Arun Perera</td><td>Lec. Olu Perera</td></tr>
+            <tr> <td>Lec. Jayaweera Fernando</td>  <td>inst. Adithaya Silava</td> <td>Lec. Jayaweera Fernando</td>  <td>inst. Ayesh Silava</td> </tr>
+            <tr>  <td>Lec. Nimal Gamage</td>    <td>inst. Jayaweera Fernando</td> <td>Lec. Kamlee Gamage</td>    <td>inst. Poojani Fernando</td> </tr>
+            <tr>  <td>Lec. Nuwan Perera</td>     <td> Assit Lec. Gunarathna Fernando</td> <td>Lec. Miran Perera</td>    <td> Assit Lec. Ruwan Fernando</td></tr>
+            <tr>  <td>Lec. Lakshika Perera</td>    <td>inst. Jayaweera Fernando</td> <td>Lec. Nuwani Perera</td>    <td>inst. Disni Fernando</td>  </tr>
+            <tr> Assit Lec. Gunarathna Fernando    <td>inst. Nirmani Fernando</td>Assit Lec. Waruni Fernando    <td>inst. Randimal Fernando</td> </tr>
+            <tr><td>Lec. Nimalee Perera</td>    <td>inst. Wihara Fernando</td> <td>Lec. Rasika Perera</td>    <td>inst. Wihara Fernando</td> </tr>
+            <tr> <td>Lec. Awan Perera</td>  <td>inst. Jayaweera Silva</td> <td>Lec. Malee Perera</td>  <td>inst. Jayaweera Silva</td></tr>
+            <tr> <td>Assit Lec. Warun Perera</td> <td>inst. madanayaka Fernando</td><td>Assit Lec. Anjalee Perera</td> <td>inst. madanayaka Fernando</td></tr>
+            <tr> <td>Lec. Sauri Fernando</td><td> Assit Lec. Anuni Fernando</td><td>Lec. Supipi Fernando</td><td> Assit Lec. Anuni Fernando</td> </tr>
+
+
+
+            <br/>
+            <tr>
+            <th>Supervisors for DS Specialization</th> 
+            
+            <th>Co-Supervisors for DS Specialization</th> 
+            
+            <th>Supervisors for IM Specialization</th> 
+            
+            <th>Co-Supervisors for IM Specialization</th> </tr>
+            
+            <tr> <td>Lec. Malan Gamage</td> <td>inst. Ruwan Silva</td> <td>Lec. Malan Gamage</td> <td>inst. Ruwan Silva</td></tr>
+            <tr> <td>Lec. Arun Perera</td><td>Lec. Olu Perera</td><td>Lec. Arun Perera</td><td>Lec. Olu Perera</td></tr>
+            <tr> <td>Lec. Jayaweera Fernando</td>  <td>inst. Ayesh Silava</td> <td>Lec. Jayaweera Fernando</td>  <td>inst. Ayesh Silava</td></tr>
+            <tr>  <td>Lec. Kamlee Gamage</td>    <td>inst. Poojani Fernando</td> <td>Lec. Kamlee Gamage</td>    <td>inst. Poojani Fernando</td></tr>
+            <tr>  <td>Lec. Miran Perera</td>     <td> Assit Lec. Ruwan Fernando</td><td>Lec. Miran Perera</td>     <td> Assit Lec. Ruwan Fernando</td></tr>
+            <tr>  <td>Lec. Nuwani Perera</td>    <td>inst. Disni Fernando</td><td>Lec. Nuwani Perera</td>    <td>inst. Disni Fernando</td> </tr>
+            <tr> Assit Lec. Waruni Fernando    <td>inst. Randimal Fernando</td>Assit Lec. Waruni Fernando    <td>inst. Randimal Fernando</td> </tr>
+            <tr><td>Lec. Rasika Perera</td>    <td>inst. Wihara Fernando</td> <td>Lec. Rasika Perera</td>    <td>inst. Wihara Fernando</td> </tr>
+            <tr> <td>Lec. Malee Perera</td>  <td>inst. Jayaweera Silva</td><td>Lec. Malee Perera</td>  <td>inst. Jayaweera Silva</td></tr>
+            <tr> <td>Assit Lec. Anjalee Perera</td> <td>inst. madanayaka Fernando</td><td>Assit Lec. Anjalee Perera</td> <td>inst. madanayaka Fernando</td></tr>
+            <tr> <td>Lec. Supipi Fernando</td><td> Assit Lec. Anuni Fernando</td><td>Lec. Supipi Fernando</td><td> Assit Lec. Anuni Fernando</td> </tr>
+
+
+           
+          
+            
+     
+   
+   
+     </tbody>
+     
+</table>
+</center>
 
         <center>
         <form className="row g-3">
              
-        <div className="form-group" >
+        {/* <div className="form-group" >
                  <div style={{marginBottom:'15px'}}>
                      <label style={{margineBottom:'5px'}}>Selected Research area : </label>
                      <input type="text"
@@ -177,12 +239,15 @@ export default function UpdateAllDetails()  {
                    
                      />
                  </div>
-                 </div>
-
+                 </div> */}
+                 <br/>
+                 <br/>
+  <a><b> Please select the Supervisors according to your specializations. Do not change the Supervisor or the Co-Supervisor after the request is accepted by them</b></a>
 
                 <div className="form-group" >
                  <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Name of the selected Supervisor : </label>
+                     <label style={{margineBottom:'5px'}}>Select a Supervisor: </label>
+                     
                      <input type="text"
                      name="Supervisors"
                     onChange={e => setSupervisors(e.target.value)}
@@ -191,12 +256,31 @@ export default function UpdateAllDetails()  {
                      
                  
                      />
+                   
+                 </div>
+                 </div>
+
+                 <div className="form-group" >
+                 <div  style={{marginBottom:'15px'}}>
+                     <label style={{margineBottom:'5px'}}>Response from the Supervisor : </label>
+                     <input type="text"
+                     name="SState"
+                     onChange={e => setSState(e.target.value)}
+                     value={SState}  
+                     list="SStates"
+                     
+                  
+                    />
+                     <datalist id="SStates">
+                          <option value="Supervisor response - pending"></option>
+
+                          </datalist>
                  </div>
                  </div>
 
                  <div className="form-group" >
                  <div style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Name of the selected Co-Supervisor : </label>
+                     <label style={{margineBottom:'5px'}}>Select a Co-Supervisor : </label>
                      <input type="text"
                      name="CoSupervisors"
                      onChange={e => setCoSupervisors(e.target.value)}
@@ -208,7 +292,7 @@ export default function UpdateAllDetails()  {
                  </div>
                  </div>
 
-                 <div className="form-group" >
+                 {/* <div className="form-group" >
                 <div  style={{marginBottom:'15px'}}>
                      <label style={{margineBottom:'5px'}}>Name of the group : </label>
                      <input type="text"
@@ -232,20 +316,9 @@ export default function UpdateAllDetails()  {
                   
                     />
                  </div>
-                 </div>
+                 </div> */}
 
-                 <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Response from the Supervisor : </label>
-                     <input type="text"
-                     name="SState"
-                     onChange={e => setSState(e.target.value)}
-                     value={SState}  
-                     
-                  
-                    />
-                 </div>
-                 </div>
+                 
 
                  <div className="form-group" >
                  <div  style={{marginBottom:'15px'}}>
@@ -254,12 +327,20 @@ export default function UpdateAllDetails()  {
                      name="CState"
                      onChange={e => setCState(e.target.value)}
                      value={CState}  
+                     list="CStates"
                      
                   
-                    />
+                     />
+                      <datalist id="CStates">
+                           <option value="Supervisor response - pending"></option>
+ 
+                    </datalist>
                  </div>
                  </div>
-
+                 <center>
+                 <button type="submit"  onClick={(e)=>changeOnClick(e)}>Submit Response</button><br/><br/>
+                
+                 </center>
                 
                  </form>
 

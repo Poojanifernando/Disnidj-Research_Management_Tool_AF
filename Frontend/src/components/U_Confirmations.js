@@ -1,26 +1,26 @@
 import React, { Component } from 'react'
 import axios from 'axios';
 
-export default class Areas extends Component {
+export default class Home extends Component {
   constructor(props){
     super(props);
 
     this.state={
-      areas:[]
+      topics:[]
     };
   }
 
   componentDidMount(){
-    this.retriveAreas();
+    this.retriveTopics();
   }
 
-retriveAreas(){
-  axios.get("http://localhost:8000/areas").then(res=>{
+retriveTopics(){
+  axios.get("http://localhost:8000/topics").then(res=>{
     if(res.data.success){
       this.setState({
-        areas:res.data.existingAreas
+        topics:res.data.existingTopics
       });
-      console.log(this.state.areas)
+      console.log(this.state.topics)
     }
   });
 }
@@ -28,21 +28,20 @@ retriveAreas(){
 
 
 
-filterData(areas,searchKey){
-  const result = areas.filter((area) =>
-  area.Area.toLowerCase().includes(searchKey)||
-  area.Topics.toLowerCase().includes(searchKey)
+filterData(topics,searchKey){
+  const result = topics.filter((topic) =>
+  topic.GroupName.toLowerCase().includes(searchKey)
   )
 
-  this.setState({areas:result})
+  this.setState({topics:result})
 }
 
 handleSearchArea = (e) =>{
   const searchKey = e.currentTarget.value;
 
-  axios.get("http://localhost:8000/areas").then(res=>{
+  axios.get("http://localhost:8000/topics").then(res=>{
     if(res.data.success){
-      this.filterData(res.data.existingAreas,searchKey)
+      this.filterData(res.data.existingTopics,searchKey)
     }
   });
 }
@@ -58,14 +57,14 @@ handleSearchArea = (e) =>{
         <div><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse" id="navcol-1">
             <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link "href="/groupreg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Group Registration</a></li>
+                    <li className="nav-item"><a className="nav-link "href="/view" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Groups</a></li>
                   
-                    <li className="nav-item"><a className="nav-link" href="/topicReg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Topic Registration</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/ViewAreas" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a></li>
+                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Supervisor allocations</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/Areas" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a></li>
                    
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Evaluations</a></li>
+                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Formations</a></li>
                     
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents and templates</a></li>
+                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Project Evaluations</a></li>
                     
                   
                     
@@ -83,11 +82,7 @@ handleSearchArea = (e) =>{
         <div className='container'>
           <br/>
         
-          <div style={{height:'80px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
-                    <br/>
-                    <h2 style={{color:'white', textAlign:'center'}}>Research Areas and related topics</h2>
-                   <br/>
-          </div>
+        <p>Supervisor Responses</p>
 
         
         <br/>
@@ -102,49 +97,56 @@ handleSearchArea = (e) =>{
                 <p>{travelors.date}</p>
               </div>
           ))} */}
-          <p><b>Step 4 : You can search for the research areas you wish to do the project here. Once you select a topic for your project you can select supervisors for the project.</b></p>
           <br/>
            <div className="col-lg-9 mt-2 mb-2">
               <input
               className="form-control"
               type="search"
-              placeholder="Search for research areas and find topics"
+              placeholder="search by group name"
               name="searchQuery"
               onChange={this.handleSearchArea}>
               </input>
-              <br/>
-              
-              <a className="btn btn-primary" href = "/SupervisorList" style = {{textDecoration:'none'}} >View supervisors List</a>&nbsp;&nbsp;&nbsp;
             </div>
       <table className='table'>
 
           <thead>
           <tr>
           <th scope='col'>No.</th>
-          <th scope='col'>Research Area</th>
-          <th scope='col'>Topics</th>
+          <th scope='col'>GroupName</th> 
+          <th scope='col'>Project Topic</th>
+          <th scope='col'>Selected Supervisor</th>
+          <th scope='col'>Supervisor Response</th>
+          <th scope='col'>Selected Co-Supervisor</th>
+          <th scope='col'>Co-Supervisor Response</th>
+          <th scope='col'>Change Supervisors if rejected</th>
        
-          
 
           </tr>
 
           </thead>
           <tbody>
 
-          {this.state.areas.map((areas,index)=>(
+          {this.state.topics.map((topics,index)=>(
             <tr>
               <th scope='row'>{index+1}</th>
-              <td>{areas.Area}</td>
-              <td>{areas.Topics}</td>
-           
+              <td>{topics.GroupName}</td>
+              <td>{topics.Topic}</td>
+              <td>{topics.Supervisors}</td>
+              <td>{topics.SState}</td>
+              <td>{topics.CoSupervisors}</td>
+              <td>{topics.CState}</td>
+              
               <td>
+
+            <a className = "btn btn btn-outline-dark" href={`/Change/${topics._id}`} style={{textDecoration:'none'}}>
+                <i className ="fas fa-edit"></i>&nbsp;Request another supervisor
+            </a>
+            &nbsp;
+          
+            </td>
+         
              
-
-              </td>
-
-
             </tr>
-            
           ))}
 
           </tbody>
@@ -152,7 +154,6 @@ handleSearchArea = (e) =>{
           
 
       </table>
-      
       </div>
 
       

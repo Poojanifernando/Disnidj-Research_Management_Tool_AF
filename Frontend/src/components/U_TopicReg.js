@@ -108,7 +108,7 @@ import axios from 'axios';
           </div>
                 <br/>
                 <div >
-  
+  <p><b>Once you register your groups you can select a research topic, supervisors and co-supervisors you are wishing to work with and register them here.</b></p>
                 <form className="row g-3">
   
                     <div className="form-group" >

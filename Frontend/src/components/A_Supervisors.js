@@ -103,7 +103,7 @@ handleSearchArea = (e) =>{
               <input
               className="form-control"
               type="search"
-              placeholder="search fby your name"
+              placeholder="search by your name"
               name="searchQuery"
               onChange={this.handleSearchArea}>
               </input>
@@ -117,7 +117,8 @@ handleSearchArea = (e) =>{
           <th scope='col'>Selected Supervisor</th>
           <th scope='col'>Selected Co-Supervisor</th>
           <th scope='col'>GroupName</th>
-
+          <th scope='col'>Supervisor Response</th>
+          <th scope='col'>Co-Supervisor Response</th>
 
           
 
@@ -133,6 +134,22 @@ handleSearchArea = (e) =>{
               <td>{topics.Supervisors}</td>
               <td>{topics.CoSupervisors}</td>
               <td>{topics.GroupName}</td>
+              <td>
+
+            <a className = "btn btn btn-outline-dark" href={`/SReply/${topics._id}`} style={{textDecoration:'none'}}>
+                <i className ="fas fa-edit"></i>&nbsp;Respond
+            </a>
+            &nbsp;
+          
+            </td>
+            <td>
+
+            <a className = "btn btn btn-outline-dark" href={`/CReply/${topics._id}`} style={{textDecoration:'none'}}>
+                <i className ="fas fa-edit"></i>&nbsp;Respond
+            </a>
+            &nbsp;
+          
+            </td>
          
              
 

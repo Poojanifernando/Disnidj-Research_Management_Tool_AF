@@ -100,7 +100,7 @@ import axios from 'axios';
           </div>
                 <br/>
 
-
+<p><b>Step 1 : Form a group with four members and register your group here with a group name and with the credentials of the group leader. Once you register your group you are able to start with your research project work.</b></p>
                 <div >
   
                 <form className="row g-3">
