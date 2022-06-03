@@ -63,6 +63,7 @@ import React  from 'react';
 import {useState ,useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from "react-router-dom";
+import grp from '../../public/grp.jpg';
 
 
 
@@ -175,16 +176,18 @@ export default function UpdateDetails()  {
             <ul className="navbar-nav">
                     <li className="nav-item"><a className="nav-link "href="/groupreg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Group Registration</a></li>
                   
-                    <li className="nav-item"><a className="nav-link" href="/topicReg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Topic Registration</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/groups" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Registered Groups</a></li>
                     <li className="nav-item"><a className="nav-link" href="/ViewAreas" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a></li>
                    
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Evaluations</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/EvaluationResult" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Evaluations Results</a></li>
                     
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents and templates</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/STDdownloads" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents and templates</a></li>
+                    
+                    <li className="nav-item"><a className="nav-link" href="/SubmitNavbar" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents Submission page</a></li>
                     
                   
                     
-                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"900px"}}>Log Out</a></li>
+                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"800px"}}>Log Out</a></li>
                    
                   
                 </ul>
@@ -203,91 +206,115 @@ export default function UpdateDetails()  {
 
 
         <center>
-        <form className="row g-3">
-          <div className="form-group" >
-                <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Name of the group : </label>
-                     <input type="text"
-                     name="GName"
-                    onChange={e => setGName(e.target.value)}
-                     value={GName}
-                     placeholder="Create a name for the group"
-                     />
-                 </div>
-                 </div>
-                 <div className="form-group" >
-                 <div style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Member 1 : </label>
-                     <input type="text"
-                     name="student1"
-                    onChange={e => setstudent1(e.target.value)}
-                     value={student1}  
-                     placeholder="Name of the first member"
-                   />
-                 </div>
-                 </div>
-                 <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Member 2 : </label>
-                     <input type="text"
-                     name="student2"
-                    onChange={e => setstudent2(e.target.value)}
-                     value={student2}  
-                     placeholder="Name of the second member"
-                   
-                     />
-                 </div>
-                 </div>
+          <p><b>Step 3 : You can update your group details here. If you want to proceed, refer the research areas and related topics to select a topic for the group. </b></p>
+          
+           <table>
+         <tr>
+             <td>
+          <div className="col-md-8 mt-4 mx-auto">
+          <form className="row g-3" style={{backgroundColor:"#ebecf0"}}>
+        
 
-                <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Member 3 : </label>
-                     <input type="text"
-                     name="student3"
-                    onChange={e => setstudent3(e.target.value)}
-                     value={student3}  
-                     placeholder="Name of the third member"
+        <div className="form-group">
+          <h4>Name of the Group :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="GName"
+            onChange={e => setGName(e.target.value)}
+            value={GName}  
+            
+          />
+        </div>
+
+       
+
+       <div className="form-group">
+          <h4>Name of Member 1 :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="student1"
+            onChange={e => setstudent1(e.target.value)}
+            value={student1}  
+            
+          />
+        </div>
+
+ <div className="form-group">
+          <h4>Name of Member 2 :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="student2"
+            onChange={e => setstudent2(e.target.value)}
+            value={student2}  
+            
+          />
+        </div>
+
+ <div className="form-group">
+          <h4>Name of Member 3 :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="student3"
+            onChange={e => setstudent3(e.target.value)}
+            value={student3}  
+            
+          />
+        </div>
+
+ <div className="form-group">
+          <h4>Name of Member 4 :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="student4"
+            onChange={e => setstudent4(e.target.value)}
+            value={student4}  
+            
+          />
+        </div>
+
+ <div className="form-group">
+          <h4>IT number of the Leader :</h4>
+        <label className="form-label"></label>
+            <input type="text"
+            className="form-control"
+            name="Leader"
+            onChange={e => setLeader(e.target.value)}
+            value={Leader}  
+            
+          />
+        </div>
+
+        </form>
+               <button className="btn btn-success" type="submit" style={{marginTop:'15px', width:"250px", marginLeft:"150px",backgroundColor:"#0147ab"}} onClick={(e)=>changeOnClick(e)} >
+                   <i className="far fa-check-square"></i>
+                   &nbsp; Update and confirm group details
+
+               </button>
+        
+       
                  
-                     />
-                 </div>
-                 </div>
-
-                 <div className="form-group" >
-                 <div style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Member 4 : </label>
-                     <input type="text"
-                     name="student4"
-                     onChange={e => setstudent4(e.target.value)}
-                     value={student4}
-                     placeholder="Name of the fourth member"
-                   
-                     />
-                    
-                 </div>
-                 </div>
-
-                 <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Name of the Leader : </label>
-                     <input type="text"
-                     name="Leader"
-                     onChange={e => setdate(e.target.value)}
-                     value={Leader}  
-                     placeholder="IT number of the leader"
-                  
-                    />
-                 </div>
-                 </div>
-
-                <center>
-                 <button type="submit"  onClick={(e)=>changeOnClick(e)}>Update and Confirm Group Details</button><br/><br/>
-                 <a className="btn btn-primary" href = "/" style = {{textDecoration:'none'}} >Request Supervisors</a>&nbsp;&nbsp;&nbsp;
+</div>
+</td>
+     
+        <td>
+        <center>
+          
+                 <img src={grp} class="img-fluid" alt="" width="1500" height="1000" margin-left="100px"/>
+                 <br/><br/>
+                 <a className="btn btn-primary" href = "/ViewAreas" style = {{textDecoration:'none'}} >Select a topic</a>&nbsp;&nbsp;&nbsp;
                  <a className="btn btn-danger btn-block" href='#' onClick={() =>this.onDelete(groups._id)}>
               &nbsp;Delete Group</a>
-                 </center>
-                 </form>
 
-                </center>
+         </center>
+         </td>
+         </tr>
+</table>
+        </center>
         </div>
         </div>
 
