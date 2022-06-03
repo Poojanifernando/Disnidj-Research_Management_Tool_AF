@@ -73,6 +73,7 @@ import S_ViewPresentation from './components/S_ViewPresentation';
 import S_ViewThesis from './components/S_ViewThesis';
 import SupervisorList from './components/SupervisorList';
 import StaffHome from './components/StaffHome';
+import StaffRegistration from './components/StaffRegistration';
 
 
 
@@ -156,8 +157,8 @@ export default function App() {
                 <Route     path = "/S_ViewPresentation" element = {<S_ViewPresentation/>}/>  
                 <Route     path = "/S_ViewThesis" element = {<S_ViewThesis/>}/>
                 <Route     path = "/SupervisorList" element = {<SupervisorList/>}/>
-                <Route     path = "/StaffHome" element = {<StaffHome/>}/>
-
+                <Route     path = "/StaffHome" element = {<StaffHome/>}/>  
+                <Route     path = "/StaffRegistration" element = {<StaffRegistration/>}/> 
 
 
    </Routes>
