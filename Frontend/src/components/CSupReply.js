@@ -2,7 +2,7 @@ import React  from 'react';
 import {useState ,useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from "react-router-dom";
-
+import ccc from '../../public/ccc.png';
 
 
 export default function UpdateAllDetails()  {
@@ -148,130 +148,104 @@ export default function UpdateAllDetails()  {
         <div>
 
          <br/>
-            <center><h1>Details of the Group</h1></center> 
+            <center><h1>Co-Supervisor Response</h1></center> 
           <br/>
 
 
         <center>
-        <form className="row g-3">
+        <table>
+         <tr>
+             <td>
+          <div className="col-md-8 mt-4 mx-auto">
+          <form className="row g-3" style={{backgroundColor:"#ebecf0"}}>
+        
              
-        <div className="form-group" >
-                 <div style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Selected Research area : </label>
+                <div className="form-group">
+                   <h4>Area of Research:</h4>
+                 <label className="form-label"></label>
                      <input type="text"
+                     className="form-control"
                      name="Area"
-                    onChange={e => setArea(e.target.value)}
+                    //  onChange={e => setArea(e.target.value)}
                      value={Area}  
-                     placeholder="Research area"
+                     
                    />
                  </div>
-                 </div>
-                 <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Selected topic : </label>
+                 <div className="form-group">
+                   <h4>Selected Topic for the Research :</h4>
+                 <label className="form-label"></label>
                      <input type="text"
+                     className="form-control"
                      name="Topic"
-                    onChange={e => setTopic(e.target.value)}
+                    //  onChange={e => setTopic(e.target.value)}
                      value={Topic}  
-                     placeholder="Research topic"
-                   
-                     />
-                 </div>
+                     
+                   />
                  </div>
 
-
-                {/* <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Name of the selected Supervisor : </label>
+                 <div className="form-group">
+                   <h4>Selected Supervisor's Name :</h4>
+                 <label className="form-label"></label>
                      <input type="text"
+                     className="form-control"
                      name="Supervisors"
-                    onChange={e => setSupervisors(e.target.value)}
-                     value={Supervisors}
-                     placeholder="Research area"
+                    // onChange={e => setSupervisors(e.target.value)}
+                     value={Supervisors}  
                      
-                 
-                     />
+                   />
                  </div>
-                 </div> */}
 
-                 <div className="form-group" >
-                 <div style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Name of the selected Co-Supervisor : </label>
+
+
+                <div className="form-group">
+                   <h4>Selected Co-Supervisor's Name :</h4>
+                 <label className="form-label"></label>
                      <input type="text"
+                     className="form-control"
                      name="CoSupervisors"
-                     onChange={e => setCoSupervisors(e.target.value)}
-                     value={CoSupervisors}
-                   
-                   
-                     />
-                    
-                 </div>
-                 </div>
-
-                 {/* <div className="form-group" >
-                <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Name of the group : </label>
-                     <input type="text"
-                     name="GroupName"
-                    onChange={e => setGroupName(e.target.value)}
-                     value={GroupName}
+                    //  onChange={e => setCoSupervisors(e.target.value)}
+                     value={CoSupervisors}  
                      
-                     />
-                 </div>
+                   />
                  </div>
 
+                
 
-                 <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Name of the Leader : </label>
+                
+            <div className="form-group">
+                   <h4>Co-Supervisor's Response:</h4>
+                 <label className="form-label"></label>
                      <input type="text"
-                     name="Leader"
-                     onChange={e => setLeader(e.target.value)}
-                     value={Leader}  
-                     
-                  
-                    />
-                 </div>
-                 </div> */}
-
-                 {/* <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Response from the Supervisor : </label>
-                     <input type="text"
-                     name="SState"
-                     onChange={e => setSState(e.target.value)}
-                     value={SState}  
-                     
-                  
-                    />
-                 </div>
-                 </div> */}
-
-                 <div className="form-group" >
-                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Response from the Co-Supervisor : </label>
-                     <input type="text"
+                     className="form-control"
                      name="CState"
                      onChange={e => setCState(e.target.value)}
                      value={CState}  
                      list="CStates"
                      
-                  
-                    />
-                    <datalist id="CStates">
+                   />
+                   <datalist id="CStates">
                           <option value="Rejected"></option>
                           <option value="Accepted"></option>
 
                           </datalist>
                  </div>
-                 </div>
+                 
 
                 <center>
-                 <button type="submit"  onClick={(e)=>changeOnClick(e)}>Submit Response</button><br/><br/>
+                 <button className="btn btn-success" type="submit"  onClick={(e)=>changeOnClick(e)}><i className="far fa-check-square"></i>
+                   &nbsp;Submit Response</button><br/><br/>
                 
                  </center>
+               
                  </form>
-
+                 </div>
+                </td>
+     
+                <td>
+                    <center><img src={ccc} class="img-fluid" alt="" width="1400" height="1000" margin-left="100px"/></center>
+                </td>
+                </tr>
+                </table>
                 </center>
         </div>
         </div>
