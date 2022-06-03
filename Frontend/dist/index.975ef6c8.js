@@ -22686,6 +22686,23 @@ var _tempNavbar = require("./components/TempNavbar");
 var _tempNavbarDefault = parcelHelpers.interopDefault(_tempNavbar);
 var _tempAdd = require("./components/TempAdd");
 var _tempAddDefault = parcelHelpers.interopDefault(_tempAdd);
+//student view evalution results
+var _evaluationResult = require("./components/EvaluationResult");
+var _evaluationResultDefault = parcelHelpers.interopDefault(_evaluationResult);
+var _templateDownload = require("./components/TemplateDownload");
+var _templateDownloadDefault = parcelHelpers.interopDefault(_templateDownload);
+var _documentDownload = require("./components/DocumentDownload");
+var _documentDownloadDefault = parcelHelpers.interopDefault(_documentDownload);
+var _stddownloads = require("./components/STDdownloads");
+var _stddownloadsDefault = parcelHelpers.interopDefault(_stddownloads);
+var _docEveResult = require("./components/DocEveResult");
+var _docEveResultDefault = parcelHelpers.interopDefault(_docEveResult);
+var _docEveOneResult = require("./components/DocEveOneResult");
+var _docEveOneResultDefault = parcelHelpers.interopDefault(_docEveOneResult);
+var _preseEveResult = require("./components/PreseEveResult");
+var _preseEveResultDefault = parcelHelpers.interopDefault(_preseEveResult);
+var _presEveOneResult = require("./components/PresEveOneResult");
+var _presEveOneResultDefault = parcelHelpers.interopDefault(_presEveOneResult);
 //Ramona
 var _uGroupReg = require("./components/U_GroupReg");
 var _uGroupRegDefault = parcelHelpers.interopDefault(_uGroupReg);
@@ -22707,6 +22724,49 @@ var _aAreas = require("./components/A_Areas");
 var _aAreasDefault = parcelHelpers.interopDefault(_aAreas);
 var _uAreas = require("./components/U_Areas");
 var _uAreasDefault = parcelHelpers.interopDefault(_uAreas);
+var _aSupervisors = require("./components/A_Supervisors");
+var _aSupervisorsDefault = parcelHelpers.interopDefault(_aSupervisors);
+var _aResponse = require("./components/A_Response");
+var _aResponseDefault = parcelHelpers.interopDefault(_aResponse);
+//Anodya
+var _homeAnodya = require("./components/HomeAnodya");
+var _homeAnodyaDefault = parcelHelpers.interopDefault(_homeAnodya);
+var _registration = require("./components/Registration");
+var _registrationDefault = parcelHelpers.interopDefault(_registration);
+var _login = require("./components/Login");
+var _loginDefault = parcelHelpers.interopDefault(_login);
+var _adminLogin = require("./components/AdminLogin");
+var _adminLoginDefault = parcelHelpers.interopDefault(_adminLogin);
+var _staffLogin = require("./components/StaffLogin");
+var _staffLoginDefault = parcelHelpers.interopDefault(_staffLogin);
+var _addTopisPanels = require("./components/AddTopisPanels");
+var _addTopisPanelsDefault = parcelHelpers.interopDefault(_addTopisPanels);
+var _addPresentationPanels = require("./components/AddPresentationPanels");
+var _addPresentationPanelsDefault = parcelHelpers.interopDefault(_addPresentationPanels);
+var _addThesisPanels = require("./components/AddThesisPanels");
+var _addThesisPanelsDefault = parcelHelpers.interopDefault(_addThesisPanels);
+var _viewTopis = require("./components/ViewTopis");
+var _viewTopisDefault = parcelHelpers.interopDefault(_viewTopis);
+var _viewThesis = require("./components/ViewThesis");
+var _viewThesisDefault = parcelHelpers.interopDefault(_viewThesis);
+var _viewPresentation = require("./components/ViewPresentation");
+var _viewPresentationDefault = parcelHelpers.interopDefault(_viewPresentation);
+var _viewallusers = require("./components/Viewallusers");
+var _viewallusersDefault = parcelHelpers.interopDefault(_viewallusers);
+var _updateTopics = require("./components/UpdateTopics");
+var _updateTopicsDefault = parcelHelpers.interopDefault(_updateTopics);
+var _updatepresentation = require("./components/Updatepresentation");
+var _updatepresentationDefault = parcelHelpers.interopDefault(_updatepresentation);
+var _updateThesis = require("./components/UpdateThesis");
+var _updateThesisDefault = parcelHelpers.interopDefault(_updateThesis);
+var _groupids = require("./components/Groupids");
+var _groupidsDefault = parcelHelpers.interopDefault(_groupids);
+var _sViewTopis = require("./components/S_ViewTopis");
+var _sViewTopisDefault = parcelHelpers.interopDefault(_sViewTopis);
+var _sViewPresentation = require("./components/S_ViewPresentation");
+var _sViewPresentationDefault = parcelHelpers.interopDefault(_sViewPresentation);
+var _sViewThesis = require("./components/S_ViewThesis");
+var _sViewThesisDefault = parcelHelpers.interopDefault(_sViewThesis);
 function App() {
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
         className: "App",
@@ -22718,7 +22778,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_eveHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 49,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22726,7 +22786,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_supervEveHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 50,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22734,7 +22794,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_eveBySupervDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 51,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22742,7 +22802,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_supervEveEditDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 52,
+                        lineNumber: 87,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22750,7 +22810,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_supervEveOneDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 53,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22758,7 +22818,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_panelEveHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 55,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22766,7 +22826,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_eveByPanelDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 56,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22774,7 +22834,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_panelEveEditDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 57,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22782,7 +22842,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_panelEveOneDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 58,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22790,7 +22850,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_studentSubHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 60,
+                        lineNumber: 95,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22798,7 +22858,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_submitNavbarDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 61,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22806,7 +22866,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_studentAddDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 62,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22814,7 +22874,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_documentSubHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 64,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22822,7 +22882,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_tempUpHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 65,
+                        lineNumber: 100,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22830,7 +22890,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_tempNavbarDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 66,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22838,7 +22898,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_tempAddDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 67,
+                        lineNumber: 102,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22846,7 +22906,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_adminAddDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 69,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22854,7 +22914,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_adminUpHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 70,
+                        lineNumber: 105,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22862,7 +22922,71 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uploadNavbarDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 71,
+                        lineNumber: 106,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/EvaluationResult",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_evaluationResultDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 108,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/TemplateDownload",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_templateDownloadDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 109,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/DocumentDownload",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_documentDownloadDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 110,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/STDdownloads",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_stddownloadsDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 111,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/DocEveResult",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_docEveResultDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 112,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/DocEveOneResult/:id",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_docEveOneResultDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 113,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/PreseEveResult",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_preseEveResultDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 114,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/PresEveOneResult/:id",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_presEveOneResultDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22870,7 +22994,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 74,
+                        lineNumber: 119,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22878,7 +23002,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uGroupRegDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 75,
+                        lineNumber: 120,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22886,7 +23010,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uGroupsDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 76,
+                        lineNumber: 121,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22894,7 +23018,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uTopicRegDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 77,
+                        lineNumber: 122,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22902,7 +23026,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aAddAreaDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 78,
+                        lineNumber: 123,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22910,7 +23034,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uDetailsDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 79,
+                        lineNumber: 124,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22918,7 +23042,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aHomeDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 80,
+                        lineNumber: 125,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22926,7 +23050,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aGroupsDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 81,
+                        lineNumber: 126,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22934,7 +23058,7 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aAreasDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 82,
+                        lineNumber: 127,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
@@ -22942,23 +23066,191 @@ function App() {
                         element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_uAreasDefault.default, {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 83,
+                        lineNumber: 128,
                         columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/Supervisors",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aSupervisorsDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 129,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/Response/:id",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_aResponseDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 130,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/HomeAnodya",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_homeAnodyaDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 136,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/Registration",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_registrationDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 137,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/Login",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_loginDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 138,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/AdminLogin",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_adminLoginDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 139,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/StaffLogin",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_staffLoginDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 140,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/AddTopisPanels",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_addTopisPanelsDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 141,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/AddPresentationPanels",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_addPresentationPanelsDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 142,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/AddThesisPanels",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_addThesisPanelsDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 143,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/ViewTopis",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_viewTopisDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 144,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/ViewThesis",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_viewThesisDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 145,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/ViewPresentation",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_viewPresentationDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 146,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/Viewallusers",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_viewallusersDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 147,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/UpdateTopics/:id",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_updateTopicsDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 148,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/Updatepresentation/:id",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_updatepresentationDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 149,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/UpdateThesis/:id",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_updateThesisDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 150,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/Groupids",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_groupidsDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 151,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/S_ViewTopis",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_sViewTopisDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 152,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/S_ViewPresentation",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_sViewPresentationDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 153,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Route, {
+                        path: "/S_ViewThesis",
+                        element: /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_sViewThesisDefault.default, {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 154,
+                        columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.js",
-                lineNumber: 46,
+                lineNumber: 81,
                 columnNumber: 7
             }, this)
         }, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 44,
+            lineNumber: 79,
             columnNumber: 5
         }, this)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 43,
+        lineNumber: 78,
         columnNumber: 5
     }, this);
 }
@@ -22972,7 +23264,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"fdOAw","./components/SupervEveHome":"lgj1Z","./components/EveBySuperv":"gVhyL","./components/SupervEveOne":"grwQZ","./components/SupervEveEdit":"lSQyh","./components/EveHome":"04TgU","./components/PanelEveHome":"khTZt","./components/PanelEveEdit":"kqokk","./components/EveByPanel":"lwzVe","./components/PanelEveOne":"gEPBc","./components/AdminAdd":"jznsC","./components/AdminUpHome":"1ZkJA","./components/UploadNavbar":"3NVxq","./components/StudentSubHome":"bmuAz","./components/SubmitNavbar":"5yXNr","./components/StudentAdd":"9Zgrd","./components/TempUpHome":"gQ8zR","./components/TempNavbar":"8MhU8","./components/TempAdd":"8G8Ak","./components/U_GroupReg":"2nIZW","./components/U_Groups":"bQK4Y","./components/U_TopicReg":"FqqiK","./components/U_Details":"75Fqx","./components/A_AddArea":"4Y7tU","./components/U_Home":"bccQg","./components/A_Home":"iz2K7","./components/A_Groups":"9eZdm","./components/A_Areas":"gyXeh","./components/U_Areas":"boGkQ","./components/DocumentSubHome":"aNupV"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"fdOAw","./components/SupervEveHome":"lgj1Z","./components/EveBySuperv":"gVhyL","./components/SupervEveOne":"grwQZ","./components/SupervEveEdit":"lSQyh","./components/EveHome":"04TgU","./components/PanelEveHome":"khTZt","./components/PanelEveEdit":"kqokk","./components/EveByPanel":"lwzVe","./components/PanelEveOne":"gEPBc","./components/AdminAdd":"jznsC","./components/AdminUpHome":"1ZkJA","./components/UploadNavbar":"3NVxq","./components/StudentSubHome":"bmuAz","./components/SubmitNavbar":"5yXNr","./components/StudentAdd":"9Zgrd","./components/TempUpHome":"gQ8zR","./components/TempNavbar":"8MhU8","./components/TempAdd":"8G8Ak","./components/DocumentSubHome":"aNupV","./components/EvaluationResult":"jr9P9","./components/TemplateDownload":"53WMi","./components/DocumentDownload":"92EcT","./components/STDdownloads":"duRGp","./components/DocEveResult":"cAXkY","./components/DocEveOneResult":"ek9Gs","./components/PreseEveResult":"hBKut","./components/PresEveOneResult":"4Il8t","./components/U_GroupReg":"2nIZW","./components/U_Groups":"bQK4Y","./components/U_TopicReg":"FqqiK","./components/U_Details":"75Fqx","./components/A_AddArea":"4Y7tU","./components/U_Home":"bccQg","./components/A_Home":"iz2K7","./components/A_Groups":"9eZdm","./components/A_Areas":"gyXeh","./components/U_Areas":"boGkQ","./components/A_Supervisors":"dzjJw","./components/A_Response":"7B6tZ","./components/HomeAnodya":"6b3Ji","./components/Registration":"lPfAy","./components/Login":"hsmcH","./components/AdminLogin":"82uyn","./components/StaffLogin":"7DSmF","./components/AddTopisPanels":"kmMCp","./components/AddPresentationPanels":"amAvb","./components/AddThesisPanels":"dFHvl","./components/ViewTopis":"9D82C","./components/ViewThesis":"gYL9l","./components/ViewPresentation":"fbFob","./components/Viewallusers":"8Qxbw","./components/UpdateTopics":"72G9s","./components/Updatepresentation":"JfaKD","./components/UpdateThesis":"a4cvF","./components/Groupids":"fQ3Re","./components/S_ViewTopis":"ggRm0","./components/S_ViewPresentation":"bc98o","./components/S_ViewThesis":"jxHC2"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -34077,6 +34369,36 @@ const Home = ()=>{
     }, []);
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
         children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                style: {
+                    backgroundColor: '#000080',
+                    color: "white"
+                },
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: "Uploaded Documents"
+                    }, void 0, false, {
+                        fileName: "src/components/AdminUpHome.js",
+                        lineNumber: 19,
+                        columnNumber: 70
+                    }, undefined),
+                    "  "
+                ]
+            }, void 0, true, {
+                fileName: "src/components/AdminUpHome.js",
+                lineNumber: 19,
+                columnNumber: 15
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/AdminUpHome.js",
+                lineNumber: 20,
+                columnNumber: 15
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/AdminUpHome.js",
+                lineNumber: 20,
+                columnNumber: 24
+            }, undefined),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
                 className: "btn btn-success",
                 style: {
@@ -34098,19 +34420,19 @@ const Home = ()=>{
                             class: "far fa-arrow-alt-circle-left"
                         }, void 0, false, {
                             fileName: "src/components/AdminUpHome.js",
-                            lineNumber: 20,
+                            lineNumber: 24,
                             columnNumber: 15
                         }, undefined),
                         "\xa0Go Back"
                     ]
                 }, void 0, true, {
                     fileName: "src/components/AdminUpHome.js",
-                    lineNumber: 19,
+                    lineNumber: 23,
                     columnNumber: 15
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/AdminUpHome.js",
-                lineNumber: 18,
+                lineNumber: 22,
                 columnNumber: 15
             }, undefined),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -34128,7 +34450,7 @@ const Home = ()=>{
                                 children: user.name
                             }, void 0, false, {
                                 fileName: "src/components/AdminUpHome.js",
-                                lineNumber: 30,
+                                lineNumber: 34,
                                 columnNumber: 19
                             }, undefined),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
@@ -34137,19 +34459,19 @@ const Home = ()=>{
                                 children: "Click to download"
                             }, void 0, false, {
                                 fileName: "src/components/AdminUpHome.js",
-                                lineNumber: 31,
+                                lineNumber: 35,
                                 columnNumber: 19
                             }, undefined)
                         ]
                     }, user._id, true, {
                         fileName: "src/components/AdminUpHome.js",
-                        lineNumber: 28,
+                        lineNumber: 32,
                         columnNumber: 17
                     }, undefined)
                 )
             }, void 0, false, {
                 fileName: "src/components/AdminUpHome.js",
-                lineNumber: 23,
+                lineNumber: 27,
                 columnNumber: 12
             }, undefined)
         ]
@@ -35040,6 +35362,36 @@ const TempUploadHome = ()=>{
     }, []);
     return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
         children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                style: {
+                    backgroundColor: '#000080',
+                    color: "white"
+                },
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: "Uploaded Templates"
+                    }, void 0, false, {
+                        fileName: "src/components/TempUpHome.js",
+                        lineNumber: 19,
+                        columnNumber: 64
+                    }, undefined),
+                    "  "
+                ]
+            }, void 0, true, {
+                fileName: "src/components/TempUpHome.js",
+                lineNumber: 19,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/TempUpHome.js",
+                lineNumber: 20,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/TempUpHome.js",
+                lineNumber: 20,
+                columnNumber: 18
+            }, undefined),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
                 className: "btn btn-success",
                 style: {
@@ -35061,19 +35413,19 @@ const TempUploadHome = ()=>{
                             class: "far fa-arrow-alt-circle-left"
                         }, void 0, false, {
                             fileName: "src/components/TempUpHome.js",
-                            lineNumber: 20,
+                            lineNumber: 24,
                             columnNumber: 5
                         }, undefined),
                         "\xa0Go Back"
                     ]
                 }, void 0, true, {
                     fileName: "src/components/TempUpHome.js",
-                    lineNumber: 19,
+                    lineNumber: 23,
                     columnNumber: 5
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/TempUpHome.js",
-                lineNumber: 18,
+                lineNumber: 22,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
@@ -35091,7 +35443,7 @@ const TempUploadHome = ()=>{
                                 children: user.name
                             }, void 0, false, {
                                 fileName: "src/components/TempUpHome.js",
-                                lineNumber: 30,
+                                lineNumber: 34,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
@@ -35100,19 +35452,19 @@ const TempUploadHome = ()=>{
                                 children: "Click to download"
                             }, void 0, false, {
                                 fileName: "src/components/TempUpHome.js",
-                                lineNumber: 31,
+                                lineNumber: 35,
                                 columnNumber: 9
                             }, undefined)
                         ]
                     }, user._id, true, {
                         fileName: "src/components/TempUpHome.js",
-                        lineNumber: 28,
+                        lineNumber: 32,
                         columnNumber: 7
                     }, undefined)
                 )
             }, void 0, false, {
                 fileName: "src/components/TempUpHome.js",
-                lineNumber: 23,
+                lineNumber: 27,
                 columnNumber: 2
             }, undefined)
         ]
@@ -35635,7 +35987,3050 @@ $RefreshReg$(_c, "TempAdd");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2nIZW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aNupV":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a192 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a192.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _adminSubmitJpg = require("../../public/adminSubmit.jpg");
+var _adminSubmitJpgDefault = parcelHelpers.interopDefault(_adminSubmitJpg);
+class DocumentSubHome extends _react.Component {
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                    style: {
+                        backgroundColor: '#000080',
+                        color: "white"
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                            children: "Document Submission Home"
+                        }, void 0, false, {
+                            fileName: "src/components/DocumentSubHome.js",
+                            lineNumber: 8,
+                            columnNumber: 64
+                        }, this),
+                        " "
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 10,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                    className: "btn btn-success",
+                    style: {
+                        marginLeft: '10px',
+                        padding: '8px 8px',
+                        backgroundColor: '#3895d3',
+                        width: '200px'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                        href: "/adminHome",
+                        style: {
+                            textDecoration: 'none',
+                            backgroundColor: '#3895d3',
+                            color: 'white',
+                            fontSize: '16px'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                class: "far fa-arrow-alt-circle-left"
+                            }, void 0, false, {
+                                fileName: "src/components/DocumentSubHome.js",
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, this),
+                            "\xa0Go Back"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DocumentSubHome.js",
+                        lineNumber: 14,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 12,
+                    columnNumber: 20
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 18,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    style: {
+                        marginLeft: '250px'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                        src: _adminSubmitJpgDefault.default,
+                        class: "mx-auto",
+                        alt: "evaluation",
+                        width: "1000",
+                        height: "500"
+                    }, void 0, false, {
+                        fileName: "src/components/DocumentSubHome.js",
+                        lineNumber: 19,
+                        columnNumber: 45
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 19,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 21,
+                    columnNumber: 11
+                }, this),
+                " ",
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 21,
+                    columnNumber: 21
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '250px',
+                                            backgroundColor: "#0147ab",
+                                            width: '350px'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            href: "/UploadNaviAdmin",
+                                            style: {
+                                                textDecoration: 'none',
+                                                color: 'white',
+                                                fontSize: "16px"
+                                            },
+                                            children: " Admin Document Upload  "
+                                        }, void 0, false, {
+                                            fileName: "src/components/DocumentSubHome.js",
+                                            lineNumber: 28,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 27,
+                                        columnNumber: 21
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 31,
+                                        columnNumber: 21
+                                    }, this),
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 31,
+                                        columnNumber: 31
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DocumentSubHome.js",
+                                lineNumber: 26,
+                                columnNumber: 17
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '450px',
+                                            backgroundColor: "#0147ab",
+                                            width: '350px'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            href: "/TempNavbar",
+                                            style: {
+                                                textDecoration: 'none',
+                                                color: 'white',
+                                                fontSize: "16px"
+                                            },
+                                            children: " Templates Submittions  "
+                                        }, void 0, false, {
+                                            fileName: "src/components/DocumentSubHome.js",
+                                            lineNumber: 36,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 35,
+                                        columnNumber: 21
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 38,
+                                        columnNumber: 17
+                                    }, this),
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/DocumentSubHome.js",
+                                        lineNumber: 38,
+                                        columnNumber: 27
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DocumentSubHome.js",
+                                lineNumber: 34,
+                                columnNumber: 17
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DocumentSubHome.js",
+                        lineNumber: 25,
+                        columnNumber: 13
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/DocumentSubHome.js",
+                    lineNumber: 23,
+                    columnNumber: 11
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/DocumentSubHome.js",
+            lineNumber: 7,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = DocumentSubHome;
+
+  $parcel$ReactRefreshHelpers$a192.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../public/adminSubmit.jpg":"e9i7O","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"e9i7O":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "adminSubmit.7ef99ca3.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"jr9P9":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9318 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9318.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _resultJpg = require("../../public/Result.jpg");
+var _resultJpgDefault = parcelHelpers.interopDefault(_resultJpg);
+class EvaluationResult extends _react.Component {
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                    style: {
+                        backgroundColor: '#000080',
+                        color: "white"
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                            children: "Evaluation Results "
+                        }, void 0, false, {
+                            fileName: "src/components/EvaluationResult.js",
+                            lineNumber: 9,
+                            columnNumber: 64
+                        }, this),
+                        " "
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/EvaluationResult.js",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/EvaluationResult.js",
+                    lineNumber: 11,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                    className: "btn btn-success",
+                    style: {
+                        marginLeft: '10px',
+                        padding: '8px 8px',
+                        backgroundColor: '#3895d3',
+                        width: '200px'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                        href: "/",
+                        style: {
+                            textDecoration: 'none',
+                            backgroundColor: '#3895d3',
+                            color: 'white',
+                            fontSize: '16px'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                class: "far fa-arrow-alt-circle-left"
+                            }, void 0, false, {
+                                fileName: "src/components/EvaluationResult.js",
+                                lineNumber: 16,
+                                columnNumber: 21
+                            }, this),
+                            "\xa0Go Back"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/EvaluationResult.js",
+                        lineNumber: 15,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/EvaluationResult.js",
+                    lineNumber: 13,
+                    columnNumber: 20
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/EvaluationResult.js",
+                    lineNumber: 19,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    style: {
+                        marginLeft: '250px'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                        src: _resultJpgDefault.default,
+                        class: "mx-auto",
+                        alt: "result",
+                        width: "1000",
+                        height: "500"
+                    }, void 0, false, {
+                        fileName: "src/components/EvaluationResult.js",
+                        lineNumber: 20,
+                        columnNumber: 45
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/EvaluationResult.js",
+                    lineNumber: 20,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/EvaluationResult.js",
+                    lineNumber: 22,
+                    columnNumber: 11
+                }, this),
+                " ",
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/EvaluationResult.js",
+                    lineNumber: 22,
+                    columnNumber: 21
+                }, this),
+                "  ",
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/EvaluationResult.js",
+                    lineNumber: 22,
+                    columnNumber: 32
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '250px',
+                                            backgroundColor: "#0147ab",
+                                            width: '350px'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            href: "/DocEveResult",
+                                            style: {
+                                                textDecoration: 'none',
+                                                color: 'white',
+                                                fontSize: "16px"
+                                            },
+                                            children: " Document Evaluation Results "
+                                        }, void 0, false, {
+                                            fileName: "src/components/EvaluationResult.js",
+                                            lineNumber: 28,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/EvaluationResult.js",
+                                        lineNumber: 27,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/EvaluationResult.js",
+                                        lineNumber: 30,
+                                        columnNumber: 17
+                                    }, this),
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/EvaluationResult.js",
+                                        lineNumber: 30,
+                                        columnNumber: 27
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/EvaluationResult.js",
+                                lineNumber: 26,
+                                columnNumber: 15
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '450px',
+                                            backgroundColor: "#0147ab",
+                                            width: '350px'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            href: "/PreseEveResult",
+                                            style: {
+                                                textDecoration: 'none',
+                                                color: 'white',
+                                                fontSize: "16px"
+                                            },
+                                            children: " Presentation Evaluation Results "
+                                        }, void 0, false, {
+                                            fileName: "src/components/EvaluationResult.js",
+                                            lineNumber: 34,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/EvaluationResult.js",
+                                        lineNumber: 33,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/EvaluationResult.js",
+                                        lineNumber: 36,
+                                        columnNumber: 15
+                                    }, this),
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/EvaluationResult.js",
+                                        lineNumber: 36,
+                                        columnNumber: 25
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/EvaluationResult.js",
+                                lineNumber: 32,
+                                columnNumber: 15
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/EvaluationResult.js",
+                        lineNumber: 25,
+                        columnNumber: 13
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/EvaluationResult.js",
+                    lineNumber: 24,
+                    columnNumber: 11
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/EvaluationResult.js",
+            lineNumber: 8,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = EvaluationResult;
+
+  $parcel$ReactRefreshHelpers$9318.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../public/Result.jpg":"3JxCF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3JxCF":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "Result.00ed185e.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"53WMi":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a6f1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a6f1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactRouterDom = require("react-router-dom");
+var _react = require("react");
+var _s = $RefreshSig$();
+const TemplateDownload = ()=>{
+    _s();
+    const [users, setUsers] = _react.useState();
+    _react.useEffect(()=>{
+        const fetchUsers = async ()=>{
+            const res = await fetch(`http://localhost:8000/Tempadmin`);
+            const data = await res.json();
+            setUsers(data);
+        };
+        fetchUsers();
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                style: {
+                    backgroundColor: '#000080',
+                    color: "white"
+                },
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: "Download Templates"
+                    }, void 0, false, {
+                        fileName: "src/components/TemplateDownload.js",
+                        lineNumber: 18,
+                        columnNumber: 64
+                    }, undefined),
+                    "  "
+                ]
+            }, void 0, true, {
+                fileName: "src/components/TemplateDownload.js",
+                lineNumber: 18,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/TemplateDownload.js",
+                lineNumber: 19,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/TemplateDownload.js",
+                lineNumber: 19,
+                columnNumber: 18
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                className: "btn btn-success",
+                style: {
+                    marginLeft: '10px',
+                    marginTop: '20px',
+                    padding: '10px 10px',
+                    backgroundColor: '#3895d3'
+                },
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                    href: "/STDdownloads",
+                    style: {
+                        textDecoration: 'none',
+                        backgroundColor: '#3895d3',
+                        color: 'white',
+                        fontSize: '20px'
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                            class: "far fa-arrow-alt-circle-left"
+                        }, void 0, false, {
+                            fileName: "src/components/TemplateDownload.js",
+                            lineNumber: 23,
+                            columnNumber: 9
+                        }, undefined),
+                        "\xa0Go Back"
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/TemplateDownload.js",
+                    lineNumber: 22,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/TemplateDownload.js",
+                lineNumber: 21,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "row",
+                style: {
+                    marginLeft: '20px'
+                },
+                children: users?.map((user)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-md-3 card me-3 mt-2 p-0 mb-2 d-flex",
+                        style: {
+                            backgroundColor: '#09c0e2'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                                children: user.name
+                            }, void 0, false, {
+                                fileName: "src/components/TemplateDownload.js",
+                                lineNumber: 33,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                href: user.pdf,
+                                download: true,
+                                children: "Click to download"
+                            }, void 0, false, {
+                                fileName: "src/components/TemplateDownload.js",
+                                lineNumber: 34,
+                                columnNumber: 9
+                            }, undefined)
+                        ]
+                    }, user._id, true, {
+                        fileName: "src/components/TemplateDownload.js",
+                        lineNumber: 31,
+                        columnNumber: 7
+                    }, undefined)
+                )
+            }, void 0, false, {
+                fileName: "src/components/TemplateDownload.js",
+                lineNumber: 26,
+                columnNumber: 6
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/TemplateDownload.js",
+        lineNumber: 17,
+        columnNumber: 5
+    }, undefined);
+};
+_s(TemplateDownload, "LQkddvx2HtKGflMjzZE1OVCsOUU=");
+_c = TemplateDownload;
+exports.default = TemplateDownload;
+var _c;
+$RefreshReg$(_c, "TemplateDownload");
+
+  $parcel$ReactRefreshHelpers$a6f1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"fdOAw","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"92EcT":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$74f7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$74f7.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactRouterDom = require("react-router-dom");
+var _react = require("react");
+var _s = $RefreshSig$();
+const DocumentDownload = ()=>{
+    _s();
+    const [users, setUsers] = _react.useState();
+    _react.useEffect(()=>{
+        const fetchUsers = async ()=>{
+            const res = await fetch(`http://localhost:8000/admin`);
+            const data = await res.json();
+            setUsers(data);
+        };
+        fetchUsers();
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                style: {
+                    backgroundColor: '#000080',
+                    color: "white"
+                },
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: "Download Documents "
+                    }, void 0, false, {
+                        fileName: "src/components/DocumentDownload.js",
+                        lineNumber: 19,
+                        columnNumber: 70
+                    }, undefined),
+                    "  "
+                ]
+            }, void 0, true, {
+                fileName: "src/components/DocumentDownload.js",
+                lineNumber: 19,
+                columnNumber: 15
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/DocumentDownload.js",
+                lineNumber: 20,
+                columnNumber: 15
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/DocumentDownload.js",
+                lineNumber: 20,
+                columnNumber: 24
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                className: "btn btn-success",
+                style: {
+                    marginLeft: '10px',
+                    marginTop: '20px',
+                    padding: '10px 10px',
+                    backgroundColor: '#3895d3'
+                },
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                    href: "/STDdownloads",
+                    style: {
+                        textDecoration: 'none',
+                        backgroundColor: '#3895d3',
+                        color: 'white',
+                        fontSize: '20px'
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                            class: "far fa-arrow-alt-circle-left"
+                        }, void 0, false, {
+                            fileName: "src/components/DocumentDownload.js",
+                            lineNumber: 24,
+                            columnNumber: 15
+                        }, undefined),
+                        "\xa0Go Back"
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/DocumentDownload.js",
+                    lineNumber: 23,
+                    columnNumber: 15
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/DocumentDownload.js",
+                lineNumber: 22,
+                columnNumber: 15
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "row",
+                style: {
+                    marginLeft: '20px'
+                },
+                children: users?.map((user)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-md-3 card me-3 mt-2 p-0 mb-2 d-flex",
+                        style: {
+                            backgroundColor: '#b3e5fc'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                                children: user.name
+                            }, void 0, false, {
+                                fileName: "src/components/DocumentDownload.js",
+                                lineNumber: 34,
+                                columnNumber: 19
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                href: user.pdf,
+                                download: true,
+                                children: "Click to download"
+                            }, void 0, false, {
+                                fileName: "src/components/DocumentDownload.js",
+                                lineNumber: 35,
+                                columnNumber: 19
+                            }, undefined)
+                        ]
+                    }, user._id, true, {
+                        fileName: "src/components/DocumentDownload.js",
+                        lineNumber: 32,
+                        columnNumber: 17
+                    }, undefined)
+                )
+            }, void 0, false, {
+                fileName: "src/components/DocumentDownload.js",
+                lineNumber: 27,
+                columnNumber: 12
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/DocumentDownload.js",
+        lineNumber: 17,
+        columnNumber: 5
+    }, undefined);
+};
+_s(DocumentDownload, "LQkddvx2HtKGflMjzZE1OVCsOUU=");
+_c = DocumentDownload;
+exports.default = DocumentDownload;
+var _c;
+$RefreshReg$(_c, "DocumentDownload");
+
+  $parcel$ReactRefreshHelpers$74f7.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"fdOAw","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"duRGp":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$bbbe = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$bbbe.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _downloadPng = require("../../public/download.png");
+var _downloadPngDefault = parcelHelpers.interopDefault(_downloadPng);
+class STDdownloads extends _react.Component {
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                    style: {
+                        backgroundColor: '#000080',
+                        color: "white"
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                            children: "Student Material Downloads Page"
+                        }, void 0, false, {
+                            fileName: "src/components/STDdownloads.js",
+                            lineNumber: 8,
+                            columnNumber: 64
+                        }, this),
+                        " "
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/STDdownloads.js",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/STDdownloads.js",
+                    lineNumber: 10,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                    className: "btn btn-success",
+                    style: {
+                        marginLeft: '10px',
+                        padding: '8px 8px',
+                        backgroundColor: '#3895d3',
+                        width: '200px'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                        href: "/",
+                        style: {
+                            textDecoration: 'none',
+                            backgroundColor: '#3895d3',
+                            color: 'white',
+                            fontSize: '16px'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                class: "far fa-arrow-alt-circle-left"
+                            }, void 0, false, {
+                                fileName: "src/components/STDdownloads.js",
+                                lineNumber: 15,
+                                columnNumber: 21
+                            }, this),
+                            "\xa0Go Back"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/STDdownloads.js",
+                        lineNumber: 14,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/STDdownloads.js",
+                    lineNumber: 12,
+                    columnNumber: 20
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/STDdownloads.js",
+                    lineNumber: 18,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    style: {
+                        marginLeft: '250px'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
+                        src: _downloadPngDefault.default,
+                        class: "mx-auto",
+                        alt: "evaluation",
+                        width: "1100",
+                        height: "500"
+                    }, void 0, false, {
+                        fileName: "src/components/STDdownloads.js",
+                        lineNumber: 19,
+                        columnNumber: 45
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/STDdownloads.js",
+                    lineNumber: 19,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/STDdownloads.js",
+                    lineNumber: 21,
+                    columnNumber: 11
+                }, this),
+                " ",
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/STDdownloads.js",
+                    lineNumber: 21,
+                    columnNumber: 21
+                }, this),
+                "  ",
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/STDdownloads.js",
+                    lineNumber: 21,
+                    columnNumber: 32
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '250px',
+                                            backgroundColor: "#0147ab",
+                                            width: '350px'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            href: "/TemplateDownload",
+                                            style: {
+                                                textDecoration: 'none',
+                                                color: 'white',
+                                                fontSize: "16px"
+                                            },
+                                            children: " Templates Download "
+                                        }, void 0, false, {
+                                            fileName: "src/components/STDdownloads.js",
+                                            lineNumber: 27,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/STDdownloads.js",
+                                        lineNumber: 26,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/STDdownloads.js",
+                                        lineNumber: 29,
+                                        columnNumber: 17
+                                    }, this),
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/STDdownloads.js",
+                                        lineNumber: 29,
+                                        columnNumber: 27
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/STDdownloads.js",
+                                lineNumber: 25,
+                                columnNumber: 15
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                        className: "btn btn-success",
+                                        style: {
+                                            marginLeft: '450px',
+                                            backgroundColor: "#0147ab",
+                                            width: '350px'
+                                        },
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            href: "/DocumentDownload",
+                                            style: {
+                                                textDecoration: 'none',
+                                                color: 'white',
+                                                fontSize: "16px"
+                                            },
+                                            children: " Document Download "
+                                        }, void 0, false, {
+                                            fileName: "src/components/STDdownloads.js",
+                                            lineNumber: 33,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/STDdownloads.js",
+                                        lineNumber: 32,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/STDdownloads.js",
+                                        lineNumber: 35,
+                                        columnNumber: 15
+                                    }, this),
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                        fileName: "src/components/STDdownloads.js",
+                                        lineNumber: 35,
+                                        columnNumber: 25
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/STDdownloads.js",
+                                lineNumber: 31,
+                                columnNumber: 15
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/STDdownloads.js",
+                        lineNumber: 24,
+                        columnNumber: 13
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/STDdownloads.js",
+                    lineNumber: 23,
+                    columnNumber: 11
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/STDdownloads.js",
+            lineNumber: 7,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = STDdownloads;
+
+  $parcel$ReactRefreshHelpers$bbbe.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../public/download.png":"97T4p","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"97T4p":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "download.ff6e672b.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"cAXkY":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c44e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c44e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+//import axios
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class DocEveResult extends _react.Component {
+    //initialize constructor to pass the props
+    constructor(props){
+        super(props);
+        this.state = {
+            //initializing an array 
+            GetAllposts: []
+        };
+    }
+    //calling the method after componenets render to the page
+    componentDidMount() {
+        this.retrievePanelEve();
+    }
+    //get request method
+    retrievePanelEve() {
+        _axiosDefault.default.get("http://localhost:8000/GetAlldetailssuper").then((res)=>{
+            console.log(res.data);
+            if (res.data.success) {
+                this.setState({
+                    GetAllposts: res.data.existingDocs
+                });
+                console.log(this.state.GetAllposts);
+            }
+        });
+    }
+    //search data according to name
+    filterData(GetAllposts, searchKey) {
+        const result = GetAllposts.filter((CheckOnePEv)=>CheckOnePEv.Groupname.toLowerCase().includes(searchKey) || CheckOnePEv.Groupname.includes(searchKey)
+        );
+        this.setState({
+            GetAllposts: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/GetAlldetailssuper").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingDocs, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                style: {
+                                    background: '#000080',
+                                    width: "800px",
+                                    color: 'white'
+                                },
+                                children: " Document Evaluvation Results"
+                            }, void 0, false, {
+                                fileName: "src/components/DocEveResult.js",
+                                lineNumber: 79,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/DocEveResult.js",
+                                lineNumber: 80,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/DocEveResult.js",
+                                lineNumber: 80,
+                                columnNumber: 20
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DocEveResult.js",
+                        lineNumber: 78,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-lg-3 my-2 mb-2",
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                style: {
+                                    padding: '17px 50px',
+                                    marginLeft: '800px'
+                                },
+                                type: "search",
+                                placeholder: "Enter the Group Name",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/DocEveResult.js",
+                                lineNumber: 86,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                style: {
+                                    width: '800px',
+                                    marginLeft: '800px'
+                                },
+                                children: "  *you can search the group here"
+                            }, void 0, false, {
+                                fileName: "src/components/DocEveResult.js",
+                                lineNumber: 95,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DocEveResult.js",
+                        lineNumber: 84,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                        className: "table",
+                        style: {
+                            width: '1000px',
+                            marginLeft: "250px"
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                style: {
+                                    fontSize: "25px"
+                                },
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                        scope: "col",
+                                        children: "No"
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveResult.js",
+                                        lineNumber: 105,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                        scope: "col",
+                                        children: " Group Name "
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveResult.js",
+                                        lineNumber: 106,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                        scope: "col",
+                                        children: "Total Marks"
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveResult.js",
+                                        lineNumber: 107,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DocEveResult.js",
+                                lineNumber: 104,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                children: this.state.GetAllposts.map((GetAllposts, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "row",
+                                                children: index + 1
+                                            }, void 0, false, {
+                                                fileName: "src/components/DocEveResult.js",
+                                                lineNumber: 112,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                        href: `/DocEveOneResult/${GetAllposts._id}`,
+                                                        style: {
+                                                            TextDecoration: 'none'
+                                                        },
+                                                        children: [
+                                                            GetAllposts.Groupname,
+                                                            " "
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/DocEveResult.js",
+                                                        lineNumber: 114,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    " "
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/DocEveResult.js",
+                                                lineNumber: 114,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                children: GetAllposts.Total
+                                            }, void 0, false, {
+                                                fileName: "src/components/DocEveResult.js",
+                                                lineNumber: 115,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, index, true, {
+                                        fileName: "src/components/DocEveResult.js",
+                                        lineNumber: 111,
+                                        columnNumber: 17
+                                    }, this)
+                                )
+                            }, void 0, false, {
+                                fileName: "src/components/DocEveResult.js",
+                                lineNumber: 109,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DocEveResult.js",
+                        lineNumber: 103,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    className: "btn btn-success",
+                                    style: {
+                                        marginLeft: '1150px',
+                                        padding: '8px 8px',
+                                        backgroundColor: '#3895d3'
+                                    },
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        href: "/EvaluationResult",
+                                        style: {
+                                            textDecoration: 'none',
+                                            backgroundColor: '#3895d3',
+                                            color: 'white',
+                                            fontSize: '16px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                class: "far fa-arrow-alt-circle-left"
+                                            }, void 0, false, {
+                                                fileName: "src/components/DocEveResult.js",
+                                                lineNumber: 130,
+                                                columnNumber: 17
+                                            }, this),
+                                            "\xa0Go Back"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/DocEveResult.js",
+                                        lineNumber: 129,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveResult.js",
+                                    lineNumber: 127,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/DocEveResult.js",
+                                lineNumber: 126,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/DocEveResult.js",
+                            lineNumber: 124,
+                            columnNumber: 12
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/DocEveResult.js",
+                        lineNumber: 123,
+                        columnNumber: 10
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/DocEveResult.js",
+                lineNumber: 77,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/DocEveResult.js",
+            lineNumber: 74,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = DocEveResult;
+
+  $parcel$ReactRefreshHelpers$c44e.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ek9Gs":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0f2d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$0f2d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function DocEveOneResult() {
+    _s();
+    const [Groupname, setGroupname] = _react.useState("");
+    const [title, settitle] = _react.useState("");
+    const [abstract, setabstract] = _react.useState("");
+    const [problemIdentified, setproblemIdentified] = _react.useState("");
+    const [clearyStated, setclearyStated] = _react.useState("");
+    const [references, setreferences] = _react.useState("");
+    const [modelframework, setmodelframework] = _react.useState("");
+    const [MethoDescription, setMethoDescription] = _react.useState("");
+    const [appro, setappro] = _react.useState("");
+    const [dataCollect, setdataCollect] = _react.useState("");
+    const [dataAnalys, setdataAnalys] = _react.useState("");
+    const [conclusionClarity, setconclusionClarity] = _react.useState("");
+    const [relevent, setrelevent] = _react.useState("");
+    const [clearWritten, setclearWritten] = _react.useState("");
+    const [logic, setlogic] = _react.useState("");
+    const [Total, setTotal] = _react.useState("");
+    const [Comment, setComment] = _react.useState("");
+    const id = _reactRouterDom.useParams();
+    const [paneleve] = _react.useState({
+        Groupname: "",
+        title: "",
+        abstract: "",
+        problemIdentified: "",
+        clearyStated: "",
+        references: "",
+        modelframework: "",
+        MethoDescription: "",
+        appro: "",
+        dataCollect: "",
+        dataAnalys: "",
+        conclusionClarity: "",
+        relevent: "",
+        clearWritten: "",
+        logic: "",
+        Total: "",
+        Comment: ""
+    });
+    _react.useEffect(function effectFunction() {
+        console.log("get ID", id);
+        _axiosDefault.default.get(`http://localhost:8000/getOneDetailsuper/${id?.id}`).then((res)=>{
+            console.log("data", res);
+            setGroupname(res.data.getOneDetail.Groupname);
+            settitle(res.data.getOneDetail.title);
+            setabstract(res.data.getOneDetail.abstract);
+            setproblemIdentified(res.data.getOneDetail.problemIdentified);
+            setclearyStated(res.data.getOneDetail.clearyStated);
+            setreferences(res.data.getOneDetail.references);
+            setmodelframework(res.data.getOneDetail.modelframework);
+            setMethoDescription(res.data.getOneDetail.MethoDescription);
+            setappro(res.data.getOneDetail.appro);
+            setdataCollect(res.data.getOneDetail.dataCollect);
+            setdataAnalys(res.data.getOneDetail.dataAnalys);
+            setconclusionClarity(res.data.getOneDetail.conclusionClarity);
+            setrelevent(res.data.getOneDetail.relevent);
+            setclearWritten(res.data.getOneDetail.clearWritten);
+            setlogic(res.data.getOneDetail.logic);
+            setTotal(res.data.getOneDetail.Total);
+            setComment(res.data.getOneDetail.Comment);
+        }).catch((err)=>console.log(err)
+        );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    style: {
+                        height: '80px',
+                        width: '100%',
+                        backgroundColor: "#000080",
+                        marginTop: '-20px'
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 101,
+                            columnNumber: 16
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                            style: {
+                                color: 'white',
+                                textAlign: 'center'
+                            },
+                            children: " Your Document Result"
+                        }, void 0, false, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 102,
+                            columnNumber: 16
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 103,
+                            columnNumber: 15
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/DocEveOneResult.js",
+                    lineNumber: 100,
+                    columnNumber: 8
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/DocEveOneResult.js",
+                    lineNumber: 105,
+                    columnNumber: 12
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                    style: {
+                        marginLeft: '400px'
+                    },
+                    children: Groupname
+                }, void 0, false, {
+                    fileName: "src/components/DocEveOneResult.js",
+                    lineNumber: 106,
+                    columnNumber: 12
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                    className: "table",
+                    style: {
+                        border: '1px solid black',
+                        width: '50%',
+                        marginLeft: '400px'
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                    scope: "col",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h4", {
+                                        children: "DESCRIPTION"
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveOneResult.js",
+                                        lineNumber: 110,
+                                        columnNumber: 33
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 110,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                    scope: "col",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h4", {
+                                        children: "MARKS"
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveOneResult.js",
+                                        lineNumber: 111,
+                                        columnNumber: 33
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 111,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 109,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                style: {
+                                    fontSize: '20px'
+                                },
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: " Backgroud  "
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveOneResult.js",
+                                        lineNumber: 114,
+                                        columnNumber: 47
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DocEveOneResult.js",
+                                lineNumber: 114,
+                                columnNumber: 16
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 113,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Title (5 mark)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 117,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: title
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 118,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 116,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Abstract (5 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 121,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: abstract
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 122,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 120,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Problem Identified Clearly (5 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 125,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: problemIdentified
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 126,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 124,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Research Area Clearly Stated (5 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 129,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: clearyStated
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 130,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 128,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                style: {
+                                    fontSize: '20px'
+                                },
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: " Literature Review  "
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveOneResult.js",
+                                        lineNumber: 133,
+                                        columnNumber: 45
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DocEveOneResult.js",
+                                lineNumber: 133,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 132,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "References (5 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 136,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: references
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 137,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 135,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Model Framwork (5 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 140,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: modelframework
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 141,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 139,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                style: {
+                                    fontSize: '20px'
+                                },
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: " Methodology "
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveOneResult.js",
+                                        lineNumber: 144,
+                                        columnNumber: 45
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DocEveOneResult.js",
+                                lineNumber: 144,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 143,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Description (5 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 147,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: MethoDescription
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 148,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 146,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Appropriation (5 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 151,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: appro
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 152,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 150,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Data Collection Methods (5 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 155,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: dataCollect
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 156,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 154,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                style: {
+                                    fontSize: '20px'
+                                },
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: " Result and Analysis Of Findings  "
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveOneResult.js",
+                                        lineNumber: 159,
+                                        columnNumber: 45
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DocEveOneResult.js",
+                                lineNumber: 159,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 158,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Data Analsing Methods (15 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 162,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: dataAnalys
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 163,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 161,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                style: {
+                                    fontSize: '20px'
+                                },
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: " Conclusion  "
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveOneResult.js",
+                                        lineNumber: 166,
+                                        columnNumber: 45
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DocEveOneResult.js",
+                                lineNumber: 166,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 165,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Clear Of Conclusion (10 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 169,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: conclusionClarity
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 170,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 168,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Relevent (10 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 173,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: relevent
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 174,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 172,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                style: {
+                                    fontSize: '20px'
+                                },
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: " Report Writing  "
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveOneResult.js",
+                                        lineNumber: 177,
+                                        columnNumber: 45
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/DocEveOneResult.js",
+                                lineNumber: 177,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 176,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Clearly Writing (10 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 180,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: clearWritten
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 181,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 179,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: "Logical Organized (10 marks)"
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 184,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: logic
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 185,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 183,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    style: {
+                                        fontSize: '20px'
+                                    },
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: "Total Mark (out of 100)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveOneResult.js",
+                                        lineNumber: 188,
+                                        columnNumber: 46
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 188,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: Total
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveOneResult.js",
+                                        lineNumber: 189,
+                                        columnNumber: 20
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 189,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 187,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    style: {
+                                        fontSize: '20px'
+                                    },
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: "Comments or Feedback"
+                                    }, void 0, false, {
+                                        fileName: "src/components/DocEveOneResult.js",
+                                        lineNumber: 192,
+                                        columnNumber: 44
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 192,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: Comment
+                                }, void 0, false, {
+                                    fileName: "src/components/DocEveOneResult.js",
+                                    lineNumber: 193,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DocEveOneResult.js",
+                            lineNumber: 191,
+                            columnNumber: 14
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/DocEveOneResult.js",
+                    lineNumber: 107,
+                    columnNumber: 12
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                    className: "btn btn-success",
+                    style: {
+                        marginLeft: '700px',
+                        padding: '10px 10px',
+                        backgroundColor: '#3895d3'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                        href: "/DocEveResult",
+                        style: {
+                            textDecoration: 'none',
+                            backgroundColor: '#3895d3',
+                            color: 'white',
+                            fontSize: '20px'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                class: "far fa-arrow-alt-circle-left"
+                            }, void 0, false, {
+                                fileName: "src/components/DocEveOneResult.js",
+                                lineNumber: 199,
+                                columnNumber: 17
+                            }, this),
+                            "\xa0Go Back"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/DocEveOneResult.js",
+                        lineNumber: 197,
+                        columnNumber: 128
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/DocEveOneResult.js",
+                    lineNumber: 197,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/DocEveOneResult.js",
+            lineNumber: 99,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/DocEveOneResult.js",
+        lineNumber: 96,
+        columnNumber: 9
+    }, this);
+}
+exports.default = DocEveOneResult;
+_s(DocEveOneResult, "zF591f8T1KI4B6WNfxhkowYPi0Y=", false, function() {
+    return [
+        _reactRouterDom.useParams
+    ];
+});
+_c = DocEveOneResult;
+var _c;
+$RefreshReg$(_c, "DocEveOneResult");
+
+  $parcel$ReactRefreshHelpers$0f2d.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hBKut":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$47a4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$47a4.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+//import axios
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class PreseEveResult extends _react.Component {
+    //initialize constructor to pass the props
+    constructor(props){
+        super(props);
+        this.state = {
+            //initializing an array 
+            GetAllposts: []
+        };
+    }
+    //calling the method after componenets render to the page
+    componentDidMount() {
+        this.retrievePanelEve();
+    }
+    //get request method
+    retrievePanelEve() {
+        _axiosDefault.default.get("http://localhost:8000/GetAlldetails").then((res)=>{
+            console.log(res.data);
+            if (res.data.success) {
+                this.setState({
+                    GetAllposts: res.data.existingDocs
+                });
+                console.log(this.state.GetAllposts);
+            }
+        });
+    }
+    //search data according to name
+    filterData(GetAllposts, searchKey) {
+        const result = GetAllposts.filter((CheckOnePEv)=>CheckOnePEv.Groupname.toLowerCase().includes(searchKey) || CheckOnePEv.Groupname.includes(searchKey)
+        );
+        this.setState({
+            GetAllposts: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/GetAlldetails").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingDocs, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                style: {
+                                    background: '#000080',
+                                    width: "800px",
+                                    color: 'white'
+                                },
+                                children: " Presentation Evaluvation Results"
+                            }, void 0, false, {
+                                fileName: "src/components/PreseEveResult.js",
+                                lineNumber: 74,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/PreseEveResult.js",
+                                lineNumber: 75,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                fileName: "src/components/PreseEveResult.js",
+                                lineNumber: 75,
+                                columnNumber: 20
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/PreseEveResult.js",
+                        lineNumber: 73,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-lg-3 my-2 mb-2",
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                style: {
+                                    padding: '17px 50px',
+                                    marginLeft: '800px'
+                                },
+                                type: "search",
+                                placeholder: "Enter the Group Name",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/PreseEveResult.js",
+                                lineNumber: 81,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                style: {
+                                    width: '800px',
+                                    marginLeft: '800px'
+                                },
+                                children: "  *you can search the group here"
+                            }, void 0, false, {
+                                fileName: "src/components/PreseEveResult.js",
+                                lineNumber: 90,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/PreseEveResult.js",
+                        lineNumber: 79,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                        className: "table",
+                        style: {
+                            width: '1000px',
+                            marginLeft: "250px"
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                style: {
+                                    fontSize: "25px"
+                                },
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                        scope: "col",
+                                        children: "No"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PreseEveResult.js",
+                                        lineNumber: 100,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                        scope: "col",
+                                        children: " Group Name "
+                                    }, void 0, false, {
+                                        fileName: "src/components/PreseEveResult.js",
+                                        lineNumber: 101,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                        scope: "col",
+                                        children: "Total Marks"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PreseEveResult.js",
+                                        lineNumber: 102,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/PreseEveResult.js",
+                                lineNumber: 99,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                children: this.state.GetAllposts.map((GetAllposts, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "row",
+                                                children: index + 1
+                                            }, void 0, false, {
+                                                fileName: "src/components/PreseEveResult.js",
+                                                lineNumber: 107,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                        href: `/PresEveOneResult/${GetAllposts._id}`,
+                                                        style: {
+                                                            TextDecoration: 'none'
+                                                        },
+                                                        children: [
+                                                            GetAllposts.Groupname,
+                                                            " "
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/PreseEveResult.js",
+                                                        lineNumber: 109,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    " "
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/PreseEveResult.js",
+                                                lineNumber: 109,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                children: GetAllposts.Total
+                                            }, void 0, false, {
+                                                fileName: "src/components/PreseEveResult.js",
+                                                lineNumber: 110,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, index, true, {
+                                        fileName: "src/components/PreseEveResult.js",
+                                        lineNumber: 106,
+                                        columnNumber: 17
+                                    }, this)
+                                )
+                            }, void 0, false, {
+                                fileName: "src/components/PreseEveResult.js",
+                                lineNumber: 104,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/PreseEveResult.js",
+                        lineNumber: 98,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    className: "btn btn-success",
+                                    style: {
+                                        marginLeft: '1150px',
+                                        padding: '8px 8px',
+                                        backgroundColor: '#3895d3'
+                                    },
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        href: "/EvaluationResult",
+                                        style: {
+                                            textDecoration: 'none',
+                                            backgroundColor: '#3895d3',
+                                            color: 'white',
+                                            fontSize: '16px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                class: "far fa-arrow-alt-circle-left"
+                                            }, void 0, false, {
+                                                fileName: "src/components/PreseEveResult.js",
+                                                lineNumber: 126,
+                                                columnNumber: 17
+                                            }, this),
+                                            "\xa0Go Back"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/PreseEveResult.js",
+                                        lineNumber: 125,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/PreseEveResult.js",
+                                    lineNumber: 123,
+                                    columnNumber: 17
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/PreseEveResult.js",
+                                lineNumber: 122,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/PreseEveResult.js",
+                            lineNumber: 120,
+                            columnNumber: 12
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/PreseEveResult.js",
+                        lineNumber: 119,
+                        columnNumber: 10
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/PreseEveResult.js",
+                lineNumber: 72,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/PreseEveResult.js",
+            lineNumber: 69,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = PreseEveResult;
+
+  $parcel$ReactRefreshHelpers$47a4.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4Il8t":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f2d7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f2d7.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function PresEveOneResult() {
+    _s();
+    const [Groupname, setGroupname] = _react.useState("");
+    const [introduction, setintroduction] = _react.useState("");
+    const [organization, setorganization] = _react.useState("");
+    const [voiceInflection, setvoiceInflection] = _react.useState("");
+    const [voiceRate, setvoiceRate] = _react.useState("");
+    const [tools, settools] = _react.useState("");
+    const [eyeContact, seteyeContact] = _react.useState("");
+    const [groupArrange, setgroupArrange] = _react.useState("");
+    const [Total, setTotal] = _react.useState("");
+    const id = _reactRouterDom.useParams();
+    const [paneleve] = _react.useState({
+        Groupname: "",
+        introduction: "",
+        organization: "",
+        voiceInflection: "",
+        voiceRate: "",
+        tools: "",
+        eyeContact: "",
+        groupArrange: "",
+        Total: ""
+    });
+    _react.useEffect(function effectFunction() {
+        console.log("get ID", id);
+        _axiosDefault.default.get(`http://localhost:8000/getOneDetail/${id?.id}`).then((res)=>{
+            console.log("data", res);
+            setGroupname(res.data.getOneDetail.Groupname);
+            setintroduction(res.data.getOneDetail.introduction);
+            setorganization(res.data.getOneDetail.organization);
+            setvoiceInflection(res.data.getOneDetail.voiceInflection);
+            setvoiceRate(res.data.getOneDetail.voiceRate);
+            settools(res.data.getOneDetail.tools);
+            seteyeContact(res.data.getOneDetail.eyeContact);
+            setgroupArrange(res.data.getOneDetail.groupArrange);
+            setTotal(res.data.getOneDetail.Total);
+        }).catch((err)=>console.log(err)
+        );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    style: {
+                        height: '80px',
+                        width: '100%',
+                        backgroundColor: "#000080",
+                        marginTop: '-20px'
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 76,
+                            columnNumber: 16
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h2", {
+                            style: {
+                                color: 'white',
+                                textAlign: 'center'
+                            },
+                            children: "Your Final Marks"
+                        }, void 0, false, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 77,
+                            columnNumber: 16
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 78,
+                            columnNumber: 15
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/PresEveOneResult.js",
+                    lineNumber: 75,
+                    columnNumber: 8
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/PresEveOneResult.js",
+                    lineNumber: 80,
+                    columnNumber: 12
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                    style: {
+                        marginLeft: '400px'
+                    },
+                    children: Groupname
+                }, void 0, false, {
+                    fileName: "src/components/PresEveOneResult.js",
+                    lineNumber: 81,
+                    columnNumber: 12
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                    className: "table",
+                    style: {
+                        border: '1px solid black',
+                        width: '50%',
+                        marginLeft: '400px'
+                    },
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                    scope: "col",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h4", {
+                                        children: "EVALUATION FACTORS"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 85,
+                                        columnNumber: 33
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 85,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                    scope: "col",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h4", {
+                                        children: "MARKS"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 86,
+                                        columnNumber: 33
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 86,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 84,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                style: {
+                                    fontSize: '20px'
+                                },
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: " Introduction  "
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 89,
+                                        columnNumber: 47
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/PresEveOneResult.js",
+                                lineNumber: 89,
+                                columnNumber: 16
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 88,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                        children: "Aprropriately introduced himself/ herself, the topic to be presented, and clearly explained objectives of the presentation (15 marks)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 92,
+                                        columnNumber: 20
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 92,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 94,
+                                            columnNumber: 20
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 94,
+                                            columnNumber: 27
+                                        }, this),
+                                        introduction
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 94,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 91,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                style: {
+                                    fontSize: '20px'
+                                },
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: " Organization  "
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 98,
+                                        columnNumber: 45
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/PresEveOneResult.js",
+                                lineNumber: 98,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 97,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                        children: " The presentation is organized in a logical manner (15 marks)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 101,
+                                        columnNumber: 20
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 101,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 102,
+                                            columnNumber: 20
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 102,
+                                            columnNumber: 27
+                                        }, this),
+                                        organization
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 102,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 100,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                style: {
+                                    fontSize: '20px'
+                                },
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: " Voice "
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 105,
+                                        columnNumber: 45
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/PresEveOneResult.js",
+                                lineNumber: 105,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 104,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                        children: " Volume and inflection was effective (10 marks)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 108,
+                                        columnNumber: 20
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 108,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 109,
+                                            columnNumber: 20
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 109,
+                                            columnNumber: 27
+                                        }, this),
+                                        voiceInflection
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 109,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 107,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                        children: " Rate of speech was appropriate (10 marks)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 112,
+                                        columnNumber: 20
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 112,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 113,
+                                            columnNumber: 20
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 113,
+                                            columnNumber: 27
+                                        }, this),
+                                        voiceRate
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 113,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 111,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                style: {
+                                    fontSize: '20px'
+                                },
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: " Tools  "
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 117,
+                                        columnNumber: 45
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/PresEveOneResult.js",
+                                lineNumber: 117,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 116,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                        children: " Audiovisual resources, visual aids, and / or handoutd were used appropriatly (not relied upon) (20 marks)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 120,
+                                        columnNumber: 20
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 120,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 122,
+                                            columnNumber: 20
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 122,
+                                            columnNumber: 27
+                                        }, this),
+                                        tools
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 122,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 119,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                style: {
+                                    fontSize: '20px'
+                                },
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                        children: " Audience Contact / Involvement "
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 125,
+                                        columnNumber: 45
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/PresEveOneResult.js",
+                                lineNumber: 125,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 124,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                        children: " Eye Contact (15 marks)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 128,
+                                        columnNumber: 20
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 128,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 129,
+                                            columnNumber: 20
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 129,
+                                            columnNumber: 27
+                                        }, this),
+                                        eyeContact
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 129,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 127,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                        children: "Arrange inside the group (15 marks)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/PresEveOneResult.js",
+                                        lineNumber: 132,
+                                        columnNumber: 20
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 132,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 133,
+                                            columnNumber: 20
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 133,
+                                            columnNumber: 27
+                                        }, this),
+                                        groupArrange
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 133,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 131,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    style: {
+                                        fontSize: '20px'
+                                    },
+                                    children: "Total Mark (out of 100)"
+                                }, void 0, false, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 136,
+                                    columnNumber: 16
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 137,
+                                            columnNumber: 20
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("t", {}, void 0, false, {
+                                            fileName: "src/components/PresEveOneResult.js",
+                                            lineNumber: 137,
+                                            columnNumber: 27
+                                        }, this),
+                                        Total
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/PresEveOneResult.js",
+                                    lineNumber: 137,
+                                    columnNumber: 16
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/PresEveOneResult.js",
+                            lineNumber: 135,
+                            columnNumber: 14
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/PresEveOneResult.js",
+                    lineNumber: 82,
+                    columnNumber: 12
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                    className: "btn btn-success",
+                    style: {
+                        marginLeft: '700px',
+                        padding: '10px 10px',
+                        backgroundColor: '#3895d3'
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                        href: "/PreseEveResult",
+                        style: {
+                            textDecoration: 'none',
+                            backgroundColor: '#3895d3',
+                            color: 'white',
+                            fontSize: '20px'
+                        },
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                class: "far fa-arrow-alt-circle-left"
+                            }, void 0, false, {
+                                fileName: "src/components/PresEveOneResult.js",
+                                lineNumber: 143,
+                                columnNumber: 17
+                            }, this),
+                            "\xa0Go Back"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/PresEveOneResult.js",
+                        lineNumber: 141,
+                        columnNumber: 128
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/PresEveOneResult.js",
+                    lineNumber: 141,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/PresEveOneResult.js",
+            lineNumber: 74,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/PresEveOneResult.js",
+        lineNumber: 71,
+        columnNumber: 9
+    }, this);
+}
+exports.default = PresEveOneResult;
+_s(PresEveOneResult, "G3iCB4K9QN8ILypMOyAwO9zsguM=", false, function() {
+    return [
+        _reactRouterDom.useParams
+    ];
+});
+_c = PresEveOneResult;
+var _c;
+$RefreshReg$(_c, "PresEveOneResult");
+
+  $parcel$ReactRefreshHelpers$f2d7.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2nIZW":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$28f3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -37055,7 +40450,7 @@ class CreateTopic extends _react.Component {
                                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
                                                     type: "text",
                                                     className: "form-control",
-                                                    name: "Supervisor",
+                                                    name: "Supervisors",
                                                     value: this.state.Supervisors,
                                                     placeholder: "Enter the name of the selected supervisor",
                                                     onChange: this.handleChange,
@@ -37086,7 +40481,7 @@ class CreateTopic extends _react.Component {
                                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
                                                     type: "email",
                                                     className: "form-control",
-                                                    name: "CoSupervisor",
+                                                    name: "CoSupervisors",
                                                     value: this.state.CoSupervisors,
                                                     placeholder: "Enter the name of the selected co-supervisor",
                                                     onChange: this.handleChange,
@@ -38684,12 +42079,12 @@ class U_Home extends _react.Component {
                                                 className: "nav-item",
                                                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
                                                     className: "nav-link",
-                                                    href: "",
+                                                    href: "/EvaluationResult",
                                                     style: {
                                                         fontsize: '15px',
                                                         color: 'rgb(255,255,255)'
                                                     },
-                                                    children: "Panel Evaluations"
+                                                    children: "Panel Evaluations Results"
                                                 }, void 0, false, {
                                                     fileName: "src/components/U_Home.js",
                                                     lineNumber: 31,
@@ -38704,7 +42099,7 @@ class U_Home extends _react.Component {
                                                 className: "nav-item",
                                                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
                                                     className: "nav-link",
-                                                    href: "#",
+                                                    href: "/STDdownloads",
                                                     style: {
                                                         fontsize: '15px',
                                                         color: 'rgb(255,255,255)'
@@ -39275,7 +42670,7 @@ class A_Home extends _react.Component {
                                                 className: "nav-item",
                                                 children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
                                                     className: "nav-link",
-                                                    href: "#",
+                                                    href: "/Supervisors",
                                                     style: {
                                                         fontsize: '15px',
                                                         color: 'rgb(255,255,255)'
@@ -41164,11 +44559,11 @@ exports.default = Areas;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aNupV":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$a192 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dzjJw":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4c07 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a192.prelude(module);
+$parcel$ReactRefreshHelpers$4c07.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -41176,229 +44571,9519 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _adminSubmitJpg = require("../../public/adminSubmit.jpg");
-var _adminSubmitJpgDefault = parcelHelpers.interopDefault(_adminSubmitJpg);
-class DocumentSubHome extends _react.Component {
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class Home extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            topics: []
+        };
+    }
+    componentDidMount() {
+        this.retriveTopics();
+    }
+    retriveTopics() {
+        _axiosDefault.default.get("http://localhost:8000/topics").then((res)=>{
+            if (res.data.success) {
+                this.setState({
+                    topics: res.data.existingTopics
+                });
+                console.log(this.state.topics);
+            }
+        });
+    }
+    filterData(topics, searchKey) {
+        const result = topics.filter((topic)=>topic.Supervisors.toLowerCase().includes(searchKey) || topic.CoSupervisors.toLowerCase().includes(searchKey)
+        );
+        this.setState({
+            topics: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/topics").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingTopics, searchKey);
+        });
+    };
     render() {
         return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
             children: [
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                    style: {
-                        backgroundColor: '#000080',
-                        color: "white"
-                    },
-                    children: [
-                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
-                            children: "Document Submission Home"
-                        }, void 0, false, {
-                            fileName: "src/components/DocumentSubHome.js",
-                            lineNumber: 8,
-                            columnNumber: 64
-                        }, this),
-                        " "
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/DocumentSubHome.js",
-                    lineNumber: 8,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                    fileName: "src/components/DocumentSubHome.js",
-                    lineNumber: 10,
-                    columnNumber: 11
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                    className: "btn btn-success",
-                    style: {
-                        marginLeft: '10px',
-                        padding: '8px 8px',
-                        backgroundColor: '#3895d3',
-                        width: '200px'
-                    },
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                        href: "/adminHome",
-                        style: {
-                            textDecoration: 'none',
-                            backgroundColor: '#3895d3',
-                            color: 'white',
-                            fontSize: '16px'
-                        },
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
-                                class: "far fa-arrow-alt-circle-left"
-                            }, void 0, false, {
-                                fileName: "src/components/DocumentSubHome.js",
-                                lineNumber: 15,
-                                columnNumber: 21
-                            }, this),
-                            "\xa0Go Back"
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/DocumentSubHome.js",
-                        lineNumber: 14,
-                        columnNumber: 21
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                        className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                    "data-bs-toggle": "collapse",
+                                    className: "navbar-toggler",
+                                    "data-bs-target": "#navcol-1",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "visually-hidden",
+                                            children: "Toggle navigation"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Supervisors.js",
+                                            lineNumber: 58,
+                                            columnNumber: 102
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                            className: "navbar-toggler-icon"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Supervisors.js",
+                                            lineNumber: 58,
+                                            columnNumber: 160
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Supervisors.js",
+                                    lineNumber: 58,
+                                    columnNumber: 14
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "collapse navbar-collapse",
+                                    id: "navcol-1",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                        className: "navbar-nav",
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link ",
+                                                    href: "/view",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Groups"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Supervisors.js",
+                                                    lineNumber: 61,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Supervisors.js",
+                                                lineNumber: 61,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Supervisor allocations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Supervisors.js",
+                                                    lineNumber: 63,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Supervisors.js",
+                                                lineNumber: 63,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "/Areas",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Research Areas and Topics"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Supervisors.js",
+                                                    lineNumber: 64,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Supervisors.js",
+                                                lineNumber: 64,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Panel Formations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Supervisors.js",
+                                                    lineNumber: 66,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Supervisors.js",
+                                                lineNumber: 66,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                className: "nav-item",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "nav-link",
+                                                    href: "#",
+                                                    style: {
+                                                        fontsize: '15px',
+                                                        color: 'rgb(255,255,255)'
+                                                    },
+                                                    children: "Project Evaluations"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Supervisors.js",
+                                                    lineNumber: 68,
+                                                    columnNumber: 46
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Supervisors.js",
+                                                lineNumber: 68,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    className: "btn btn-warning",
+                                                    href: "/",
+                                                    style: {
+                                                        height: "40px",
+                                                        width: "100px",
+                                                        marginTop: "8px",
+                                                        marginLeft: "900px"
+                                                    },
+                                                    children: "Log Out"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Supervisors.js",
+                                                    lineNumber: 72,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Supervisors.js",
+                                                lineNumber: 72,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Supervisors.js",
+                                        lineNumber: 60,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Supervisors.js",
+                                    lineNumber: 59,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Supervisors.js",
+                            lineNumber: 58,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/A_Supervisors.js",
+                        lineNumber: 57,
+                        columnNumber: 1
                     }, this)
                 }, void 0, false, {
-                    fileName: "src/components/DocumentSubHome.js",
-                    lineNumber: 12,
-                    columnNumber: 20
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                    fileName: "src/components/DocumentSubHome.js",
-                    lineNumber: 18,
-                    columnNumber: 11
+                    fileName: "src/components/A_Supervisors.js",
+                    lineNumber: 55,
+                    columnNumber: 1
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                    style: {
-                        marginLeft: '250px'
-                    },
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("img", {
-                        src: _adminSubmitJpgDefault.default,
-                        class: "mx-auto",
-                        alt: "evaluation",
-                        width: "1000",
-                        height: "500"
-                    }, void 0, false, {
-                        fileName: "src/components/DocumentSubHome.js",
-                        lineNumber: 19,
-                        columnNumber: 45
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/DocumentSubHome.js",
-                    lineNumber: 19,
-                    columnNumber: 11
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                    fileName: "src/components/DocumentSubHome.js",
-                    lineNumber: 21,
-                    columnNumber: 11
-                }, this),
-                " ",
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                    fileName: "src/components/DocumentSubHome.js",
-                    lineNumber: 21,
-                    columnNumber: 21
-                }, this),
-                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
-                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
-                        children: [
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                                        className: "btn btn-success",
-                                        style: {
-                                            marginLeft: '250px',
-                                            backgroundColor: "#0147ab",
-                                            width: '350px'
-                                        },
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                            href: "/UploadNaviAdmin",
-                                            style: {
-                                                textDecoration: 'none',
-                                                color: 'white',
-                                                fontSize: "16px"
-                                            },
-                                            children: " Admin Document Upload  "
-                                        }, void 0, false, {
-                                            fileName: "src/components/DocumentSubHome.js",
-                                            lineNumber: 28,
-                                            columnNumber: 21
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/DocumentSubHome.js",
-                                        lineNumber: 27,
-                                        columnNumber: 21
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                                        fileName: "src/components/DocumentSubHome.js",
-                                        lineNumber: 31,
-                                        columnNumber: 21
-                                    }, this),
-                                    " ",
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                                        fileName: "src/components/DocumentSubHome.js",
-                                        lineNumber: 31,
-                                        columnNumber: 31
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/DocumentSubHome.js",
-                                lineNumber: 26,
-                                columnNumber: 17
-                            }, this),
-                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
-                                children: [
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
-                                        className: "btn btn-success",
-                                        style: {
-                                            marginLeft: '450px',
-                                            backgroundColor: "#0147ab",
-                                            width: '350px'
-                                        },
-                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
-                                            href: "/TempNavbar",
-                                            style: {
-                                                textDecoration: 'none',
-                                                color: 'white',
-                                                fontSize: "16px"
-                                            },
-                                            children: " Templates Submittions  "
-                                        }, void 0, false, {
-                                            fileName: "src/components/DocumentSubHome.js",
-                                            lineNumber: 36,
-                                            columnNumber: 21
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/DocumentSubHome.js",
-                                        lineNumber: 35,
-                                        columnNumber: 21
-                                    }, this),
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                                        fileName: "src/components/DocumentSubHome.js",
-                                        lineNumber: 38,
-                                        columnNumber: 17
-                                    }, this),
-                                    " ",
-                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
-                                        fileName: "src/components/DocumentSubHome.js",
-                                        lineNumber: 38,
-                                        columnNumber: 27
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/DocumentSubHome.js",
-                                lineNumber: 34,
-                                columnNumber: 17
+                    className: "container",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/A_Supervisors.js",
+                            lineNumber: 84,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            children: "Supervisor Selections"
+                        }, void 0, false, {
+                            fileName: "src/components/A_Supervisors.js",
+                            lineNumber: 86,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/A_Supervisors.js",
+                            lineNumber: 89,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/A_Supervisors.js",
+                            lineNumber: 90,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/A_Supervisors.js",
+                            lineNumber: 101,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "col-lg-9 mt-2 mb-2",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                type: "search",
+                                placeholder: "search fby your name",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/A_Supervisors.js",
+                                lineNumber: 103,
+                                columnNumber: 15
                             }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/DocumentSubHome.js",
-                        lineNumber: 25,
-                        columnNumber: 13
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/DocumentSubHome.js",
-                    lineNumber: 23,
-                    columnNumber: 11
+                        }, void 0, false, {
+                            fileName: "src/components/A_Supervisors.js",
+                            lineNumber: 102,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            className: "table",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "No."
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Supervisors.js",
+                                                lineNumber: 115,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Project Topic"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Supervisors.js",
+                                                lineNumber: 116,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Selected Supervisor"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Supervisors.js",
+                                                lineNumber: 117,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Selected Co-Supervisor"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Supervisors.js",
+                                                lineNumber: 118,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "GroupName"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Supervisors.js",
+                                                lineNumber: 119,
+                                                columnNumber: 11
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Supervisors.js",
+                                        lineNumber: 114,
+                                        columnNumber: 11
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Supervisors.js",
+                                    lineNumber: 113,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                    children: this.state.topics.map((topics, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "row",
+                                                    children: index + 1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Supervisors.js",
+                                                    lineNumber: 131,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                        href: `/Response/${topics._id}`,
+                                                        style: {
+                                                            textDecoration: 'none'
+                                                        },
+                                                        children: topics.Topic
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/A_Supervisors.js",
+                                                        lineNumber: 132,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Supervisors.js",
+                                                    lineNumber: 132,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: topics.Supervisors
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Supervisors.js",
+                                                    lineNumber: 133,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: topics.CoSupervisors
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Supervisors.js",
+                                                    lineNumber: 134,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: topics.GroupName
+                                                }, void 0, false, {
+                                                    fileName: "src/components/A_Supervisors.js",
+                                                    lineNumber: 135,
+                                                    columnNumber: 15
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/A_Supervisors.js",
+                                            lineNumber: 130,
+                                            columnNumber: 13
+                                        }, this)
+                                    )
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Supervisors.js",
+                                    lineNumber: 127,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Supervisors.js",
+                            lineNumber: 111,
+                            columnNumber: 7
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/A_Supervisors.js",
+                    lineNumber: 83,
+                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "src/components/DocumentSubHome.js",
-            lineNumber: 7,
-            columnNumber: 9
+            fileName: "src/components/A_Supervisors.js",
+            lineNumber: 54,
+            columnNumber: 7
         }, this);
     }
 }
-exports.default = DocumentSubHome;
+exports.default = Home;
 
-  $parcel$ReactRefreshHelpers$a192.postlude(module);
+  $parcel$ReactRefreshHelpers$4c07.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../public/adminSubmit.jpg":"e9i7O"}],"e9i7O":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "adminSubmit.7ef99ca3.jpg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7B6tZ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5b86 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5b86.prelude(module);
 
-},{"./helpers/bundle-url":"lgJ39"}]},["kn9T2","7fmqN","8lqZg"], "8lqZg", "parcelRequire10c2")
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+// import React, { Component } from 'react';
+// import axios from 'axios';
+// export default class Details extends Component {
+//     constructor(props){
+//         super(props);
+//         this.state={
+//             travelor:{}
+//         };
+//     }
+//     componentDidMount(){
+//         const id = this.props.match.params.id;
+//         axios.get(`http://localhost:8000/travelor/${id}`).then((res)=>{  //post ->postRamona
+//             if(res.data.success){
+//                 this.setState({
+//                     travelor:res.data.travelor
+//                 });
+//                 console.log(this.state.travelor);
+//             }
+//         });
+//     }
+//     render() {
+//         const {Name,NIC,Phone,Email,type,date}=this.state.travelor;
+//         return (
+//             <div className="details" style={{marginTop:'20px'}}>
+//                 <h4>{Name}</h4>
+//                 <hr/>
+//                 <dl className="row">
+//                     <dt className="col-sm-3"> NIC</dt>
+//                     <dd className="col-sm-9">{NIC}</dd>
+//                     <dt className="col-sm-3">Phone Number</dt>
+//                     <dd className="col-sm-9">{Phone}</dd>
+//                     <dt className="col-sm-3">Email Address</dt>
+//                     <dd className="col-sm-9">{Email}</dd>
+//                     <dt className="col-sm-3">Type of reservation</dt>
+//                     <dd className="col-sm-9">{type}</dd>
+//                     <dt className="col-sm-3">Date of reservation</dt>
+//                     <dd className="col-sm-9">{date}</dd>
+//                 </dl>
+//             </div>
+//         )
+//     }
+// }
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function UpdateDetails() {
+    _s();
+    const [Area, setArea] = _react.useState("");
+    const [Topic, setTopic] = _react.useState("");
+    const [Supervisors, setSupervisors] = _react.useState("");
+    const [CoSupervisors, setCoSupervisors] = _react.useState("");
+    const [GroupName, setGroupName] = _react.useState("");
+    const [Leader, setLeader] = _react.useState("");
+    const [SState, setSState] = _react.useState("");
+    const [CState, setCState] = _react.useState("");
+    const [Comments, setComments] = _react.useState("");
+    const id = _reactRouterDom.useParams();
+    const [topic] = _react.useState({
+        Area: "",
+        Topic: "",
+        Supervisors: "",
+        CoSupervisors: "",
+        GroupName: "",
+        Leader: "",
+        SState: "",
+        CState: "",
+        Comments: ""
+    });
+    const changeOnClick = async (e)=>{
+        e.preventDefault();
+        console.log("execute onclick");
+        const formData = new FormData();
+        formData.append("Area", Area);
+        formData.append("Topic", Topic);
+        formData.append("Supervisors", Supervisors);
+        formData.append("CoSupervisors", CoSupervisors);
+        formData.append("GroupName", GroupName);
+        formData.append("Leader", Leader);
+        formData.append("SState", SState);
+        formData.append("CState", CState);
+        formData.append("Comments", Comments);
+        setArea("");
+        setTopic("");
+        setSupervisors("");
+        setCoSupervisors("");
+        setGroupName("");
+        setLeader("");
+        setSState("");
+        setCState("");
+        setComments("");
+        console.log(formData.get('Area'));
+        topic.Area = formData.get('Area');
+        topic.Topic = formData.get('Topic');
+        topic.Supervisors = formData.get('Supervisors');
+        topic.CoSupervisors = formData.get('CoSupervisors');
+        topic.GroupName = formData.get('GroupName');
+        topic.Leader = formData.get('Leader');
+        topic.SState = formData.get('SState');
+        topic.CState = formData.get('CState');
+        topic.Comments = formData.get('Comments');
+        console.log(topic);
+        console.log(id);
+        await _axiosDefault.default.put(`http://localhost:8000/topic/update/${id?.id}`, group).then((res)=>{
+            console.log("return data", res);
+            alert("Response sent successfully!!");
+        }).catch((err)=>{
+            alert("Failed to send response..!!");
+            console.log(err);
+        });
+    };
+    _react.useEffect(function effectFunction() {
+        console.log("get ID", id);
+        _axiosDefault.default.get(`http://localhost:8000/topic/${id?.id}`).then((res)=>{
+            console.log("data", res);
+            setArea(res.data.topic.Area);
+            setTopic(res.data.topic.Topic);
+            setSupervisors(res.data.topic.Supervisors);
+            setCoSupervisors(res.data.topic.CoSupervisors);
+            setGroupName(res.data.topic.GroupName);
+            setLeader(res.data.topic.Leader);
+            setSState(res.data.topic.SState);
+            setCState(res.data.topic.CState);
+            setComments(res.data.topic.Comments);
+        }).catch((err)=>console.log(err)
+        );
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                    className: "navbar navbar-light navbar-expand-md bg-dark navigation-clean-search",
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                "data-bs-toggle": "collapse",
+                                className: "navbar-toggler",
+                                "data-bs-target": "#navcol-1",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                        className: "visually-hidden",
+                                        children: "Toggle navigation"
+                                    }, void 0, false, {
+                                        fileName: "src/components/A_Response.js",
+                                        lineNumber: 185,
+                                        columnNumber: 102
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                        className: "navbar-toggler-icon"
+                                    }, void 0, false, {
+                                        fileName: "src/components/A_Response.js",
+                                        lineNumber: 185,
+                                        columnNumber: 160
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/A_Response.js",
+                                lineNumber: 185,
+                                columnNumber: 14
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "collapse navbar-collapse",
+                                id: "navcol-1",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("ul", {
+                                    className: "navbar-nav",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            className: "nav-item",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "nav-link ",
+                                                href: "/groupreg",
+                                                style: {
+                                                    fontsize: '15px',
+                                                    color: 'rgb(255,255,255)'
+                                                },
+                                                children: "Group Registration"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 188,
+                                                columnNumber: 46
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Response.js",
+                                            lineNumber: 188,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            className: "nav-item",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "nav-link",
+                                                href: "/topicReg",
+                                                style: {
+                                                    fontsize: '15px',
+                                                    color: 'rgb(255,255,255)'
+                                                },
+                                                children: "Topic Registration"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 190,
+                                                columnNumber: 46
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Response.js",
+                                            lineNumber: 190,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            className: "nav-item",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "nav-link",
+                                                href: "/ViewAreas",
+                                                style: {
+                                                    fontsize: '15px',
+                                                    color: 'rgb(255,255,255)'
+                                                },
+                                                children: "Research Areas and Topics"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 191,
+                                                columnNumber: 46
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Response.js",
+                                            lineNumber: 191,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            className: "nav-item",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "nav-link",
+                                                href: "#",
+                                                style: {
+                                                    fontsize: '15px',
+                                                    color: 'rgb(255,255,255)'
+                                                },
+                                                children: "Panel Evaluations"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 193,
+                                                columnNumber: 46
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Response.js",
+                                            lineNumber: 193,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            className: "nav-item",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "nav-link",
+                                                href: "#",
+                                                style: {
+                                                    fontsize: '15px',
+                                                    color: 'rgb(255,255,255)'
+                                                },
+                                                children: "Documents and templates"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 195,
+                                                columnNumber: 46
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Response.js",
+                                            lineNumber: 195,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("li", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                className: "btn btn-warning",
+                                                href: "/",
+                                                style: {
+                                                    height: "40px",
+                                                    width: "100px",
+                                                    marginTop: "8px",
+                                                    marginLeft: "900px"
+                                                },
+                                                children: "Log Out"
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 199,
+                                                columnNumber: 25
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Response.js",
+                                            lineNumber: 199,
+                                            columnNumber: 21
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Response.js",
+                                    lineNumber: 187,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/A_Response.js",
+                                lineNumber: 186,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/A_Response.js",
+                        lineNumber: 185,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/A_Response.js",
+                    lineNumber: 184,
+                    columnNumber: 8
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/A_Response.js",
+                lineNumber: 182,
+                columnNumber: 8
+            }, this),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/A_Response.js",
+                        lineNumber: 212,
+                        columnNumber: 10
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            children: "Confirmation of the availability of the Supervisors"
+                        }, void 0, false, {
+                            fileName: "src/components/A_Response.js",
+                            lineNumber: 213,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/A_Response.js",
+                        lineNumber: 213,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/A_Response.js",
+                        lineNumber: 214,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                            className: "row g-3",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Selected Research area : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 222,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "Area",
+                                                onChange: (e)=>setArea(e.target.value)
+                                                ,
+                                                value: Area
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 223,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Response.js",
+                                        lineNumber: 221,
+                                        columnNumber: 18
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Response.js",
+                                    lineNumber: 220,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Selected topic : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 233,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "Topic",
+                                                onChange: (e)=>setTopic(e.target.value)
+                                                ,
+                                                value: Topic
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 234,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Response.js",
+                                        lineNumber: 232,
+                                        columnNumber: 18
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Response.js",
+                                    lineNumber: 231,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Name of the selected Supervisor : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 247,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "Supervisors",
+                                                onChange: (e)=>setSupervisors(e.target.value)
+                                                ,
+                                                value: Supervisors
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 248,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Response.js",
+                                        lineNumber: 246,
+                                        columnNumber: 18
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Response.js",
+                                    lineNumber: 245,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Name of the selected Co-Supervisor : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 261,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "CoSupervisors",
+                                                onChange: (e)=>setCoSupervisors(e.target.value)
+                                                ,
+                                                value: CoSupervisors
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 262,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Response.js",
+                                        lineNumber: 260,
+                                        columnNumber: 18
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Response.js",
+                                    lineNumber: 259,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Name of the group : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 275,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "GroupName",
+                                                onChange: (e)=>setGroupName(e.target.value)
+                                                ,
+                                                value: GroupName
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 276,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Response.js",
+                                        lineNumber: 274,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Response.js",
+                                    lineNumber: 273,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Response from the Supervisor : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 288,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "SState",
+                                                onChange: (e)=>setSState(e.target.value)
+                                                ,
+                                                value: SState
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 289,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Response.js",
+                                        lineNumber: 287,
+                                        columnNumber: 18
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Response.js",
+                                    lineNumber: 286,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "form-group",
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                        style: {
+                                            marginBottom: '15px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                style: {
+                                                    margineBottom: '5px'
+                                                },
+                                                children: "Response from the Co-Supervisor : "
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 301,
+                                                columnNumber: 22
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                type: "text",
+                                                name: "CState",
+                                                onChange: (e)=>setCState(e.target.value)
+                                                ,
+                                                value: CState
+                                            }, void 0, false, {
+                                                fileName: "src/components/A_Response.js",
+                                                lineNumber: 302,
+                                                columnNumber: 22
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/A_Response.js",
+                                        lineNumber: 300,
+                                        columnNumber: 18
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/A_Response.js",
+                                    lineNumber: 299,
+                                    columnNumber: 18
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            type: "submit",
+                                            onClick: (e)=>changeOnClick(e)
+                                            ,
+                                            children: "Submit Response"
+                                        }, void 0, false, {
+                                            fileName: "src/components/A_Response.js",
+                                            lineNumber: 314,
+                                            columnNumber: 18
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/A_Response.js",
+                                            lineNumber: 314,
+                                            columnNumber: 97
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/A_Response.js",
+                                            lineNumber: 314,
+                                            columnNumber: 102
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/A_Response.js",
+                                    lineNumber: 313,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/A_Response.js",
+                            lineNumber: 218,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/A_Response.js",
+                        lineNumber: 217,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/A_Response.js",
+                lineNumber: 210,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/A_Response.js",
+        lineNumber: 181,
+        columnNumber: 9
+    }, this);
+}
+exports.default = UpdateDetails;
+_s(UpdateDetails, "XCRvLdnsqXO97w7xhncVa/KZylw=", false, function() {
+    return [
+        _reactRouterDom.useParams
+    ];
+});
+_c = UpdateDetails;
+var _c;
+$RefreshReg$(_c, "UpdateDetails");
+
+  $parcel$ReactRefreshHelpers$5b86.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6b3Ji":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$23ae = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$23ae.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+class Home extends _react.Component {
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        children: " Home "
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 23,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-warning",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/Registration",
+                            style: {
+                                textDecoration: 'none',
+                                color: 'white',
+                                marginTop: '15px'
+                            },
+                            children: "registration"
+                        }, void 0, false, {
+                            fileName: "src/components/HomeAnodya.js",
+                            lineNumber: 26,
+                            columnNumber: 54
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 26,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                        className: "far fa-check-square"
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 27,
+                        columnNumber: 18
+                    }, this),
+                    "\xa0",
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 28,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 28,
+                        columnNumber: 6
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-warning",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/AddTopisPanels",
+                            style: {
+                                textDecoration: 'none',
+                                color: 'white',
+                                marginTop: '15px'
+                            },
+                            children: "Topic panel"
+                        }, void 0, false, {
+                            fileName: "src/components/HomeAnodya.js",
+                            lineNumber: 30,
+                            columnNumber: 54
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 30,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                        className: "far fa-check-square"
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 31,
+                        columnNumber: 18
+                    }, this),
+                    "\xa0",
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-warning",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/AddPresentationPanels",
+                            style: {
+                                textDecoration: 'none',
+                                color: 'white',
+                                marginTop: '15px'
+                            },
+                            children: "Presentation panel"
+                        }, void 0, false, {
+                            fileName: "src/components/HomeAnodya.js",
+                            lineNumber: 33,
+                            columnNumber: 54
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 33,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                        className: "far fa-check-square"
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 34,
+                        columnNumber: 18
+                    }, this),
+                    "\xa0",
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-warning",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/AddThesisPanels",
+                            style: {
+                                textDecoration: 'none',
+                                color: 'white',
+                                marginTop: '15px'
+                            },
+                            children: "Thesis panel"
+                        }, void 0, false, {
+                            fileName: "src/components/HomeAnodya.js",
+                            lineNumber: 38,
+                            columnNumber: 54
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 38,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                        className: "far fa-check-square"
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 39,
+                        columnNumber: 18
+                    }, this),
+                    "\xa0",
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-warning",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/Groupids",
+                            style: {
+                                textDecoration: 'none',
+                                color: 'white',
+                                marginTop: '15px'
+                            },
+                            children: "groups"
+                        }, void 0, false, {
+                            fileName: "src/components/HomeAnodya.js",
+                            lineNumber: 42,
+                            columnNumber: 54
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 42,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                        className: "far fa-check-square"
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 43,
+                        columnNumber: 18
+                    }, this),
+                    "\xa0",
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-warning",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/AdminLogin",
+                            style: {
+                                textDecoration: 'none',
+                                color: 'white',
+                                marginTop: '15px'
+                            },
+                            children: "Admin Login"
+                        }, void 0, false, {
+                            fileName: "src/components/HomeAnodya.js",
+                            lineNumber: 45,
+                            columnNumber: 54
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 45,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                        className: "far fa-check-square"
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 46,
+                        columnNumber: 18
+                    }, this),
+                    "\xa0",
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-warning",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/StaffLogin",
+                            style: {
+                                textDecoration: 'none',
+                                color: 'white',
+                                marginTop: '15px'
+                            },
+                            children: "staff Login"
+                        }, void 0, false, {
+                            fileName: "src/components/HomeAnodya.js",
+                            lineNumber: 49,
+                            columnNumber: 54
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 49,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                        className: "far fa-check-square"
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 50,
+                        columnNumber: 18
+                    }, this),
+                    "\xa0",
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-warning",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/Viewallusers",
+                            style: {
+                                textDecoration: 'none',
+                                color: 'white',
+                                marginTop: '15px'
+                            },
+                            children: "view all users"
+                        }, void 0, false, {
+                            fileName: "src/components/HomeAnodya.js",
+                            lineNumber: 52,
+                            columnNumber: 54
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 52,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                        className: "far fa-check-square"
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 53,
+                        columnNumber: 18
+                    }, this),
+                    "\xa0",
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 54,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h4", {
+                        children: "student side panel members "
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 56,
+                        columnNumber: 2
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-warning",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/S_ViewTopis",
+                            style: {
+                                textDecoration: 'none',
+                                color: 'white',
+                                marginTop: '15px'
+                            },
+                            children: "view topic panel-stu side"
+                        }, void 0, false, {
+                            fileName: "src/components/HomeAnodya.js",
+                            lineNumber: 58,
+                            columnNumber: 54
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 58,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                        className: "far fa-check-square"
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 59,
+                        columnNumber: 18
+                    }, this),
+                    "\xa0",
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-warning",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/S_ViewPresentation",
+                            style: {
+                                textDecoration: 'none',
+                                color: 'white',
+                                marginTop: '15px'
+                            },
+                            children: "view presenatation panel-stu side"
+                        }, void 0, false, {
+                            fileName: "src/components/HomeAnodya.js",
+                            lineNumber: 61,
+                            columnNumber: 54
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 61,
+                        columnNumber: 18
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                        className: "far fa-check-square"
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 62,
+                        columnNumber: 18
+                    }, this),
+                    "\xa0",
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        className: "btn btn-warning",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            href: "/S_ViewThesis",
+                            style: {
+                                textDecoration: 'none',
+                                color: 'white',
+                                marginTop: '15px'
+                            },
+                            children: "view thesis panel-stu side"
+                        }, void 0, false, {
+                            fileName: "src/components/HomeAnodya.js",
+                            lineNumber: 64,
+                            columnNumber: 46
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 64,
+                        columnNumber: 10
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                        className: "far fa-check-square"
+                    }, void 0, false, {
+                        fileName: "src/components/HomeAnodya.js",
+                        lineNumber: 65,
+                        columnNumber: 18
+                    }, this),
+                    "\xa0"
+                ]
+            }, void 0, true, {
+                fileName: "src/components/HomeAnodya.js",
+                lineNumber: 21,
+                columnNumber: 7
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/HomeAnodya.js",
+            lineNumber: 20,
+            columnNumber: 7
+        }, this);
+    }
+}
+exports.default = Home;
+
+  $parcel$ReactRefreshHelpers$23ae.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lPfAy":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$dbd4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$dbd4.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _authServices = require("../services/AuthServices");
+var _s = $RefreshSig$();
+const Register = ()=>{
+    _s();
+    const navigate = _reactRouterDom.useNavigate();
+    const [Name, setName] = _react.useState('');
+    const [ID, setID] = _react.useState('');
+    const [Email, setEmail] = _react.useState('');
+    const [PhoneNumber, setPhoneNumber] = _react.useState('');
+    const [Password, setPassword] = _react.useState('');
+    const handleName = (e)=>{
+        setName(e.target.value);
+    };
+    const handleID = (e)=>{
+        setID(e.target.value);
+    };
+    const handleEmail = (e)=>{
+        setEmail(e.target.value);
+    };
+    const handlePhoneNumber = (e)=>{
+        setPhoneNumber(e.target.value);
+    };
+    const handlePassword = (e)=>{
+        setPassword(e.target.value);
+    };
+    const handleSubmit = async (e)=>{
+        e.preventDefault();
+        if (Name === '' || ID === '' || Email === '' || PhoneNumber === '' || Password === '') alert("Fill all the data");
+        else {
+            let newdata = {
+                Name: Name,
+                ID: ID,
+                Email: Email,
+                PhoneNumber: PhoneNumber,
+                Password: Password
+            };
+            let cusdata = await _authServices.RegisterCustomer(newdata);
+            console.log("return data", cusdata);
+            localStorage.setItem("token", cusdata.data.token);
+            localStorage.setItem("userRole", cusdata.data.userRole);
+            navigate('/Login');
+        }
+    };
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        style: {
+                            marginTop: "30px"
+                        },
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                style: {
+                                    color: "purple"
+                                },
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                    children: "WELCOME TO SLIIT RESEAECH PROJECT MANAGEMENT"
+                                }, void 0, false, {
+                                    fileName: "src/components/Registration.js",
+                                    lineNumber: 67,
+                                    columnNumber: 48
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Registration.js",
+                                lineNumber: 67,
+                                columnNumber: 19
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Registration.js",
+                            lineNumber: 67,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/Registration.js",
+                        lineNumber: 66,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/Registration.js",
+                        lineNumber: 71,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Registration.js",
+                lineNumber: 65,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                className: "navbar navbar-expand-lg navbar-dark bg-dark",
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "container-fluid",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            className: "navbar-brand",
+                            href: "/Home",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/Registration.js",
+                            lineNumber: 77,
+                            columnNumber: 20
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            className: "navbar-brand",
+                            href: "/AdminLogin",
+                            children: "Admin Login"
+                        }, void 0, false, {
+                            fileName: "src/components/Registration.js",
+                            lineNumber: 78,
+                            columnNumber: 20
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            className: "navbar-brand",
+                            href: "/StaffLogin",
+                            children: "Staff Login"
+                        }, void 0, false, {
+                            fileName: "src/components/Registration.js",
+                            lineNumber: 79,
+                            columnNumber: 20
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            className: "navbar-brand",
+                            href: "/Login",
+                            children: "Student Login"
+                        }, void 0, false, {
+                            fileName: "src/components/Registration.js",
+                            lineNumber: 80,
+                            columnNumber: 20
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                            className: "navbar-toggler",
+                            type: "button",
+                            "data-bs-toggle": "collapse",
+                            "data-bs-target": "#navbarNavAltMarkup",
+                            "aria-controls": "navbarNavAltMarkup",
+                            "aria-expanded": "false",
+                            "aria-label": "Toggle navigation",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                className: "navbar-toggler-icon"
+                            }, void 0, false, {
+                                fileName: "src/components/Registration.js",
+                                lineNumber: 82,
+                                columnNumber: 23
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Registration.js",
+                            lineNumber: 81,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "collapse navbar-collapse",
+                            id: "navbarNavAltMarkup",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "navbar-nav",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 90,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 91,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: " student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 92,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 93,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 95,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 96,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 97,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 98,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 101,
+                                        columnNumber: 20
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 102,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 103,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Registration.js",
+                                        lineNumber: 104,
+                                        columnNumber: 19
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Registration.js",
+                                lineNumber: 85,
+                                columnNumber: 18
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Registration.js",
+                            lineNumber: 84,
+                            columnNumber: 16
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Registration.js",
+                    lineNumber: 76,
+                    columnNumber: 15
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Registration.js",
+                lineNumber: 75,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/Registration.js",
+                        lineNumber: 110,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/Registration.js",
+                        lineNumber: 110,
+                        columnNumber: 14
+                    }, undefined),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            width: "500",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                                style: {
+                                                    color: ""
+                                                },
+                                                children: "Registration"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Registration.js",
+                                                lineNumber: 116,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Registration.js",
+                                            lineNumber: 115,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/Registration.js",
+                                            lineNumber: 117,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/Registration.js",
+                                            lineNumber: 117,
+                                            columnNumber: 20
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "form-group",
+                                                    style: {
+                                                        marginBottom: '15px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            style: {
+                                                                margineBottom: '5px'
+                                                            },
+                                                            children: "Name: "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Registration.js",
+                                                            lineNumber: 122,
+                                                            columnNumber: 29
+                                                        }, undefined),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "text",
+                                                            className: "form-control",
+                                                            value: Name,
+                                                            onChange: handleName,
+                                                            placeholder: "enter name as in sliit id"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Registration.js",
+                                                            lineNumber: 123,
+                                                            columnNumber: 29
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Registration.js",
+                                                    lineNumber: 121,
+                                                    columnNumber: 29
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "form-group",
+                                                    style: {
+                                                        marginBottom: '15px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            style: {
+                                                                margineBottom: '5px'
+                                                            },
+                                                            children: "Sliit ID: "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Registration.js",
+                                                            lineNumber: 133,
+                                                            columnNumber: 29
+                                                        }, undefined),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "text",
+                                                            className: "form-control",
+                                                            value: ID,
+                                                            onChange: handleID,
+                                                            placeholder: "enter sliit id"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Registration.js",
+                                                            lineNumber: 134,
+                                                            columnNumber: 29
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Registration.js",
+                                                    lineNumber: 132,
+                                                    columnNumber: 30
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "form-group",
+                                                    style: {
+                                                        marginBottom: '15px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            style: {
+                                                                margineBottom: '5px'
+                                                            },
+                                                            children: "  Email Address: "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Registration.js",
+                                                            lineNumber: 144,
+                                                            columnNumber: 29
+                                                        }, undefined),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "text",
+                                                            className: "form-control",
+                                                            value: Email,
+                                                            onChange: handleEmail,
+                                                            placeholder: "enter sliit id"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Registration.js",
+                                                            lineNumber: 145,
+                                                            columnNumber: 29
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Registration.js",
+                                                    lineNumber: 143,
+                                                    columnNumber: 30
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "form-group",
+                                                    style: {
+                                                        marginBottom: '15px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            style: {
+                                                                margineBottom: '5px'
+                                                            },
+                                                            children: "  Contact Number: "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Registration.js",
+                                                            lineNumber: 156,
+                                                            columnNumber: 29
+                                                        }, undefined),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "text",
+                                                            className: "form-control",
+                                                            value: PhoneNumber,
+                                                            onChange: handlePhoneNumber,
+                                                            placeholder: "enter a contact number"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Registration.js",
+                                                            lineNumber: 157,
+                                                            columnNumber: 29
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Registration.js",
+                                                    lineNumber: 155,
+                                                    columnNumber: 30
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "form-group",
+                                                    style: {
+                                                        marginBottom: '15px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            style: {
+                                                                margineBottom: '5px'
+                                                            },
+                                                            children: "  Password: "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Registration.js",
+                                                            lineNumber: 168,
+                                                            columnNumber: 29
+                                                        }, undefined),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "text",
+                                                            className: "form-control",
+                                                            value: Password,
+                                                            onChange: handlePassword,
+                                                            placeholder: "create a password(should be at least 6 charactors)"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Registration.js",
+                                                            lineNumber: 169,
+                                                            columnNumber: 29
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Registration.js",
+                                                    lineNumber: 167,
+                                                    columnNumber: 30
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                        onClick: handleSubmit,
+                                                        className: "btn btn-primary btn-lg active",
+                                                        type: "submit",
+                                                        children: "Register"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Registration.js",
+                                                        lineNumber: 181,
+                                                        columnNumber: 31
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Registration.js",
+                                                    lineNumber: 180,
+                                                    columnNumber: 31
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Registration.js",
+                                            lineNumber: 118,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/Registration.js",
+                                            lineNumber: 186,
+                                            columnNumber: 31
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                                            className: "link",
+                                            children: [
+                                                "Already have an account? ",
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                                    to: "/Login",
+                                                    children: "Sign Up"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Registration.js",
+                                                    lineNumber: 188,
+                                                    columnNumber: 58
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Registration.js",
+                                            lineNumber: 187,
+                                            columnNumber: 31
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Registration.js",
+                                    lineNumber: 114,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Registration.js",
+                                lineNumber: 113,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Registration.js",
+                            lineNumber: 112,
+                            columnNumber: 9
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/Registration.js",
+                        lineNumber: 111,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Registration.js",
+                lineNumber: 109,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Registration.js",
+        lineNumber: 64,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Register, "JhTqjkqVi0EODMZu9/VCJDGwyRo=", false, function() {
+    return [
+        _reactRouterDom.useNavigate
+    ];
+});
+_c = Register;
+exports.default = Register;
+var _c;
+$RefreshReg$(_c, "Register");
+
+  $parcel$ReactRefreshHelpers$dbd4.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../services/AuthServices":"bqHbc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bqHbc":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "RegisterCustomer", ()=>RegisterCustomer
+);
+parcelHelpers.export(exports, "LoginCustomer", ()=>LoginCustomer
+);
+parcelHelpers.export(exports, "AuthCustomer", ()=>AuthCustomer
+);
+parcelHelpers.export(exports, "GetallUsers", ()=>GetallUsers
+);
+parcelHelpers.export(exports, "UpdateAdmin", ()=>UpdateAdmin
+);
+parcelHelpers.export(exports, "DeleteUser", ()=>DeleteUser
+);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+let LoginURL = "http://localhost:8000/signin";
+let AuthURL = "http://localhost:8000/auth";
+let getAllUsers = "http://localhost:8000/getallusers";
+let Createuser = "http://localhost:8000/createUser";
+let Updateuser = "http://localhost:8000/user/updateUserById/";
+let Deleteuser = "http://localhost:8000/user/deleteUser/";
+async function RegisterCustomer(data) {
+    const alldata = {
+        Name: data.Name,
+        ID: data.ID,
+        Email: data.Email,
+        PhoneNumber: data.PhoneNumber,
+        Password: data.Password,
+        userRole: "user"
+    };
+    return await _axiosDefault.default.post(Createuser, alldata);
+}
+_c = RegisterCustomer;
+async function LoginCustomer(data) {
+    const alldata = {
+        Email: data.Email,
+        Password: data.Password
+    };
+    return await _axiosDefault.default.post(LoginURL, alldata);
+}
+_c1 = LoginCustomer;
+async function AuthCustomer(token) {
+    const config = {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    };
+    return await _axiosDefault.default.get(AuthURL, config);
+}
+_c2 = AuthCustomer;
+async function GetallUsers() {
+    return _axiosDefault.default.get(getAllUsers);
+}
+_c3 = GetallUsers;
+async function UpdateAdmin(id, data) {
+    const alldata = {
+        name: data.name,
+        ID: data.ID,
+        email: data.email,
+        PhoneNumber: data.PhoneNumber,
+        password: data.password,
+        userRole: "user"
+    };
+    return await _axiosDefault.default.patch(Updateuser + id, alldata);
+}
+_c4 = UpdateAdmin;
+async function DeleteUser(id) {
+    return await _axiosDefault.default.delete(Deleteuser + id);
+}
+_c5 = DeleteUser;
+var _c, _c1, _c2, _c3, _c4, _c5;
+$RefreshReg$(_c, "RegisterCustomer");
+$RefreshReg$(_c1, "LoginCustomer");
+$RefreshReg$(_c2, "AuthCustomer");
+$RefreshReg$(_c3, "GetallUsers");
+$RefreshReg$(_c4, "UpdateAdmin");
+$RefreshReg$(_c5, "DeleteUser");
+
+},{"axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hsmcH":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5afe = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5afe.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _authServices = require("../services/AuthServices");
+var _s = $RefreshSig$();
+const Login = ()=>{
+    _s();
+    const navigate = _reactRouterDom.useNavigate();
+    const [formData, setFormData] = _react.useState({
+        Email: "",
+        Password: ""
+    });
+    const { Email , Password  } = formData;
+    const onChange = (e)=>setFormData({
+            ...formData,
+            [e.target.name]: e.target.value
+        })
+    ;
+    const onSubmit = async (e)=>{
+        e.preventDefault();
+        console.log(formData);
+        let data = await _authServices.LoginCustomer(formData);
+        console.log("data", data);
+        if (data.data.token) {
+            localStorage.setItem("token", data.data.token);
+            localStorage.setItem("userRole", data.data.userRole);
+            navigate("/");
+        } else alert("Error occured !  Login credentials wrong...");
+    };
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/Login.js",
+                lineNumber: 40,
+                columnNumber: 4
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/Login.js",
+                lineNumber: 40,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    style: {
+                        marginTop: "30px"
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            style: {
+                                color: "purple"
+                            },
+                            children: "WELCOME TO SLIIT RESEARCH PROJECT MANAGEMENT"
+                        }, void 0, false, {
+                            fileName: "src/components/Login.js",
+                            lineNumber: 43,
+                            columnNumber: 19
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/Login.js",
+                        lineNumber: 43,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/Login.js",
+                    lineNumber: 42,
+                    columnNumber: 7
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Login.js",
+                lineNumber: 41,
+                columnNumber: 10
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                className: "navbar navbar-expand-lg navbar-dark bg-dark",
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "container-fluid",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            className: "navbar-brand",
+                            href: "/",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/Login.js",
+                            lineNumber: 55,
+                            columnNumber: 20
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            className: "navbar-brand",
+                            href: "/Login",
+                            children: "Student Login"
+                        }, void 0, false, {
+                            fileName: "src/components/Login.js",
+                            lineNumber: 56,
+                            columnNumber: 20
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                            className: "navbar-toggler",
+                            type: "button",
+                            "data-bs-toggle": "collapse",
+                            "data-bs-target": "#navbarNavAltMarkup",
+                            "aria-controls": "navbarNavAltMarkup",
+                            "aria-expanded": "false",
+                            "aria-label": "Toggle navigation",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                className: "navbar-toggler-icon"
+                            }, void 0, false, {
+                                fileName: "src/components/Login.js",
+                                lineNumber: 58,
+                                columnNumber: 23
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Login.js",
+                            lineNumber: 57,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "collapse navbar-collapse",
+                            id: "navbarNavAltMarkup",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "navbar-nav",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 65,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 66,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: " student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 67,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 68,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 70,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 71,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 72,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 73,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 76,
+                                        columnNumber: 20
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 77,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 78,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Login.js",
+                                        lineNumber: 79,
+                                        columnNumber: 19
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Login.js",
+                                lineNumber: 61,
+                                columnNumber: 18
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Login.js",
+                            lineNumber: 60,
+                            columnNumber: 16
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Login.js",
+                    lineNumber: 54,
+                    columnNumber: 15
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Login.js",
+                lineNumber: 53,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/Login.js",
+                lineNumber: 84,
+                columnNumber: 3
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "login-form",
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            className: "heading",
+                            children: "Sign In"
+                        }, void 0, false, {
+                            fileName: "src/components/Login.js",
+                            lineNumber: 87,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "lead",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                    className: "fas fa-user"
+                                }, void 0, false, {
+                                    fileName: "src/components/Login.js",
+                                    lineNumber: 89,
+                                    columnNumber: 5
+                                }, undefined),
+                                " Student Login"
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Login.js",
+                            lineNumber: 88,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/Login.js",
+                            lineNumber: 91,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                            onSubmit: (e)=>onSubmit(e)
+                                            ,
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "form-group",
+                                                    style: {
+                                                        marginBottom: '15px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            style: {
+                                                                margineBottom: '5px'
+                                                            },
+                                                            children: "Enter Email Address : "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Login.js",
+                                                            lineNumber: 97,
+                                                            columnNumber: 7
+                                                        }, undefined),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "Email",
+                                                            className: "form-control",
+                                                            placeholder: "Email Address",
+                                                            name: "Email",
+                                                            value: Email,
+                                                            onChange: (e)=>onChange(e)
+                                                            ,
+                                                            required: true
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Login.js",
+                                                            lineNumber: 98,
+                                                            columnNumber: 9
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Login.js",
+                                                    lineNumber: 96,
+                                                    columnNumber: 7
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                    fileName: "src/components/Login.js",
+                                                    lineNumber: 107,
+                                                    columnNumber: 15
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "form-group",
+                                                    style: {
+                                                        marginBottom: '15px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            style: {
+                                                                margineBottom: '5px'
+                                                            },
+                                                            children: "Enter Password : "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Login.js",
+                                                            lineNumber: 109,
+                                                            columnNumber: 9
+                                                        }, undefined),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "password",
+                                                            className: "form-control",
+                                                            placeholder: "Password",
+                                                            name: "Password",
+                                                            minLength: "6",
+                                                            value: Password,
+                                                            onChange: (e)=>onChange(e)
+                                                            ,
+                                                            required: true
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Login.js",
+                                                            lineNumber: 110,
+                                                            columnNumber: 10
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Login.js",
+                                                    lineNumber: 108,
+                                                    columnNumber: 9
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                    fileName: "src/components/Login.js",
+                                                    lineNumber: 120,
+                                                    columnNumber: 15
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "submit",
+                                                        className: "btn btn-primary btn-lg active",
+                                                        value: "Login"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Login.js",
+                                                        lineNumber: 122,
+                                                        columnNumber: 9
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Login.js",
+                                                    lineNumber: 121,
+                                                    columnNumber: 33
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Login.js",
+                                            lineNumber: 95,
+                                            columnNumber: 7
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/Login.js",
+                                            lineNumber: 125,
+                                            columnNumber: 40
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Login.js",
+                                    lineNumber: 94,
+                                    columnNumber: 6
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Login.js",
+                                lineNumber: 93,
+                                columnNumber: 5
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Login.js",
+                            lineNumber: 92,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "link",
+                            children: [
+                                "Don't have an account? ",
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/",
+                                    children: "Sign Up"
+                                }, void 0, false, {
+                                    fileName: "src/components/Login.js",
+                                    lineNumber: 130,
+                                    columnNumber: 56
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Login.js",
+                            lineNumber: 129,
+                            columnNumber: 33
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Login.js",
+                    lineNumber: 86,
+                    columnNumber: 13
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Login.js",
+                lineNumber: 85,
+                columnNumber: 3
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Login.js",
+        lineNumber: 39,
+        columnNumber: 3
+    }, undefined);
+};
+_s(Login, "xPzwqGJ8XTRoOHItblqsoI20vTw=", false, function() {
+    return [
+        _reactRouterDom.useNavigate
+    ];
+});
+_c = Login;
+exports.default = Login;
+var _c;
+$RefreshReg$(_c, "Login");
+
+  $parcel$ReactRefreshHelpers$5afe.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../services/AuthServices":"bqHbc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"82uyn":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6558 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6558.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _authServices = require("../services/AuthServices");
+var _s = $RefreshSig$();
+const Login = ()=>{
+    _s();
+    const navigate = _reactRouterDom.useNavigate();
+    const [formData, setFormData] = _react.useState({
+        Email: "",
+        Password: ""
+    });
+    const { Email , Password  } = formData;
+    const onChange = (e)=>setFormData({
+            ...formData,
+            [e.target.name]: e.target.value
+        })
+    ;
+    const onSubmit = async (e)=>{
+        e.preventDefault();
+        console.log(formData);
+        let data = await _authServices.LoginCustomer(formData);
+        console.log("data", data);
+        if (data.data.token) {
+            localStorage.setItem("token", data.data.token);
+            localStorage.setItem("userRole", data.data.userRole);
+            navigate("/");
+        } else alert("Error occured !  Login credentials wrong...");
+    };
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/AdminLogin.js",
+                lineNumber: 40,
+                columnNumber: 4
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/AdminLogin.js",
+                lineNumber: 40,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    style: {
+                        marginTop: "30px"
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            style: {
+                                color: "purple"
+                            },
+                            children: "WELCOME TO SLIIT RESEARCH PROJECT MANAGEMENT"
+                        }, void 0, false, {
+                            fileName: "src/components/AdminLogin.js",
+                            lineNumber: 43,
+                            columnNumber: 19
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/AdminLogin.js",
+                        lineNumber: 43,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/AdminLogin.js",
+                    lineNumber: 42,
+                    columnNumber: 7
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/AdminLogin.js",
+                lineNumber: 41,
+                columnNumber: 10
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                className: "navbar navbar-expand-lg navbar-dark bg-dark",
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "container-fluid",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            className: "navbar-brand",
+                            href: "/Hotel",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/AdminLogin.js",
+                            lineNumber: 55,
+                            columnNumber: 20
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            className: "navbar-brand",
+                            href: "/AdminLogin",
+                            children: "Admin Login"
+                        }, void 0, false, {
+                            fileName: "src/components/AdminLogin.js",
+                            lineNumber: 56,
+                            columnNumber: 8
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                            className: "navbar-toggler",
+                            type: "button",
+                            "data-bs-toggle": "collapse",
+                            "data-bs-target": "#navbarNavAltMarkup",
+                            "aria-controls": "navbarNavAltMarkup",
+                            "aria-expanded": "false",
+                            "aria-label": "Toggle navigation",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                className: "navbar-toggler-icon"
+                            }, void 0, false, {
+                                fileName: "src/components/AdminLogin.js",
+                                lineNumber: 58,
+                                columnNumber: 23
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/AdminLogin.js",
+                            lineNumber: 57,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "collapse navbar-collapse",
+                            id: "navbarNavAltMarkup",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "navbar-nav",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 65,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 66,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: " student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 67,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 68,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 70,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 71,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 72,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 73,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 76,
+                                        columnNumber: 20
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 77,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 78,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/AdminLogin.js",
+                                        lineNumber: 79,
+                                        columnNumber: 19
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/AdminLogin.js",
+                                lineNumber: 61,
+                                columnNumber: 18
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/AdminLogin.js",
+                            lineNumber: 60,
+                            columnNumber: 16
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/AdminLogin.js",
+                    lineNumber: 54,
+                    columnNumber: 15
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/AdminLogin.js",
+                lineNumber: 53,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/AdminLogin.js",
+                lineNumber: 84,
+                columnNumber: 3
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "login-form",
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            className: "heading",
+                            children: "Sign In"
+                        }, void 0, false, {
+                            fileName: "src/components/AdminLogin.js",
+                            lineNumber: 87,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "lead",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                    className: "fas fa-user"
+                                }, void 0, false, {
+                                    fileName: "src/components/AdminLogin.js",
+                                    lineNumber: 89,
+                                    columnNumber: 5
+                                }, undefined),
+                                " Admin Login"
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/AdminLogin.js",
+                            lineNumber: 88,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/AdminLogin.js",
+                            lineNumber: 91,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                            onSubmit: (e)=>onSubmit(e)
+                                            ,
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "form-group",
+                                                    style: {
+                                                        marginBottom: '15px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            style: {
+                                                                margineBottom: '5px'
+                                                            },
+                                                            children: "Enter Email Address : "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/AdminLogin.js",
+                                                            lineNumber: 97,
+                                                            columnNumber: 7
+                                                        }, undefined),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "Email",
+                                                            className: "form-control",
+                                                            placeholder: "Email Address",
+                                                            name: "Email",
+                                                            value: Email,
+                                                            onChange: (e)=>onChange(e)
+                                                            ,
+                                                            required: true
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/AdminLogin.js",
+                                                            lineNumber: 98,
+                                                            columnNumber: 9
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/AdminLogin.js",
+                                                    lineNumber: 96,
+                                                    columnNumber: 7
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                    fileName: "src/components/AdminLogin.js",
+                                                    lineNumber: 107,
+                                                    columnNumber: 15
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "form-group",
+                                                    style: {
+                                                        marginBottom: '15px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            style: {
+                                                                margineBottom: '5px'
+                                                            },
+                                                            children: "Enter Password : "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/AdminLogin.js",
+                                                            lineNumber: 109,
+                                                            columnNumber: 9
+                                                        }, undefined),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "password",
+                                                            className: "form-control",
+                                                            placeholder: "Password",
+                                                            name: "Password",
+                                                            minLength: "6",
+                                                            value: Password,
+                                                            onChange: (e)=>onChange(e)
+                                                            ,
+                                                            required: true
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/AdminLogin.js",
+                                                            lineNumber: 110,
+                                                            columnNumber: 10
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/AdminLogin.js",
+                                                    lineNumber: 108,
+                                                    columnNumber: 9
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                    fileName: "src/components/AdminLogin.js",
+                                                    lineNumber: 120,
+                                                    columnNumber: 15
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "submit",
+                                                        className: "btn btn-primary btn-lg active",
+                                                        value: "Login"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AdminLogin.js",
+                                                        lineNumber: 122,
+                                                        columnNumber: 9
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/AdminLogin.js",
+                                                    lineNumber: 121,
+                                                    columnNumber: 33
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/AdminLogin.js",
+                                            lineNumber: 95,
+                                            columnNumber: 7
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/AdminLogin.js",
+                                            lineNumber: 125,
+                                            columnNumber: 40
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/AdminLogin.js",
+                                    lineNumber: 94,
+                                    columnNumber: 6
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/AdminLogin.js",
+                                lineNumber: 93,
+                                columnNumber: 5
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/AdminLogin.js",
+                            lineNumber: 92,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "link",
+                            children: [
+                                "Don't have an account? ",
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/",
+                                    children: "Sign Up"
+                                }, void 0, false, {
+                                    fileName: "src/components/AdminLogin.js",
+                                    lineNumber: 130,
+                                    columnNumber: 56
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/AdminLogin.js",
+                            lineNumber: 129,
+                            columnNumber: 33
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/AdminLogin.js",
+                    lineNumber: 86,
+                    columnNumber: 13
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/AdminLogin.js",
+                lineNumber: 85,
+                columnNumber: 3
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/AdminLogin.js",
+        lineNumber: 39,
+        columnNumber: 3
+    }, undefined);
+};
+_s(Login, "xPzwqGJ8XTRoOHItblqsoI20vTw=", false, function() {
+    return [
+        _reactRouterDom.useNavigate
+    ];
+});
+_c = Login;
+exports.default = Login;
+var _c;
+$RefreshReg$(_c, "Login");
+
+  $parcel$ReactRefreshHelpers$6558.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../services/AuthServices":"bqHbc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7DSmF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$37e2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$37e2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _authServices = require("../services/AuthServices");
+var _s = $RefreshSig$();
+const Login = ()=>{
+    _s();
+    const navigate = _reactRouterDom.useNavigate();
+    const [formData, setFormData] = _react.useState({
+        Email: "",
+        Password: ""
+    });
+    const { Email , Password  } = formData;
+    const onChange = (e)=>setFormData({
+            ...formData,
+            [e.target.name]: e.target.value
+        })
+    ;
+    const onSubmit = async (e)=>{
+        e.preventDefault();
+        console.log(formData);
+        let data = await _authServices.LoginCustomer(formData);
+        console.log("data", data);
+        if (data.data.token) {
+            localStorage.setItem("token", data.data.token);
+            localStorage.setItem("userRole", data.data.userRole);
+            navigate("/");
+        } else alert("Error occured !  Login credentials wrong...");
+    };
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/StaffLogin.js",
+                lineNumber: 40,
+                columnNumber: 4
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/StaffLogin.js",
+                lineNumber: 40,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    style: {
+                        marginTop: "30px"
+                    },
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            style: {
+                                color: "purple"
+                            },
+                            children: "WELCOME TO SLIIT RESEARCH PROJECT MANAGEMENT"
+                        }, void 0, false, {
+                            fileName: "src/components/StaffLogin.js",
+                            lineNumber: 43,
+                            columnNumber: 19
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/StaffLogin.js",
+                        lineNumber: 43,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/StaffLogin.js",
+                    lineNumber: 42,
+                    columnNumber: 7
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/StaffLogin.js",
+                lineNumber: 41,
+                columnNumber: 10
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                className: "navbar navbar-expand-lg navbar-dark bg-dark",
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    className: "container-fluid",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            className: "navbar-brand",
+                            href: "/Hotel",
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/StaffLogin.js",
+                            lineNumber: 55,
+                            columnNumber: 20
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                            className: "navbar-brand",
+                            href: "/StaffLogin",
+                            children: "Staff Login"
+                        }, void 0, false, {
+                            fileName: "src/components/StaffLogin.js",
+                            lineNumber: 57,
+                            columnNumber: 20
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                            className: "navbar-toggler",
+                            type: "button",
+                            "data-bs-toggle": "collapse",
+                            "data-bs-target": "#navbarNavAltMarkup",
+                            "aria-controls": "navbarNavAltMarkup",
+                            "aria-expanded": "false",
+                            "aria-label": "Toggle navigation",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                className: "navbar-toggler-icon"
+                            }, void 0, false, {
+                                fileName: "src/components/StaffLogin.js",
+                                lineNumber: 59,
+                                columnNumber: 23
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/StaffLogin.js",
+                            lineNumber: 58,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "collapse navbar-collapse",
+                            id: "navbarNavAltMarkup",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "navbar-nav",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 66,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 67,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: " student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 68,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "student"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 69,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 71,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 72,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 73,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "staff"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 74,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 77,
+                                        columnNumber: 20
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 78,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 79,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                        style: {
+                                            display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                        },
+                                        className: "nav-link active",
+                                        href: "/",
+                                        "aria-current": "page",
+                                        children: "admin"
+                                    }, void 0, false, {
+                                        fileName: "src/components/StaffLogin.js",
+                                        lineNumber: 80,
+                                        columnNumber: 19
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/StaffLogin.js",
+                                lineNumber: 62,
+                                columnNumber: 18
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/StaffLogin.js",
+                            lineNumber: 61,
+                            columnNumber: 16
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/StaffLogin.js",
+                    lineNumber: 54,
+                    columnNumber: 15
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/StaffLogin.js",
+                lineNumber: 53,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/StaffLogin.js",
+                lineNumber: 85,
+                columnNumber: 3
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                className: "login-form",
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            className: "heading",
+                            children: "Sign In"
+                        }, void 0, false, {
+                            fileName: "src/components/StaffLogin.js",
+                            lineNumber: 88,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "lead",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                    className: "fas fa-user"
+                                }, void 0, false, {
+                                    fileName: "src/components/StaffLogin.js",
+                                    lineNumber: 90,
+                                    columnNumber: 5
+                                }, undefined),
+                                " Staff Member Login"
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/StaffLogin.js",
+                            lineNumber: 89,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/StaffLogin.js",
+                            lineNumber: 92,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                            onSubmit: (e)=>onSubmit(e)
+                                            ,
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "form-group",
+                                                    style: {
+                                                        marginBottom: '15px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            style: {
+                                                                margineBottom: '5px'
+                                                            },
+                                                            children: "Enter Email Address : "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/StaffLogin.js",
+                                                            lineNumber: 98,
+                                                            columnNumber: 7
+                                                        }, undefined),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "Email",
+                                                            className: "form-control",
+                                                            placeholder: "Email Address",
+                                                            name: "Email",
+                                                            value: Email,
+                                                            onChange: (e)=>onChange(e)
+                                                            ,
+                                                            required: true
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/StaffLogin.js",
+                                                            lineNumber: 99,
+                                                            columnNumber: 9
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/StaffLogin.js",
+                                                    lineNumber: 97,
+                                                    columnNumber: 7
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                    fileName: "src/components/StaffLogin.js",
+                                                    lineNumber: 108,
+                                                    columnNumber: 15
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                    className: "form-group",
+                                                    style: {
+                                                        marginBottom: '15px'
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                            style: {
+                                                                margineBottom: '5px'
+                                                            },
+                                                            children: "Enter Password : "
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/StaffLogin.js",
+                                                            lineNumber: 110,
+                                                            columnNumber: 9
+                                                        }, undefined),
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                            type: "password",
+                                                            className: "form-control",
+                                                            placeholder: "Password",
+                                                            name: "Password",
+                                                            minLength: "6",
+                                                            value: Password,
+                                                            onChange: (e)=>onChange(e)
+                                                            ,
+                                                            required: true
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/StaffLogin.js",
+                                                            lineNumber: 111,
+                                                            columnNumber: 10
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/StaffLogin.js",
+                                                    lineNumber: 109,
+                                                    columnNumber: 9
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                    fileName: "src/components/StaffLogin.js",
+                                                    lineNumber: 121,
+                                                    columnNumber: 15
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "submit",
+                                                        className: "btn btn-primary btn-lg active",
+                                                        value: "Login"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/StaffLogin.js",
+                                                        lineNumber: 123,
+                                                        columnNumber: 9
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/StaffLogin.js",
+                                                    lineNumber: 122,
+                                                    columnNumber: 33
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/StaffLogin.js",
+                                            lineNumber: 96,
+                                            columnNumber: 7
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                            fileName: "src/components/StaffLogin.js",
+                                            lineNumber: 126,
+                                            columnNumber: 40
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/StaffLogin.js",
+                                    lineNumber: 95,
+                                    columnNumber: 6
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/StaffLogin.js",
+                                lineNumber: 94,
+                                columnNumber: 5
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/StaffLogin.js",
+                            lineNumber: 93,
+                            columnNumber: 4
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("p", {
+                            className: "link",
+                            children: [
+                                "Don't have an account? ",
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactRouterDom.Link, {
+                                    to: "/",
+                                    children: "Sign Up"
+                                }, void 0, false, {
+                                    fileName: "src/components/StaffLogin.js",
+                                    lineNumber: 131,
+                                    columnNumber: 56
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/StaffLogin.js",
+                            lineNumber: 130,
+                            columnNumber: 33
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/StaffLogin.js",
+                    lineNumber: 87,
+                    columnNumber: 13
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/StaffLogin.js",
+                lineNumber: 86,
+                columnNumber: 3
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/StaffLogin.js",
+        lineNumber: 39,
+        columnNumber: 3
+    }, undefined);
+};
+_s(Login, "xPzwqGJ8XTRoOHItblqsoI20vTw=", false, function() {
+    return [
+        _reactRouterDom.useNavigate
+    ];
+});
+_c = Login;
+exports.default = Login;
+var _c;
+$RefreshReg$(_c, "Login");
+
+  $parcel$ReactRefreshHelpers$37e2.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../services/AuthServices":"bqHbc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kmMCp":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2db2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2db2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class AddTopisPanels extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            GroupId: "",
+            PanelMember1: "",
+            PanelMember2: "",
+            PanelMember3: "",
+            PanelMember4: ""
+        };
+    }
+    handleInputChange = (e)=>{
+        const { name , value  } = e.target;
+        this.setState({
+            ...this.state,
+            [name]: value
+        });
+    };
+    onSubmit = (e)=>{
+        e.preventDefault();
+        const { GroupId , PanelMember1 , PanelMember2 , PanelMember3 , PanelMember4  } = this.state;
+        const data = {
+            GroupId: GroupId,
+            PanelMember1: PanelMember1,
+            PanelMember2: PanelMember2,
+            PanelMember3: PanelMember3,
+            PanelMember4: PanelMember4
+        };
+        console.log(data);
+        _axiosDefault.default.post(`http://localhost:8000/TopicPanels/save`, data).then((res)=>{
+            console.log(data);
+            if (res.data.success) this.setState({
+                GroupId: "",
+                PanelMember1: "",
+                PanelMember2: "",
+                PanelMember3: "",
+                PanelMember4: ""
+            });
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/AddTopisPanels.js",
+                        lineNumber: 77,
+                        columnNumber: 10
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            children: " -TOPIC PANEL FORMATION- "
+                        }, void 0, false, {
+                            fileName: "src/components/AddTopisPanels.js",
+                            lineNumber: 78,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/AddTopisPanels.js",
+                        lineNumber: 78,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/AddTopisPanels.js",
+                        lineNumber: 79,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/AddTopisPanels.js",
+                        lineNumber: 81,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            width: "950px",
+                            height: "500px",
+                            style: {
+                                margin: "20px"
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: " Student Group ID : "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 96,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "GroupId",
+                                                        value: this.state.GroupId,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "Enter group id"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 97,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddTopisPanels.js",
+                                                lineNumber: 95,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "Panel Member 1: "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 110,
+                                                        columnNumber: 29
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember1",
+                                                        value: this.state.PanelMember1,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 1"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 111,
+                                                        columnNumber: 29
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddTopisPanels.js",
+                                                lineNumber: 109,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "  Panel Member 2: "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 122,
+                                                        columnNumber: 29
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember2",
+                                                        value: this.state.PanelMember2,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 2"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 123,
+                                                        columnNumber: 29
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddTopisPanels.js",
+                                                lineNumber: 121,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "Panel Member 3 : "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 136,
+                                                        columnNumber: 29
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember3",
+                                                        value: this.state.PanelMember3,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 137,
+                                                        columnNumber: 29
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddTopisPanels.js",
+                                                lineNumber: 135,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "Panel Member 4: "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 151,
+                                                        columnNumber: 29
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember4",
+                                                        value: this.state.PanelMember4,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 4"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 152,
+                                                        columnNumber: 29
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddTopisPanels.js",
+                                                lineNumber: 150,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                className: "btn btn-warning",
+                                                type: "submit",
+                                                style: {
+                                                    textDecoration: 'none',
+                                                    color: 'white'
+                                                },
+                                                onClick: this.onSubmit,
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                        className: "far fa-check-square"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 169,
+                                                        columnNumber: 25
+                                                    }, this),
+                                                    " Submit "
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddTopisPanels.js",
+                                                lineNumber: 168,
+                                                columnNumber: 25
+                                            }, this),
+                                            "\xa0",
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                className: "btn btn-warning",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    href: "/ViewTopis",
+                                                    style: {
+                                                        textDecoration: 'none',
+                                                        color: 'white',
+                                                        marginTop: '15px'
+                                                    },
+                                                    children: "View Details"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/AddTopisPanels.js",
+                                                    lineNumber: 171,
+                                                    columnNumber: 61
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/AddTopisPanels.js",
+                                                lineNumber: 171,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                className: "far fa-check-square"
+                                            }, void 0, false, {
+                                                fileName: "src/components/AddTopisPanels.js",
+                                                lineNumber: 172,
+                                                columnNumber: 25
+                                            }, this),
+                                            "\xa0",
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                fileName: "src/components/AddTopisPanels.js",
+                                                lineNumber: 173,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 178,
+                                                        columnNumber: 25
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                        fileName: "src/components/AddTopisPanels.js",
+                                                        lineNumber: 178,
+                                                        columnNumber: 30
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddTopisPanels.js",
+                                                lineNumber: 175,
+                                                columnNumber: 25
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/AddTopisPanels.js",
+                                        lineNumber: 92,
+                                        columnNumber: 21
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/AddTopisPanels.js",
+                                    lineNumber: 90,
+                                    columnNumber: 17
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/AddTopisPanels.js",
+                                lineNumber: 89,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/AddTopisPanels.js",
+                            lineNumber: 88,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/AddTopisPanels.js",
+                        lineNumber: 87,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/AddTopisPanels.js",
+                lineNumber: 75,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/AddTopisPanels.js",
+            lineNumber: 74,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = AddTopisPanels;
+
+  $parcel$ReactRefreshHelpers$2db2.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"amAvb":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6cd0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6cd0.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class AddPresentationPanels extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            GroupId: "",
+            PanelMember1: "",
+            PanelMember2: "",
+            PanelMember3: "",
+            PanelMember4: ""
+        };
+    }
+    handleInputChange = (e)=>{
+        const { name , value  } = e.target;
+        this.setState({
+            ...this.state,
+            [name]: value
+        });
+    };
+    onSubmit = (e)=>{
+        e.preventDefault();
+        const { GroupId , PanelMember1 , PanelMember2 , PanelMember3 , PanelMember4  } = this.state;
+        const data = {
+            GroupId: GroupId,
+            PanelMember1: PanelMember1,
+            PanelMember2: PanelMember2,
+            PanelMember3: PanelMember3,
+            PanelMember4: PanelMember4
+        };
+        console.log(data);
+        _axiosDefault.default.post(`http://localhost:8000/PresentationPanels/save`, data).then((res)=>{
+            console.log(data);
+            if (res.data.success) this.setState({
+                GroupId: "",
+                PanelMember1: "",
+                PanelMember2: "",
+                PanelMember3: "",
+                PanelMember4: ""
+            });
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/AddPresentationPanels.js",
+                        lineNumber: 77,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            children: " PRESENTATION PANEL FORMATION "
+                        }, void 0, false, {
+                            fileName: "src/components/AddPresentationPanels.js",
+                            lineNumber: 78,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/AddPresentationPanels.js",
+                        lineNumber: 78,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/AddPresentationPanels.js",
+                        lineNumber: 79,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/AddPresentationPanels.js",
+                        lineNumber: 81,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            width: "950px",
+                            height: "500px",
+                            style: {
+                                margin: "20px"
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: " Student Group ID : "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 96,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "GroupId",
+                                                        value: this.state.GroupId,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "Enter group id"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 97,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddPresentationPanels.js",
+                                                lineNumber: 95,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "Panel Member 1: "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 110,
+                                                        columnNumber: 29
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember1",
+                                                        value: this.state.PanelMember1,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 1"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 111,
+                                                        columnNumber: 29
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddPresentationPanels.js",
+                                                lineNumber: 109,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "  Panel Member 2: "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 122,
+                                                        columnNumber: 29
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember2",
+                                                        value: this.state.PanelMember2,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 2"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 123,
+                                                        columnNumber: 29
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddPresentationPanels.js",
+                                                lineNumber: 121,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "Panel Member 3 : "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 136,
+                                                        columnNumber: 29
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember3",
+                                                        value: this.state.PanelMember3,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 137,
+                                                        columnNumber: 29
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddPresentationPanels.js",
+                                                lineNumber: 135,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "Panel Member 4: "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 151,
+                                                        columnNumber: 29
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember4",
+                                                        value: this.state.PanelMember4,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 4"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 152,
+                                                        columnNumber: 29
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddPresentationPanels.js",
+                                                lineNumber: 150,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                className: "btn btn-warning",
+                                                type: "submit",
+                                                style: {
+                                                    textDecoration: 'none',
+                                                    color: 'white'
+                                                },
+                                                onClick: this.onSubmit,
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                        className: "far fa-check-square"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 169,
+                                                        columnNumber: 25
+                                                    }, this),
+                                                    " Submit "
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddPresentationPanels.js",
+                                                lineNumber: 168,
+                                                columnNumber: 25
+                                            }, this),
+                                            "\xa0",
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                className: "btn btn-warning",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    href: "/ViewPresentation",
+                                                    style: {
+                                                        textDecoration: 'none',
+                                                        color: 'white',
+                                                        marginTop: '15px'
+                                                    },
+                                                    children: "View Panels"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/AddPresentationPanels.js",
+                                                    lineNumber: 171,
+                                                    columnNumber: 61
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/AddPresentationPanels.js",
+                                                lineNumber: 171,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                className: "far fa-check-square"
+                                            }, void 0, false, {
+                                                fileName: "src/components/AddPresentationPanels.js",
+                                                lineNumber: 172,
+                                                columnNumber: 25
+                                            }, this),
+                                            "\xa0",
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                fileName: "src/components/AddPresentationPanels.js",
+                                                lineNumber: 173,
+                                                columnNumber: 25
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 178,
+                                                        columnNumber: 25
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                        fileName: "src/components/AddPresentationPanels.js",
+                                                        lineNumber: 178,
+                                                        columnNumber: 30
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddPresentationPanels.js",
+                                                lineNumber: 175,
+                                                columnNumber: 25
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/AddPresentationPanels.js",
+                                        lineNumber: 92,
+                                        columnNumber: 21
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/AddPresentationPanels.js",
+                                    lineNumber: 90,
+                                    columnNumber: 17
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/AddPresentationPanels.js",
+                                lineNumber: 89,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/AddPresentationPanels.js",
+                            lineNumber: 88,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/AddPresentationPanels.js",
+                        lineNumber: 87,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/AddPresentationPanels.js",
+                lineNumber: 75,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/AddPresentationPanels.js",
+            lineNumber: 74,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = AddPresentationPanels;
+
+  $parcel$ReactRefreshHelpers$6cd0.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dFHvl":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7334 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7334.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class AddThesisPanels extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            GroupId: "",
+            PanelMember1: "",
+            PanelMember2: "",
+            PanelMember3: "",
+            PanelMember4: ""
+        };
+    }
+    handleInputChange = (e)=>{
+        const { name , value  } = e.target;
+        this.setState({
+            ...this.state,
+            [name]: value
+        });
+    };
+    onSubmit = (e)=>{
+        e.preventDefault();
+        const { GroupId , PanelMember1 , PanelMember2 , PanelMember3 , PanelMember4  } = this.state;
+        const data = {
+            GroupId: GroupId,
+            PanelMember1: PanelMember1,
+            PanelMember2: PanelMember2,
+            PanelMember3: PanelMember3,
+            PanelMember4: PanelMember4
+        };
+        console.log(data);
+        _axiosDefault.default.post(`http://localhost:8000/ThesisPanels/save`, data).then((res)=>{
+            console.log(data);
+            if (res.data.success) this.setState({
+                GroupId: "",
+                PanelMember1: "",
+                PanelMember2: "",
+                PanelMember3: "",
+                PanelMember4: ""
+            });
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/AddThesisPanels.js",
+                        lineNumber: 77,
+                        columnNumber: 10
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                            children: " THESIS PANEL FORMATION "
+                        }, void 0, false, {
+                            fileName: "src/components/AddThesisPanels.js",
+                            lineNumber: 78,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/AddThesisPanels.js",
+                        lineNumber: 78,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/AddThesisPanels.js",
+                        lineNumber: 79,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/AddThesisPanels.js",
+                        lineNumber: 81,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            width: "950px",
+                            height: "500px",
+                            style: {
+                                margin: "20px"
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: " Student Group ID : "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 96,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "GroupId",
+                                                        value: this.state.GroupId,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "Enter group id"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 97,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddThesisPanels.js",
+                                                lineNumber: 95,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "Panel Member 1: "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 110,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember1",
+                                                        value: this.state.PanelMember1,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 1"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 111,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddThesisPanels.js",
+                                                lineNumber: 109,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "  Panel Member 2: "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 122,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember2",
+                                                        value: this.state.PanelMember2,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 2"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 123,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddThesisPanels.js",
+                                                lineNumber: 121,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "Panel Member 3 : "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 136,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember3",
+                                                        value: this.state.PanelMember3,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 137,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddThesisPanels.js",
+                                                lineNumber: 135,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                className: "form-group",
+                                                style: {
+                                                    marginBottom: '15px'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                        style: {
+                                                            margineBottom: '5px'
+                                                        },
+                                                        children: "Panel Member 4: "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 151,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                        type: "text",
+                                                        className: "form-control",
+                                                        name: "PanelMember4",
+                                                        value: this.state.PanelMember4,
+                                                        onChange: this.handleInputChange,
+                                                        placeholder: "member 4"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 152,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddThesisPanels.js",
+                                                lineNumber: 150,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                className: "btn btn-warning",
+                                                type: "submit",
+                                                style: {
+                                                    textDecoration: 'none',
+                                                    color: 'white'
+                                                },
+                                                onClick: this.onSubmit,
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                        className: "far fa-check-square"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 169,
+                                                        columnNumber: 29
+                                                    }, this),
+                                                    " Submit "
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddThesisPanels.js",
+                                                lineNumber: 168,
+                                                columnNumber: 29
+                                            }, this),
+                                            "\xa0",
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                                className: "btn btn-warning",
+                                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                    href: "/ViewThesis",
+                                                    style: {
+                                                        textDecoration: 'none',
+                                                        color: 'white',
+                                                        marginTop: '15px'
+                                                    },
+                                                    children: "View Panels"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/AddThesisPanels.js",
+                                                    lineNumber: 171,
+                                                    columnNumber: 65
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/components/AddThesisPanels.js",
+                                                lineNumber: 171,
+                                                columnNumber: 29
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                className: "far fa-check-square"
+                                            }, void 0, false, {
+                                                fileName: "src/components/AddThesisPanels.js",
+                                                lineNumber: 172,
+                                                columnNumber: 29
+                                            }, this),
+                                            "\xa0",
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                fileName: "src/components/AddThesisPanels.js",
+                                                lineNumber: 173,
+                                                columnNumber: 29
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 178,
+                                                        columnNumber: 25
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                        fileName: "src/components/AddThesisPanels.js",
+                                                        lineNumber: 178,
+                                                        columnNumber: 30
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/AddThesisPanels.js",
+                                                lineNumber: 175,
+                                                columnNumber: 29
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/AddThesisPanels.js",
+                                        lineNumber: 92,
+                                        columnNumber: 21
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/AddThesisPanels.js",
+                                    lineNumber: 90,
+                                    columnNumber: 17
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/AddThesisPanels.js",
+                                lineNumber: 89,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/AddThesisPanels.js",
+                            lineNumber: 88,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/AddThesisPanels.js",
+                        lineNumber: 87,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/AddThesisPanels.js",
+                lineNumber: 75,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/AddThesisPanels.js",
+            lineNumber: 74,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = AddThesisPanels;
+
+  $parcel$ReactRefreshHelpers$7334.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9D82C":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$eafe = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$eafe.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class ViewTopis extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            topic: []
+        };
+    }
+    componentDidMount() {
+        this.retrieveTopicpanel();
+    }
+    retrieveTopicpanel() {
+        _axiosDefault.default.get("http://localhost:8000/TopicPanels").then((res)=>{
+            if (res.data.success) {
+                this.setState({
+                    topic: res.data.existingTopicPanels
+                });
+                console.log(this.state.topic);
+            }
+        });
+    }
+    onDelete = (id)=>{
+        _axiosDefault.default.delete(`http://localhost:8000/TopicPanels/delete/${id}`).then((res)=>{
+            alert("Delete successfully");
+            this.retrieveTopicpanel();
+        });
+    };
+    //to serch specific data
+    filterData(topic1, searchKey) {
+        const result = topic1.filter((topic)=>topic.GroupId.toLowerCase().includes(searchKey)
+        );
+        this.setState({
+            topic: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/TopicPanels").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingTopicPanels, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewTopis.js",
+                        lineNumber: 69,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-md-8 mt-4 mx-auto",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            style: {
+                                height: '80px',
+                                width: '100%',
+                                backgroundColor: "#000080",
+                                marginTop: '-20px'
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                    style: {
+                                        color: 'white'
+                                    },
+                                    children: "TOPIC PANEL FORMATION DETAILS"
+                                }, void 0, false, {
+                                    fileName: "src/components/ViewTopis.js",
+                                    lineNumber: 72,
+                                    columnNumber: 21
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/ViewTopis.js",
+                                lineNumber: 72,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/ViewTopis.js",
+                            lineNumber: 71,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/ViewTopis.js",
+                        lineNumber: 70,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewTopis.js",
+                        lineNumber: 74,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
+                        fileName: "src/components/ViewTopis.js",
+                        lineNumber: 76,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "col-lg-9 mt-2 mb-2",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                type: "search",
+                                placeholder: "search group id",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/ViewTopis.js",
+                                lineNumber: 79,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/ViewTopis.js",
+                            lineNumber: 78,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/ViewTopis.js",
+                        lineNumber: 77,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewTopis.js",
+                        lineNumber: 91,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                                className: "table",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "id"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewTopis.js",
+                                                    lineNumber: 96,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Group ID"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewTopis.js",
+                                                    lineNumber: 97,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 1"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewTopis.js",
+                                                    lineNumber: 98,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 2"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewTopis.js",
+                                                    lineNumber: 99,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 3"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewTopis.js",
+                                                    lineNumber: 100,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 4"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewTopis.js",
+                                                    lineNumber: 101,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/ViewTopis.js",
+                                            lineNumber: 95,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/ViewTopis.js",
+                                        lineNumber: 94,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                        children: this.state.topic.map((topic, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                        scope: "row",
+                                                        children: index + 1
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewTopis.js",
+                                                        lineNumber: 109,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: [
+                                                            topic.GroupId,
+                                                            "  "
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/ViewTopis.js",
+                                                        lineNumber: 110,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: topic.PanelMember1
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewTopis.js",
+                                                        lineNumber: 111,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: topic.PanelMember2
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewTopis.js",
+                                                        lineNumber: 112,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: topic.PanelMember3
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewTopis.js",
+                                                        lineNumber: 113,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: topic.PanelMember4
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewTopis.js",
+                                                        lineNumber: 114,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                                fileName: "src/components/ViewTopis.js",
+                                                                lineNumber: 118,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                                className: "btn btn-primary",
+                                                                style: {
+                                                                    textDecoration: 'none',
+                                                                    color: 'white'
+                                                                },
+                                                                href: `/UpdateTopics/${topic._id}`,
+                                                                children: "\xa0Edit"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/ViewTopis.js",
+                                                                lineNumber: 119,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            "\xa0 \xa0",
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                                className: "btn btn-primary",
+                                                                style: {
+                                                                    textDecoration: 'none',
+                                                                    color: 'white'
+                                                                },
+                                                                href: "/",
+                                                                onClick: ()=>this.onDelete(topic._id)
+                                                                ,
+                                                                children: "\xa0Delete"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/ViewTopis.js",
+                                                                lineNumber: 126,
+                                                                columnNumber: 33
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/ViewTopis.js",
+                                                        lineNumber: 116,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, index, true, {
+                                                fileName: "src/components/ViewTopis.js",
+                                                lineNumber: 108,
+                                                columnNumber: 17
+                                            }, this)
+                                        )
+                                    }, void 0, false, {
+                                        fileName: "src/components/ViewTopis.js",
+                                        lineNumber: 105,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/ViewTopis.js",
+                                lineNumber: 93,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                className: "btn btn-lg btn-primary",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                    href: "/AddTopisPanels",
+                                    style: {
+                                        textDecoration: 'none',
+                                        color: 'white',
+                                        marginTop: '15px'
+                                    },
+                                    children: " new Topic Panel"
+                                }, void 0, false, {
+                                    fileName: "src/components/ViewTopis.js",
+                                    lineNumber: 145,
+                                    columnNumber: 52
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/ViewTopis.js",
+                                lineNumber: 145,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ViewTopis.js",
+                        lineNumber: 92,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewTopis.js",
+                        lineNumber: 147,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/ViewTopis.js",
+                lineNumber: 68,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/ViewTopis.js",
+            lineNumber: 67,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = ViewTopis;
+
+  $parcel$ReactRefreshHelpers$eafe.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gYL9l":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$90c4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$90c4.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class ViewThesis extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            thesis: []
+        };
+    }
+    componentDidMount() {
+        this.retrieveThesisPanels();
+    }
+    retrieveThesisPanels() {
+        _axiosDefault.default.get("http://localhost:8000/ThesisPanels").then((res)=>{
+            if (res.data.success) {
+                this.setState({
+                    thesis: res.data.existingThesisPanels
+                });
+                console.log(this.state.thesis);
+            }
+        });
+    }
+    onDelete = (id)=>{
+        _axiosDefault.default.delete(`http://localhost:8000/ThesisPanels/delete/${id}`).then((res)=>{
+            alert("Delete successfully");
+            this.retrieveThesisPanels();
+        });
+    };
+    //to serch specific data
+    filterData(thesis1, searchKey) {
+        const result = thesis1.filter((thesis)=>thesis.GroupId.toLowerCase().includes(searchKey)
+        );
+        this.setState({
+            thesis: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/ThesisPanels").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingThesisPanels, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewThesis.js",
+                        lineNumber: 69,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-md-8 mt-4 mx-auto",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            style: {
+                                height: '80px',
+                                width: '100%',
+                                backgroundColor: "#000080",
+                                marginTop: '-20px'
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                    style: {
+                                        color: 'white'
+                                    },
+                                    children: "THESIS PANEL FORMATION DETAILS"
+                                }, void 0, false, {
+                                    fileName: "src/components/ViewThesis.js",
+                                    lineNumber: 72,
+                                    columnNumber: 21
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/ViewThesis.js",
+                                lineNumber: 72,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/ViewThesis.js",
+                            lineNumber: 71,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/ViewThesis.js",
+                        lineNumber: 70,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewThesis.js",
+                        lineNumber: 74,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
+                        fileName: "src/components/ViewThesis.js",
+                        lineNumber: 76,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "col-lg-9 mt-2 mb-2",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                type: "search",
+                                placeholder: "search group id",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/ViewThesis.js",
+                                lineNumber: 80,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/ViewThesis.js",
+                            lineNumber: 79,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/ViewThesis.js",
+                        lineNumber: 78,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewThesis.js",
+                        lineNumber: 92,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                                className: "table",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "id"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewThesis.js",
+                                                    lineNumber: 97,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Group ID"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewThesis.js",
+                                                    lineNumber: 98,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 1"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewThesis.js",
+                                                    lineNumber: 99,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 2"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewThesis.js",
+                                                    lineNumber: 100,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 3"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewThesis.js",
+                                                    lineNumber: 101,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 4"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewThesis.js",
+                                                    lineNumber: 102,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/ViewThesis.js",
+                                            lineNumber: 96,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/ViewThesis.js",
+                                        lineNumber: 95,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                        children: this.state.thesis.map((thesis, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                        scope: "row",
+                                                        children: index + 1
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewThesis.js",
+                                                        lineNumber: 110,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: [
+                                                            thesis.GroupId,
+                                                            "  "
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/ViewThesis.js",
+                                                        lineNumber: 111,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: thesis.PanelMember1
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewThesis.js",
+                                                        lineNumber: 112,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: thesis.PanelMember2
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewThesis.js",
+                                                        lineNumber: 113,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: thesis.PanelMember3
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewThesis.js",
+                                                        lineNumber: 114,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: thesis.PanelMember4
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewThesis.js",
+                                                        lineNumber: 115,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                                fileName: "src/components/ViewThesis.js",
+                                                                lineNumber: 119,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                                className: "btn btn-primary",
+                                                                style: {
+                                                                    textDecoration: 'none',
+                                                                    color: 'white'
+                                                                },
+                                                                href: `/UpdateThesis/${thesis._id}`,
+                                                                children: "\xa0Edit"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/ViewThesis.js",
+                                                                lineNumber: 120,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            "\xa0 \xa0",
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                                className: "btn btn-primary",
+                                                                style: {
+                                                                    textDecoration: 'none',
+                                                                    color: 'white'
+                                                                },
+                                                                href: "/",
+                                                                onClick: ()=>this.onDelete(thesis._id)
+                                                                ,
+                                                                children: "\xa0Delete"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/ViewThesis.js",
+                                                                lineNumber: 127,
+                                                                columnNumber: 33
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/ViewThesis.js",
+                                                        lineNumber: 117,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, index, true, {
+                                                fileName: "src/components/ViewThesis.js",
+                                                lineNumber: 109,
+                                                columnNumber: 17
+                                            }, this)
+                                        )
+                                    }, void 0, false, {
+                                        fileName: "src/components/ViewThesis.js",
+                                        lineNumber: 106,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/ViewThesis.js",
+                                lineNumber: 94,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                className: "btn btn-lg btn-primary",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                    href: "/AddThesisPanels",
+                                    style: {
+                                        textDecoration: 'none',
+                                        color: 'white',
+                                        marginTop: '15px'
+                                    },
+                                    children: " new thesis panel"
+                                }, void 0, false, {
+                                    fileName: "src/components/ViewThesis.js",
+                                    lineNumber: 146,
+                                    columnNumber: 52
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/ViewThesis.js",
+                                lineNumber: 146,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ViewThesis.js",
+                        lineNumber: 93,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewThesis.js",
+                        lineNumber: 148,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/ViewThesis.js",
+                lineNumber: 68,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/ViewThesis.js",
+            lineNumber: 67,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = ViewThesis;
+
+  $parcel$ReactRefreshHelpers$90c4.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fbFob":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2781 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2781.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class ViewPresentation extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            present: []
+        };
+    }
+    componentDidMount() {
+        this.retrievePresentationPanels();
+    }
+    retrievePresentationPanels() {
+        _axiosDefault.default.get("http://localhost:8000/PresentationPanels").then((res)=>{
+            if (res.data.success) {
+                this.setState({
+                    present: res.data.existingPresentationPanels
+                });
+                console.log(this.state.present);
+            }
+        });
+    }
+    onDelete = (id)=>{
+        _axiosDefault.default.delete(`http://localhost:8000/PresentationPanels/delete/${id}`).then((res)=>{
+            alert("Delete successfully");
+            this.retrievePresentationPanels();
+        });
+    };
+    filterData(present1, searchKey) {
+        const result = present1.filter((present)=>present.GroupId.toLowerCase().includes(searchKey)
+        );
+        this.setState({
+            present: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/PresentationPanels").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingPresentationPanels, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewPresentation.js",
+                        lineNumber: 70,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-md-8 mt-4 mx-auto",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            style: {
+                                height: '80px',
+                                width: '100%',
+                                backgroundColor: "#000080",
+                                marginTop: '-20px'
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                    style: {
+                                        color: 'white'
+                                    },
+                                    children: "PRESENTATION PANEL FORMATION DETAILS"
+                                }, void 0, false, {
+                                    fileName: "src/components/ViewPresentation.js",
+                                    lineNumber: 73,
+                                    columnNumber: 21
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/ViewPresentation.js",
+                                lineNumber: 73,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/ViewPresentation.js",
+                            lineNumber: 72,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/ViewPresentation.js",
+                        lineNumber: 71,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewPresentation.js",
+                        lineNumber: 75,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
+                        fileName: "src/components/ViewPresentation.js",
+                        lineNumber: 77,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "col-lg-9 mt-2 mb-2",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                type: "search",
+                                placeholder: "search by group id",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/ViewPresentation.js",
+                                lineNumber: 81,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/ViewPresentation.js",
+                            lineNumber: 80,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/ViewPresentation.js",
+                        lineNumber: 79,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewPresentation.js",
+                        lineNumber: 93,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                                className: "table",
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "id"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewPresentation.js",
+                                                    lineNumber: 98,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Group ID"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewPresentation.js",
+                                                    lineNumber: 99,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 1"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewPresentation.js",
+                                                    lineNumber: 100,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 2"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewPresentation.js",
+                                                    lineNumber: 101,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 3"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewPresentation.js",
+                                                    lineNumber: 102,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "col",
+                                                    children: "Member 4"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/ViewPresentation.js",
+                                                    lineNumber: 103,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/ViewPresentation.js",
+                                            lineNumber: 97,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/components/ViewPresentation.js",
+                                        lineNumber: 96,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                        children: this.state.present.map((present, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                                children: [
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                        scope: "row",
+                                                        children: index + 1
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewPresentation.js",
+                                                        lineNumber: 111,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: [
+                                                            present.GroupId,
+                                                            "  "
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/ViewPresentation.js",
+                                                        lineNumber: 112,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: present.PanelMember1
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewPresentation.js",
+                                                        lineNumber: 113,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: present.PanelMember2
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewPresentation.js",
+                                                        lineNumber: 114,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: present.PanelMember3
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewPresentation.js",
+                                                        lineNumber: 115,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: present.PanelMember4
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/ViewPresentation.js",
+                                                        lineNumber: 116,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                                fileName: "src/components/ViewPresentation.js",
+                                                                lineNumber: 120,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                                className: "btn btn-primary",
+                                                                style: {
+                                                                    textDecoration: 'none',
+                                                                    color: 'white'
+                                                                },
+                                                                href: `/Updatepresentation/${present._id}`,
+                                                                children: "\xa0Edit"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/ViewPresentation.js",
+                                                                lineNumber: 121,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            "\xa0 \xa0",
+                                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                                className: "btn btn-primary",
+                                                                style: {
+                                                                    textDecoration: 'none',
+                                                                    color: 'white'
+                                                                },
+                                                                href: "/",
+                                                                onClick: ()=>this.onDelete(present._id)
+                                                                ,
+                                                                children: "\xa0Delete"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/ViewPresentation.js",
+                                                                lineNumber: 128,
+                                                                columnNumber: 33
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/ViewPresentation.js",
+                                                        lineNumber: 118,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, index, true, {
+                                                fileName: "src/components/ViewPresentation.js",
+                                                lineNumber: 110,
+                                                columnNumber: 17
+                                            }, this)
+                                        )
+                                    }, void 0, false, {
+                                        fileName: "src/components/ViewPresentation.js",
+                                        lineNumber: 107,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/ViewPresentation.js",
+                                lineNumber: 95,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                className: "btn btn-lg btn-primary",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                    href: "/AddPresentationPanels",
+                                    style: {
+                                        textDecoration: 'none',
+                                        color: 'white',
+                                        marginTop: '15px'
+                                    },
+                                    children: " new Presentation panel"
+                                }, void 0, false, {
+                                    fileName: "src/components/ViewPresentation.js",
+                                    lineNumber: 146,
+                                    columnNumber: 52
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/ViewPresentation.js",
+                                lineNumber: 146,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ViewPresentation.js",
+                        lineNumber: 94,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/ViewPresentation.js",
+                        lineNumber: 148,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/ViewPresentation.js",
+                lineNumber: 69,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/ViewPresentation.js",
+            lineNumber: 68,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = ViewPresentation;
+
+  $parcel$ReactRefreshHelpers$2781.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8Qxbw":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7b08 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7b08.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _authServices = require("../services/AuthServices");
+var _s = $RefreshSig$();
+const Viewallusers = ()=>{
+    _s();
+    const navigate = _reactRouterDom.useNavigate();
+    const handleSubmit = ()=>{
+        localStorage.removeItem("token");
+        localStorage.removeItem("userRole");
+        navigate("/Login");
+    };
+    const [users1, setusers] = _react.useState([]);
+    const GetRooms = async ()=>{
+        let data = await _authServices.GetallUsers();
+        let cusdata = [];
+        console.log("All Users", data?.data);
+        data?.data.map((users)=>{
+            if (users?.userRole == "user") cusdata.push(users);
+        });
+        setusers(cusdata);
+    };
+    _react.useEffect(()=>{
+        GetRooms();
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        style: {
+            textAlign: "center"
+        },
+        children: [
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                style: {
+                    marginTop: "30px"
+                }
+            }, void 0, false, {
+                fileName: "src/components/Viewallusers.js",
+                lineNumber: 43,
+                columnNumber: 14
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/Viewallusers.js",
+                lineNumber: 47,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("nav", {
+                className: "navbar navbar-expand-lg navbar-dark bg-dark",
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "container-fluid",
+                        children: [
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                className: "navbar-brand",
+                                href: "/Home",
+                                children: "Home"
+                            }, void 0, false, {
+                                fileName: "src/components/Viewallusers.js",
+                                lineNumber: 50,
+                                columnNumber: 20
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                className: "navbar-toggler",
+                                type: "button",
+                                "data-bs-toggle": "collapse",
+                                "data-bs-target": "#navbarNavAltMarkup",
+                                "aria-controls": "navbarNavAltMarkup",
+                                "aria-expanded": "false",
+                                "aria-label": "Toggle navigation",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("span", {
+                                    className: "navbar-toggler-icon"
+                                }, void 0, false, {
+                                    fileName: "src/components/Viewallusers.js",
+                                    lineNumber: 52,
+                                    columnNumber: 23
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Viewallusers.js",
+                                lineNumber: 51,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                className: "collapse navbar-collapse",
+                                id: "navbarNavAltMarkup",
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                    className: "navbar-nav",
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: "student"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 58,
+                                            columnNumber: 21
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: "student"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 59,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: " student"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 60,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "user" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: "student"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 61,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: "staff"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 63,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: "staff"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 64,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: "staff"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 65,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "staff" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: "staff"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 66,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: "admin"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 69,
+                                            columnNumber: 20
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: "admin"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 70,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: "admin"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 71,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                            style: {
+                                                display: localStorage.getItem("userRole") == "admin" ? "flex" : "none"
+                                            },
+                                            className: "nav-link active",
+                                            href: "/",
+                                            "aria-current": "page",
+                                            children: "admin"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 72,
+                                            columnNumber: 19
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Viewallusers.js",
+                                    lineNumber: 55,
+                                    columnNumber: 18
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Viewallusers.js",
+                                lineNumber: 54,
+                                columnNumber: 16
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Viewallusers.js",
+                        lineNumber: 49,
+                        columnNumber: 15
+                    }, undefined),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                        onClick: handleSubmit,
+                        className: "btn btn-primary",
+                        type: "submit",
+                        style: {
+                            float: "right"
+                        },
+                        children: "Logout"
+                    }, void 0, false, {
+                        fileName: "src/components/Viewallusers.js",
+                        lineNumber: 76,
+                        columnNumber: 14
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Viewallusers.js",
+                lineNumber: 48,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/Viewallusers.js",
+                lineNumber: 80,
+                columnNumber: 4
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                fileName: "src/components/Viewallusers.js",
+                lineNumber: 81,
+                columnNumber: 4
+            }, undefined),
+            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("b", {
+                                    style: {
+                                        fontSize: "48px",
+                                        textDecoration: "underline"
+                                    },
+                                    children: "Registed Users Details "
+                                }, void 0, false, {
+                                    fileName: "src/components/Viewallusers.js",
+                                    lineNumber: 86,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/Viewallusers.js",
+                                    lineNumber: 86,
+                                    columnNumber: 110
+                                }, undefined),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                    fileName: "src/components/Viewallusers.js",
+                                    lineNumber: 86,
+                                    columnNumber: 115
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Viewallusers.js",
+                            lineNumber: 85,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/Viewallusers.js",
+                            lineNumber: 89,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/Viewallusers.js",
+                            lineNumber: 89,
+                            columnNumber: 26
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                            fileName: "src/components/Viewallusers.js",
+                            lineNumber: 89,
+                            columnNumber: 31
+                        }, undefined),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            className: "table table-striped table-success",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                children: "#"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Viewallusers.js",
+                                                lineNumber: 93,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                children: "User Name"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Viewallusers.js",
+                                                lineNumber: 94,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                children: "SLIIT ID"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Viewallusers.js",
+                                                lineNumber: 95,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                children: "Sliit Email Address"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Viewallusers.js",
+                                                lineNumber: 96,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                children: "Contact Number"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Viewallusers.js",
+                                                lineNumber: 97,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                children: "Password"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Viewallusers.js",
+                                                lineNumber: 98,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                children: "Delete user"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Viewallusers.js",
+                                                lineNumber: 99,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Viewallusers.js",
+                                        lineNumber: 92,
+                                        columnNumber: 29
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/Viewallusers.js",
+                                    lineNumber: 91,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                    children: users1.map((users, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "row",
+                                                    children: index + 1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Viewallusers.js",
+                                                    lineNumber: 106,
+                                                    columnNumber: 37
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: users?.Name
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Viewallusers.js",
+                                                    lineNumber: 107,
+                                                    columnNumber: 37
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: users?.ID
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Viewallusers.js",
+                                                    lineNumber: 108,
+                                                    columnNumber: 37
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: users?.Email
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Viewallusers.js",
+                                                    lineNumber: 109,
+                                                    columnNumber: 37
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: users?.PhoneNumber
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Viewallusers.js",
+                                                    lineNumber: 110,
+                                                    columnNumber: 37
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: users?.Password
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Viewallusers.js",
+                                                    lineNumber: 111,
+                                                    columnNumber: 37
+                                                }, undefined),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: [
+                                                        "  ",
+                                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                            className: "btn btn-primary",
+                                                            style: {
+                                                                textDecoration: 'none',
+                                                                color: 'white'
+                                                            },
+                                                            href: "/",
+                                                            children: "\xa0Delete"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Viewallusers.js",
+                                                            lineNumber: 114,
+                                                            columnNumber: 43
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Viewallusers.js",
+                                                    lineNumber: 114,
+                                                    columnNumber: 37
+                                                }, undefined)
+                                            ]
+                                        }, index, true, {
+                                            fileName: "src/components/Viewallusers.js",
+                                            lineNumber: 105,
+                                            columnNumber: 33
+                                        }, undefined)
+                                    )
+                                }, void 0, false, {
+                                    fileName: "src/components/Viewallusers.js",
+                                    lineNumber: 103,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Viewallusers.js",
+                            lineNumber: 90,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Viewallusers.js",
+                    lineNumber: 84,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Viewallusers.js",
+                lineNumber: 82,
+                columnNumber: 4
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Viewallusers.js",
+        lineNumber: 42,
+        columnNumber: 3
+    }, undefined);
+};
+_s(Viewallusers, "XRo68eym8xfaAFgYkLZRa7B+fMM=", false, function() {
+    return [
+        _reactRouterDom.useNavigate
+    ];
+});
+_c = Viewallusers;
+exports.default = Viewallusers;
+var _c;
+$RefreshReg$(_c, "Viewallusers");
+
+  $parcel$ReactRefreshHelpers$7b08.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"fdOAw","../services/AuthServices":"bqHbc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"72G9s":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$13b9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$13b9.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function UpdateTpics() {
+    _s();
+    const [GroupId, setGroupId] = _react.useState("");
+    const [PanelMember1, setPanelMember1] = _react.useState("");
+    const [PanelMember2, setPanelMember2] = _react.useState("");
+    const [PanelMember3, setPanelMember3] = _react.useState("");
+    const [PanelMember4, setPanelMember4] = _react.useState("");
+    const id = _reactRouterDom.useParams();
+    const [topic] = _react.useState({
+        GroupId: "",
+        PanelMember1: "",
+        PanelMember2: "",
+        PanelMember3: "",
+        PanelMember4: ""
+    });
+    const changeOnClick = async (e)=>{
+        e.preventDefault();
+        console.log("onclick");
+        const formData = new FormData();
+        formData.append("GroupId", GroupId);
+        formData.append("PanelMember1", PanelMember1);
+        formData.append("PanelMember2", PanelMember2);
+        formData.append("PanelMember3", PanelMember3);
+        formData.append("PanelMember4", PanelMember4);
+        setGroupId("");
+        setPanelMember1("");
+        setPanelMember2("");
+        setPanelMember3("");
+        setPanelMember4("");
+        console.log(formData.get('GroupId'));
+        topic.GroupId = formData.get('GroupId');
+        topic.PanelMember1 = formData.get('PanelMember1');
+        topic.PanelMember2 = formData.get('PanelMember2');
+        topic.PanelMember3 = formData.get('PanelMember3');
+        topic.PanelMember4 = formData.get('PanelMember4');
+        console.log(topic);
+        console.log(id);
+        await _axiosDefault.default.put(`http://localhost:8000/TopicPanels/update/${id?.id}`, topic).then((res)=>{
+            console.log("return data", res);
+            alert("Update Successfull!!");
+        }).catch((err)=>{
+            alert("update failed");
+            console.log(err);
+        });
+    };
+    _react.useEffect(function effectFunction() {
+        console.log("get ID", id);
+        _axiosDefault.default.get(`http://localhost:8000/TopicPanels/${id?.id}`).then((res)=>{
+            console.log("data", res);
+            setGroupId(res.data.topic.GroupId);
+            setPanelMember1(res.data.topic.PanelMember1);
+            setPanelMember2(res.data.topic.PanelMember2);
+            setPanelMember3(res.data.topic.PanelMember3);
+            setPanelMember4(res.data.topic.PanelMember4);
+        }).catch((err)=>console.log(err)
+        );
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/UpdateTopics.js",
+                    lineNumber: 102,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        children: "TOPIC PANEL REGISTRATION UPDATE"
+                    }, void 0, false, {
+                        fileName: "src/components/UpdateTopics.js",
+                        lineNumber: 103,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/UpdateTopics.js",
+                    lineNumber: 103,
+                    columnNumber: 13
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/UpdateTopics.js",
+                    lineNumber: 104,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                        width: "950px",
+                        height: "500px",
+                        style: {
+                            margin: "20px"
+                        },
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: " Group ID  : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateTopics.js",
+                                                    lineNumber: 114,
+                                                    columnNumber: 29
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "GroupId",
+                                                    onChange: (e)=>setGroupId(e.target.value)
+                                                    ,
+                                                    value: GroupId,
+                                                    placeholder: "Update group id "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateTopics.js",
+                                                    lineNumber: 115,
+                                                    columnNumber: 29
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateTopics.js",
+                                            lineNumber: 113,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "Panel Member 1 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateTopics.js",
+                                                    lineNumber: 126,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember1",
+                                                    onChange: (e)=>setPanelMember1(e.target.value)
+                                                    ,
+                                                    value: PanelMember1,
+                                                    placeholder: "Update member 1"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateTopics.js",
+                                                    lineNumber: 127,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateTopics.js",
+                                            lineNumber: 125,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "  Panel Member 2 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateTopics.js",
+                                                    lineNumber: 139,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember2",
+                                                    onChange: (e)=>setPanelMember2(e.target.value)
+                                                    ,
+                                                    value: PanelMember2,
+                                                    placeholder: "update member 2 "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateTopics.js",
+                                                    lineNumber: 140,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateTopics.js",
+                                            lineNumber: 138,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "Panel Member 3 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateTopics.js",
+                                                    lineNumber: 151,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember3",
+                                                    onChange: (e)=>setPanelMember3(e.target.value)
+                                                    ,
+                                                    value: PanelMember3,
+                                                    placeholder: "update member 3"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateTopics.js",
+                                                    lineNumber: 152,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateTopics.js",
+                                            lineNumber: 150,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "Panel Member 4 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateTopics.js",
+                                                    lineNumber: 163,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember4",
+                                                    onChange: (e)=>setPanelMember4(e.target.value)
+                                                    ,
+                                                    value: PanelMember4,
+                                                    placeholder: "select the job title"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateTopics.js",
+                                                    lineNumber: 164,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateTopics.js",
+                                            lineNumber: 162,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            className: "btn btn-warning",
+                                            style: {
+                                                textDecoration: 'none',
+                                                color: 'white'
+                                            },
+                                            type: "submit",
+                                            onClick: (e)=>changeOnClick(e)
+                                            ,
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    className: "far fa-check-square"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateTopics.js",
+                                                    lineNumber: 181,
+                                                    columnNumber: 25
+                                                }, this),
+                                                " UPDATE "
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateTopics.js",
+                                            lineNumber: 180,
+                                            columnNumber: 25
+                                        }, this),
+                                        " \xa0",
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            className: "btn btn-warning",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: "/ViewTopis",
+                                                style: {
+                                                    textDecoration: 'none',
+                                                    color: 'white',
+                                                    marginTop: '15px'
+                                                },
+                                                children: "VIEW DETAILS"
+                                            }, void 0, false, {
+                                                fileName: "src/components/UpdateTopics.js",
+                                                lineNumber: 183,
+                                                columnNumber: 61
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/UpdateTopics.js",
+                                            lineNumber: 183,
+                                            columnNumber: 25
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/UpdateTopics.js",
+                                    lineNumber: 111,
+                                    columnNumber: 21
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/UpdateTopics.js",
+                                lineNumber: 110,
+                                columnNumber: 17
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/UpdateTopics.js",
+                            lineNumber: 109,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/UpdateTopics.js",
+                        lineNumber: 108,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/UpdateTopics.js",
+                    lineNumber: 107,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/UpdateTopics.js",
+            lineNumber: 100,
+            columnNumber: 10
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/UpdateTopics.js",
+        lineNumber: 99,
+        columnNumber: 9
+    }, this);
+}
+exports.default = UpdateTpics;
+_s(UpdateTpics, "jHBVsZR0D8Z7/b3KzRJ1oS9ny2Y=", false, function() {
+    return [
+        _reactRouterDom.useParams
+    ];
+});
+_c = UpdateTpics;
+var _c;
+$RefreshReg$(_c, "UpdateTpics");
+
+  $parcel$ReactRefreshHelpers$13b9.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"JfaKD":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$8606 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8606.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function UpdatePresentation() {
+    _s();
+    const [GroupId, setGroupId] = _react.useState("");
+    const [PanelMember1, setPanelMember1] = _react.useState("");
+    const [PanelMember2, setPanelMember2] = _react.useState("");
+    const [PanelMember3, setPanelMember3] = _react.useState("");
+    const [PanelMember4, setPanelMember4] = _react.useState("");
+    const id = _reactRouterDom.useParams();
+    const [present] = _react.useState({
+        GroupId: "",
+        PanelMember1: "",
+        PanelMember2: "",
+        PanelMember3: "",
+        PanelMember4: ""
+    });
+    const changeOnClick = async (e)=>{
+        e.preventDefault();
+        console.log("onclick");
+        const formData = new FormData();
+        formData.append("GroupId", GroupId);
+        formData.append("PanelMember1", PanelMember1);
+        formData.append("PanelMember2", PanelMember2);
+        formData.append("PanelMember3", PanelMember3);
+        formData.append("PanelMember4", PanelMember4);
+        setGroupId("");
+        setPanelMember1("");
+        setPanelMember2("");
+        setPanelMember3("");
+        setPanelMember4("");
+        console.log(formData.get('GroupId'));
+        present.GroupId = formData.get('GroupId');
+        present.PanelMember1 = formData.get('PanelMember1');
+        present.PanelMember2 = formData.get('PanelMember2');
+        present.PanelMember3 = formData.get('PanelMember3');
+        present.PanelMember4 = formData.get('PanelMember4');
+        console.log(present);
+        console.log(id);
+        await _axiosDefault.default.put(`http://localhost:8000/PresentationPanels/update/${id?.id}`, present).then((res)=>{
+            console.log("return data", res);
+            alert("Update Successfull!!");
+        }).catch((err)=>{
+            alert("update failed");
+            console.log(err);
+        });
+    };
+    _react.useEffect(function effectFunction() {
+        console.log("get ID", id);
+        _axiosDefault.default.get(`http://localhost:8000/PresentationPanels/${id?.id}`).then((res)=>{
+            console.log("data", res);
+            setGroupId(res.data.present.GroupId);
+            setPanelMember1(res.data.present.PanelMember1);
+            setPanelMember2(res.data.present.PanelMember2);
+            setPanelMember3(res.data.present.PanelMember3);
+            setPanelMember4(res.data.present.PanelMember4);
+        }).catch((err)=>console.log(err)
+        );
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/Updatepresentation.js",
+                    lineNumber: 102,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        children: "PRESENTATION PANEL REGISTRATION UPDATE"
+                    }, void 0, false, {
+                        fileName: "src/components/Updatepresentation.js",
+                        lineNumber: 103,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/Updatepresentation.js",
+                    lineNumber: 103,
+                    columnNumber: 13
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/Updatepresentation.js",
+                    lineNumber: 104,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                        width: "950px",
+                        height: "500px",
+                        style: {
+                            margin: "20px"
+                        },
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: " Group ID  : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Updatepresentation.js",
+                                                    lineNumber: 114,
+                                                    columnNumber: 29
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "GroupId",
+                                                    onChange: (e)=>setGroupId(e.target.value)
+                                                    ,
+                                                    value: GroupId,
+                                                    placeholder: "Update group id "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Updatepresentation.js",
+                                                    lineNumber: 115,
+                                                    columnNumber: 29
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Updatepresentation.js",
+                                            lineNumber: 113,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "Panel Member 1 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Updatepresentation.js",
+                                                    lineNumber: 126,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember1",
+                                                    onChange: (e)=>setPanelMember1(e.target.value)
+                                                    ,
+                                                    value: PanelMember1,
+                                                    placeholder: "Update member 1"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Updatepresentation.js",
+                                                    lineNumber: 127,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Updatepresentation.js",
+                                            lineNumber: 125,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "  Panel Member 2 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Updatepresentation.js",
+                                                    lineNumber: 139,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember2",
+                                                    onChange: (e)=>setPanelMember2(e.target.value)
+                                                    ,
+                                                    value: PanelMember2,
+                                                    placeholder: "update member 2 "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Updatepresentation.js",
+                                                    lineNumber: 140,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Updatepresentation.js",
+                                            lineNumber: 138,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "Panel Member 3 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Updatepresentation.js",
+                                                    lineNumber: 151,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember3",
+                                                    onChange: (e)=>setPanelMember3(e.target.value)
+                                                    ,
+                                                    value: PanelMember3,
+                                                    placeholder: "update member 3"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Updatepresentation.js",
+                                                    lineNumber: 152,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Updatepresentation.js",
+                                            lineNumber: 150,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "Panel Member 4 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Updatepresentation.js",
+                                                    lineNumber: 163,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember4",
+                                                    onChange: (e)=>setPanelMember4(e.target.value)
+                                                    ,
+                                                    value: PanelMember4,
+                                                    placeholder: "select the job title"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Updatepresentation.js",
+                                                    lineNumber: 164,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Updatepresentation.js",
+                                            lineNumber: 162,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            className: "btn btn-warning",
+                                            style: {
+                                                textDecoration: 'none',
+                                                color: 'white'
+                                            },
+                                            type: "submit",
+                                            onClick: (e)=>changeOnClick(e)
+                                            ,
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    className: "far fa-check-square"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Updatepresentation.js",
+                                                    lineNumber: 181,
+                                                    columnNumber: 25
+                                                }, this),
+                                                " UPDATE "
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Updatepresentation.js",
+                                            lineNumber: 180,
+                                            columnNumber: 25
+                                        }, this),
+                                        " \xa0",
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            className: "btn btn-warning",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: "/ViewPresentation",
+                                                style: {
+                                                    textDecoration: 'none',
+                                                    color: 'white',
+                                                    marginTop: '15px'
+                                                },
+                                                children: "VIEW DETAILS"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Updatepresentation.js",
+                                                lineNumber: 183,
+                                                columnNumber: 61
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Updatepresentation.js",
+                                            lineNumber: 183,
+                                            columnNumber: 25
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Updatepresentation.js",
+                                    lineNumber: 111,
+                                    columnNumber: 21
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/Updatepresentation.js",
+                                lineNumber: 110,
+                                columnNumber: 17
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/Updatepresentation.js",
+                            lineNumber: 109,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/Updatepresentation.js",
+                        lineNumber: 108,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/Updatepresentation.js",
+                    lineNumber: 107,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Updatepresentation.js",
+            lineNumber: 100,
+            columnNumber: 10
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/Updatepresentation.js",
+        lineNumber: 99,
+        columnNumber: 9
+    }, this);
+}
+exports.default = UpdatePresentation;
+_s(UpdatePresentation, "d9otCn1zU9dlxgPFfELlx3MIpAQ=", false, function() {
+    return [
+        _reactRouterDom.useParams
+    ];
+});
+_c = UpdatePresentation;
+var _c;
+$RefreshReg$(_c, "UpdatePresentation");
+
+  $parcel$ReactRefreshHelpers$8606.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"a4cvF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c68b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c68b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function UpdateThesis() {
+    _s();
+    const [GroupId, setGroupId] = _react.useState("");
+    const [PanelMember1, setPanelMember1] = _react.useState("");
+    const [PanelMember2, setPanelMember2] = _react.useState("");
+    const [PanelMember3, setPanelMember3] = _react.useState("");
+    const [PanelMember4, setPanelMember4] = _react.useState("");
+    const id = _reactRouterDom.useParams();
+    const [thesis] = _react.useState({
+        GroupId: "",
+        PanelMember1: "",
+        PanelMember2: "",
+        PanelMember3: "",
+        PanelMember4: ""
+    });
+    const changeOnClick = async (e)=>{
+        e.preventDefault();
+        console.log("onclick");
+        const formData = new FormData();
+        formData.append("GroupId", GroupId);
+        formData.append("PanelMember1", PanelMember1);
+        formData.append("PanelMember2", PanelMember2);
+        formData.append("PanelMember3", PanelMember3);
+        formData.append("PanelMember4", PanelMember4);
+        setGroupId("");
+        setPanelMember1("");
+        setPanelMember2("");
+        setPanelMember3("");
+        setPanelMember4("");
+        console.log(formData.get('GroupId'));
+        thesis.GroupId = formData.get('GroupId');
+        thesis.PanelMember1 = formData.get('PanelMember1');
+        thesis.PanelMember2 = formData.get('PanelMember2');
+        thesis.PanelMember3 = formData.get('PanelMember3');
+        thesis.PanelMember4 = formData.get('PanelMember4');
+        console.log(thesis);
+        console.log(id);
+        await _axiosDefault.default.put(`http://localhost:8000/ThesisPanels/update/${id?.id}`, thesis).then((res)=>{
+            console.log("return data", res);
+            alert("Update Successfull!!");
+        }).catch((err)=>{
+            alert("update failed");
+            console.log(err);
+        });
+    };
+    _react.useEffect(function effectFunction() {
+        console.log("get ID", id);
+        _axiosDefault.default.get(`http://localhost:8000/ThesisPanels/${id?.id}`).then((res)=>{
+            console.log("data", res);
+            setGroupId(res.data.thesis.GroupId);
+            setPanelMember1(res.data.thesis.PanelMember1);
+            setPanelMember2(res.data.thesis.PanelMember2);
+            setPanelMember3(res.data.thesis.PanelMember3);
+            setPanelMember4(res.data.thesis.PanelMember4);
+        }).catch((err)=>console.log(err)
+        );
+    }, []);
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/UpdateThesis.js",
+                    lineNumber: 102,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        children: "THESIS PANEL REGISTRATION UPDATE"
+                    }, void 0, false, {
+                        fileName: "src/components/UpdateThesis.js",
+                        lineNumber: 103,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/UpdateThesis.js",
+                    lineNumber: 103,
+                    columnNumber: 13
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/UpdateThesis.js",
+                    lineNumber: 104,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                        width: "950px",
+                        height: "500px",
+                        style: {
+                            margin: "20px"
+                        },
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("form", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: " Group ID  : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateThesis.js",
+                                                    lineNumber: 114,
+                                                    columnNumber: 29
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "GroupId",
+                                                    onChange: (e)=>setGroupId(e.target.value)
+                                                    ,
+                                                    value: GroupId,
+                                                    placeholder: "Update group id "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateThesis.js",
+                                                    lineNumber: 115,
+                                                    columnNumber: 29
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateThesis.js",
+                                            lineNumber: 113,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "Panel Member 1 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateThesis.js",
+                                                    lineNumber: 126,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember1",
+                                                    onChange: (e)=>setPanelMember1(e.target.value)
+                                                    ,
+                                                    value: PanelMember1,
+                                                    placeholder: "Update member 1"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateThesis.js",
+                                                    lineNumber: 127,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateThesis.js",
+                                            lineNumber: 125,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "  Panel Member 2 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateThesis.js",
+                                                    lineNumber: 139,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember2",
+                                                    onChange: (e)=>setPanelMember2(e.target.value)
+                                                    ,
+                                                    value: PanelMember2,
+                                                    placeholder: "update member 2 "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateThesis.js",
+                                                    lineNumber: 140,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateThesis.js",
+                                            lineNumber: 138,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "Panel Member 3 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateThesis.js",
+                                                    lineNumber: 151,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember3",
+                                                    onChange: (e)=>setPanelMember3(e.target.value)
+                                                    ,
+                                                    value: PanelMember3,
+                                                    placeholder: "update member 3"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateThesis.js",
+                                                    lineNumber: 152,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateThesis.js",
+                                            lineNumber: 150,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                                            className: "form-group",
+                                            style: {
+                                                marginBottom: '15px'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
+                                                    style: {
+                                                        margineBottom: '5px'
+                                                    },
+                                                    children: "Panel Member 4 : "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateThesis.js",
+                                                    lineNumber: 163,
+                                                    columnNumber: 25
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                                    type: "text",
+                                                    className: "form-control",
+                                                    name: "PanelMember4",
+                                                    onChange: (e)=>setPanelMember4(e.target.value)
+                                                    ,
+                                                    value: PanelMember4,
+                                                    placeholder: "select the job title"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateThesis.js",
+                                                    lineNumber: 164,
+                                                    columnNumber: 25
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateThesis.js",
+                                            lineNumber: 162,
+                                            columnNumber: 25
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            className: "btn btn-warning",
+                                            style: {
+                                                textDecoration: 'none',
+                                                color: 'white'
+                                            },
+                                            type: "submit",
+                                            onClick: (e)=>changeOnClick(e)
+                                            ,
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("i", {
+                                                    className: "far fa-check-square"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/UpdateThesis.js",
+                                                    lineNumber: 181,
+                                                    columnNumber: 25
+                                                }, this),
+                                                " UPDATE "
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/UpdateThesis.js",
+                                            lineNumber: 180,
+                                            columnNumber: 25
+                                        }, this),
+                                        " \xa0",
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("button", {
+                                            className: "btn btn-warning",
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: "/ViewThesis",
+                                                style: {
+                                                    textDecoration: 'none',
+                                                    color: 'white',
+                                                    marginTop: '15px'
+                                                },
+                                                children: "VIEW DETAILS"
+                                            }, void 0, false, {
+                                                fileName: "src/components/UpdateThesis.js",
+                                                lineNumber: 183,
+                                                columnNumber: 61
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/UpdateThesis.js",
+                                            lineNumber: 183,
+                                            columnNumber: 25
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/UpdateThesis.js",
+                                    lineNumber: 111,
+                                    columnNumber: 21
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/UpdateThesis.js",
+                                lineNumber: 110,
+                                columnNumber: 17
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/UpdateThesis.js",
+                            lineNumber: 109,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/UpdateThesis.js",
+                        lineNumber: 108,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/UpdateThesis.js",
+                    lineNumber: 107,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/UpdateThesis.js",
+            lineNumber: 100,
+            columnNumber: 10
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/UpdateThesis.js",
+        lineNumber: 99,
+        columnNumber: 9
+    }, this);
+}
+exports.default = UpdateThesis;
+_s(UpdateThesis, "oj1laz4auFjjWGDrp8GSZG/PwG8=", false, function() {
+    return [
+        _reactRouterDom.useParams
+    ];
+});
+_c = UpdateThesis;
+var _c;
+$RefreshReg$(_c, "UpdateThesis");
+
+  $parcel$ReactRefreshHelpers$c68b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fQ3Re":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$188f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$188f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function Groupids() {
+    return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/Groupids.js",
+                    lineNumber: 16,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                        children: "Student Groups - Panel Formations"
+                    }, void 0, false, {
+                        fileName: "src/components/Groupids.js",
+                        lineNumber: 17,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/Groupids.js",
+                    lineNumber: 17,
+                    columnNumber: 13
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                    fileName: "src/components/Groupids.js",
+                    lineNumber: 18,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                    className: "table",
+                    children: [
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                children: [
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                        scope: "col",
+                                        children: "Group ID"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Groupids.js",
+                                        lineNumber: 25,
+                                        columnNumber: 16
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                        scope: "col",
+                                        children: "Students"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Groupids.js",
+                                        lineNumber: 26,
+                                        columnNumber: 16
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                        scope: "col",
+                                        children: "Topic Panel"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Groupids.js",
+                                        lineNumber: 27,
+                                        columnNumber: 16
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                        scope: "col",
+                                        children: "Presentation Panel"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Groupids.js",
+                                        lineNumber: 28,
+                                        columnNumber: 16
+                                    }, this),
+                                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                        scope: "col",
+                                        children: "Thesis Panel"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Groupids.js",
+                                        lineNumber: 29,
+                                        columnNumber: 16
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Groupids.js",
+                                lineNumber: 24,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/Groupids.js",
+                            lineNumber: 23,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                            children: "Group_1"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 37,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/students`,
+                                                children: "students"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 38,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 38,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddTopisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 39,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 39,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddPresentationPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 40,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 40,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddThesisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 41,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 41,
+                                            columnNumber: 17
+                                        }, this),
+                                        " "
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Groupids.js",
+                                    lineNumber: 37,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                            children: "Group_2"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 42,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/students`,
+                                                children: "students"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 43,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 43,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddTopisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 44,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 44,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddPresentationPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 45,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 45,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddThesisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 46,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 46,
+                                            columnNumber: 17
+                                        }, this),
+                                        " "
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Groupids.js",
+                                    lineNumber: 42,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                            children: "Group_3"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 47,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/students`,
+                                                children: "students"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 48,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 48,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddTopisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 49,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 49,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddPresentationPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 50,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 50,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddThesisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 51,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 51,
+                                            columnNumber: 17
+                                        }, this),
+                                        "  "
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Groupids.js",
+                                    lineNumber: 47,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                            children: "Group_4"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 52,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/students`,
+                                                children: "students"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 53,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 53,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddTopisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 54,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 54,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddPresentationPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 55,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 55,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddThesisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 56,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 56,
+                                            columnNumber: 17
+                                        }, this),
+                                        "  "
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Groupids.js",
+                                    lineNumber: 52,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                            children: "Group_5"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 57,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/students`,
+                                                children: "students"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 58,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 58,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddTopisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 59,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 59,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddPresentationPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 60,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 60,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddThesisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 61,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 61,
+                                            columnNumber: 17
+                                        }, this),
+                                        " "
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Groupids.js",
+                                    lineNumber: 57,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                            children: "Group_6"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 62,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/students`,
+                                                children: "students"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 63,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 63,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddTopisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 64,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 64,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddPresentationPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 65,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 65,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddThesisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 66,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 66,
+                                            columnNumber: 17
+                                        }, this),
+                                        "  "
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Groupids.js",
+                                    lineNumber: 62,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                            children: "Group_7"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 67,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/students`,
+                                                children: "students"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 68,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 68,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddTopisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 69,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 69,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddPresentationPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 70,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 70,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddThesisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 71,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 71,
+                                            columnNumber: 17
+                                        }, this),
+                                        "  "
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Groupids.js",
+                                    lineNumber: 67,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                            children: "Group_8"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 72,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/students`,
+                                                children: "students"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 73,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 73,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddTopisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 74,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 74,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddPresentationPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 75,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 75,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddThesisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 76,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 76,
+                                            columnNumber: 17
+                                        }, this),
+                                        "  "
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Groupids.js",
+                                    lineNumber: 72,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                            children: "Group_9"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 77,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/students`,
+                                                children: "students"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 78,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 78,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddTopisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 79,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 79,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddPresentationPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 80,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 80,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddThesisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 81,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 81,
+                                            columnNumber: 17
+                                        }, this),
+                                        "  "
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Groupids.js",
+                                    lineNumber: 77,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                    children: [
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                            children: "Group_10"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 82,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/students`,
+                                                children: "students"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 83,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 83,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddTopisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 84,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 84,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddPresentationPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 85,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 85,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("a", {
+                                                href: `/AddThesisPanels`,
+                                                children: "Assging  Panel"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Groupids.js",
+                                                lineNumber: 86,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Groupids.js",
+                                            lineNumber: 86,
+                                            columnNumber: 17
+                                        }, this),
+                                        "  "
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Groupids.js",
+                                    lineNumber: 82,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Groupids.js",
+                            lineNumber: 33,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Groupids.js",
+                    lineNumber: 22,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Groupids.js",
+            lineNumber: 14,
+            columnNumber: 10
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/Groupids.js",
+        lineNumber: 13,
+        columnNumber: 9
+    }, this);
+}
+exports.default = Groupids;
+_c = Groupids;
+var _c;
+$RefreshReg$(_c, "Groupids");
+
+  $parcel$ReactRefreshHelpers$188f.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ggRm0":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1856 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1856.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class ViewTopis extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            topic: []
+        };
+    }
+    componentDidMount() {
+        this.retrieveTopicpanel();
+    }
+    retrieveTopicpanel() {
+        _axiosDefault.default.get("http://localhost:8000/TopicPanels").then((res)=>{
+            if (res.data.success) {
+                this.setState({
+                    topic: res.data.existingTopicPanels
+                });
+                console.log(this.state.topic);
+            }
+        });
+    }
+    //to serch specific data
+    filterData(topic1, searchKey) {
+        const result = topic1.filter((topic)=>topic.GroupId.toLowerCase().includes(searchKey)
+        );
+        this.setState({
+            topic: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/TopicPanels").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingTopicPanels, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewTopis.js",
+                        lineNumber: 62,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-md-8 mt-4 mx-auto",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            style: {
+                                height: '80px',
+                                width: '100%',
+                                backgroundColor: "#000080",
+                                marginTop: '-20px'
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                    style: {
+                                        color: 'white'
+                                    },
+                                    children: "TOPIC PANEL DETAILS"
+                                }, void 0, false, {
+                                    fileName: "src/components/S_ViewTopis.js",
+                                    lineNumber: 65,
+                                    columnNumber: 21
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/S_ViewTopis.js",
+                                lineNumber: 65,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/S_ViewTopis.js",
+                            lineNumber: 64,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/S_ViewTopis.js",
+                        lineNumber: 63,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewTopis.js",
+                        lineNumber: 67,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
+                        fileName: "src/components/S_ViewTopis.js",
+                        lineNumber: 69,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "col-lg-9 mt-2 mb-2",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                type: "search",
+                                placeholder: "search group id and find your panel",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/S_ViewTopis.js",
+                                lineNumber: 72,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/S_ViewTopis.js",
+                            lineNumber: 71,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/S_ViewTopis.js",
+                        lineNumber: 70,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewTopis.js",
+                        lineNumber: 84,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            className: "table",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "id"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewTopis.js",
+                                                lineNumber: 89,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Group ID"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewTopis.js",
+                                                lineNumber: 90,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 1"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewTopis.js",
+                                                lineNumber: 91,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 2"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewTopis.js",
+                                                lineNumber: 92,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 3"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewTopis.js",
+                                                lineNumber: 93,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 4"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewTopis.js",
+                                                lineNumber: 94,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/S_ViewTopis.js",
+                                        lineNumber: 88,
+                                        columnNumber: 21
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/S_ViewTopis.js",
+                                    lineNumber: 87,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                    children: this.state.topic.map((topic, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "row",
+                                                    children: index + 1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewTopis.js",
+                                                    lineNumber: 102,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: [
+                                                        topic.GroupId,
+                                                        "  "
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/S_ViewTopis.js",
+                                                    lineNumber: 103,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: topic.PanelMember1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewTopis.js",
+                                                    lineNumber: 104,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: topic.PanelMember2
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewTopis.js",
+                                                    lineNumber: 105,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: topic.PanelMember3
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewTopis.js",
+                                                    lineNumber: 106,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: topic.PanelMember4
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewTopis.js",
+                                                    lineNumber: 107,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                        fileName: "src/components/S_ViewTopis.js",
+                                                        lineNumber: 111,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewTopis.js",
+                                                    lineNumber: 109,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, index, true, {
+                                            fileName: "src/components/S_ViewTopis.js",
+                                            lineNumber: 101,
+                                            columnNumber: 17
+                                        }, this)
+                                    )
+                                }, void 0, false, {
+                                    fileName: "src/components/S_ViewTopis.js",
+                                    lineNumber: 98,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/S_ViewTopis.js",
+                            lineNumber: 86,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/S_ViewTopis.js",
+                        lineNumber: 85,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewTopis.js",
+                        lineNumber: 133,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/S_ViewTopis.js",
+                lineNumber: 61,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/S_ViewTopis.js",
+            lineNumber: 60,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = ViewTopis;
+
+  $parcel$ReactRefreshHelpers$1856.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bc98o":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c220 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c220.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class ViewPresentation extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            present: []
+        };
+    }
+    componentDidMount() {
+        this.retrievePresentationPanels();
+    }
+    retrievePresentationPanels() {
+        _axiosDefault.default.get("http://localhost:8000/PresentationPanels").then((res)=>{
+            if (res.data.success) {
+                this.setState({
+                    present: res.data.existingPresentationPanels
+                });
+                console.log(this.state.present);
+            }
+        });
+    }
+    filterData(present1, searchKey) {
+        const result = present1.filter((present)=>present.GroupId.toLowerCase().includes(searchKey)
+        );
+        this.setState({
+            present: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/PresentationPanels").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingPresentationPanels, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewPresentation.js",
+                        lineNumber: 63,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-md-8 mt-4 mx-auto",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            style: {
+                                height: '80px',
+                                width: '100%',
+                                backgroundColor: "#000080",
+                                marginTop: '-20px'
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                    style: {
+                                        color: 'white'
+                                    },
+                                    children: "PRESENTATION PANEL  DETAILS"
+                                }, void 0, false, {
+                                    fileName: "src/components/S_ViewPresentation.js",
+                                    lineNumber: 66,
+                                    columnNumber: 21
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/S_ViewPresentation.js",
+                                lineNumber: 66,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/S_ViewPresentation.js",
+                            lineNumber: 65,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/S_ViewPresentation.js",
+                        lineNumber: 64,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewPresentation.js",
+                        lineNumber: 68,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
+                        fileName: "src/components/S_ViewPresentation.js",
+                        lineNumber: 70,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "col-lg-9 mt-2 mb-2",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                type: "search",
+                                placeholder: "search by group id to find your panel",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/S_ViewPresentation.js",
+                                lineNumber: 74,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/S_ViewPresentation.js",
+                            lineNumber: 73,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/S_ViewPresentation.js",
+                        lineNumber: 72,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewPresentation.js",
+                        lineNumber: 86,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            className: "table",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "id"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewPresentation.js",
+                                                lineNumber: 91,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Group ID"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewPresentation.js",
+                                                lineNumber: 92,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 1"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewPresentation.js",
+                                                lineNumber: 93,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 2"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewPresentation.js",
+                                                lineNumber: 94,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 3"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewPresentation.js",
+                                                lineNumber: 95,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 4"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewPresentation.js",
+                                                lineNumber: 96,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/S_ViewPresentation.js",
+                                        lineNumber: 90,
+                                        columnNumber: 21
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/S_ViewPresentation.js",
+                                    lineNumber: 89,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                    children: this.state.present.map((present, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "row",
+                                                    children: index + 1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewPresentation.js",
+                                                    lineNumber: 104,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: [
+                                                        present.GroupId,
+                                                        "  "
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/S_ViewPresentation.js",
+                                                    lineNumber: 105,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: present.PanelMember1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewPresentation.js",
+                                                    lineNumber: 106,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: present.PanelMember2
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewPresentation.js",
+                                                    lineNumber: 107,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: present.PanelMember3
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewPresentation.js",
+                                                    lineNumber: 108,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: present.PanelMember4
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewPresentation.js",
+                                                    lineNumber: 109,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                        fileName: "src/components/S_ViewPresentation.js",
+                                                        lineNumber: 113,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewPresentation.js",
+                                                    lineNumber: 111,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, index, true, {
+                                            fileName: "src/components/S_ViewPresentation.js",
+                                            lineNumber: 103,
+                                            columnNumber: 17
+                                        }, this)
+                                    )
+                                }, void 0, false, {
+                                    fileName: "src/components/S_ViewPresentation.js",
+                                    lineNumber: 100,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/S_ViewPresentation.js",
+                            lineNumber: 88,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/S_ViewPresentation.js",
+                        lineNumber: 87,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewPresentation.js",
+                        lineNumber: 132,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/S_ViewPresentation.js",
+                lineNumber: 62,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/S_ViewPresentation.js",
+            lineNumber: 61,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = ViewPresentation;
+
+  $parcel$ReactRefreshHelpers$c220.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jxHC2":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6513 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6513.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+class ViewThesis extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            thesis: []
+        };
+    }
+    componentDidMount() {
+        this.retrieveThesisPanels();
+    }
+    retrieveThesisPanels() {
+        _axiosDefault.default.get("http://localhost:8000/ThesisPanels").then((res)=>{
+            if (res.data.success) {
+                this.setState({
+                    thesis: res.data.existingThesisPanels
+                });
+                console.log(this.state.thesis);
+            }
+        });
+    }
+    //to serch specific data
+    filterData(thesis1, searchKey) {
+        const result = thesis1.filter((thesis)=>thesis.GroupId.toLowerCase().includes(searchKey)
+        );
+        this.setState({
+            thesis: result
+        });
+    }
+    handleSearchArea = (e)=>{
+        const searchKey = e.currentTarget.value;
+        _axiosDefault.default.get("http://localhost:8000/ThesisPanels").then((res)=>{
+            if (res.data.success) this.filterData(res.data.existingThesisPanels, searchKey);
+        });
+    };
+    render() {
+        return /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                children: [
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewThesis.js",
+                        lineNumber: 60,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                        className: "col-md-8 mt-4 mx-auto",
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            style: {
+                                height: '80px',
+                                width: '100%',
+                                backgroundColor: "#000080",
+                                marginTop: '-20px'
+                            },
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                                children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
+                                    style: {
+                                        color: 'white'
+                                    },
+                                    children: "THESIS PANEL  DETAILS"
+                                }, void 0, false, {
+                                    fileName: "src/components/S_ViewThesis.js",
+                                    lineNumber: 63,
+                                    columnNumber: 21
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/S_ViewThesis.js",
+                                lineNumber: 63,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/S_ViewThesis.js",
+                            lineNumber: 62,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/S_ViewThesis.js",
+                        lineNumber: 61,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewThesis.js",
+                        lineNumber: 65,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {}, void 0, false, {
+                        fileName: "src/components/S_ViewThesis.js",
+                        lineNumber: 67,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                            className: "col-lg-9 mt-2 mb-2",
+                            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("input", {
+                                className: "form-control",
+                                type: "search",
+                                placeholder: "search group id to find your panel",
+                                name: "searchQuery",
+                                onChange: this.handleSearchArea
+                            }, void 0, false, {
+                                fileName: "src/components/S_ViewThesis.js",
+                                lineNumber: 71,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/S_ViewThesis.js",
+                            lineNumber: 70,
+                            columnNumber: 9
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/S_ViewThesis.js",
+                        lineNumber: 69,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewThesis.js",
+                        lineNumber: 83,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("center", {
+                        children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("table", {
+                            className: "table",
+                            children: [
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("thead", {
+                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                        children: [
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "id"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewThesis.js",
+                                                lineNumber: 88,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Group ID"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewThesis.js",
+                                                lineNumber: 89,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 1"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewThesis.js",
+                                                lineNumber: 90,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 2"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewThesis.js",
+                                                lineNumber: 91,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 3"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewThesis.js",
+                                                lineNumber: 92,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                scope: "col",
+                                                children: "Member 4"
+                                            }, void 0, false, {
+                                                fileName: "src/components/S_ViewThesis.js",
+                                                lineNumber: 93,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/S_ViewThesis.js",
+                                        lineNumber: 87,
+                                        columnNumber: 21
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/S_ViewThesis.js",
+                                    lineNumber: 86,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("tbody", {
+                                    children: this.state.thesis.map((thesis, index)=>/*#__PURE__*/ _jsxDevRuntime.jsxDEV("tr", {
+                                            children: [
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("th", {
+                                                    scope: "row",
+                                                    children: index + 1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewThesis.js",
+                                                    lineNumber: 101,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: [
+                                                        thesis.GroupId,
+                                                        "  "
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/S_ViewThesis.js",
+                                                    lineNumber: 102,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: thesis.PanelMember1
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewThesis.js",
+                                                    lineNumber: 103,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: thesis.PanelMember2
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewThesis.js",
+                                                    lineNumber: 104,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: thesis.PanelMember3
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewThesis.js",
+                                                    lineNumber: 105,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: thesis.PanelMember4
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewThesis.js",
+                                                    lineNumber: 106,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("td", {
+                                                    children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                                                        fileName: "src/components/S_ViewThesis.js",
+                                                        lineNumber: 110,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/S_ViewThesis.js",
+                                                    lineNumber: 108,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, index, true, {
+                                            fileName: "src/components/S_ViewThesis.js",
+                                            lineNumber: 100,
+                                            columnNumber: 17
+                                        }, this)
+                                    )
+                                }, void 0, false, {
+                                    fileName: "src/components/S_ViewThesis.js",
+                                    lineNumber: 97,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/S_ViewThesis.js",
+                            lineNumber: 85,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/S_ViewThesis.js",
+                        lineNumber: 84,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {}, void 0, false, {
+                        fileName: "src/components/S_ViewThesis.js",
+                        lineNumber: 129,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/S_ViewThesis.js",
+                lineNumber: 59,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/S_ViewThesis.js",
+            lineNumber: 58,
+            columnNumber: 9
+        }, this);
+    }
+}
+exports.default = ViewThesis;
+
+  $parcel$ReactRefreshHelpers$6513.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","axios":"jo6P5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["kn9T2","7fmqN","8lqZg"], "8lqZg", "parcelRequire10c2")
 
 //# sourceMappingURL=index.975ef6c8.js.map
