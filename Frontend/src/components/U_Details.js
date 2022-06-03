@@ -206,10 +206,10 @@ export default function UpdateDetails()  {
 
         <center>
           <p><b>Step 3 : You can update your group details here. If you want to proceed, refer the research areas and related topics to select a topic for the group. </b></p>
-        <form className="row g-3">
+        <form >
           <div className="form-group" >
                 <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Name of the group : </label>
+                     <label style={{margineBottom:'5px'}}>Group Name: </label>
                      <input type="text"
                      name="GName"
                     onChange={e => setGName(e.target.value)}
@@ -271,7 +271,7 @@ export default function UpdateDetails()  {
 
                  <div className="form-group" >
                  <div  style={{marginBottom:'15px'}}>
-                     <label style={{margineBottom:'5px'}}>Name of the Leader : </label>
+                     <label style={{margineBottom:'5px'}}>Group Leader : </label>
                      <input type="text"
                      name="Leader"
                      onChange={e => setdate(e.target.value)}
@@ -284,8 +284,7 @@ export default function UpdateDetails()  {
 
                 <center>
                  <button type="submit"  onClick={(e)=>changeOnClick(e)}>Update and Confirm Group Details</button><br/><br/>
-                 <a className="btn btn-success" href = "/ViewAreas" style = {{textDecoration:'none'}} >Select a topic</a>&nbsp;&nbsp;&nbsp;
-                 <a className="btn btn-primary" href = "/Confirm" style = {{textDecoration:'none'}} >Supervisors Responses</a>&nbsp;&nbsp;&nbsp;
+                 <a className="btn btn-primary" href = "/ViewAreas" style = {{textDecoration:'none'}} >Select a topic</a>&nbsp;&nbsp;&nbsp;
                  <a className="btn btn-danger btn-block" href='#' onClick={() =>this.onDelete(groups._id)}>
               &nbsp;Delete Group</a>
                  </center>
