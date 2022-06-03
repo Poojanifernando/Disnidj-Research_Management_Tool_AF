@@ -48,7 +48,10 @@ import Areas from './components/A_Areas';
 import ViewAreas from './components/U_Areas';
 import Supervisors from './components/A_Supervisors';
 import Response from './components/A_Response';
-
+import SReply from './components/SupReply';
+import CReply from './components/CSupReply';
+import Confirm from './components/U_Confirmations';
+import Change from './components/U_ChangeSup';
 
 //Anodya
 
@@ -132,6 +135,10 @@ export default function App() {
         <Route path="/ViewAreas" element={<ViewAreas/>}></Route>
         <Route path="/Supervisors" element={<Supervisors/>}></Route>
         <Route path="/Response/:id" element={<Response/>}></Route>
+        <Route path="/SReply/:id" element={<SReply/>}></Route>
+        <Route path="/CReply/:id" element={<CReply/>}></Route>
+        <Route path="/Confirm" element={<Confirm/>}></Route>
+        <Route path="/Change/:id" element={<Change/>}></Route>
 
 
 

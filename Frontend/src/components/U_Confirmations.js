@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import axios from 'axios';
-import sup from '../../public/sup.jpg';
 
 export default class Home extends Component {
   constructor(props){
@@ -31,8 +30,7 @@ retriveTopics(){
 
 filterData(topics,searchKey){
   const result = topics.filter((topic) =>
-  topic.Supervisors.toLowerCase().includes(searchKey)||
-  topic.CoSupervisors.toLowerCase().includes(searchKey)
+  topic.GroupName.toLowerCase().includes(searchKey)
   )
 
   this.setState({topics:result})
@@ -59,18 +57,20 @@ handleSearchArea = (e) =>{
         <div><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse" id="navcol-1">
             <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link "href="/view" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Groups</a></li>
+                    <li className="nav-item"><a className="nav-link "href="/groupreg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Group Registration</a></li>
                   
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Supervisor allocations</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/Areas" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/groups" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Registered Groups</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/ViewAreas" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a></li>
                    
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Formations</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/EvaluationResult" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Evaluations Results</a></li>
                     
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Project Evaluations</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/STDdownloads" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents and templates</a></li>
+                    
+                    <li className="nav-item"><a className="nav-link" href="/SubmitNavbar" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents Submission page</a></li>
                     
                   
                     
-                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"900px"}}>Log Out</a></li>
+                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"800px"}}>Log Out</a></li>
                    
                   
                 </ul>
@@ -83,9 +83,10 @@ handleSearchArea = (e) =>{
   
         <div className='container'>
           <br/>
-          <div style={{height:'150px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
+        
+          <div style={{height:'80px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
                     <br/>
-                    <h2 style={{color:'white', textAlign:'center'}}><img src={sup} class="mx-auto" alt="" width="150" height="120"/>&nbsp;&nbsp;Supervisor Allocations</h2>
+                    <h2 style={{color:'white', textAlign:'center'}}>Responses of the Supervisors</h2>
                    <br/>
           </div>
 
@@ -107,7 +108,7 @@ handleSearchArea = (e) =>{
               <input
               className="form-control"
               type="search"
-              placeholder="search by your name"
+              placeholder="search by group name"
               name="searchQuery"
               onChange={this.handleSearchArea}>
               </input>
@@ -117,14 +118,14 @@ handleSearchArea = (e) =>{
           <thead>
           <tr>
           <th scope='col'>No.</th>
+          <th scope='col'>GroupName</th> 
           <th scope='col'>Project Topic</th>
           <th scope='col'>Selected Supervisor</th>
-          <th scope='col'>Selected Co-Supervisor</th>
-          <th scope='col'>GroupName</th>
           <th scope='col'>Supervisor Response</th>
+          <th scope='col'>Selected Co-Supervisor</th>
           <th scope='col'>Co-Supervisor Response</th>
-
-          
+          <th scope='col'>Change Supervisors if rejected</th>
+       
 
           </tr>
 
@@ -134,31 +135,23 @@ handleSearchArea = (e) =>{
           {this.state.topics.map((topics,index)=>(
             <tr>
               <th scope='row'>{index+1}</th>
-              <td> <a href={`/Response/${topics._id}`} style={{textDecoration:'none'}}>{topics.Topic}</a></td>
-              <td>{topics.Supervisors}</td>
-              <td>{topics.CoSupervisors}</td>
               <td>{topics.GroupName}</td>
+              <td>{topics.Topic}</td>
+              <td>{topics.Supervisors}</td>
+              <td>{topics.SState}</td>
+              <td>{topics.CoSupervisors}</td>
+              <td>{topics.CState}</td>
+              
               <td>
 
-            <a className = "btn btn btn-outline-dark" href={`/SReply/${topics._id}`} style={{textDecoration:'none'}}>
-                <i className ="fas fa-edit"></i>&nbsp;Respond
-            </a>
-            &nbsp;
-          
-            </td>
-            <td>
-
-            <a className = "btn btn btn-outline-dark" href={`/CReply/${topics._id}`} style={{textDecoration:'none'}}>
-                <i className ="fas fa-edit"></i>&nbsp;Respond
+            <a className = "btn btn btn-outline-dark" href={`/Change/${topics._id}`} style={{textDecoration:'none'}}>
+                <i className ="fas fa-edit"></i>&nbsp;Request another supervisor
             </a>
             &nbsp;
           
             </td>
          
              
-
-
-
             </tr>
           ))}
 

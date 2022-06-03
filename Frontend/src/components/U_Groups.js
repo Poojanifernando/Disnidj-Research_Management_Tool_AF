@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import group from '../../public/group.png';
 
 export default class Home extends Component {
   constructor(props){
@@ -60,16 +61,18 @@ handleSearchArea = (e) =>{
             <ul className="navbar-nav">
                     <li className="nav-item"><a className="nav-link "href="/groupreg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Group Registration</a></li>
                   
-                    <li className="nav-item"><a className="nav-link" href="/topicReg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Topic Registration</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/groups" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Registered Groups</a></li>
                     <li className="nav-item"><a className="nav-link" href="/ViewAreas" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a></li>
                    
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Evaluations</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/EvaluationResult" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Evaluations Results</a></li>
                     
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents and templates</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/STDdownloads" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents and templates</a></li>
+                    
+                    <li className="nav-item"><a className="nav-link" href="/SubmitNavbar" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents Submission page</a></li>
                     
                   
                     
-                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"900px"}}>Log Out</a></li>
+                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"800px"}}>Log Out</a></li>
                    
                   
                 </ul>
@@ -83,7 +86,11 @@ handleSearchArea = (e) =>{
         <div className='container'>
           <br/>
         
-        <p>Registered Groups</p>
+          <div style={{height:'140px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
+                    <br/>
+                    <h2 style={{color:'white', textAlign:'center'}}><img src={group} class="mx-auto" alt="" width="150" height="100"/>&nbsp;Registered Groups</h2>
+                   <br/>
+          </div>
 
         
         <br/>
@@ -99,7 +106,10 @@ handleSearchArea = (e) =>{
               </div>
           ))} */}
           <br/>
-           <div className="col-lg-9 mt-2 mb-2">
+          
+
+            <p><b>Step 2 : You can search for your group by the name you gave to the group and see the details you have entered. If you wish to change any information or delete the registered group you can click on the group name and continue.</b></p>
+            <div className="col-lg-9 mt-2 mb-2">
               <input
               className="form-control"
               type="search"
@@ -108,6 +118,7 @@ handleSearchArea = (e) =>{
               onChange={this.handleSearchArea}>
               </input>
             </div>
+      
       <table className='table'>
 
           <thead>

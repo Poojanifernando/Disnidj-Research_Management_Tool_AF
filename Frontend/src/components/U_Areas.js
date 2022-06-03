@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import res from '../../public/res.png';
 
 export default class Areas extends Component {
   constructor(props){
@@ -60,16 +61,18 @@ handleSearchArea = (e) =>{
             <ul className="navbar-nav">
                     <li className="nav-item"><a className="nav-link "href="/groupreg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Group Registration</a></li>
                   
-                    <li className="nav-item"><a className="nav-link" href="/topicReg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Topic Registration</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/groups" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Registered Groups</a></li>
                     <li className="nav-item"><a className="nav-link" href="/ViewAreas" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a></li>
                    
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Evaluations</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/EvaluationResult" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Evaluations Results</a></li>
                     
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents and templates</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/STDdownloads" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents and templates</a></li>
+                    
+                    <li className="nav-item"><a className="nav-link" href="/SubmitNavbar" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents Submission page</a></li>
                     
                   
                     
-                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"900px"}}>Log Out</a></li>
+                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"800px"}}>Log Out</a></li>
                    
                   
                 </ul>
@@ -83,7 +86,11 @@ handleSearchArea = (e) =>{
         <div className='container'>
           <br/>
         
-        <p>Research Areas and related Topics</p>
+          <div style={{height:'130px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
+                    <br/>
+                    <h2 style={{color:'white', textAlign:'center'}}><img src={res} class="mx-auto" alt="" width="130" height="100"/>Research Areas and related topics</h2>
+                   <br/>
+          </div>
 
         
         <br/>
@@ -98,6 +105,7 @@ handleSearchArea = (e) =>{
                 <p>{travelors.date}</p>
               </div>
           ))} */}
+          <p><b>Step 4 : You can search for the research areas you wish to do the project here. Once you select a topic for your project you can select supervisors for the project or you can proceed by registering your topic.</b></p>
           <br/>
            <div className="col-lg-9 mt-2 mb-2">
               <input
@@ -107,6 +115,10 @@ handleSearchArea = (e) =>{
               name="searchQuery"
               onChange={this.handleSearchArea}>
               </input>
+              <br/>
+              
+              <a className="btn btn-primary" href = "/SupervisorList" style = {{textDecoration:'none'}} >View supervisors List</a>&nbsp;&nbsp;&nbsp;
+              <a className="btn btn-secondary" href = "/topicReg" style = {{textDecoration:'none'}} >Register Topic</a>&nbsp;&nbsp;&nbsp;
             </div>
       <table className='table'>
 
@@ -136,6 +148,7 @@ handleSearchArea = (e) =>{
 
 
             </tr>
+            
           ))}
 
           </tbody>
@@ -143,6 +156,7 @@ handleSearchArea = (e) =>{
           
 
       </table>
+      
       </div>
 
       
