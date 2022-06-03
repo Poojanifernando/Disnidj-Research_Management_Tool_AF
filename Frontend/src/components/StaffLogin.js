@@ -110,7 +110,7 @@ const Login = () => {
                                 </tr>
                                 </table>
                                 <p className="link">
-                                Don't have an account? <Link to="/Registration" >Sign Up</Link>
+                                Don't have an account? <Link to="/StaffRegistration" >Sign Up</Link>
                                 </p>
                                 </center>
 			

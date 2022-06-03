@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import axios from 'axios';
-import sup from '../../public/sup.jpg';
 
 export default class Home extends Component {
   constructor(props){
@@ -83,11 +82,8 @@ handleSearchArea = (e) =>{
   
         <div className='container'>
           <br/>
-          <div style={{height:'150px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
-                    <br/>
-                    <h2 style={{color:'white', textAlign:'center'}}><img src={sup} class="mx-auto" alt="" width="150" height="120"/>&nbsp;&nbsp;Supervisor Allocations</h2>
-                   <br/>
-          </div>
+        
+        <p>Supervisor Selections</p>
 
         
         <br/>
@@ -107,7 +103,7 @@ handleSearchArea = (e) =>{
               <input
               className="form-control"
               type="search"
-              placeholder="search by your name"
+              placeholder="search fby your name"
               name="searchQuery"
               onChange={this.handleSearchArea}>
               </input>
@@ -121,8 +117,7 @@ handleSearchArea = (e) =>{
           <th scope='col'>Selected Supervisor</th>
           <th scope='col'>Selected Co-Supervisor</th>
           <th scope='col'>GroupName</th>
-          <th scope='col'>Supervisor Response</th>
-          <th scope='col'>Co-Supervisor Response</th>
+
 
           
 
@@ -138,22 +133,6 @@ handleSearchArea = (e) =>{
               <td>{topics.Supervisors}</td>
               <td>{topics.CoSupervisors}</td>
               <td>{topics.GroupName}</td>
-              <td>
-
-            <a className = "btn btn btn-outline-dark" href={`/SReply/${topics._id}`} style={{textDecoration:'none'}}>
-                <i className ="fas fa-edit"></i>&nbsp;Respond
-            </a>
-            &nbsp;
-          
-            </td>
-            <td>
-
-            <a className = "btn btn btn-outline-dark" href={`/CReply/${topics._id}`} style={{textDecoration:'none'}}>
-                <i className ="fas fa-edit"></i>&nbsp;Respond
-            </a>
-            &nbsp;
-          
-            </td>
          
              
 

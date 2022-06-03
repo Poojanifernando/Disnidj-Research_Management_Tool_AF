@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import axios from 'axios';
-import reg from '../../public/register.jpg';
+
   export default class CreateGroup extends Component{
 
     constructor(props){
@@ -71,18 +71,16 @@ import reg from '../../public/register.jpg';
             <ul className="navbar-nav">
                     <li className="nav-item"><a className="nav-link "href="/groupreg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Group Registration</a></li>
                   
-                    <li className="nav-item"><a className="nav-link" href="/groups" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Registered Groups</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/topicReg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Topic Registration</a></li>
                     <li className="nav-item"><a className="nav-link" href="/ViewAreas" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a></li>
                    
-                    <li className="nav-item"><a className="nav-link" href="/EvaluationResult" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Evaluations Results</a></li>
+                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Evaluations</a></li>
                     
-                    <li className="nav-item"><a className="nav-link" href="/STDdownloads" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents and templates</a></li>
-                    
-                    <li className="nav-item"><a className="nav-link" href="/SubmitNavbar" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents Submission page</a></li>
+                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents and templates</a></li>
                     
                   
                     
-                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"800px"}}>Log Out</a></li>
+                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"900px"}}>Log Out</a></li>
                    
                   
                 </ul>
@@ -95,14 +93,14 @@ import reg from '../../public/register.jpg';
   
        
             <div className="col-md-8 mt-4 mx-auto">
-            <div style={{height:'150px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
+            <div style={{height:'80px', width:'100%', backgroundColor:"#080523", marginTop:'-20px'}}>
                     <br/>
-                    <h2 style={{color:'white', textAlign:'center'}}> <img src={reg} class="mx-auto" alt="" width="100" height="100"/>Group Registration Form</h2>
+                    <h2 style={{color:'white', textAlign:'center'}}>Group Registration Form</h2>
                    <br/>
           </div>
                 <br/>
 
-<p><b>Step 1 : Form a group with four members and register your group here with a group name and with the credentials of the group leader. Once you register your group you are able to start with your research project work.</b></p>
+
                 <div >
   
                 <form className="row g-3">
@@ -145,11 +143,12 @@ import reg from '../../public/register.jpg';
                         <hr/>
                         <center>
                         <button className="btn btn btn-dark btn-lg" onClick={this.onSubmit} href="/">Submit</button>&nbsp;
+                        <button type="button"> <a href={'/groups'}>Click here to view all Groups </a></button>
                         </center>
                         <br/>
                         <br/>
                     </div>
-                   
+  
   
                     </div>
                     

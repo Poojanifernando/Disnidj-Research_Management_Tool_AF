@@ -1,12 +1,72 @@
+// import React, { Component } from 'react';
+// import axios from 'axios';
+
+
+// export default class Details extends Component {
+    
+//     constructor(props){
+//         super(props);
+//         this.state={
+//             travelor:{}
+//         };
+//     }
+
+//     componentDidMount(){
+//         const id = this.props.match.params.id;
+ 
+//         axios.get(`http://localhost:8000/travelor/${id}`).then((res)=>{  //post ->postRamona
+//             if(res.data.success){
+//                 this.setState({
+//                     travelor:res.data.travelor
+//                 });
+ 
+//                 console.log(this.state.travelor);
+//             }
+//         });
+//     }
+    
+//     render() {
+
+//         const {Name,NIC,Phone,Email,type,date}=this.state.travelor;
+
+//         return (
+//             <div className="details" style={{marginTop:'20px'}}>
+//                 <h4>{Name}</h4>
+//                 <hr/>
+//                 <dl className="row">
+//                     <dt className="col-sm-3"> NIC</dt>
+//                     <dd className="col-sm-9">{NIC}</dd>
+
+//                     <dt className="col-sm-3">Phone Number</dt>
+//                     <dd className="col-sm-9">{Phone}</dd>
+
+//                     <dt className="col-sm-3">Email Address</dt>
+//                     <dd className="col-sm-9">{Email}</dd>
+
+//                     <dt className="col-sm-3">Type of reservation</dt>
+//                     <dd className="col-sm-9">{type}</dd>
+
+//                     <dt className="col-sm-3">Date of reservation</dt>
+//                     <dd className="col-sm-9">{date}</dd>
+
+                
+//                 </dl>
+
+//             </div>
+//         )
+        
+       
+//     }
+// }
+
 import React  from 'react';
 import {useState ,useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from "react-router-dom";
-import grp from '../../public/grp.jpg';
 
 
 
-export default function UpdateAllDetails()  {
+export default function UpdateDetails()  {
 
     const[Area, setArea] = useState("");
     const[Topic , setTopic] = useState("");
@@ -22,7 +82,6 @@ export default function UpdateAllDetails()  {
     const id = useParams();
     
 
-  
 
     const [topic] = useState({
         Area:"",
@@ -79,11 +138,11 @@ export default function UpdateAllDetails()  {
         topic.Comments=formData.get('Comments');
             
  
-        console.log(topic);
+         console.log(topic);
       
 
          console.log(id)
-         await axios.put(`http://localhost:8000/topic/update/${id?.id}`,topic)
+         await axios.put(`http://localhost:8000/topic/update/${id?.id}`,group)
          .then(res=>{
              console.log("return data",res);
             alert("Response sent successfully!!");
@@ -94,7 +153,7 @@ export default function UpdateAllDetails()  {
          });
 
         }
-      
+        
 
          useEffect(function effectFunction() {
              console.log("get ID",id);
@@ -110,6 +169,7 @@ export default function UpdateAllDetails()  {
                 setSState(res.data.topic.SState);
                 setCState(res.data.topic.CState);
                 setComments(res.data.topic.Comments);
+           
            
          })
             .catch(err => console.log(err));
@@ -149,131 +209,128 @@ export default function UpdateAllDetails()  {
         <div>
 
          <br/>
-            <center><h1>Details of the Group</h1></center> 
+            <center><h1>Confirmation of the availability of the Supervisors</h1></center> 
           <br/>
 
 
-     <table>
-         <tr>
-             <td>
-        <div className="col-md-8 mt-4 mx-auto">
-        <form className="row g-3" style={{backgroundColor:"#ebecf0"}}>
-        
-        <div className="form-group">
-          <h4>Name of the Group</h4>
-        <label className="form-label"></label>
-            <input type="text"
-            className="form-control"
-            name="GroupName"
-            // onChange={e => setGroupName(e.target.value)}
-            value={GroupName}  
-            
-          />
-        </div>
-        
-         <div className="form-group">
-          <h4>Group Leader's details </h4>
-        <label className="form-label"></label>
-            <input type="text"
-            className="form-control"
-            name="Leader"
-            // onChange={e => setLeader(e.target.value)}
-            value={Leader}  
-            
-          />
-        </div>
-
-        <div className="form-group">
-          <h4>Area of Research </h4>
-        <label className="form-label"></label>
-            <input type="text"
-            className="form-control"
-            name="Area"
-            // onChange={e => setArea(e.target.value)}
-            value={Area}  
-            
-          />
-        </div>
-
-       
-
-       <div className="form-group">
-          <h4>Selected Topic </h4>
-        <label className="form-label"></label>
-            <input type="text"
-            className="form-control"
-            name="Topic"
-            // onChange={e => setTopic(e.target.value)}
-            value={Topic}  
-            
-          />
-        </div>
-        
-         <div className="form-group">
-          <h4>Selected Supervisor</h4>
-        <label className="form-label"></label>
-            <input type="text"
-            className="form-control"
-            name="Supervisors"
-            // onChange={e => setSupervisors(e.target.value)}
-            value={Supervisors}  
-            
-          />
-        </div>
-        
-         <div className="form-group">
-          <h4>Availability of the Supervisor </h4>
-        <label className="form-label"></label>
-            <input type="text"
-            className="form-control"
-            name="SState"
-            // onChange={e => setSState(e.target.value)}
-            value={SState}  
-            
-          />
-        </div>
-        
-         <div className="form-group">
-          <h4>Selected Co-Supervisor </h4>
-        <label className="form-label"></label>
-            <input type="text"
-            className="form-control"
-            name="CoSupervisors"
-            // onChange={e => setCoSupervisors(e.target.value)}
-            value={CoSupervisors}  
-            
-          />
-        </div>
-        
-         <div className="form-group">
-          <h4>Availability of the Co-Supervisor </h4>
-        <label className="form-label"></label>
-            <input type="text"
-            className="form-control"
-            name="CState"
-            // onChange={e => setCState(e.target.value)}
-            value={CState}  
-            
-          />
-        </div>
-        
-
-        <br/>
-        </form>
-       
-        </div>
-        </td>
-     
-        <td>
         <center>
-                 <img src={grp} class="img-fluid" alt="" width="1500" height="1000" margin-left="100px"/>
-         </center>
-         </td>
-         </tr>
-         </table>  
+        <form className="row g-3">
+          
+                 <div className="form-group" >
+                 <div style={{marginBottom:'15px'}}>
+                     <label style={{margineBottom:'5px'}}>Selected Research area : </label>
+                     <input type="text"
+                     name="Area"
+                    onChange={e => setArea(e.target.value)}
+                     value={Area}  
+                     placeholder="Research area"
+                   />
+                 </div>
+                 </div>
+                 <div className="form-group" >
+                 <div  style={{marginBottom:'15px'}}>
+                     <label style={{margineBottom:'5px'}}>Selected topic : </label>
+                     <input type="text"
+                     name="Topic"
+                    onChange={e => setTopic(e.target.value)}
+                     value={Topic}  
+                     placeholder="Research topic"
+                   
+                     />
+                 </div>
+                 </div>
+
+
+                <div className="form-group" >
+                 <div  style={{marginBottom:'15px'}}>
+                     <label style={{margineBottom:'5px'}}>Name of the selected Supervisor : </label>
+                     <input type="text"
+                     name="Supervisors"
+                    onChange={e => setSupervisors(e.target.value)}
+                     value={Supervisors}
+                     placeholder="Research area"
+                     
+                 
+                     />
+                 </div>
+                 </div>
+
+                 <div className="form-group" >
+                 <div style={{marginBottom:'15px'}}>
+                     <label style={{margineBottom:'5px'}}>Name of the selected Co-Supervisor : </label>
+                     <input type="text"
+                     name="CoSupervisors"
+                     onChange={e => setCoSupervisors(e.target.value)}
+                     value={CoSupervisors}
+                   
+                   
+                     />
+                    
+                 </div>
+                 </div>
+
+                 <div className="form-group" >
+                <div  style={{marginBottom:'15px'}}>
+                     <label style={{margineBottom:'5px'}}>Name of the group : </label>
+                     <input type="text"
+                     name="GroupName"
+                    onChange={e => setGroupName(e.target.value)}
+                     value={GroupName}
+                     
+                     />
+                 </div>
+                 </div>
+
+
+                 <div className="form-group" >
+                 <div  style={{marginBottom:'15px'}}>
+                     <label style={{margineBottom:'5px'}}>Name of the Leader : </label>
+                     <input type="text"
+                     name="Leader"
+                     onChange={e => setLeader(e.target.value)}
+                     value={Leader}  
+                     
+                  
+                    />
+                 </div>
+                 </div>
+
+                 <div className="form-group" >
+                 <div  style={{marginBottom:'15px'}}>
+                     <label style={{margineBottom:'5px'}}>Response from the Supervisor : </label>
+                     <input type="text"
+                     name="SState"
+                     onChange={e => setSState(e.target.value)}
+                     value={SState}  
+                     
+                  
+                    />
+                 </div>
+                 </div>
+
+                 <div className="form-group" >
+                 <div  style={{marginBottom:'15px'}}>
+                     <label style={{margineBottom:'5px'}}>Response from the Co-Supervisor : </label>
+                     <input type="text"
+                     name="CState"
+                     onChange={e => setCState(e.target.value)}
+                     value={CState}  
+                     
+                  
+                    />
+                 </div>
+                 </div>
+
+
+                <center>
+                 <button type="submit"  onClick={(e)=>changeOnClick(e)}>Submit Response</button><br/><br/>
+  
+                 </center>
+                 </form>
+
+                </center>
         </div>
         </div>
 
     );
   }
-
