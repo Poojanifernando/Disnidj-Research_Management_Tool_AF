@@ -10,28 +10,34 @@ export default class StaffHome extends Component {
     render() {
         return (
            <div>
-            
+               
+     
         <nav className="navbar navbar-light navbar-expand-md bg-dark navigation-clean-search">
-        <div className="container"><a className="navbar-brand" href="#" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Staff Home</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
+        <div className="container"><a className="navbar-brand" href="/" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Home</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/S_ViewTopis" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Topic Panel</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/S_ViewThesis" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Thesis Panel</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/S_ViewPresentation" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Presentation Panel</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/EveHome" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Evaluations</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/Supervisors" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Topic Evaluation</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="#" style={{fontsize: '19px',color:'rgb(255,255,255)'}}>Group Chat </a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+       
+           
+           
+           
+           
             <div className="collapse navbar-collapse" id="navcol-1">
-                <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link "href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>staff</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>staff</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>staff</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>staff</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>staff</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>staff </a></li>
-                    <li className="nav-item"><a className="nav-link" href="/" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>staff </a></li>
-                    <li className="nav-item"><a className="nav-link" href="/" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>staff</a></li>
-                </ul>
-                
-                <a className="btn btn-light action-button" role="button" href="#" style={{fontsize:'15px', background: 'rgb(69,27,158)' ,color: 'rgb(255,255,255)'}}>Logout</a>
+                <a className="btn btn-light action-button" role="button" href="#" style={{fontsize:'15px', background: 'rgb(69,27,158)' ,color: 'rgb(255,255,255)', marginLeft:'30px'}}>Logout</a>
             </div>
-        </div>
+        
     </nav>
-   <center> <h1> WELCOME TO RESRAECH PROJECT MANAGEMENT SYSTEM</h1></center>
+    
+   
    
  <center>
+ <h1 style={{background:'#000080', color:'white',fontSize:'50px'}}> WELCOME TO RESRAECH PROJECT MANAGEMENT SYSTEM </h1>
+    
+
+
                 <div style={{backgroundColor:"white"}}>
                 <div id="band" className="container text-center" style={{backgroundColor:"white"}}>
              
@@ -107,7 +113,7 @@ export default class StaffHome extends Component {
 <div style={{backgroundColor:"#080523"}}>
 
     <div id="contact"  style={{backgroundColor:"#080523", color:"white"}}>
-     <center><h1> Discover Your Future</h1> </center>
+     <center><h4> Discover Your Future</h4> </center>
 
     <div className="row">
   

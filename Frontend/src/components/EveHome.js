@@ -11,7 +11,7 @@ export default class EveHome extends Component {
 
                    <button className="btn btn-success" 
                     style={{marginLeft:'10px',padding:'8px 8px',backgroundColor:'#3895d3', width:'200px'}}>
-                    <a href="/adminHome" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'16px'}}> 
+                    <a href="/StaffHome" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'16px'}}> 
                     <i class="far fa-arrow-alt-circle-left"></i>&nbsp;Go Back</a>
                     </button>
 
@@ -35,18 +35,7 @@ export default class EveHome extends Component {
               <br></br> <br></br>
              </td>
             </tr>
-            <tr>
-            <td>
-            <button className='btn btn-success' style={{marginLeft:'250px'}}><a href="/UploadNaviAdmin" style={{textDecoration:'none', color:'white'}}> Admin Document Upload  </a></button>         
-            <br></br> <br></br>
-            </td>
            
-
-            </tr>
-            <tr>
-            <button className='btn btn-success' style={{marginLeft:'250px'}}><a href="/TempNavbar" style={{textDecoration:'none', color:'white'}}> Templates Submittions  </a></button>         
-            <br></br> <br></br>
-            </tr>
           </table>
           
 

@@ -13,7 +13,7 @@ export default class SubmitNavbar extends Component {
             <h1 style={{background:'#000080', color:'white', marginLeft:'0'}}> <center>Student Document Submission Page </center></h1>
 
                 <button className="btn btn-success" style={{marginLeft:'10px', marginRight:'0px',padding:'10px 10px',backgroundColor:'#3895d3'}}>
-                <a href="/" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'20px'}}> 
+                <a href="/UHome" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'20px'}}> 
                     <i class="far fa-arrow-alt-circle-left"></i>&nbsp;Go Back</a>
                   </button>
 

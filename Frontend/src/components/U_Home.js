@@ -2,50 +2,69 @@ import React, { Component } from 'react';
 import image from '../../public/11.jpg';
 import image2 from '../../public/2.jpg';
 import image3 from '../../public/3.jpg';
-import image4 from '../../public/main.webp';
+import image4 from '../../public/studenthome.jpeg';
 
 export default class U_Home extends Component {
   render() {
     return (
-        <div style={{height:'150px', width:'100%', backgroundColor:"#260248", marginTop:'-20px'}}>
+        <div style={{height:'150px', backgroundColor:"#260248", marginTop:'-20px'}}>
         <br/>
         <br/>
         <h1 style={{color:'white', textAlign:'center'}}>Research Topic Management</h1>
         <br/>
-        <div className="container" style={{marginLeft:"28%"}}>
+        <div style={{marginLeft:"28%"}}>
             
         </div>
         
         
         <div>
-          
         <nav className="navbar navbar-light navbar-expand-md bg-dark navigation-clean-search">
-        <div><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
+        <div className="container"><a className="navbar-brand" href="/" style={{fontSize: '15px',color:'rgb(255,255,255)'}}>Home</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/S_ViewTopis" style={{fontSize: '15px',color:'rgb(255,255,255)'}}>Topic Panel</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/S_ViewThesis" style={{fontSize: '15px',color:'rgb(255,255,255)'}}>Thesis Panel</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/S_ViewPresentation" style={{fontSize: '15px',color:'rgb(255,255,255)'}}>Presentation Panel</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/groupreg" style={{fontSize: '15px',color:'rgb(255,255,255)'}}>Group Registration</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/groups" style={{fontSize: '15px',color:'rgb(255,255,255)'}}>Registered Groups</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/ViewAreas" style={{fontSize: '15px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/Confirm" style={{fontSize: '15px',color:'rgb(255,255,255)'}}>Supervisor Allocations</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        <div className="container"><a className="navbar-brand" href="/EvaluationResult" style={{fontSize: '15px',color:'rgb(255,255,255)'}}>Panel Evaluations Results</a><button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon"></span></button></div>
+        
+           
+           
+           
+           
             <div className="collapse navbar-collapse" id="navcol-1">
-            <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link "href="/groupreg" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Group Registration</a></li>
-                  
-                    <li className="nav-item"><a className="nav-link" href="/groups" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Registered Groups</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/ViewAreas" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Research Areas and Topics</a></li>
-                   
-                    <li className="nav-item"><a className="nav-link" href="/Confirm" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Supervisor Allocations</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/EvaluationResult" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Panel Evaluations Results</a></li>
-                    
-                    <li className="nav-item"><a className="nav-link" href="/STDdownloads" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents and templates</a></li>
-                    
-                    <li className="nav-item"><a className="nav-link" href="/SubmitNavbar" style={{fontsize:'15px',color:'rgb(255,255,255)'}}>Documents Submission page</a></li>
-                    
-                  
-                    
-                    <li><a className="btn btn-warning"  href="/" style={{height:"40px",width:"100px", marginTop:"8px", marginLeft:"800px"}}>Log Out</a></li>
-                   
-                  
-                </ul>
-                
                 
             </div>
-        </div>
+        
     </nav>
+    <br></br>
+    <center>
+    <table>
+        <tr>
+            <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button className="btn btn-success" 
+              style={{padding:'8px 8px',backgroundColor:'#3895d3'}}>
+                <a href="/STDdownloads" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'16px'}}> 
+                &nbsp;Documents and templates</a>
+              </button></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td> <button className="btn btn-success" 
+              style={{padding:'8px 8px',backgroundColor:'#3895d3'}}>
+                <a href="/SubmitNavbar" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'16px'}}> 
+                &nbsp;Documents Submission page</a>
+              </button></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td> <button className="btn btn-success" 
+              style={{padding:'8px 8px',backgroundColor:'#3895d3'}}>
+                <a href="/#" style={{textDecoration:'none',backgroundColor:'#3895d3',color:'white',fontSize:'16px'}}> 
+                &nbsp;Group Chat</a>
+              </button></td>
+           
+             
+             
+              </tr>
+              </table>
+              </center>
+          
+     
           </div>
 
 
@@ -59,6 +78,8 @@ export default class U_Home extends Component {
       </div>
 
     </div>
+
+    <br></br>
     <h3><b>Benefits of this tool?</b></h3>
     </div>
         <div class="row">
@@ -77,7 +98,7 @@ export default class U_Home extends Component {
         </div>
         </div>
         <br/>
-        <footer class="page-footer font-small cyan darken-3" style={{backgroundColor:"black", marginLeft:"-120px", marginTop:"0px",height:"170px",marginRight:"-1000px", marginBottom:"-40px"}}>
+        <footer class="page-footer font-small cyan darken-3" style={{backgroundColor:"black", marginTop:"0px",height:"170px", marginBottom:"-40px"}}>
 
             <div>
 
