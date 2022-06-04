@@ -12,6 +12,8 @@ dotenv.config();
 
 
 //debi
+const thesisRoutes = require('./routes/thesisRoute');
+
 //import routs
 //disni
 const postRoutes = require('./routes/PanelEve');
@@ -40,6 +42,8 @@ app.use(cors());
 app.use(express.json());
 
 //rout middleware
+//debi
+app.use(thesisRoutes);
 //disni
 app.use(postRoutes);
 app.use(postRoutes2);
