@@ -1,6 +1,10 @@
 import React from  'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
+//Debi
+import SubmitThesis from './components/SubmitThesis';
+import Thesis from './components/Thesis';
+
 //Disni
 import SupervEveHome from './components/SupervEveHome';
 import EveBySuperv from './components/EveBySuperv';
@@ -166,8 +170,11 @@ export default function App() {
                 <Route     path = "/SupervisorList" element = {<SupervisorList/>}/>
                 <Route     path = "/StaffHome" element = {<StaffHome/>}/>  
                 <Route     path = "/StaffRegistration" element = {<StaffRegistration/>}/> 
-
-
+                
+{/*Debi*/}
+                <Route     path = "/SubmitThesis" element = {<SubmitThesis/>}/>
+                <Route     path = "/Thesis" element = {<Thesis/>}/>
+                
    </Routes>
 
 </Router>
